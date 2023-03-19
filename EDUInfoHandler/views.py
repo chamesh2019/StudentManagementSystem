@@ -11,7 +11,7 @@ from manage import log_file
 class ClassView(View):
     def get(self, request):
         log_file('Rendering current classes')
-        current_classes = ClassInfo.objects.all().order_by('class_name')
+        current_classes = ClassInfo.objects.filter(visibility=True).order_by('class_name')
         
         return render(request, template_name="class_view_and_edit.html", context={
             'current_classes' : current_classes
@@ -20,12 +20,12 @@ class ClassView(View):
     def post(self, request):
         data = request.POST
         if data.get('new_class_name'):
+            new_class_name = data.get('new_class_name')            
             
-            if len(data.get('new_class_name')) > 5:
+            if len(data.get('new_class_name')) > 7:
                 log_file(f'Too many characters in new class {new_class_name}')
                 return HttpResponse("Class Name Too Long Max 5 letters")
             
-            new_class_name = data.get('new_class_name')
             if len(new_class_name) == 1:
                 new_class_name = '0' + new_class_name
             log_file(f'Creating new class {new_class_name}')
@@ -40,10 +40,9 @@ class ClassView(View):
             return redirect("ClassView")
         
         if data.get('alumni'):
-            if data.get('alumni') == '3':
+            if data.get('alumni') == str(get_object_or_404(ClassInfo, id=data.get('alumni')).id):
                 log_file("Can't Move Alumni Class")
                 return HttpResponse('Not Allowed')
-            
             
             class_instance = get_object_or_404(ClassInfo, id=data.get('alumni'))
             log_file(f"Got class info of Grade {class_instance.class_name}")

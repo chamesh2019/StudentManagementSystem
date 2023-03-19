@@ -1,8 +1,9 @@
+from django.http import JsonResponse
 from django.shortcuts import render, HttpResponse, get_object_or_404, redirect
 from django.views import View
 from django.urls import reverse
 from django.utils.html import format_html
-
+\
 import base64
 import io
 import qrcode
@@ -16,6 +17,7 @@ from EDUInfoHandler.models import ClassInfo
 
 class StudentAdd(View):
     '''Render student registration form on GET, validate data and insert into database'''
+
     def get(self, request):
         log_file("returned student registration form")
         current_classes = ClassInfo.objects.all().order_by('class_name')
@@ -26,7 +28,8 @@ class StudentAdd(View):
         print(data)
         try:
             if data.get('guardian_status'):
-                log_file('Adding Student with already registered guardian registration')
+                log_file(
+                    'Adding Student with already registered guardian registration')
                 student_index_number = data['student_index_number']
                 student_full_name = data['student_full_name']
                 student_name_with_initials = data['student_name_with_initials']
@@ -46,56 +49,63 @@ class StudentAdd(View):
                 father_status = data['father_status']
                 father_nic = data['father_nic']
                 father_special_notes = data['father_special_notes']
-                
+
                 log_file(f"getting guardian details of {data['guardian_nic']}")
-                guardian_instance = get_object_or_404(GuardianInfo, data['guardian_nic'])
-                
-                img = qrcode.make(str(student_index_number), image_factory=PyPNGImage)
+                guardian_instance = get_object_or_404(
+                    GuardianInfo, data['guardian_nic'])
+
+                img = qrcode.make(str(student_index_number),
+                                  image_factory=PyPNGImage)
                 buffer = io.BytesIO()
                 img.save(buffer)
                 try:
                     int(student_class)
                 except:
                     return HttpResponse('Invalid Class ID')
-                student_class = get_object_or_404(ClassInfo, id=int(student_class))
-                
+                student_class = get_object_or_404(
+                    ClassInfo, id=int(student_class)
+                    )
+
                 student_instance = StudentInfo(
                     index_number=student_index_number,
-                    full_name = student_full_name,
+                    full_name=student_full_name,
                     name_with_initials=student_name_with_initials,
                     date_of_birth=student_date_of_birth,
                     gender=student_gender,
                     enrolled_date=student_enrolled_date,
-                    address = student_address,
-                    alumni_status = alumni_status,
-                    special_notes = student_special_notes,
-                    class_info = student_class,
-                    RFID_key = f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
-                    Guardian = guardian_instance
+                    address=student_address,
+                    alumni_status=alumni_status,
+                    special_notes=student_special_notes,
+                    class_info=student_class,
+                    RFID_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
+                    Guardian=guardian_instance
                 )
-                
+
                 log_file(f'Student Instance {student_instance} Created')
                 student_instance.save()
-                
+
                 parent_instance = ParentInfo(
-                    student_index_number = student_instance,
-                    mother_name = mother_name,
-                    mother_nic = mother_nic,
-                    mother_status = mother_status,
-                    mother_special_notes = mother_special_notes,
-                    father_name = father_name,
-                    father_nic = father_nic,
-                    father_status = father_status,
-                    father_special_notes = father_special_notes,
+                    student_index_number=student_instance,
+                    mother_name=mother_name,
+                    mother_nic=mother_nic,
+                    mother_status=mother_status,
+                    mother_special_notes=mother_special_notes,
+                    father_name=father_name,
+                    father_nic=father_nic,
+                    father_status=father_status,
+                    father_special_notes=father_special_notes,
                 )
-                
+
                 log_file(f'Parent Instance {parent_instance}  Created')
                 student_instance.save()
-                log_file(f'Student Instance {student_instance} Saved to database')
+                log_file(
+                    f'Student Instance {student_instance} Saved to database')
                 parent_instance.save()
-                log_file(f'Parent Instance {parent_instance} saved to database')
-                
-                log_file(f'Created student Instance using already registered guardian registration')
+                log_file(
+                    f'Parent Instance {parent_instance} saved to database')
+
+                log_file(
+                    f'Created student Instance using already registered guardian registration')
                 return redirect(f'{reverse("StudentView")}?added=1', student_index_number=student_index_number)
 
             else:
@@ -128,7 +138,7 @@ class StudentAdd(View):
                 guardian_job = data['guardian_job']
                 guardian_relation = data['guardian_relation']
                 guardian_special_notes = data['guardian_special_notes']
-            
+
                 student_index_number = int(student_index_number)
                 guardian_instance = GuardianInfo(
                     full_name=guardian_full_name,
@@ -140,71 +150,79 @@ class StudentAdd(View):
                     relation=guardian_relation,
                     special_notes=guardian_special_notes,
                 )
-                
+
                 log_file(f'Guardian Instance {guardian_instance}  Created')
                 guardian_instance.save()
-                log_file(f'Guardian Instance {guardian_instance} Saved to database')
-                
-                img = qrcode.make(str(student_index_number), image_factory=PyPNGImage)
+                log_file(
+                    f'Guardian Instance {guardian_instance} Saved to database')
+
+                img = qrcode.make(str(student_index_number),
+                                  image_factory=PyPNGImage)
                 buffer = io.BytesIO()
                 img.save(buffer)
-                
+
                 student_class = get_object_or_404(ClassInfo, id=student_class)
-                
+
                 student_instance = StudentInfo(
                     index_number=student_index_number,
-                    full_name = student_full_name,
+                    full_name=student_full_name,
                     name_with_initials=student_name_with_initials,
                     date_of_birth=student_date_of_birth,
                     gender=student_gender,
                     enrolled_date=student_enrolled_date,
-                    address = student_address,
-                    alumni_status = alumni_status,
-                    special_notes = student_special_notes,
-                    class_info = student_class,
-                    RFID_key = f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
-                    Guardian = guardian_instance
+                    address=student_address,
+                    alumni_status=alumni_status,
+                    special_notes=student_special_notes,
+                    class_info=student_class,
+                    RFID_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
+                    Guardian=guardian_instance
                 )
-                
+
                 log_file(f'Student Instance {student_instance} Created')
                 student_instance.save()
-                    
-                
+
                 parent_instance = ParentInfo(
-                    student_index_number = student_instance,
-                    mother_name = mother_name,
-                    mother_nic = mother_nic,
-                    mother_status = mother_status,
-                    mother_special_notes = mother_special_notes,
-                    father_name = father_name,
-                    father_nic = father_nic,
-                    father_status = father_status,
-                    father_special_notes = father_special_notes,
+                    student_index_number=student_instance,
+                    mother_name=mother_name,
+                    mother_nic=mother_nic,
+                    mother_status=mother_status,
+                    mother_special_notes=mother_special_notes,
+                    father_name=father_name,
+                    father_nic=father_nic,
+                    father_status=father_status,
+                    father_special_notes=father_special_notes,
                 )
                 log_file(f'Parent Instance {parent_instance}  Created')
                 student_instance.save()
-                log_file(f'Student Instance {student_instance} Saved to database')
+                log_file(
+                    f'Student Instance {student_instance} Saved to database')
                 parent_instance.save()
-                log_file(f'Parent Instance {parent_instance} saved to database')
-                
-                log_file(f'Created student Instance using new guardian registration')
+                log_file(
+                    f'Parent Instance {parent_instance} saved to database')
+
+                log_file(
+                    f'Created student Instance using new guardian registration')
                 return redirect(f'{reverse("StudentView")}?added=1', student_index_number=student_index_number)
         except:
             return HttpResponse('Student adding Failed')
 
+
 class StudentView(View):
     '''Render student info on GET request'''
+
     def get(self, request, student_index_number):
         log_file(f"getting deltails of {student_index_number}")
-        student_instance = get_object_or_404(StudentInfo, index_number=student_index_number)
-        parent_instance = get_object_or_404(ParentInfo, student_index_number=student_index_number)
+        student_instance = get_object_or_404(
+            StudentInfo, index_number=student_index_number)
+        parent_instance = get_object_or_404(
+            ParentInfo, student_index_number=student_index_number)
         guardian_instance = student_instance.Guardian
         context = {
-            "student_instance" : student_instance,
-            "parent_instance" : parent_instance,
-            "guardian_instance" : guardian_instance,
+            "student_instance": student_instance,
+            "parent_instance": parent_instance,
+            "guardian_instance": guardian_instance,
             "QR": format_html(f"<img src='{student_instance.RFID_key}'></div>")
-            }
+        }
         try:
             if request.GET['added']:
                 context['extra'] = reverse("StudentAdd")
@@ -212,5 +230,45 @@ class StudentView(View):
             pass
         print(student_instance.RFID_key)
         log_file(f"returning deltails of {student_index_number}")
-        return render(request,template_name="student_show_info_private.html", context=context)
+        return render(request, template_name="student_show_info_private.html", context=context)
+
+
+class StudentListView(View):
+    def get(self, request):
+        log_file('Requested Student List')
+        data = request.GET
+        filter_kwargs = {}
         
+        try:
+            if data['class'] != 'all':
+                filter_kwargs['class_info'] = ClassInfo.objects.get(id=data['class'])
+        except:
+            pass
+        
+        try:
+            filter_kwargs['full_name__contains'] = data['name']
+        except:
+            pass
+        
+        try:
+            filter_kwargs['index_number__contains'] = data['index_number']
+        except:
+            pass
+        
+        students_filtered = StudentInfo.objects.filter(**filter_kwargs)[:100]
+        return_data = []
+        for student in students_filtered:
+            return_data.append({
+                "index_number" : student.index_number,
+                "student_name" : student.full_name,
+                "class" : 'Grade ' + student.class_info.class_name
+            })
+        
+        if data.get('data'):
+            log_file(f'Returnng JSON of {return_data}')
+            return JsonResponse(return_data, safe=False)
+        log_file(f'Returnng rendered {return_data}')
+        return render(request, template_name="all_students_admin.html", context={
+            'students': return_data,
+            'current_classes': ClassInfo.objects.all().order_by('class_name')
+            })
