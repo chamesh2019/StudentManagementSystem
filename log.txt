@@ -1,0 +1,273 @@
+[18/03/2023 15:04:15] Adding Student with new guardian registration 
+[18/03/2023 15:04:15] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:04:16] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:04:16] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:08:37] Adding Student with new guardian registration 
+[18/03/2023 15:08:37] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:08:37] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:08:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:08:37] Parent Instance mother name father name  Created 
+[18/03/2023 15:08:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:08:37] Parent Instance mother name father name saved to database 
+[18/03/2023 15:08:37] Created student Instance using new guardian registration 
+[18/03/2023 15:22:20] returned student registration form 
+[18/03/2023 15:22:24] Adding Student with new guardian registration 
+[18/03/2023 15:22:24] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:22:25] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:22:25] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:22:25] Parent Instance mother name father name  Created 
+[18/03/2023 15:22:25] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:22:25] Parent Instance mother name father name saved to database 
+[18/03/2023 15:22:25] Created student Instance using new guardian registration 
+[18/03/2023 15:24:39] Adding Student with new guardian registration 
+[18/03/2023 15:24:39] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:24:39] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:24:39] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:24:39] Parent Instance mother name father name  Created 
+[18/03/2023 15:24:40] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:24:40] Parent Instance mother name father name saved to database 
+[18/03/2023 15:24:40] Created student Instance using new guardian registration 
+[18/03/2023 15:25:17] Adding Student with new guardian registration 
+[18/03/2023 15:25:17] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:25:17] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:25:17] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:25:17] Parent Instance mother name father name  Created 
+[18/03/2023 15:25:17] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:25:17] Parent Instance mother name father name saved to database 
+[18/03/2023 15:25:17] Created student Instance using new guardian registration 
+[18/03/2023 15:25:32] Adding Student with new guardian registration 
+[18/03/2023 15:25:32] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:25:32] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:25:32] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:25:32] Parent Instance mother name father name  Created 
+[18/03/2023 15:25:32] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:25:32] Parent Instance mother name father name saved to database 
+[18/03/2023 15:25:32] Created student Instance using new guardian registration 
+[18/03/2023 15:25:48] Adding Student with new guardian registration 
+[18/03/2023 15:25:48] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:25:48] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:25:48] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:25:48] Parent Instance mother name father name  Created 
+[18/03/2023 15:25:48] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:25:48] Parent Instance mother name father name saved to database 
+[18/03/2023 15:25:48] Created student Instance using new guardian registration 
+[18/03/2023 15:30:39] returned student registration form 
+[18/03/2023 15:30:42] Adding Student with new guardian registration 
+[18/03/2023 15:30:42] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:30:42] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:30:42] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:30:42] Parent Instance mother name father name  Created 
+[18/03/2023 15:30:42] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:30:42] Parent Instance mother name father name saved to database 
+[18/03/2023 15:30:42] Created student Instance using new guardian registration 
+[18/03/2023 15:32:19] Adding Student with new guardian registration 
+[18/03/2023 15:32:19] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:32:19] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:32:19] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:32:19] Parent Instance mother name father name  Created 
+[18/03/2023 15:32:19] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:32:19] Parent Instance mother name father name saved to database 
+[18/03/2023 15:32:19] Created student Instance using new guardian registration 
+[18/03/2023 15:32:37] Adding Student with new guardian registration 
+[18/03/2023 15:32:37] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:32:37] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:32:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:32:37] Parent Instance mother name father name  Created 
+[18/03/2023 15:32:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:32:37] Parent Instance mother name father name saved to database 
+[18/03/2023 15:32:37] Created student Instance using new guardian registration 
+[18/03/2023 15:32:38] returned student registration form 
+[18/03/2023 16:43:01] getting deltails of 222222 
+[18/03/2023 16:43:01] returning deltails of 222222 
+[18/03/2023 18:00:35] Rendering current classes 
+[18/03/2023 18:05:55] Rendering current classes 
+[18/03/2023 18:06:03] Creating new class 11 
+[18/03/2023 18:06:03] Created new class 11 
+[18/03/2023 18:06:03] Rendering current classes 
+[18/03/2023 18:07:49] Rendering current classes 
+[18/03/2023 18:08:06] Rendering current classes 
+[18/03/2023 18:10:57] Rendering current classes 
+[18/03/2023 18:11:22] Rendering current classes 
+[18/03/2023 18:12:10] Rendering current classes 
+[18/03/2023 18:13:21] Rendering current classes 
+[18/03/2023 18:14:53] Rendering current classes 
+[18/03/2023 18:15:33] Got class info of Grade 6 
+[18/03/2023 18:15:33] No students in Grade 6 deleting class 
+[18/03/2023 18:15:33] Rendering current classes 
+[18/03/2023 18:15:41] Got class info of Grade 7 
+[18/03/2023 18:15:41] No students in Grade 7 deleting class 
+[18/03/2023 18:15:41] Rendering current classes 
+[18/03/2023 18:16:59] Creating new class 6 
+[18/03/2023 18:16:59] Created new class 6 
+[18/03/2023 18:16:59] Rendering current classes 
+[18/03/2023 18:17:04] Creating new class 7 
+[18/03/2023 18:17:04] Created new class 7 
+[18/03/2023 18:17:04] Rendering current classes 
+[18/03/2023 18:18:15] Rendering current classes 
+[18/03/2023 18:18:18] Rendering current classes 
+[18/03/2023 18:18:42] Got class info of Grade 9 
+[18/03/2023 18:18:42] No students in Grade 9 deleting class 
+[18/03/2023 18:18:42] Rendering current classes 
+[18/03/2023 18:18:44] Got class info of Grade 8 
+[18/03/2023 18:18:44] No students in Grade 8 deleting class 
+[18/03/2023 18:18:44] Rendering current classes 
+[18/03/2023 18:18:49] Creating new class 8 
+[18/03/2023 18:18:49] Created new class 8 
+[18/03/2023 18:18:49] Rendering current classes 
+[18/03/2023 18:18:53] Creating new class 9 
+[18/03/2023 18:18:53] Created new class 9 
+[18/03/2023 18:18:53] Rendering current classes 
+[18/03/2023 18:19:02] Got class info of Grade 11 
+[18/03/2023 18:19:02] No students in Grade 11 deleting class 
+[18/03/2023 18:19:02] Rendering current classes 
+[18/03/2023 18:19:36] Rendering current classes 
+[18/03/2023 18:19:42] Rendering current classes 
+[18/03/2023 18:19:45] Rendering current classes 
+[18/03/2023 18:19:48] Rendering current classes 
+[18/03/2023 18:19:51] Rendering current classes 
+[18/03/2023 18:19:54] Creating new class 6 
+[18/03/2023 18:19:55] Created new class 6 
+[18/03/2023 18:19:55] Rendering current classes 
+[18/03/2023 18:30:04] Rendering current classes 
+[18/03/2023 18:30:33] Rendering current classes 
+[18/03/2023 18:30:50] Rendering current classes 
+[18/03/2023 18:31:16] Rendering current classes 
+[18/03/2023 18:31:25] Rendering current classes 
+[18/03/2023 18:36:54] returned student registration form 
+[18/03/2023 18:37:49] Got class info of Grade 8 
+[18/03/2023 18:37:49] No students in Grade 8 deleting class 
+[18/03/2023 18:37:49] Rendering current classes 
+[18/03/2023 18:37:52] Creating new class 08 
+[18/03/2023 18:37:53] Created new class 08 
+[18/03/2023 18:37:53] Rendering current classes 
+[18/03/2023 18:39:42] Got class info of Grade 9 
+[18/03/2023 18:39:42] No students in Grade 9 deleting class 
+[18/03/2023 18:39:42] Rendering current classes 
+[18/03/2023 18:39:44] Got class info of Grade 10 
+[18/03/2023 18:39:44] No students in Grade 10 deleting class 
+[18/03/2023 18:39:44] Rendering current classes 
+[18/03/2023 18:39:47] Got class info of Grade 6 
+[18/03/2023 18:39:47] No students in Grade 6 deleting class 
+[18/03/2023 18:39:47] Rendering current classes 
+[18/03/2023 18:39:49] Got class info of Grade 7 
+[18/03/2023 18:39:49] No students in Grade 7 deleting class 
+[18/03/2023 18:39:49] Rendering current classes 
+[18/03/2023 18:39:53] Creating new class 07 
+[18/03/2023 18:39:53] Created new class 07 
+[18/03/2023 18:39:53] Rendering current classes 
+[18/03/2023 18:39:56] Creating new class 06 
+[18/03/2023 18:39:56] Created new class 06 
+[18/03/2023 18:39:56] Rendering current classes 
+[18/03/2023 18:40:05] Creating new class 09 
+[18/03/2023 18:40:05] Created new class 09 
+[18/03/2023 18:40:05] Rendering current classes 
+[18/03/2023 18:40:08] Creating new class 10 
+[18/03/2023 18:40:08] Created new class 10 
+[18/03/2023 18:40:09] Rendering current classes 
+[18/03/2023 18:40:25] Got class info of Grade 11 
+[18/03/2023 18:40:25] No students in Grade 11 deleting class 
+[18/03/2023 18:40:25] Rendering current classes 
+[18/03/2023 18:40:34] Creating new class 11 
+[18/03/2023 18:40:34] Created new class 11 
+[18/03/2023 18:40:34] Rendering current classes 
+[18/03/2023 18:40:48] Rendering current classes 
+[18/03/2023 18:40:50] Rendering current classes 
+[18/03/2023 18:41:17] Rendering current classes 
+[18/03/2023 18:41:23] Rendering current classes 
+[18/03/2023 18:42:12] Rendering current classes 
+[18/03/2023 18:42:23] Rendering current classes 
+[18/03/2023 18:42:25] Rendering current classes 
+[18/03/2023 19:03:50] Rendering current classes 
+[18/03/2023 19:03:54] Creating new class 06 
+[18/03/2023 19:03:54] Created new class 06 
+[18/03/2023 19:03:54] Rendering current classes 
+[18/03/2023 19:03:56] Creating new class 07 
+[18/03/2023 19:03:56] Created new class 07 
+[18/03/2023 19:03:56] Rendering current classes 
+[18/03/2023 19:03:58] Creating new class 08 
+[18/03/2023 19:03:59] Created new class 08 
+[18/03/2023 19:03:59] Rendering current classes 
+[18/03/2023 19:04:03] Creating new class 09 
+[18/03/2023 19:04:03] Created new class 09 
+[18/03/2023 19:04:03] Rendering current classes 
+[18/03/2023 19:04:06] Creating new class 10 
+[18/03/2023 19:04:06] Created new class 10 
+[18/03/2023 19:04:06] Rendering current classes 
+[18/03/2023 19:04:08] Creating new class 11 
+[18/03/2023 19:04:09] Created new class 11 
+[18/03/2023 19:04:09] Rendering current classes 
+[18/03/2023 19:04:13] Creating new class 12-A 
+[18/03/2023 19:04:13] Created new class 12-A 
+[18/03/2023 19:04:13] Rendering current classes 
+[18/03/2023 19:04:16] Creating new class 12-C 
+[18/03/2023 19:04:17] Created new class 12-C 
+[18/03/2023 19:04:17] Rendering current classes 
+[18/03/2023 19:04:21] Creating new class 12-M 
+[18/03/2023 19:04:21] Created new class 12-M 
+[18/03/2023 19:04:21] Rendering current classes 
+[18/03/2023 19:04:25] Creating new class 12-T 
+[18/03/2023 19:04:25] Created new class 12-T 
+[18/03/2023 19:04:25] Rendering current classes 
+[18/03/2023 19:04:33] Creating new class 13-A 
+[18/03/2023 19:04:33] Created new class 13-A 
+[18/03/2023 19:04:33] Rendering current classes 
+[18/03/2023 19:04:36] Creating new class 13-C 
+[18/03/2023 19:04:36] Created new class 13-C 
+[18/03/2023 19:04:36] Rendering current classes 
+[18/03/2023 19:04:39] Creating new class 13-M 
+[18/03/2023 19:04:39] Created new class 13-M 
+[18/03/2023 19:04:39] Rendering current classes 
+[18/03/2023 19:04:42] Creating new class 13-T 
+[18/03/2023 19:04:42] Created new class 13-T 
+[18/03/2023 19:04:42] Rendering current classes 
+[18/03/2023 19:04:49] returned student registration form 
+[18/03/2023 19:05:04] returned student registration form 
+[18/03/2023 19:05:17] returned student registration form 
+[18/03/2023 19:07:03] returned student registration form 
+[18/03/2023 19:08:13] returned student registration form 
+[18/03/2023 19:08:31] returned student registration form 
+[18/03/2023 19:08:47] returned student registration form 
+[18/03/2023 19:19:00] Adding Student with new guardian registration 
+[18/03/2023 19:19:00] Guardian Instance Guardian Full Name  Created 
+[18/03/2023 19:19:00] Guardian Instance Guardian Full Name Saved to database 
+[18/03/2023 19:19:00] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 19:19:00] Parent Instance mother name father name  Created 
+[18/03/2023 19:19:00] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 19:19:00] Parent Instance mother name father name saved to database 
+[18/03/2023 19:19:00] Created student Instance using new guardian registration 
+[18/03/2023 19:19:00] returned student registration form 
+[18/03/2023 19:20:05] getting deltails of 222222 
+[18/03/2023 19:20:05] returning deltails of 222222 
+[18/03/2023 19:23:22] getting deltails of 222222 
+[18/03/2023 19:23:22] returning deltails of 222222 
+[18/03/2023 19:25:48] getting deltails of 222222 
+[18/03/2023 19:25:48] returning deltails of 222222 
+[18/03/2023 19:26:29] getting deltails of 222222 
+[18/03/2023 19:26:29] returning deltails of 222222 
+[18/03/2023 19:27:53] getting deltails of 222222 
+[18/03/2023 19:27:53] returning deltails of 222222 
+[18/03/2023 19:28:45] getting deltails of 222222 
+[18/03/2023 19:28:45] returning deltails of 222222 
+[18/03/2023 19:35:37] getting deltails of 222222 
+[18/03/2023 19:35:37] returning deltails of 222222 
+[18/03/2023 19:37:16] getting deltails of 222222 
+[18/03/2023 19:37:16] returning deltails of 222222 
+[18/03/2023 19:37:33] getting deltails of 222222 
+[18/03/2023 19:37:33] returning deltails of 222222 
+[18/03/2023 19:38:20] getting deltails of 222222 
+[18/03/2023 19:38:20] returning deltails of 222222 
+[18/03/2023 19:45:19] getting deltails of 222222 
+[18/03/2023 19:45:39] getting deltails of 222222 
+[18/03/2023 19:45:40] returning deltails of 222222 
+[18/03/2023 19:45:40] getting deltails of 222222 
+[18/03/2023 19:45:40] returning deltails of 222222 
+[18/03/2023 19:48:46] getting deltails of 222222 
+[18/03/2023 19:48:46] returning deltails of 222222 
+[18/03/2023 19:49:15] getting deltails of 222222 
+[18/03/2023 19:49:15] returning deltails of 222222 
+[18/03/2023 19:49:29] getting deltails of 222222 
+[18/03/2023 19:49:29] returning deltails of 222222 
+[18/03/2023 20:02:15] getting deltails of 222222 
+[18/03/2023 20:02:16] returning deltails of 222222 
+[18/03/2023 22:04:05] getting deltails of 222222 
+[18/03/2023 22:04:06] returning deltails of 222222 
