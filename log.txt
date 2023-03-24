@@ -433,3 +433,51 @@
 [24/03/2023 13:28:13] Can't Move Alumni Class 
 [24/03/2023 13:28:40] Can't Move Alumni Class 
 [24/03/2023 13:28:42] Rendering current classes 
+[24/03/2023 13:30:03] Rendering current classes 
+[24/03/2023 13:30:06] Can't Move Alumni Class 
+[24/03/2023 13:30:43] Got class info of Grade 06 
+[24/03/2023 13:30:43] No students in Grade 06 deleting class 
+[24/03/2023 13:30:43] Rendering current classes 
+[24/03/2023 13:30:53] Creating new class csd 
+[24/03/2023 13:30:53] Created new class csd 
+[24/03/2023 13:30:53] Rendering current classes 
+[24/03/2023 13:32:25] Rendering current classes 
+[24/03/2023 13:32:30] Creating new class aaa 
+[24/03/2023 13:32:30] Created new class aaa 
+[24/03/2023 13:32:30] Rendering current classes 
+[24/03/2023 13:32:34] Creating new class wdasdw 
+[24/03/2023 13:32:34] Created new class wdasdw 
+[24/03/2023 13:32:34] Rendering current classes 
+[24/03/2023 13:32:37] Got class info of Grade wdasdw 
+[24/03/2023 13:32:37] No students in Grade wdasdw deleting class 
+[24/03/2023 13:32:37] Rendering current classes 
+[24/03/2023 13:32:39] Got class info of Grade csd 
+[24/03/2023 13:32:39] No students in Grade csd deleting class 
+[24/03/2023 13:32:40] Rendering current classes 
+[24/03/2023 13:36:12] Rendering current classes 
+[24/03/2023 13:38:16] Rendering current subjects 
+[24/03/2023 13:38:33] Rendering current subjects 
+[24/03/2023 13:38:50] Rendering current subjects 
+[24/03/2023 13:39:42] Rendering current subjects 
+[24/03/2023 13:41:48] Rendering current classes 
+[24/03/2023 13:42:05] Rendering current subjects 
+[24/03/2023 13:42:36] Rendering current subjects 
+[24/03/2023 13:43:03] Rendering current subjects 
+[24/03/2023 13:43:15] Creating new class English 
+[24/03/2023 13:43:15] Created new class English 
+[24/03/2023 13:43:16] Rendering current subjects 
+[24/03/2023 13:43:45] Creating new class Sinhala 
+[24/03/2023 13:43:45] Created new class Sinhala 
+[24/03/2023 13:43:45] Rendering current subjects 
+[24/03/2023 13:43:56] Creating new class Science 
+[24/03/2023 13:43:56] Created new class Science 
+[24/03/2023 13:43:56] Rendering current subjects 
+[24/03/2023 13:44:02] Rendering current classes 
+[24/03/2023 13:44:07] Rendering current subjects 
+[24/03/2023 13:45:20] Rendering current subjects 
+[24/03/2023 13:45:36] Rendering current subjects 
+[24/03/2023 13:45:39] Rendering current classes 
+[24/03/2023 13:45:46] Rendering current subjects 
+[24/03/2023 13:46:13] Rendering current subjects 
+[24/03/2023 13:46:17] Rendering current subjects 
+[24/03/2023 13:46:22] Rendering current subjects 

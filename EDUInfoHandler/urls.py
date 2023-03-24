@@ -1,6 +1,8 @@
 from django.urls import path
-from .views import ClassView
+from .views import ClassView, SubjectsView
 
 urlpatterns = [
-    path('', ClassView.as_view(), name="ClassView")
+    path('class/', ClassView.as_view(), name="ClassView"),
+    path('subjects/', SubjectsView.as_view(), name="SubjectsView"),
+    
 ]
