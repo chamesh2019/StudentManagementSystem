@@ -7,6 +7,7 @@ class ClassInfo(models.Model):
     
 class SubjectInfo(models.Model):
     subject = models.CharField(max_length=50)  # English
+    visibility = models.BooleanField(default=True)
     
 class ExamInfo(models.Model):
     exam = models.CharField(max_length=100) 

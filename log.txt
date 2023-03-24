@@ -405,3 +405,31 @@
 [20/03/2023 01:25:01] Returnng JSON of [] 
 [20/03/2023 01:25:02] Requested Student List 
 [20/03/2023 01:25:02] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[24/03/2023 13:02:45] Requested Student List 
+[24/03/2023 13:02:45] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[24/03/2023 13:07:36] Requested Student List 
+[24/03/2023 13:07:36] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[24/03/2023 13:16:06] Rendering current classes 
+[24/03/2023 13:16:06] returned student registration form 
+[24/03/2023 13:16:20] Rendering current classes 
+[24/03/2023 13:17:28] Rendering current classes 
+[24/03/2023 13:19:16] Rendering current classes 
+[24/03/2023 13:19:34] Rendering current classes 
+[24/03/2023 13:19:47] Creating new class 06 
+[24/03/2023 13:19:47] Created new class 06 
+[24/03/2023 13:19:47] Rendering current classes 
+[24/03/2023 13:19:49] Can't Move Alumni Class 
+[24/03/2023 13:21:25] Can't Move Alumni Class 
+[24/03/2023 13:21:43] Rendering current classes 
+[24/03/2023 13:21:45] Can't Move Alumni Class 
+[24/03/2023 13:23:51] Can't Move Alumni Class 
+[24/03/2023 13:23:54] Rendering current classes 
+[24/03/2023 13:23:56] Can't Move Alumni Class 
+[24/03/2023 13:24:44] Rendering current classes 
+[24/03/2023 13:25:34] Rendering current classes 
+[24/03/2023 13:25:36] Can't Move Alumni Class 
+[24/03/2023 13:26:15] Can't Move Alumni Class 
+[24/03/2023 13:26:53] Rendering current classes 
+[24/03/2023 13:28:13] Can't Move Alumni Class 
+[24/03/2023 13:28:40] Can't Move Alumni Class 
+[24/03/2023 13:28:42] Rendering current classes 
