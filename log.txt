@@ -481,3 +481,20 @@
 [24/03/2023 13:46:13] Rendering current subjects 
 [24/03/2023 13:46:17] Rendering current subjects 
 [24/03/2023 13:46:22] Rendering current subjects 
+[26/03/2023 08:17:02] Rendering current classes 
+[26/03/2023 08:17:16] Rendering current subjects 
+[26/03/2023 08:17:35] Creating new Subject History 
+[26/03/2023 08:17:35] Created new Subject History 
+[26/03/2023 08:17:35] Rendering current subjects 
+[26/03/2023 08:17:52] Creating new Subject Mathematics 
+[26/03/2023 08:17:52] Created new Subject Mathematics 
+[26/03/2023 08:17:52] Rendering current subjects 
+[26/03/2023 08:19:19] Creating new Subject Buddhism 
+[26/03/2023 08:19:19] Created new Subject Buddhism 
+[26/03/2023 08:19:20] Rendering current subjects 
+[26/03/2023 08:20:52] Creating new Subject Tamil 
+[26/03/2023 08:20:52] Created new Subject Tamil 
+[26/03/2023 08:20:52] Rendering current subjects 
+[26/03/2023 08:21:18] Creating new Subject Geography 
+[26/03/2023 08:21:18] Created new Subject Geography 
+[26/03/2023 08:21:19] Rendering current subjects 

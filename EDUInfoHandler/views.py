@@ -74,23 +74,38 @@ class ClassView(View):
     
 class SubjectsView(View):
     def get(self, request):
+        """returning subjects view html
+
+        Args:
+            request (HttpRequest): Django request
+
+        Returns:
+            HTMLResponse: HTMLResponse of rendered subjects html
+        """
         log_file('Rendering current subjects')
         current_subjects = SubjectInfo.objects.filter(visibility=True)
-        
         return render(request, template_name="subjects_view_and_edit.html", context={
             'current_subjects' : current_subjects
         })
     
     def post(self, request):
+        """Editing sujectgs table in database
+
+        Args:
+            request (HttpRequest): Django request
+
+        Returns:
+            HTMLResponse: HTMLResponse
+        """         
         data = request.POST
         if data.get('new_subject_name'):
             new_subject_name = data.get('new_subject_name')            
             
-            if len(data.get('new_subject_name')) > 49:
+            if len(data.get('new_subject_name')) > 50:
                 log_file(f'Too many characters in new subject {new_subject_name}')
                 return HttpResponse("Subject Name Too Long Max 50 letters")
             
-            log_file(f'Creating new class {new_subject_name}')
+            log_file(f'Creating new Subject {new_subject_name}')
             
             visibility = False if data.get('visibility') else True
             
@@ -100,16 +115,16 @@ class SubjectsView(View):
             )
             
             subject_instance.save()
-            log_file(f'Created new class {new_subject_name}')
+            log_file(f'Created new Subject {new_subject_name}')
             
             return redirect("SubjectsView")
         
         if data.get('update_subject_name'):
             if len(data.get('update_subject_name')) > 50:
-                return HttpResponse("Class Name Too Long Max 50 letters")
+                return HttpResponse("Subject Name Too Long Max 50 letters")
             subject_instance = get_object_or_404(SubjectInfo, id=data.get('subject_id'))
             subject_instance.subject = data.get('update_subject_name')
             subject_instance.save()
             return redirect("SubjectsView")
         
-        return redirect("ClassView")
+        return redirect("SubjectsView")
