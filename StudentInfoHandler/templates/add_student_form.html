@@ -8,7 +8,8 @@
     <title>Student Add Form</title>
     <style>
         form {
-            padding: 25%;
+            padding-left: 25%;
+            padding-right: 25%;
             display: flex;
             flex-direction: column;
         }
@@ -97,47 +98,7 @@
         <label for="father_special_notes">Father Special Notes</label>
         <textarea name="father_special_notes" cols="30" rows="10"></textarea>
 
-        <div>
-            <label for="guardian_status">Guardian Already Registered?</label>
-            <input type="checkbox" name="guardian_status">
-        </div>
-
-        <div class="guardian_nic">
-            <label for="guardian_nic">Guardian NIC : </label>
-            <input type="text" name="guardian_nic">
-        </div>
-
-
-        <div class="guardian">
-            <label for="guardian_full_name">Guardian Full Name : </label>
-            <input type="text" class="textinputs" name="guardian_full_name">
-
-            <label for="guardian_name_with_initials">Guardian Name With Initials : </label>
-            <input type="text" class="textinputs" name="guardian_name_with_initials">
-
-            <label for="guardian_date_of_birth">Guardian Date of Birth : </label>
-            <input type="date" class="dateinputs" name="guardian_date_of_birth">
-
-            <label for="guardian_gender">Guardian Gender : </label>
-            <div>
-                <input type="radio" class="radioinputs" name="guardian_gender" value="M"> Male
-                <input type="radio" class="radioinputs" name="guardian_gender" value="F"> Female
-            </div>
-
-            <label for="guardian_nic">Guardian NIC : </label>
-            <input type="text" name="guardian_nic">
-
-            <label for="guardian_job">Guardian Job : </label>
-            <input type="text" name="guardian_job">
-
-            <label for="guardian_relation">Relation to Student : </label>
-            <input type="text" name="guardian_relation">
-
-            <label for="guardian_special_notes">Guardian Special Notes : </label>
-            <textarea name="guardian_special_notes" cols="30" rows="10"></textarea>
-
-            <input type="submit" value="Submit">
-        </div>
+        <input type="submit" value="Add Student">
     </form>
 </body>
 

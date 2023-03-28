@@ -1,6 +1,5 @@
+
 from django.db import models
-from GuardianInfoHandler.models import GuardianInfo
-from EDUInfoHandler.models import ClassInfo
 
 
 class StudentInfo(models.Model):
@@ -11,17 +10,15 @@ class StudentInfo(models.Model):
     gender = models.CharField(max_length=1)
     enrolled_date = models.CharField(max_length=20)
     address = models.TextField()
-    alumni_status = models.BooleanField(default=False) # For alumni this will become True
     special_notes = models.TextField()
-    class_info = models.ForeignKey(ClassInfo, on_delete=models.CASCADE)
+    class_info = models.ForeignKey(
+        'EDUInfoHandler.ClassInfo', on_delete=models.CASCADE
+        )
     RFID_key = models.TextField()
-    Guardian = models.ForeignKey(
-        GuardianInfo, on_delete=models.CASCADE
-    )
     
     def __str__(self) -> str:
         return self.full_name
-    
+
 class ParentInfo(models.Model):
     student_index_number = models.OneToOneField(StudentInfo, on_delete=models.CASCADE, primary_key=True)
     mother_name = models.CharField(max_length=255)

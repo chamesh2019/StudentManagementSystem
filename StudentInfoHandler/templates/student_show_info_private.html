@@ -52,22 +52,6 @@
     <div>Father Status : {{ parent_instance.father_status }}</div>
     <div>Father Notes : {{ parent_instance.father_special_notes }}</div>
     <br>
-    <h3>Registered to school by:</h3>
-    <div>Full Name : {{ guardian_instance.full_name }}</div>
-    <div>Name : {{ guardian_instance.name_with_initials }}</div>
-    <div>Date of Birth : {{ guardian_instance.date_of_birth }}</div>
-    <div>NIC : {{ guardian_instance.nic }}</div>
-    <div>Gender :
-        {% if guardian_instance.gender == "M" %}
-        "Male"
-        {% else %}
-        "Female"
-        {% endif %}
-    </div>
-    <div>Job : {{ guardian_instance.job }}</div>
-    <div>Relation : {{ guardian_instance.relation }}</div>
-    <div>Special Notes : {{ guardian_instance.special_notes }}</div>
-
 </body>
 
 </html>
