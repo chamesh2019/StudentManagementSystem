@@ -21,3 +21,7 @@ class Attendance(models.Model):
     student = models.ForeignKey('StudentInfoHandler.StudentInfo', on_delete=models.CASCADE)
     time = models.TimeField(auto_now=True)
     date = models.DateField(auto_now=True)
+
+class LoginKeys(models.Model):
+    key = models.CharField(max_length=255)
+    date = models.CharField(max_length=20)

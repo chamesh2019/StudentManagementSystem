@@ -24,84 +24,84 @@ class StudentAdd(View):
 
     def post(self, request):
         data = request.POST
-        print(data)
+        log_file('Adding Student with already registered guardian registration')
+        student_index_number = data['student_index_number']
+        student_full_name = data['student_full_name']
+        student_name_with_initials = data['student_name_with_initials']
+        student_date_of_birth = data['student_date_of_birth']
+        student_enrolled_date = data['enrolled_date']
+        student_gender = data['student_gender']
+        student_class = data['class_info']
+        student_address = data['student_address']
+        student_special_notes = data['student_special_notes']
+
+        mother_name = data['mother_name']
+        mother_status = data['mother_status']
+        mother_nic = data['mother_nic']
+        mother_special_notes = data['mother_special_notes']
+        father_name = data['father_name']
+        father_status = data['father_status']
+        father_nic = data['father_nic']
+        father_special_notes = data['father_special_notes']
+
+        log_file('Got Student data')
+
+        img = qrcode.make(str(student_index_number),
+                            image_factory=PyPNGImage)
+        buffer = io.BytesIO()
+        img.save(buffer)
         try:
-            log_file('Adding Student with already registered guardian registration')
-            student_index_number = data['student_index_number']
-            student_full_name = data['student_full_name']
-            student_name_with_initials = data['student_name_with_initials']
-            student_date_of_birth = data['student_date_of_birth']
-            student_enrolled_date = data['enrolled_date']
-            student_gender = data['student_gender']
-            student_class = data['class_info']
-            student_address = data['student_address']
-            student_special_notes = data['student_special_notes']
-
-            mother_name = data['mother_name']
-            mother_status = data['mother_status']
-            mother_nic = data['mother_nic']
-            mother_special_notes = data['mother_special_notes']
-            father_name = data['father_name']
-            father_status = data['father_status']
-            father_nic = data['father_nic']
-            father_special_notes = data['father_special_notes']
-
-            img = qrcode.make(str(student_index_number),
-                                image_factory=PyPNGImage)
-            buffer = io.BytesIO()
-            img.save(buffer)
-            try:
-                int(student_class)
-            except:
-                return HttpResponse('Invalid Class ID')
-            
-            if len(StudentInfo.object.get(index_number=student_index_number)) > 0:
-                return HttpResponse(f'Student Already exits in index number {student_index_number}')
-            
-            student_class = get_object_or_404(
-                ClassInfo, id=int(student_class)
-                )
-            student_instance = StudentInfo(
-                index_number=student_index_number,
-                full_name=student_full_name,
-                name_with_initials=student_name_with_initials,
-                date_of_birth=student_date_of_birth,
-                gender=student_gender,
-                enrolled_date=student_enrolled_date,
-                address=student_address,
-                special_notes=student_special_notes,
-                class_info=student_class,
-                RFID_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
-            )
-
-            log_file(f'Student Instance {student_instance} Created')
-            student_instance.save()
-
-            parent_instance = ParentInfo(
-                student_index_number=student_instance,
-                mother_name=mother_name,
-                mother_nic=mother_nic,
-                mother_status=mother_status,
-                mother_special_notes=mother_special_notes,
-                father_name=father_name,
-                father_nic=father_nic,
-                father_status=father_status,
-                father_special_notes=father_special_notes,
-            )
-
-            log_file(f'Parent Instance {parent_instance}  Created')
-            student_instance.save()
-            log_file(
-                f'Student Instance {student_instance} Saved to database')
-            parent_instance.save()
-            log_file(
-                f'Parent Instance {parent_instance} saved to database')
-
-            log_file('Created student Instance')
-            return redirect(f'{reverse("StudentView", kwargs={"student_index_number":student_index_number})}?added=1')
+            int(student_class)
         except:
-            return HttpResponse("An Error ocurred when creating student info")
+            return HttpResponse('Invalid Class ID')
+        try:
+            StudentInfo.objects.get(index_number=student_index_number)
+            return HttpResponse(f'Student Already exits in index number {student_index_number}')
+        except:
+            pass
 
+        student_class = get_object_or_404(
+            ClassInfo, id=int(student_class)
+            )
+        student_instance = StudentInfo(
+            index_number=student_index_number,
+            full_name=student_full_name,
+            name_with_initials=student_name_with_initials,
+            date_of_birth=student_date_of_birth,
+            gender=student_gender,
+            enrolled_date=student_enrolled_date,
+            address=student_address,
+            special_notes=student_special_notes,
+            class_info=student_class,
+            RFID_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
+        )
+
+        log_file(f'Student Instance {student_instance} Created')
+        student_instance.save()
+
+        parent_instance = ParentInfo(
+            student_index_number=student_instance,
+            mother_name=mother_name,
+            mother_nic=mother_nic,
+            mother_status=mother_status,
+            mother_special_notes=mother_special_notes,
+            father_name=father_name,
+            father_nic=father_nic,
+            father_status=father_status,
+            father_special_notes=father_special_notes,
+        )
+
+        log_file(f'Parent Instance {parent_instance}  Created')
+        student_instance.save()
+        log_file(
+            f'Student Instance {student_instance} Saved to database')
+        parent_instance.save()
+        log_file(
+            f'Parent Instance {parent_instance} saved to database')
+
+        log_file('Created student Instance')
+        return redirect(f'{reverse("StudentView", kwargs={"student_index_number":student_index_number})}?added=1')
+        
             
 class StudentView(View):
     '''Render student info on GET request'''

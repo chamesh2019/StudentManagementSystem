@@ -3,9 +3,12 @@ from django.views import View
 from django.shortcuts import redirect, get_object_or_404, HttpResponse
 from django.db.models.functions import Length
 
-from StudentInfoHandler.models import StudentInfo
-from .models import ClassInfo, SubjectInfo
+from StudentInfoHandler.models import StudentInfo, ParentInfo
+from .models import ClassInfo, SubjectInfo, LoginKeys
 from manage import log_file
+
+import uuid
+import datetime
 
 # Create your views here.
 class ClassView(View):
@@ -128,3 +131,34 @@ class SubjectsView(View):
             return redirect("SubjectsView")
         
         return redirect("SubjectsView")
+
+class HomepageView(View):
+    def get(self, request):
+        return render(request, template_name="homepage.html")
+
+    def post(self, request):
+        data = request.POST
+        try:
+            username = data["username"]
+            password = data["password"]
+            if username[0] == 't' or username[0] == 'T':
+                username = int(username[1:])
+                #teacher login logic
+                
+            username = int(username)
+            parent_instance = ParentInfo.objects.get(student_index_number=username)
+            if str(parent_instance.mother_nic) != password and str(parent_instance.father_nic) != password:
+                log_file(f'Login Credentials Error')
+                return render(request, template_name="homepage.html", context={
+                'text':'Login Credentials Error'
+                })
+            auth_key = LoginKeys(key=str(uuid.uuid4()), date=datetime.datetime.now())
+            request.session['auth_key'] = auth_key.key
+            log_file(f'login successfull {username}')
+            return redirect('StudentView', student_index_number=username)
+
+        except:
+            log_file(f'Username/Student not found')
+            return render(request, template_name="homepage.html", context={
+                'text':'Username/Student not found'
+                })

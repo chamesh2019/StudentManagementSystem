@@ -575,3 +575,26 @@
 [28/03/2023 08:34:45] Adding Student with already registered guardian registration 
 [28/03/2023 08:35:18] Adding Student with already registered guardian registration 
 [28/03/2023 08:35:21] returned student registration form 
+[30/03/2023 09:47:50] getting deltails of 222222 
+[30/03/2023 09:47:50] returning deltails of 222222 
+[30/03/2023 09:48:44] getting deltails of 222222 
+[30/03/2023 09:48:44] returning deltails of 222222 
+[30/03/2023 09:48:55] getting deltails of 222222 
+[30/03/2023 09:48:55] returning deltails of 222222 
+[30/03/2023 10:01:42] returned student registration form 
+[30/03/2023 10:02:15] Adding Student with already registered guardian registration 
+[30/03/2023 10:02:36] returned student registration form 
+[30/03/2023 10:02:53] Adding Student with already registered guardian registration 
+[30/03/2023 10:02:55] returned student registration form [30/03/2023 10:04:11] returned student registration form 
+[30/03/2023 10:04:26] Adding Student with already registered guardian registration 
+[30/03/2023 10:04:55] Adding Student with already registered guardian registration 
+[30/03/2023 10:06:04] Adding Student with already registered guardian registration 
+[30/03/2023 10:06:04] Student Instance adsadw Created 
+[30/03/2023 10:06:04] Parent Instance dawdasda 1231231  Created 
+[30/03/2023 10:06:04] Student Instance adsadw Saved to database 
+[30/03/2023 10:06:04] Parent Instance dawdasda 1231231 saved to database 
+[30/03/2023 10:06:04] Created student Instance 
+[30/03/2023 10:06:05] getting deltails of 222223 
+[30/03/2023 10:06:05] returning deltails of 222223 
+[30/03/2023 10:06:07] returned student registration form 
+[30/03/2023 10:06:40] Adding Student with already registered guardian registration 
