@@ -10,7 +10,7 @@ import qrcode
 from qrcode.image.pure import PyPNGImage
 from manage import log_file
 
-from EDUInfoHandler.models import ClassInfo
+from EDUInfoHandler.models import ClassInfo, LoginKeys
 from .models import StudentInfo, ParentInfo
 
 
@@ -107,6 +107,11 @@ class StudentView(View):
     '''Render student info on GET request'''
 
     def get(self, request, student_index_number):
+        logged_in = [auth for auth in LoginKeys.objects.all()]
+        if not request.session['auth_key'] \
+            in [auth.key for auth in logged_in if auth.identifier==int(student_index_number)]:
+            return redirect("HomepageView")
+        
         log_file(f"getting deltails of {student_index_number}")
         student_instance = get_object_or_404(
             StudentInfo, index_number=student_index_number)
@@ -122,7 +127,6 @@ class StudentView(View):
                 context['extra'] = reverse("StudentAdd")
         except:
             pass
-        print(student_instance.RFID_key)
         log_file(f"returning deltails of {student_index_number}")
         return render(request, template_name="student_show_info_private.html", context=context)
 

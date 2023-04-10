@@ -25,3 +25,5 @@ class Attendance(models.Model):
 class LoginKeys(models.Model):
     key = models.CharField(max_length=255)
     date = models.CharField(max_length=20)
+    acc_type = models.CharField(max_length=25)
+    identifier = models.IntegerField(default=0)

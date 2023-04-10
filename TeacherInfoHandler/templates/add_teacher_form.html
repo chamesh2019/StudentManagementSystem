@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Add Form</title>
+    <style>
+        form {
+            padding-left: 25%;
+            padding-right: 25%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .guardian {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .guardian_nic {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <label for="full_name">Full Name : </label>
+        <input type="text" class="textinputs" name="full_name">
+
+        <label for="name_with_initials">Name With Initials : </label>
+        <input type="text" class="textinputs" name="name_with_initials">
+
+        <label for="date_of_birth">Date of Birth : </label>
+        <input type="date" class="dateinputs" name="date_of_birth">
+
+        <label for="gender">Gender : </label>
+        <div>
+            <input type="radio" class="radioinputs" name="gender" value="M"> Male
+            <input type="radio" class="radioinputs" name="gender" value="F"> Female
+        </div>
+
+        <label for="nic">NIC : </label>
+        <input type="text" class="textinputs" name="nic">
+
+        <label for="post">Post : </label>
+        <input type="text" class="textinputs" name="post">
+
+        <label for="enrolled_date">School Enrolled Date : </label>
+        <input type="date" class="textinputs" name="enrolled_date">
+
+        <label for="started_date">Teaching Started Date : </label>
+        <input type="date" class="textinputs" name="started_date">
+
+        <label for="address">Address : </label>
+        <textarea name="address" cols="30" rows="10"></textarea>
+
+        <label for="contact_number">Contact Number : </label>
+        <input type="text" class="textinputs" name="contact_number">
+
+        <label for="class_info">Class : </label>
+        <select name="class_info">
+            {% for class_info in current_classes %}
+            <option value={{class_info.id}}>Grade {{class_info.class_name}}</option>
+            {% endfor %}
+        </select>
+
+        <label for="special_notes">Special Notes : </label>
+        <textarea name="special_notes" cols="30" rows="10"></textarea>
+
+
+        <input type="submit" value="Add Teacher">
+    </form>
+</body>
+
+</html>

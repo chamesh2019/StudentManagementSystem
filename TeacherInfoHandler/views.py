@@ -1,7 +1,10 @@
 from django.shortcuts import render
 from django.shortcuts import render, HttpResponse, get_object_or_404, redirect
+from django.urls import reverse
 from django.views import View
+from EDUInfoHandler.models import ClassInfo, LoginKeys
 
+from manage import log_file
 from .models import TeacherInfo
 
 class TeacherAdd(View):
@@ -31,54 +34,53 @@ class TeacherAdd(View):
             class_info = data['class_info']
 
             try:
-                int(class_info)
+                class_info = int(class_info)
             except:
                 return HttpResponse('Invalid Class ID')
             try:
-                StudentInfo.object.get(index_number=student_index_number)
-                return HttpResponse(f'Student Already exits in index number {student_index_number}')
-            
-            student_class = get_object_or_404(
-                ClassInfo, id=int(student_class)
+                TeacherInfo.objects.get(nic=nic)
+                return HttpResponse(f'Teacher Already exits in index number {nic}')
+            except:
+                pass
+            class_info = get_object_or_404(
+                ClassInfo, id=class_info
                 )
-            student_instance = StudentInfo(
-                index_number=student_index_number,
-                full_name=student_full_name,
-                name_with_initials=student_name_with_initials,
-                date_of_birth=student_date_of_birth,
-                gender=student_gender,
-                enrolled_date=student_enrolled_date,
-                address=student_address,
-                special_notes=student_special_notes,
-                class_info=student_class,
-                RFID_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
+            teacher_instance = TeacherInfo(
+                full_name=full_name,
+                name_with_initials=name_with_initials,
+                date_of_birth=date_of_birth,
+                gender=gender,
+                enrolled_date=enrolled_date,
+                started_date=started_date,
+                contact_number=contact_number,
+                nic=nic,
+                address=address,
+                post=post,
+                special_notes=special_notes,
+                class_info=class_info,
             )
 
-            log_file(f'Student Instance {student_instance} Created')
-            student_instance.save()
+            log_file(f'Teacher Instance {teacher_instance} Created')
+            teacher_instance.save()
 
-            parent_instance = ParentInfo(
-                student_index_number=student_instance,
-                mother_name=mother_name,
-                mother_nic=mother_nic,
-                mother_status=mother_status,
-                mother_special_notes=mother_special_notes,
-                father_name=father_name,
-                father_nic=father_nic,
-                father_status=father_status,
-                father_special_notes=father_special_notes,
-            )
-
-            log_file(f'Parent Instance {parent_instance}  Created')
-            student_instance.save()
             log_file(
-                f'Student Instance {student_instance} Saved to database')
-            parent_instance.save()
-            log_file(
-                f'Parent Instance {parent_instance} saved to database')
+                f'Teacher Instance {teacher_instance} Saved to database')
 
-            log_file('Created student Instance')
-            return redirect(f'{reverse("StudentView", kwargs={"student_index_number":student_index_number})}?added=1')
+            log_file('Created teacher Instance')
+            return redirect({reverse("TeacherView", kwargs={"nic":nic})})
         except:
-            return HttpResponse("An Error ocurred when creating student info")
+            return HttpResponse("An Error ocurred when creating teacher info")
 
+class TeacherView(View):
+    def get(self, request, nic):
+        logged_in = [auth for auth in LoginKeys.objects.all()]
+        if not request.session['auth_key'] \
+            in [auth.key for auth in logged_in if auth.identifier==int(nic)]:
+            return redirect("HomepageView")
+        log_file(f"getting deltails of {nic}")
+        teacher_instance = get_object_or_404(TeacherInfo, nic=nic)
+        context = {
+            "teacher_instance": teacher_instance,
+        }
+        log_file(f"returning deltails of {nic}")
+        return render(request, template_name="teacher_show_info_private.html", context=context)
