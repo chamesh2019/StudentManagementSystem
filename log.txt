@@ -710,3 +710,33 @@
 [10/04/2023 13:36:48] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
 [10/04/2023 13:39:28] getting deltails of 222222 
 [10/04/2023 13:39:28] returning deltails of 222222 
+[10/04/2023 13:45:26] Requested Student List 
+[10/04/2023 13:45:26] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:27] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:27] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:27] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:28] Requested Student List 
+[10/04/2023 13:45:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:28] Requested Student List 
+[10/04/2023 13:45:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:29] Requested Student List 
+[10/04/2023 13:45:29] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:33] Requested Student List 
+[10/04/2023 13:45:33] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:33] Requested Student List 
+[10/04/2023 13:45:33] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:34] Requested Student List 
+[10/04/2023 13:45:34] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:36] Requested Student List 
+[10/04/2023 13:45:36] Returnng JSON of [] 
+[10/04/2023 13:45:37] Requested Student List 
+[10/04/2023 13:45:37] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:39] Requested Student List 
+[10/04/2023 13:45:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:39] Requested Student List 
+[10/04/2023 13:45:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
