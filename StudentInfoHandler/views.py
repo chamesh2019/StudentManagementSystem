@@ -10,7 +10,7 @@ import qrcode
 from qrcode.image.pure import PyPNGImage
 from manage import log_file
 
-from EDUInfoHandler.models import ClassInfo, LoginKeys
+from EDUInfoHandler.models import ClassInfo, LoginKeys, Attendance
 from .models import StudentInfo, ParentInfo
 
 
@@ -121,11 +121,13 @@ class StudentView(View):
             StudentInfo, index_number=student_index_number)
         parent_instance = get_object_or_404(
             ParentInfo, student_index_number=student_index_number)
+        attendance = Attendance.objects.filter()[:5]
         context = {
             "student_instance": student_instance,
             "parent_instance": parent_instance,
             "image": str(student_index_number) + ".jpg",
-            "QR": format_html(f"<img src='{student_instance.RFID_key}'></div>")
+            "QR": format_html(f"<img src='{student_instance.RFID_key}'></div>"),
+            "attendance": attendance
         }
         try:
             if request.GET['added']:

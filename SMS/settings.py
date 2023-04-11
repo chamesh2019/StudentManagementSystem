@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$p@5kpzia-2x%kyh-h7*5dt5lspn3@)r_j4q&e@667k@w0om^g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -126,5 +126,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = []
+CSRF_TRUSTED_ORIGINS = ['https://chamesh2019-literate-space-doodle-9gxrgjv6v9p29rpp-8000.preview.app.github.dev']
 

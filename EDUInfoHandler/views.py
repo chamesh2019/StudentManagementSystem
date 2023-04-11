@@ -5,17 +5,41 @@ from django.db.models.functions import Length
 
 from StudentInfoHandler.models import StudentInfo, ParentInfo
 from TeacherInfoHandler.models import TeacherInfo
-from .models import ClassInfo, SubjectInfo, LoginKeys
+from .models import ClassInfo, SubjectInfo, LoginKeys, Attendance
 from manage import log_file
 
+from datetime import datetime
 import uuid
-import datetime
 
 
 class AddMarks(View):
     def get(self, request):
         log_file('Rendering adding marks')
-        
+
+
+class AttendanceMarkerIn(View):
+    def get(self, request, id):
+        try:
+            student_instance = StudentInfo.objects.get(index_number=id)
+            if len(Attendance.objects.filter(student=student_instance, date=datetime.now().strftime('%Y-%m-%d'))):
+                return HttpResponse("Student Already Marked")
+            attendance_instance = Attendance(student=student_instance, intime=datetime.now().strftime('%H:%M:%S'), outtime="-")
+            attendance_instance.save()
+            return HttpResponse("Attendance Passed")
+        except:
+            return HttpResponse("Attendance Failed")
+
+class AttendanceMarkerOut(View):
+    def get(self, request, id):
+        try:
+            student_instance = StudentInfo.objects.get(index_number=id)
+            attendance_instance = Attendance.objects.filter(student=student_instance, date=datetime.now().strftime('%Y-%m-%d')).reverse()[0]
+            attendance_instance.outtime = datetime.now().strftime('%H:%M:%S')
+            attendance_instance.save()
+            return HttpResponse("Attendance Passed")
+            
+        except:
+            return HttpResponse("Attendance Failed")
 
 class ClassView(View):
     def get(self, request):
@@ -150,14 +174,14 @@ class HomepageView(View):
                     })
                 
                 auth_key = LoginKeys(key=str(uuid.uuid4()),
-                                 date=datetime.datetime.now(), acc_type="s", identifier=username)
+                                 date=datetime.now(), acc_type="s", identifier=username)
                 auth_key.save()
                 request.session['auth_key'] = auth_key.key
                 log_file(f'teacher login successfull {username}')
                 return redirect('TeacherView', nic=username)
             
             
-            username = int(username)
+            username = username
             parent_instance = ParentInfo.objects.get(
                 student_index_number=username)
             if str(parent_instance.mother_nic) != password and str(parent_instance.father_nic) != password:
@@ -166,7 +190,7 @@ class HomepageView(View):
                     'text': 'Login Credentials Error'
                 })
             auth_key = LoginKeys(key=str(uuid.uuid4()),
-                                 date=datetime.datetime.now(), acc_type="s", identifier=username)
+                                 date=datetime.now(), acc_type="s", identifier=username)
             auth_key.save()
             request.session['auth_key'] = auth_key.key
             log_file(f'login successfull {username}')

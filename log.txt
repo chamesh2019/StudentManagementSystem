@@ -777,3 +777,13 @@
 [11/04/2023 11:54:59] returning deltails of 222222 
 [11/04/2023 11:56:47] getting deltails of 222222 
 [11/04/2023 11:56:47] returning deltails of 222222 
+[11/04/2023 16:36:40] Username/Student not found 
+[11/04/2023 16:36:56] Username/Student not found 
+[11/04/2023 16:38:36] Username/Student not found 
+[11/04/2023 16:39:22] login successfull 222222 
+[11/04/2023 16:39:22] getting deltails of 222222 
+[11/04/2023 16:39:23] returning deltails of 222222 
+[11/04/2023 16:40:32] getting deltails of 222222 
+[11/04/2023 16:40:32] returning deltails of 222222 
+[11/04/2023 16:54:38] getting deltails of 222222 
+[11/04/2023 16:54:38] returning deltails of 222222 

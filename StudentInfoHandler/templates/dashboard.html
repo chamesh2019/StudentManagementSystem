@@ -119,37 +119,20 @@
             </caption>
             <thead>
                 <tr>
-                    <th><b>date</b></th>
-                    <th>arrrived time</th>
-                    <th>left time</th>
+                    <th><b>Date</b></th>
+                    <th>Arrrived Time</th>
+                    <th>Left Time</th>
                 </tr>
             </thead>
             <tbody>
+                {% for record in attendance %}
                 <tr>
-                    <td>Row 1, Column 1</td>
-                    <td>Row 1, Column 2</td>
-                    <td>Row 1, Column 3</td>
+                    <td>{{ record.date }}</td>
+                    <td>{{ record.intime }}</td>
+                    <td>{{ record.outtime }}</td>
                 </tr>
-                <tr>
-                    <td>Row 2, Column 1</td>
-                    <td>Row 2, Column 2</td>
-                    <td>Row 2, Column 3</td>
-                </tr>
-                <tr>
-                    <td>Row 3, Column 1</td>
-                    <td>Row 3, Column 2</td>
-                    <td>Row 3, Column 3</td>
-                </tr>
-                <tr>
-                    <td>Row 4, Column 1</td>
-                    <td>Row 4, Column 2</td>
-                    <td>Row 4, Column 3</td>
-                </tr>
-                <tr>
-                    <td>Row 5, Column 1</td>
-                    <td>Row 5, Column 2</td>
-                    <td>Row 5, Column 3</td>
-                </tr>
+                {% endfor %}
+                
 
 
             </tbody>
