@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>student</title>
+    <title>{{ student_instance.name_with_initials }}</title>
     <link rel="icon" type="image/jpg" href="{% static 'title_img.jpg' %}" />
     <link rel="stylesheet" href="{% static 'stdbord.css' %}">
 
@@ -18,8 +18,19 @@
             left: 85%;
             width: 80px;
             height: 80px;
-            background-image: url({{ student_instance.RFID_key }});
+            background-image: url("{{ student_instance.RFID_key }}");
             background-size: cover;
+          }
+
+          .left-image {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 120px;
+            background-image: url("/static/{{image}}");
+            background-size: cover;
+          
           }
     </style>
 

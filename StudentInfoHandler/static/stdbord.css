@@ -140,17 +140,6 @@ section {
   background-color: #c78e8e;
 }
 
-.left-image {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 120px;
-  height: 120px;
-  background-image: url("childPhoto.jpg");
-  background-size: cover;
-
-}
-
 label {
   display: block;
   margin-bottom: 10px;

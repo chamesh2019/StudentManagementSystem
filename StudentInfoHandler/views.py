@@ -124,6 +124,7 @@ class StudentView(View):
         context = {
             "student_instance": student_instance,
             "parent_instance": parent_instance,
+            "image": str(student_index_number) + ".jpg",
             "QR": format_html(f"<img src='{student_instance.RFID_key}'></div>")
         }
         try:
