@@ -740,3 +740,22 @@
 [10/04/2023 13:45:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
 [10/04/2023 13:45:39] Requested Student List 
 [10/04/2023 13:45:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[11/04/2023 11:23:03] login successfull 222222 
+[11/04/2023 11:23:04] getting deltails of 222222 
+[11/04/2023 11:23:04] returning deltails of 222222 
+[11/04/2023 11:24:50] getting deltails of 222222 
+[11/04/2023 11:24:50] returning deltails of 222222 
+[11/04/2023 11:25:44] getting deltails of 222222 
+[11/04/2023 11:25:44] returning deltails of 222222 
+[11/04/2023 11:28:59] getting deltails of 222222 
+[11/04/2023 11:28:59] returning deltails of 222222 
+[11/04/2023 11:31:33] getting deltails of 222222 
+[11/04/2023 11:31:33] returning deltails of 222222 
+[11/04/2023 11:33:07] getting deltails of 222222 
+[11/04/2023 11:33:07] returning deltails of 222222 
+[11/04/2023 11:41:07] getting deltails of 222222 
+[11/04/2023 11:41:07] returning deltails of 222222 
+[11/04/2023 11:46:43] getting deltails of 222222 
+[11/04/2023 11:46:43] returning deltails of 222222 
+[11/04/2023 11:48:18] getting deltails of 222222 
+[11/04/2023 11:48:18] returning deltails of 222222 

@@ -3,7 +3,7 @@ from django.db import models
 
 
 class StudentInfo(models.Model):
-    index_number = models.IntegerField(primary_key=True, unique=True)
+    index_number = models.CharField(primary_key=True, unique=True, max_length=8)
     full_name = models.CharField(max_length=255)
     name_with_initials = models.CharField(max_length=255)
     date_of_birth = models.CharField(max_length=20)
@@ -23,9 +23,13 @@ class ParentInfo(models.Model):
     student_index_number = models.OneToOneField(StudentInfo, on_delete=models.CASCADE, primary_key=True)
     mother_name = models.CharField(max_length=255)
     mother_nic = models.CharField(max_length=255)
+    mother_dob = models.CharField(max_length=255)
+    mother_job = models.CharField(max_length=255)
     mother_status = models.CharField(max_length=10) 
     mother_special_notes = models.TextField()
     father_name = models.CharField(max_length=255)
+    father_job = models.CharField(max_length=255)
+    father_dob = models.CharField(max_length=255)
     father_nic = models.CharField(max_length=255)
     father_status = models.CharField(max_length=10)
     father_special_notes = models.TextField()

@@ -141,7 +141,7 @@ class HomepageView(View):
             username = data["username"]
             password = data["password"]
             if username[0] == 't' or username[0] == 'T':
-                username = int(username[1:])
+                username = username[1:]
                 teacher_instance = TeacherInfo.objects.get(nic=username)
                 if not teacher_instance.password != password:
                     log_file(f'Login Credentials Error')

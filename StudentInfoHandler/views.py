@@ -108,8 +108,12 @@ class StudentView(View):
 
     def get(self, request, student_index_number):
         logged_in = [auth for auth in LoginKeys.objects.all()]
-        if not request.session['auth_key'] \
-            in [auth.key for auth in logged_in if auth.identifier==int(student_index_number)]:
+        try:
+            auth_key = request.session['auth_key']
+        except:
+            return redirect("HomepageView")
+        
+        if not auth_key in [auth.key for auth in logged_in if auth.identifier==int(student_index_number)] or LoginKeys.objects.get(key=auth_key).acc_type=="t":
             return redirect("HomepageView")
         
         log_file(f"getting deltails of {student_index_number}")
@@ -128,7 +132,7 @@ class StudentView(View):
         except:
             pass
         log_file(f"returning deltails of {student_index_number}")
-        return render(request, template_name="student_show_info_private.html", context=context)
+        return render(request, template_name="dashboard.html", context=context)
 
 
 class StudentListView(View):
