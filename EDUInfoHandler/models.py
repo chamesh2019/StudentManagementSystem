@@ -6,6 +6,9 @@ class ClassInfo(models.Model):
     
 class SubjectInfo(models.Model):
     subject = models.CharField(max_length=50)  # English
+    range = models.CharField(max_length=10) # 6-9 10-11 12-13 other for buckets
+    bucket = models.BooleanField()
+    bucket_subjects = models.CharField(max_length=100)
     visibility = models.BooleanField(default=True)
     
 class ExamInfo(models.Model):
