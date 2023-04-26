@@ -826,3 +826,357 @@
 [23/04/2023 06:09:37] login successfull 222222 
 [23/04/2023 06:09:37] getting deltails of 222222 
 [23/04/2023 06:09:37] returning deltails of 222222 
+[23/04/2023 16:59:30] login successfull 222222 
+[23/04/2023 16:59:30] getting deltails of 222222 
+[23/04/2023 16:59:30] returning deltails of 222222 
+[23/04/2023 17:43:39] Rendering current subjects 
+[23/04/2023 17:44:40] Rendering current subjects 
+[23/04/2023 17:45:27] Rendering current subjects 
+[23/04/2023 17:47:42] Rendering current subjects 
+[23/04/2023 17:47:47] Rendering current subjects 
+[23/04/2023 17:48:37] Rendering current subjects 
+[23/04/2023 17:49:10] Rendering current subjects 
+[23/04/2023 17:49:47] Rendering current classes 
+[23/04/2023 17:49:51] Got class info of Grade 06 
+[23/04/2023 17:49:51] students in Grade 06 found 
+[23/04/2023 17:50:23] Got class info of Grade 11 
+[23/04/2023 17:50:23] students in Grade 11 found 
+[23/04/2023 17:56:21] Rendering current classes 
+[23/04/2023 18:00:58] Rendering current classes 
+[23/04/2023 18:01:14] Rendering current classes 
+[23/04/2023 18:02:55] Rendering current classes 
+[23/04/2023 18:03:02] Creating new class 06 
+[23/04/2023 18:03:02] Created new class 06 
+[23/04/2023 18:03:02] Rendering current classes 
+[23/04/2023 18:03:06] Rendering current classes 
+[23/04/2023 18:04:00] Rendering current classes 
+[23/04/2023 18:04:04] Creating new class 06 
+[23/04/2023 18:04:04] Created new class 06 
+[23/04/2023 18:04:04] Rendering current classes 
+[23/04/2023 18:05:02] Rendering current classes 
+[23/04/2023 18:06:17] Rendering current classes 
+[23/04/2023 18:06:33] Creating new class 07 
+[23/04/2023 18:06:33] Created new class 07 
+[23/04/2023 18:06:33] Rendering current classes 
+[23/04/2023 18:06:38] Creating new class 08 
+[23/04/2023 18:06:38] Created new class 08 
+[23/04/2023 18:06:38] Rendering current classes 
+[23/04/2023 18:06:42] Creating new class 09 
+[23/04/2023 18:06:42] Created new class 09 
+[23/04/2023 18:06:42] Rendering current classes 
+[23/04/2023 18:06:50] Creating new class 10 
+[23/04/2023 18:06:50] Created new class 10 
+[23/04/2023 18:06:50] Rendering current classes 
+[23/04/2023 18:06:56] Creating new class 11 
+[23/04/2023 18:06:56] Created new class 11 
+[23/04/2023 18:06:56] Rendering current classes 
+[23/04/2023 18:07:01] Got class info of Grade 11 
+[23/04/2023 18:07:01] students in Grade 11 found 
+[23/04/2023 18:09:09] Got class info of Grade 11 
+[23/04/2023 18:09:09] students in Grade 11 found 
+[23/04/2023 18:09:09] Moved student to alumni class 
+[23/04/2023 18:09:10] Rendering current classes 
+[23/04/2023 18:09:14] Got class info of Grade 11 
+[23/04/2023 18:09:14] students in Grade 11 found 
+[23/04/2023 18:09:14] Moved student to alumni class 
+[23/04/2023 18:09:14] Rendering current classes 
+[23/04/2023 18:10:08] Rendering current classes 
+[23/04/2023 18:10:12] Got class info of Grade 11 
+[23/04/2023 18:10:12] students in Grade 11 found 
+[23/04/2023 18:10:12] Moved student to alumni class 
+[23/04/2023 18:10:12] Rendering current classes 
+[23/04/2023 18:10:19] Creating new class 11 
+[23/04/2023 18:10:19] Created new class 11 
+[23/04/2023 18:10:19] Rendering current classes 
+[23/04/2023 18:10:47] Rendering current classes 
+[23/04/2023 18:12:35] Rendering current classes 
+[23/04/2023 18:13:02] Rendering current classes 
+[23/04/2023 18:13:16] Rendering current classes 
+[23/04/2023 18:13:43] Creating new class 12-A 
+[23/04/2023 18:13:43] Created new class 12-A 
+[23/04/2023 18:13:43] Rendering current classes 
+[23/04/2023 18:13:45] Got class info of Grade 12-A 
+[23/04/2023 18:13:45] students in Grade 12-A found 
+[23/04/2023 18:13:45] Moved student to alumni class 
+[23/04/2023 18:13:45] Rendering current classes 
+[23/04/2023 18:13:58] Creating new class 12-A 
+[23/04/2023 18:13:58] Created new class 12-A 
+[23/04/2023 18:13:58] Rendering current classes 
+[23/04/2023 18:14:06] Creating new class 12-C 
+[23/04/2023 18:14:06] Created new class 12-C 
+[23/04/2023 18:14:06] Rendering current classes 
+[23/04/2023 18:14:10] Got class info of Grade 12-C 
+[23/04/2023 18:14:10] students in Grade 12-C found 
+[23/04/2023 18:14:10] Moved student to alumni class 
+[23/04/2023 18:14:10] Rendering current classes 
+[23/04/2023 18:14:19] Creating new class 12-C 
+[23/04/2023 18:14:19] Created new class 12-C 
+[23/04/2023 18:14:19] Rendering current classes 
+[23/04/2023 18:14:32] Creating new class 12-T 
+[23/04/2023 18:14:32] Created new class 12-T 
+[23/04/2023 18:14:32] Rendering current classes 
+[23/04/2023 18:14:41] Creating new class 12-M 
+[23/04/2023 18:14:41] Created new class 12-M 
+[23/04/2023 18:14:41] Rendering current classes 
+[23/04/2023 18:14:46] Got class info of Grade 12-M 
+[23/04/2023 18:14:46] students in Grade 12-M found 
+[23/04/2023 18:14:46] Moved student to alumni class 
+[23/04/2023 18:14:46] Rendering current classes 
+[23/04/2023 18:15:00] Creating new class 12-M 
+[23/04/2023 18:15:00] Created new class 12-M 
+[23/04/2023 18:15:00] Rendering current classes 
+[23/04/2023 18:31:03] Rendering current classes 
+[23/04/2023 18:31:06] Rendering current classes 
+[23/04/2023 18:31:10] Got class info of Grade 11 
+[23/04/2023 18:31:10] students in Grade 11 found 
+[23/04/2023 18:31:10] Moved student to alumni class 
+[23/04/2023 18:31:10] Rendering current classes 
+[23/04/2023 18:31:17] Rendering current classes 
+[24/04/2023 09:33:24] returned Teacher registration form 
+[24/04/2023 09:35:02] Rendering current classes 
+[24/04/2023 09:37:16] Rendering current classes 
+[24/04/2023 09:37:31] Rendering current classes 
+[24/04/2023 09:37:40] Rendering current classes 
+[24/04/2023 09:37:41] Got class info of Grade 10 
+[24/04/2023 09:37:41] students in Grade 10 found 
+[24/04/2023 09:37:41] Moved student to alumni class 
+[24/04/2023 09:37:41] Rendering current classes 
+[24/04/2023 09:40:37] Rendering current classes 
+[24/04/2023 09:40:43] Creating new class 09 
+[24/04/2023 09:40:43] Created new class 09 
+[24/04/2023 09:40:43] Rendering current classes 
+[24/04/2023 09:40:49] Rendering current classes 
+[24/04/2023 09:41:26] Rendering current classes 
+[24/04/2023 09:41:28] Rendering current classes 
+[24/04/2023 09:41:33] Rendering current classes 
+[24/04/2023 09:43:46] Rendering current classes 
+[24/04/2023 09:43:50] Rendering current classes 
+[24/04/2023 09:43:59] Rendering current classes 
+[24/04/2023 09:44:28] Rendering current classes 
+[24/04/2023 09:44:32] Rendering current classes 
+[24/04/2023 09:45:43] Creating new class 08 
+[24/04/2023 09:45:43] Created new class 08 
+[24/04/2023 09:45:43] Rendering current classes 
+[24/04/2023 09:46:59] Rendering current classes 
+[24/04/2023 09:47:12] Rendering current classes 
+[24/04/2023 10:02:49] Requested Student List 
+[24/04/2023 10:03:07] Requested Student List 
+[24/04/2023 10:06:34] Requested Student List 
+[24/04/2023 10:06:34] Returnng rendered [] 
+[24/04/2023 10:07:54] Requested Student List 
+[24/04/2023 10:07:54] Returnng rendered [] 
+[24/04/2023 10:08:38] returned student registration form 
+[24/04/2023 10:10:08] returned student registration form 
+[24/04/2023 10:10:20] Adding Student with already registered guardian registration 
+[24/04/2023 10:10:20] Got Student data 
+[24/04/2023 10:10:20] Student Instance Dylan Fisher Created 
+[24/04/2023 10:10:20] Parent Instance Mechelle Clarke Jonah Zamora  Created 
+[24/04/2023 10:10:20] Student Instance Dylan Fisher Saved to database 
+[24/04/2023 10:10:20] Parent Instance Mechelle Clarke Jonah Zamora saved to database 
+[24/04/2023 10:10:20] Created student Instance 
+[24/04/2023 10:13:06] login successfull 491 
+[24/04/2023 10:13:07] getting deltails of 491 
+[24/04/2023 10:13:07] returning deltails of 491 
+[24/04/2023 10:17:13] returned student registration form 
+[24/04/2023 10:25:24] returned student registration form 
+[24/04/2023 10:25:47] Adding Student with already registered guardian registration 
+[24/04/2023 10:25:47] Got Student data 
+[24/04/2023 10:27:03] Adding Student with already registered guardian registration 
+[24/04/2023 10:27:03] Got Student data 
+[24/04/2023 10:27:57] Adding Student with already registered guardian registration 
+[24/04/2023 10:27:57] Got Student data 
+[24/04/2023 10:28:54] Adding Student with already registered guardian registration 
+[24/04/2023 10:28:54] Got Student data 
+[24/04/2023 10:31:39] returned student registration form 
+[24/04/2023 10:31:55] Adding Student with already registered guardian registration 
+[24/04/2023 10:31:55] Got Student data 
+[24/04/2023 10:34:17] Adding Student with already registered guardian registration 
+[24/04/2023 10:34:17] Got Student data 
+[24/04/2023 10:34:43] Adding Student with already registered guardian registration 
+[24/04/2023 10:34:43] Got Student data 
+[24/04/2023 10:35:11] Adding Student with already registered guardian registration 
+[24/04/2023 10:35:11] Got Student data 
+[24/04/2023 10:35:11] Student Instance Farrah Morin Created 
+[24/04/2023 10:35:11] Parent Instance Seth Hayden Ila Wise  Created 
+[24/04/2023 10:35:11] Student Instance Farrah Morin Saved to database 
+[24/04/2023 10:35:11] Parent Instance Seth Hayden Ila Wise saved to database 
+[24/04/2023 10:35:11] Created student Instance 
+[24/04/2023 10:36:04] returned student registration form 
+[24/04/2023 10:36:13] Adding Student with already registered guardian registration 
+[24/04/2023 10:36:13] Got Student data 
+[24/04/2023 10:36:13] Student Instance Porter Prince Created 
+[24/04/2023 10:36:13] Parent Instance Thor Hardy Minerva Goodman  Created 
+[24/04/2023 10:36:13] Student Instance Porter Prince Saved to database 
+[24/04/2023 10:36:13] Parent Instance Thor Hardy Minerva Goodman saved to database 
+[24/04/2023 10:36:13] Created student Instance 
+[24/04/2023 10:43:23] Login Credentials Error 
+[24/04/2023 10:43:47] login successfull 491 
+[24/04/2023 10:43:47] getting deltails of 491 
+[24/04/2023 10:43:47] returning deltails of 491 
+[24/04/2023 10:47:32] returned student registration form 
+[24/04/2023 10:47:52] Adding Student with already registered guardian registration 
+[24/04/2023 10:47:52] Got Student data 
+[24/04/2023 10:48:32] returned student registration form 
+[24/04/2023 10:48:45] Adding Student with already registered guardian registration 
+[24/04/2023 10:48:45] Got Student data 
+[24/04/2023 10:48:45] Student Instance Len Williamson Created 
+[24/04/2023 10:48:45] Parent Instance Noble Peters Jackson Walton  Created 
+[24/04/2023 10:48:45] Student Instance Len Williamson Saved to database 
+[24/04/2023 10:48:45] Parent Instance Noble Peters Jackson Walton saved to database 
+[24/04/2023 10:48:45] Created student Instance 
+[24/04/2023 10:49:07] login successfull 419 
+[24/04/2023 10:49:07] getting deltails of 419 
+[24/04/2023 10:49:07] returning deltails of 419 
+[24/04/2023 11:03:38] getting deltails of 419 
+[24/04/2023 11:03:38] returning deltails of 419 
+[24/04/2023 11:09:14] Requested Student List 
+[24/04/2023 11:09:14] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:25] Requested Student List 
+[24/04/2023 11:09:25] Returnng JSON of [{'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:27] Requested Student List 
+[24/04/2023 11:09:27] Returnng JSON of [] 
+[24/04/2023 11:09:29] Requested Student List 
+[24/04/2023 11:09:29] Returnng JSON of [{'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:31] Requested Student List 
+[24/04/2023 11:09:31] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}] 
+[24/04/2023 11:09:34] Requested Student List 
+[24/04/2023 11:09:34] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:36] Requested Student List 
+[24/04/2023 11:09:36] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:36] Requested Student List 
+[24/04/2023 11:09:36] Returnng JSON of [{'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:39] Requested Student List 
+[24/04/2023 11:09:39] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:39] Requested Student List 
+[24/04/2023 11:09:39] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:42] Requested Student List 
+[24/04/2023 11:09:42] Returnng JSON of [{'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:42] Requested Student List 
+[24/04/2023 11:09:42] Returnng JSON of [] 
+[24/04/2023 11:09:43] Requested Student List 
+[24/04/2023 11:09:43] Returnng JSON of [{'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:43] Requested Student List 
+[24/04/2023 11:09:43] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:44] Requested Student List 
+[24/04/2023 11:09:44] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:15:11] Requested Teacher List 
+[24/04/2023 11:15:11] Returnng rendered [] 
+[24/04/2023 11:15:32] Requested Teacher List 
+[24/04/2023 11:15:32] Returnng rendered [] 
+[24/04/2023 11:15:46] Requested Teacher List 
+[24/04/2023 11:15:46] Returnng rendered [] 
+[24/04/2023 11:15:50] Requested Teacher List 
+[24/04/2023 11:15:50] Returnng rendered [] 
+[24/04/2023 11:16:06] Requested Teacher List 
+[24/04/2023 11:16:06] Returnng rendered [] 
+[24/04/2023 11:16:20] Requested Teacher List 
+[24/04/2023 11:16:20] Returnng rendered [] 
+[24/04/2023 11:16:35] Requested Teacher List 
+[24/04/2023 11:16:35] Returnng rendered [] 
+[24/04/2023 11:17:01] Requested Teacher List 
+[24/04/2023 11:17:01] Returnng rendered [] 
+[24/04/2023 11:17:34] returned Teacher registration form 
+[24/04/2023 11:17:57] Teacher registration 
+[24/04/2023 11:17:57] Teacher Instance TeacherInfo object (None) Created 
+[24/04/2023 11:17:57] Teacher Instance TeacherInfo object (1) Saved to database 
+[24/04/2023 11:17:57] Created teacher Instance 
+[24/04/2023 11:19:18] Teacher registration 
+[24/04/2023 11:19:37] returned Teacher registration form 
+[24/04/2023 11:19:41] Teacher registration 
+[24/04/2023 11:19:41] Teacher Instance TeacherInfo object (None) Created 
+[24/04/2023 11:19:41] Teacher Instance TeacherInfo object (2) Saved to database 
+[24/04/2023 11:19:41] Created teacher Instance 
+[24/04/2023 11:20:49] Teacher registration 
+[24/04/2023 11:20:53] returned Teacher registration form 
+[24/04/2023 11:20:58] Teacher registration 
+[24/04/2023 11:20:58] Teacher Instance TeacherInfo object (None) Created 
+[24/04/2023 11:20:58] Teacher Instance TeacherInfo object (3) Saved to database 
+[24/04/2023 11:20:58] Created teacher Instance 
+[24/04/2023 11:21:17] Requested Teacher List 
+[24/04/2023 11:21:17] Returnng rendered [{'nic': '12344323', 'teacher_name': 'Simon Avila'}, {'nic': 'Velit minima ut sed ', 'teacher_name': 'Halee Hill'}, {'nic': 'Officia aut sint qui', 'teacher_name': 'Moses Scott'}] 
+[24/04/2023 15:38:53] Requested Teacher List 
+[24/04/2023 15:38:53] Returnng rendered [{'nic': '12344323', 'teacher_name': 'Simon Avila'}, {'nic': 'Velit minima ut sed ', 'teacher_name': 'Halee Hill'}, {'nic': 'Officia aut sint qui', 'teacher_name': 'Moses Scott'}] 
+[24/04/2023 15:39:24] Username/Student not found 
+[24/04/2023 15:39:29] teacher login successfull 12344323 
+[24/04/2023 15:39:30] getting deltails of 12344323 
+[24/04/2023 15:39:30] returning deltails of 12344323 
+[24/04/2023 15:44:34] getting deltails of 12344323 
+[24/04/2023 15:44:34] returning deltails of 12344323 
+[24/04/2023 15:46:55] Login Credentials Error 
+[24/04/2023 15:47:02] teacher login successfull 12344323 
+[24/04/2023 15:47:02] getting deltails of 12344323 
+[24/04/2023 15:47:02] returning deltails of 12344323 
+[24/04/2023 15:47:12] Requested Student List 
+[24/04/2023 15:47:12] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 15:47:41] Requested Student List 
+[24/04/2023 15:47:41] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 15:50:37] teacher login successfull 12344323 
+[24/04/2023 15:50:38] getting deltails of 12344323 
+[24/04/2023 15:50:38] returning deltails of 12344323 
+[24/04/2023 15:55:20] getting deltails of 491 
+[24/04/2023 15:55:41] Requested Student List 
+[24/04/2023 15:55:41] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 15:55:44] getting deltails of 491 
+[24/04/2023 15:55:57] getting deltails of 380 
+[24/04/2023 15:57:34] getting deltails of 319 
+[24/04/2023 15:57:39] getting deltails of 419 
+[24/04/2023 15:57:39] returning deltails of 419 
+[24/04/2023 16:15:57] getting deltails of 419 
+[24/04/2023 16:15:57] returning deltails of 419 
+[24/04/2023 16:23:02] Requested Teacher List 
+[24/04/2023 16:23:02] Returnng rendered [{'nic': '12344323', 'teacher_name': 'Simon Avila'}, {'nic': 'Velit minima ut sed ', 'teacher_name': 'Halee Hill'}, {'nic': 'Officia aut sint qui', 'teacher_name': 'Moses Scott'}] 
+[24/04/2023 16:23:05] getting deltails of 12344323 
+[24/04/2023 16:23:05] returning deltails of 12344323 
+[24/04/2023 16:24:21] getting deltails of 12344323 
+[24/04/2023 16:24:21] returning deltails of 12344323 
+[25/04/2023 08:02:19] returned student registration form 
+[25/04/2023 08:02:51] returned student registration form 
+[25/04/2023 08:02:56] returned student registration form 
+[25/04/2023 08:33:46] returned student registration form 
+[25/04/2023 08:34:08] returned student registration form 
+[25/04/2023 08:36:17] returned student registration form 
+[25/04/2023 08:37:24] returned student registration form 
+[25/04/2023 08:37:40] returned student registration form 
+[25/04/2023 08:37:55] returned student registration form 
+[25/04/2023 08:38:22] returned student registration form 
+[26/04/2023 14:11:37] returned student registration form 
+[26/04/2023 14:13:25] returned student registration form 
+[26/04/2023 14:13:58] returned student registration form 
+[26/04/2023 14:14:20] returned student registration form 
+[26/04/2023 14:14:55] returned student registration form 
+[26/04/2023 14:14:59] Adding Student with already registered guardian registration 
+[26/04/2023 14:15:17] Adding Student with already registered guardian registration 
+[26/04/2023 14:15:17] Got Student data 
+[26/04/2023 14:15:47] Adding Student with already registered guardian registration 
+[26/04/2023 14:15:47] Got Student data 
+[26/04/2023 14:15:47] Student Instance Bernard White Created 
+[26/04/2023 14:15:47] Parent Instance Aurora Hammond Pamela Hanson  Created 
+[26/04/2023 14:15:47] Student Instance Bernard White Saved to database 
+[26/04/2023 14:15:47] Parent Instance Aurora Hammond Pamela Hanson saved to database 
+[26/04/2023 14:15:47] Created student Instance 
+[26/04/2023 14:15:48] getting deltails of 455 
+[26/04/2023 14:15:48] returning deltails of 455 
+[26/04/2023 14:16:24] Rendering current classes 
+[26/04/2023 14:19:32] Creating new class 13-A 
+[26/04/2023 14:19:32] Created new class 13-A 
+[26/04/2023 14:19:32] Rendering current classes 
+[26/04/2023 14:19:40] Creating new class 13-C 
+[26/04/2023 14:19:40] Created new class 13-C 
+[26/04/2023 14:19:40] Rendering current classes 
+[26/04/2023 14:19:49] Creating new class 13-M 
+[26/04/2023 14:19:49] Created new class 13-M 
+[26/04/2023 14:19:49] Rendering current classes 
+[26/04/2023 14:20:01] Creating new class 13-T 
+[26/04/2023 14:20:01] Created new class 13-T 
+[26/04/2023 14:20:01] Rendering current classes 
+[26/04/2023 14:33:00] returned student registration form 
+[26/04/2023 14:33:08] returned student registration form 
+[26/04/2023 14:34:08] Requested Student List 
+[26/04/2023 14:34:08] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}, {'index_number': '455', 'student_name': 'Bernard White', 'class': 'Grade 11'}] 
+[26/04/2023 14:34:17] getting deltails of 491 
+[26/04/2023 14:34:40] Requested Student List 
+[26/04/2023 14:34:40] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}, {'index_number': '455', 'student_name': 'Bernard White', 'class': 'Grade 11'}] 
+[26/04/2023 14:34:43] returned student registration form 
+[26/04/2023 14:34:56] returned student registration form 
+[26/04/2023 14:35:14] returned student registration form 
+[26/04/2023 14:37:51] returned student registration form 

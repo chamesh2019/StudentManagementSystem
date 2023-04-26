@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Add</title>
+    <link rel="icon" type="image/jpg" href="/static/title_img.jpg"/>
+    <link rel="stylesheet" href="/static/l_show.css">
+</head>
+<body>
+    <header>
+        <div class="_headertop">
+            <ul>
+                <li> <a href="https://www.facebook.com/profile.php?id=100057257059392&mibextid=ZbWKwL">
+                    <img src="/static/fbicon.png" height="25px" width="25px">
+                </a>
+                <li><b>Tel :</b> 037 54 26 587   </li>                    
+                <li><b>Email :</b>Palugahawanguwacollage@gmail.com</li> 
+                
+        </ul>
+        <ol>
+            <li><li><b>Support :</b> abc@gmail.com</li></li>
+        </ol>
+        
+    </div>
+    </header>
+
+    <div class="content">
+
+        <h2>Student Foarm</h2>
+        <br><br><br>
+        <form enctype="multipart/form-data" action="" method="post">
+          {% csrf_token %}
+            <p>Index Number:</p>
+            <input type="text" name="student_index_number" placeholder="Index Number" class="input-field" required><br>
+            
+            <p>Full Name</p>
+            <input type="text" name="student_full_name" placeholder="Full Name" class="input-field" required><br>
+            
+            <p>Name With Initials</p>
+            <input type="text" name="student_name_with_initials" placeholder="name_with_initials" class="input-field" required><br>
+            
+            <p>Date Of Birth</p>
+            <input type="date" name="student_date_of_birth" placeholder="date_of_birth" class="input-field" required><br>
+            <br>
+
+            <p>Gender:</p>
+            <div class="radio-group">
+              <label for="male" class="radio-button">
+                <input type="radio" id="male" name="student_gender" value="M">
+                male
+              </label>
+              <label for="female" class="radio-button">
+                <input type="radio" id="female" name="student_gender" value="F">
+                female
+              </label>
+            </div>
+
+            <p>Enrolled Date</p>
+            <input type="date" name="enrolled_date" placeholder="enrolled_date" class="input-field" required><br>
+
+            <p>Address</p>
+            <input type="address" name="student_address" placeholder="address" class="input-field" required><br>
+
+            <p>Profile Image:</p>
+            <input type="file" name="profile" required>
+
+            <p>Special Notes</p>
+            <textarea id="special_notes" name="student_special_notes" name="message" rows="4"></textarea>
+
+            <p>Class Info:</p>
+            <select id="class_info" name="class_info">
+                {% for class_info in current_classes %}
+                <option value={{class_info.id}}>Grade {{class_info.class_name}}</option>
+                {% endfor %}
+            </select>
+            <br>
+
+            <details>
+                <summary>Mother Info</summary>
+                <p>Mother Name:</p>
+                <input type="address" name="mother_name" placeholder="mother_name" class="input-field" required><br>
+                <p>Mother NIC:</p>
+                <input type="text" name="mother_nic" placeholder="mother_nic" class="input-field" required><br>
+                <p>Mother Date Of Birth:</p>
+                <input type="date" name="mother_dob" placeholder="mother_dob" class="input-field" required><br>
+                <p>Mother Job:</p>
+                <input type="text" name="mother_job" placeholder="mother_job" class="input-field" required><br>
+                <p>Mother Status:</p>
+                <select id="mother_status" name="mother_status">
+                  <option value="A">Alive</option>
+                  <option value="D">Passed Away</option>
+                </select>
+                <p>Mother Special Notes</p>
+                <textarea id="mother_special_notes" name="mother_special_notes" rows="4"></textarea>
+            </details>
+            <br>
+
+            <details>
+                <summary>Father Info</summary>
+                <p>Father Name:</p>
+                <input type="address" name="father_name" placeholder="father_name" class="input-field" required><br>
+                <p>Father NIC:</p>
+                <input type="text" name="father_nic" placeholder="father_nic" class="input-field" required><br>
+                <p>Father Date Of Birth:</p>
+                <input type="date" name="father_dob" placeholder="father_dob" class="input-field" required><br>
+                <p>Father Job:</p>
+                <input type="text" name="father_job" placeholder="father_job" class="input-field" required><br>
+                <p>Father Status:</p>
+                <select id="father_status" name="father_status">
+                  <option value="A">Alive</option>
+                  <option value="D">Passed Away</option>
+                </select>
+                <p>Father Special Notes</p>
+                <textarea id="father_special_notes" name="father_special_notes" rows="4"></textarea>
+                
+                
+
+            </details>
+          </br>
+          </form>
+    </div>
+
+
+    <footer>
+        <hr>
+        <h5>&copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b></h5>
+       
+    </footer> 
+    
+</body>
+</html>

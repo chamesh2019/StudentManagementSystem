@@ -78,40 +78,27 @@
 
   <table class="my-table" border="1">
     <colgroup>
-      <col span="1" style="width: 25%;">
-      <col span="1" style="width: 55%;">
-      <col span="1" style="width: 20%;">
+      <col span="1" style="width: 30%;">
+      <col span="1" style="width: 70%;">
     </colgroup>
     <thead>
       <tr>
-        <td><b>Index Number</b></td>
+        <td><b>NIC</b></td>
         <td><b>Full Name</b></td>
-        <td><b>Grade</b></td>
       </tr>
     </thead>
     <tr>
       <td><input type="number" name="integerInput"  id="index_number"></td>
       <td><input type="text" name="charInput" id="student_name"></td>
-      <td>
-        <select id="grade" onchange="changeGrade()">
-          <option value="all">All</option>
-          {% for class_info in current_classes %}
-          <option value={{class_info.id}}>Grade {{class_info.class_name}}</option>
-          {% endfor %}
-        </select>
-      </td>
     </tr>
     <tbody>
-      {% for student in students %}
+      {% for teacher in teachers %}
       <tr>
         <td>
-          {{ student.index_number }}
+          {{ teacher.nic }}
         </td>
         <td>
-          <a href="/students/{{ student.index_number }}">{{ student.student_name }}</a>
-        </td>
-        <td>
-          {{ student.class }}
+          <a href="/teachers/{{ teacher.nic }}">{{ teacher.teacher_name }}</a>
         </td>
       </tr>
       </div>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subjects</title>
+
+</head>
+
+<body>
+    <table border="1">
+        <th>Subject Name</th><th>Range</th>
+        {% for subject_info in current_subjects %}
+        <tr>
+            <td>{{subject_info.subject}}</td><td>{{subject_info.range}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>

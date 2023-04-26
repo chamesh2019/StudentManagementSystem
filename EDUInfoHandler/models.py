@@ -2,7 +2,11 @@ from django.db import models
 
 class ClassInfo(models.Model):
     class_name = models.CharField(max_length=10)  # 8-B, 10-A
+    class_type = models.CharField(max_length=10) # 6-9 10-11 12-13
     visibility = models.BooleanField(default=True)
+    
+    def __str__(self) -> str:
+        return self.class_name
     
 class SubjectInfo(models.Model):
     subject = models.CharField(max_length=50)  # English
@@ -10,6 +14,9 @@ class SubjectInfo(models.Model):
     bucket = models.BooleanField()
     bucket_subjects = models.CharField(max_length=100)
     visibility = models.BooleanField(default=True)
+    
+    def __str__(self) -> str:
+        return self.subject + " " + self.range
     
 class ExamInfo(models.Model):
     exam = models.CharField(max_length=100) 
@@ -19,15 +26,25 @@ class ExamInfo(models.Model):
     year = models.IntegerField()
     marks = models.IntegerField()
     
+    def __str__(self) -> str:
+        return f'{self.exam} {self.subject} {self.month} {self.year}'
+    
 
 class Attendance(models.Model):
     student = models.ForeignKey('StudentInfoHandler.StudentInfo', on_delete=models.CASCADE)
     date = models.DateField(auto_now=True)
     intime = models.CharField(max_length=50)
     outtime = models.CharField(max_length=50, default=None)
+    
+    def __str__(self) -> str:
+        return f'{self.student} {self.date}'
+    
 
-class LoginKeys(models.Model):
+class LoginKey(models.Model):
     key = models.CharField(max_length=255)
     date = models.CharField(max_length=20)
     acc_type = models.CharField(max_length=25)
     identifier = models.IntegerField(default=0)
+    
+    def __str__(self) -> str:
+        return str(self.identifier)

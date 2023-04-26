@@ -10,9 +10,8 @@ import qrcode
 from qrcode.image.pure import PyPNGImage
 from manage import log_file
 
-from EDUInfoHandler.models import ClassInfo, LoginKeys, Attendance
+from EDUInfoHandler.models import ClassInfo, LoginKey, Attendance
 from .models import StudentInfo, ParentInfo
-
 
 class StudentAdd(View):
     '''Render student registration form on GET, validate data and insert into database'''
@@ -20,10 +19,13 @@ class StudentAdd(View):
     def get(self, request):
         log_file("returned student registration form")
         current_classes = ClassInfo.objects.all().order_by('class_name')
-        return render(request, template_name="add_student_form.html", context={'current_classes': current_classes})
+        if request.is_mobile:
+            return render(request, template_name="student_form_mobile.html", context={'current_classes': current_classes})
+        return render(request, template_name="student_form_pc.html", context={'current_classes': current_classes})
 
     def post(self, request):
         data = request.POST
+        print(data)
         log_file('Adding Student with already registered guardian registration')
         student_index_number = data['student_index_number']
         student_full_name = data['student_full_name']
@@ -45,7 +47,12 @@ class StudentAdd(View):
         father_special_notes = data['father_special_notes']
 
         log_file('Got Student data')
-
+        print(request.FILES)
+        profile = request.FILES["profile"]
+        with open(f"StudentInfoHandler/static/{student_index_number}.jpg", "wb+") as destination:
+            for chunk in profile.chunks():
+                destination.write(chunk)
+                
         img = qrcode.make(str(student_index_number),
                             image_factory=PyPNGImage)
         buffer = io.BytesIO()
@@ -107,14 +114,15 @@ class StudentView(View):
     '''Render student info on GET request'''
 
     def get(self, request, student_index_number):
-        logged_in = [auth for auth in LoginKeys.objects.all()]
+        logged_in = [auth for auth in LoginKey.objects.all()]
         try:
             auth_key = request.session['auth_key']
         except:
             return redirect("HomepageView")
         
-        if not auth_key in [auth.key for auth in logged_in if auth.identifier==int(student_index_number)] or LoginKeys.objects.get(key=auth_key).acc_type=="t":
-            return redirect("HomepageView")
+        if not (auth_key in [auth.key for auth in logged_in if auth.identifier==student_index_number]):
+            if not LoginKey.objects.get(key=auth_key).acc_type=="t":
+                return redirect("HomepageView")
         
         log_file(f"getting deltails of {student_index_number}")
         student_instance = get_object_or_404(
@@ -173,7 +181,7 @@ class StudentListView(View):
             log_file(f'Returnng JSON of {return_data}')
             return JsonResponse(return_data, safe=False)
         log_file(f'Returnng rendered {return_data}')
-        return render(request, template_name="all_students_admin.html", context={
+        return render(request, template_name="all_students_admin_pc.html", context={
             'students': return_data,
             'current_classes': ClassInfo.objects.all().order_by('class_name')
             })
