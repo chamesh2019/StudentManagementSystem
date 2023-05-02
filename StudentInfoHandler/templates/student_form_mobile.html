@@ -13,7 +13,8 @@
 
             <h2>Student Foarm</h2>
             <br><br><br>
-
+            <form enctype="multipart/form-data" action="" method="post">
+                {% csrf_token %}
                 <p>Index Number:</p>
                 <input type="text" name="student_index_number" placeholder="index_number" class="input-field" required><br>
                 
@@ -107,9 +108,9 @@
                 
 
                 
+                <input type="submit" class="submit"><br>
 
-
-            
+            </form>
 
 
 

@@ -1180,3 +1180,58 @@
 [26/04/2023 14:34:56] returned student registration form 
 [26/04/2023 14:35:14] returned student registration form 
 [26/04/2023 14:37:51] returned student registration form 
+[26/04/2023 14:44:39] returned student registration form 
+[26/04/2023 14:45:23] returned student registration form 
+[26/04/2023 14:46:32] returned student registration form 
+[26/04/2023 14:46:39] returned student registration form 
+[26/04/2023 14:57:14] returned student registration form 
+[26/04/2023 14:57:43] returned student registration form 
+[26/04/2023 14:57:50] returned student registration form 
+[26/04/2023 14:59:01] returned student registration form 
+[26/04/2023 14:59:08] returned student registration form 
+[26/04/2023 14:59:19] returned student registration form 
+[26/04/2023 14:59:58] returned student registration form 
+[26/04/2023 15:01:37] Rendering current classes 
+[26/04/2023 15:04:18] returned student registration form 
+[26/04/2023 15:04:44] Adding Student with already registered guardian registration 
+[26/04/2023 15:04:44] Got Student data 
+[26/04/2023 15:04:44] Student Instance Ella Dodson Created 
+[26/04/2023 15:04:44] Parent Instance Larissa Avery Unity Delgado  Created 
+[26/04/2023 15:04:44] Student Instance Ella Dodson Saved to database 
+[26/04/2023 15:04:44] Parent Instance Larissa Avery Unity Delgado saved to database 
+[26/04/2023 15:04:44] Created student Instance 
+[26/04/2023 15:04:44] getting deltails of 199 
+[26/04/2023 15:04:44] returning deltails of 199 
+[01/05/2023 01:42:54] Rendering current subjects 
+[01/05/2023 02:35:29] Rendering current classes 
+[01/05/2023 02:35:36] Creating new class 06 
+[01/05/2023 02:35:37] Created new class 06 
+[01/05/2023 02:35:37] Rendering current classes 
+[01/05/2023 02:38:19] Username/Student not found 
+[01/05/2023 02:38:28] Username/Student not found 
+[01/05/2023 02:39:44] Username/Student not found 
+[01/05/2023 02:40:20] Username/Student not found 
+[01/05/2023 02:41:11] returned Teacher registration form 
+[01/05/2023 02:41:28] Teacher registration 
+[01/05/2023 02:42:12] returned Teacher registration form 
+[01/05/2023 02:42:39] Teacher registration 
+[01/05/2023 02:42:43] returned Teacher registration form 
+[01/05/2023 02:44:31] returned Teacher registration form 
+[01/05/2023 02:44:42] Teacher registration 
+[01/05/2023 02:44:42] Teacher Instance TeacherInfo object (None) Created 
+[01/05/2023 02:44:42] Teacher Instance TeacherInfo object (2) Saved to database 
+[01/05/2023 02:44:42] Created teacher Instance 
+[01/05/2023 02:44:57] returned Teacher registration form 
+[01/05/2023 02:45:08] Teacher registration 
+[01/05/2023 02:45:44] Teacher registration 
+[01/05/2023 02:45:44] Teacher Instance TeacherInfo object (None) Created 
+[01/05/2023 02:45:44] Teacher Instance TeacherInfo object (3) Saved to database 
+[01/05/2023 02:45:44] Created teacher Instance 
+[01/05/2023 02:48:10] Login Credentials Error 
+[01/05/2023 02:48:27] Login Credentials Error 
+[01/05/2023 02:48:49] Username/Student not found 
+[01/05/2023 02:49:00] Username/Student not found 
+[01/05/2023 02:50:30] teacher login successfull 12341234 
+[01/05/2023 02:50:31] getting deltails of 12341234 
+[01/05/2023 02:52:46] getting deltails of 12341234 
+[01/05/2023 02:52:46] returning deltails of 12341234 

@@ -87,8 +87,11 @@ class TeacherAdd(View):
 class TeacherView(View):
     def get(self, request, nic):
         logged_in = [auth for auth in LoginKey.objects.all()]
-        if not request.session['auth_key'] \
-            in [auth.key for auth in logged_in if auth.identifier==int(nic)]:
+        try:
+            if not request.session['auth_key'] \
+                in [auth.key for auth in logged_in if auth.identifier==int(nic)]:
+                return redirect("HomepageView")
+        except:
             return redirect("HomepageView")
         log_file(f"getting deltails of {nic}")
         teacher_instance = get_object_or_404(TeacherInfo, nic=nic)

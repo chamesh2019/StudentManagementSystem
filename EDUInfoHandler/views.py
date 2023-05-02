@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views import View
 from django.shortcuts import redirect, get_object_or_404, HttpResponse
+from django.http import JsonResponse
 from django.db.models.functions import Length
 
 from StudentInfoHandler.models import StudentInfo, ParentInfo
@@ -155,7 +156,10 @@ class HomepageView(View):
                     return render(request, template_name="homepage.html", context={
                         'text': 'Login Credentials Error'
                     })
-                LoginKey.objects.get(identifier=username).delete()
+                try:
+                    LoginKey.objects.get(identifier=username).delete()
+                except:
+                    pass
                 auth_key = LoginKey(key=str(uuid.uuid4()),
                                  date=datetime.now(), acc_type="t", identifier=username)
                 auth_key.save()
@@ -187,7 +191,26 @@ class HomepageView(View):
 
 class AddMarks(View):
     def get(self, request):
-        current_classes = ClassInfo.objects.filter(visibility=True)
-        current_subjects = SubjectInfo.objects.all(visibility=True)
-        return render()
+        data = request.GET
+        if data.get('stream') and data.get('data'):
+            current_subjects = SubjectInfo.objects.filter(range=data.get('stream'), vis=True)
+            current_classes = ClassInfo.objects.filter(class_type=data.get('stream'))
+            classes = []
+            for class_info in current_classes:
+                classes.append({
+                    "class_id" : class_info.pk,
+                    "class_name" : class_info.class_name
+                })
+            subjects = []
+            for subject_info in current_subjects:
+                subjects.append({
+                    "subjectID": subject_info.pk,
+                    "subject": subject_info.subject
+                })
+            return_data = {
+                "classes": classes,
+                "subjects": subjects
+            }
+            return JsonResponse(return_data)
+        return render(request, template_name="add_marks.html")
 

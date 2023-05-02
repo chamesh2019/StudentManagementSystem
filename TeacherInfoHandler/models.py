@@ -1,6 +1,4 @@
 from django.db import models
-from EDUInfoHandler.models import ClassInfo
-
 
 class TeacherInfo(models.Model):
     full_name = models.CharField(max_length=255)
@@ -15,7 +13,7 @@ class TeacherInfo(models.Model):
     special_notes = models.JSONField()
     address = models.TextField()
     contact_number = models.CharField(max_length=12)
-    enrolled_date = models.DateField(auto_now=False)
+    enrolled_date = models.DateField(auto_now=False) # type: ignore
     started_date = models.DateField(auto_now=False)
-    class_info = models.ForeignKey(ClassInfo, on_delete=models.DO_NOTHING)
+    class_info = models.ForeignKey('EDUInfoHandler.ClassInfo', on_delete=models.DO_NOTHING)
     subjects = models.CharField(max_length=50) # sub id 1,2,3,4

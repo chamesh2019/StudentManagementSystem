@@ -11,9 +11,7 @@ class StudentInfo(models.Model):
     enrolled_date = models.CharField(max_length=20)
     address = models.TextField()
     special_notes = models.TextField()
-    class_info = models.ForeignKey(
-        'EDUInfoHandler.ClassInfo', on_delete=models.CASCADE
-        )
+    class_info = models.ForeignKey('EDUInfoHandler.ClassInfo', on_delete=models.CASCADE)
     buckets = models.CharField(max_length=20, default="")
     RFID_key = models.TextField()
     

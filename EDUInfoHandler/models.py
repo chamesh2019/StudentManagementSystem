@@ -12,8 +12,8 @@ class SubjectInfo(models.Model):
     subject = models.CharField(max_length=50)  # English
     range = models.CharField(max_length=10) # 6-9 10-11 12-13 other for buckets
     bucket = models.BooleanField()
+    vis = models.BooleanField(default=True)
     bucket_subjects = models.CharField(max_length=100)
-    visibility = models.BooleanField(default=True)
     
     def __str__(self) -> str:
         return self.subject + " " + self.range

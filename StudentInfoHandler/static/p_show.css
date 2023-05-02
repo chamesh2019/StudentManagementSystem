@@ -141,15 +141,6 @@ form {
     backdrop-filter: blur(12px);
    }
 
-   footer {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    font-size: 16px;
-  }
   
   footer div:first-child {
     margin-bottom: 10px;
@@ -170,10 +161,9 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    font-size: 14px;
-    margin-top: auto;
-    margin-bottom: 0px;
+    padding: 20px 0;
+    font-size: 16px;
+
   }
   
 
@@ -188,7 +178,10 @@ form {
   }
 
   hr {
-    border-top: 1px solid white;
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-top: 2px solid #ccc;
   }
   img {
     width: 25px;
@@ -202,5 +195,25 @@ form {
     border-radius: 20px;
     text-transform: uppercase;
     font-weight: bold;
+    text-decoration: none;
+  }
+  
+
+  .submit {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    width: 100px;
+    margin-left: 10px;
+    
+  }
+  
+  .submit:hover {
+    background-color: #3e8e41;
   }
   
