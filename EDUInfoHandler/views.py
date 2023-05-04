@@ -175,6 +175,10 @@ class HomepageView(View):
                 return render(request, template_name="homepage.html", context={
                     'text': 'Login Credentials Error'
                 })
+            try:
+                LoginKey.objects.get(identifier=username).delete()
+            except:
+                pass
             auth_key = LoginKey(key=str(uuid.uuid4()),
                                  date=datetime.now(), acc_type="s", identifier=username)
             auth_key.save()
@@ -187,30 +191,3 @@ class HomepageView(View):
             return render(request, template_name="homepage.html", context={
                 'text': 'Username/Student not found'
             })
-
-
-class AddMarks(View):
-    def get(self, request):
-        data = request.GET
-        if data.get('stream') and data.get('data'):
-            current_subjects = SubjectInfo.objects.filter(range=data.get('stream'), vis=True)
-            current_classes = ClassInfo.objects.filter(class_type=data.get('stream'))
-            classes = []
-            for class_info in current_classes:
-                classes.append({
-                    "class_id" : class_info.pk,
-                    "class_name" : class_info.class_name
-                })
-            subjects = []
-            for subject_info in current_subjects:
-                subjects.append({
-                    "subjectID": subject_info.pk,
-                    "subject": subject_info.subject
-                })
-            return_data = {
-                "classes": classes,
-                "subjects": subjects
-            }
-            return JsonResponse(return_data)
-        return render(request, template_name="add_marks.html")
-

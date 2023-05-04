@@ -1,4 +1,4 @@
-
+import json
 from django.db import models
 
 
@@ -17,6 +17,27 @@ class StudentInfo(models.Model):
     
     def __str__(self) -> str:
         return self.full_name
+        
+    def get_subjects(self, SubjectInfo):
+        bucket = json.loads(self.buckets)
+        if "12-13" in bucket.keys():
+            selected_subjects = [SubjectInfo.objects.get(pk=int(id)) for id in bucket["12-13"].split(",")]
+        else:
+            selected_subjects = [SubjectInfo.objects.get(pk=list(s.values())[0]) for s in bucket["other"]]
+        return selected_subjects
+    
+    @staticmethod
+    def set_subjects(student_class, data):
+        if student_class.class_type == "12-13":
+            bucket = {"12-13" : f"{data['subject1']},{data['subject2']},{data['subject3']}"}
+        else:
+            bucket_id = data["bucket_id%22"]
+            bucket = []
+            for id in bucket_id.split(","):
+                bucket.append({id : data[id]})
+            bucket = {"other": bucket}
+            
+        return json.dumps(bucket)
 
 class ParentInfo(models.Model):
     student_index_number = models.OneToOneField(StudentInfo, on_delete=models.CASCADE, primary_key=True)

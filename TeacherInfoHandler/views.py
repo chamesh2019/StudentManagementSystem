@@ -12,6 +12,7 @@ from EDUInfoHandler.models import ClassInfo, LoginKey, SubjectInfo
 
 from manage import log_file
 from .models import TeacherInfo
+from StudentInfoHandler.models import StudentInfo
 
 class TeacherAdd(View):
     '''Render Teacher registration form on GET, validate data and insert into database'''
@@ -19,7 +20,20 @@ class TeacherAdd(View):
     def get(self, request):
         log_file("returned Teacher registration form")
         current_classes = ClassInfo.objects.all().order_by('class_name')
-        return render(request, template_name="add_teacher_form.html", context={'current_classes': current_classes})
+        middle_subjects = SubjectInfo.objects.filter(range="6-9")
+        o_level_subjects = SubjectInfo.objects.filter(range="10-11")
+        a_level_subjects = SubjectInfo.objects.filter(range="12-13")
+        print(o_level_subjects)
+        page_context={
+            'current_classes': current_classes,
+            "middle_subjects": middle_subjects,
+            "o_level_subjects": o_level_subjects,
+            "a_level_subjects": a_level_subjects
+        }
+        
+        if request.is_mobile:
+            return HttpResponse("Please use a Computer to see this page")
+        return render(request, template_name="teacher_form_pc.html", context=page_context)
 
     def post(self, request):
         data = request.POST
@@ -39,8 +53,10 @@ class TeacherAdd(View):
             enrolled_date = data['enrolled_date']
             started_date = data['started_date']
             class_info = data['class_info']
+            teacher_grade = data['teacher_grade']
+            subjects = data["selected_subjects"]
         except:
-            return HttpResponse("An Error ocurred when creating teacher info")
+            return HttpResponse("An Error ocurred when getting teacher info")
         try:
             class_info = int(class_info)
         except:
@@ -55,6 +71,12 @@ class TeacherAdd(View):
         buffer = io.BytesIO()
         img.save(buffer)
         
+        profile = request.FILES["profile"]
+        
+        with open(f"TeacherInfoHandler/static/profile/{nic}.jpg", "wb+") as destination:
+            for chunk in profile.chunks():
+                destination.write(chunk)
+        
         class_info = get_object_or_404(
             ClassInfo, id=class_info
             )
@@ -68,11 +90,13 @@ class TeacherAdd(View):
             contact_number=contact_number,
             nic=nic,
             address=address,
-            post=post,
+            post=post[2:],
             position=position,
             special_notes=special_notes,
             class_info=class_info,
-            qr_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}'
+            teacher_grade=teacher_grade,
+            qr_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
+            subjects=subjects
         )
 
         log_file(f'Teacher Instance {teacher_instance} Created')
@@ -82,29 +106,36 @@ class TeacherAdd(View):
             f'Teacher Instance {teacher_instance} Saved to database')
 
         log_file('Created teacher Instance')
-        return redirect(f"/teachers/{nic}")
+        return redirect(f"/teachers/add")
 
 class TeacherView(View):
     def get(self, request, nic):
-        logged_in = [auth for auth in LoginKey.objects.all()]
         try:
-            if not request.session['auth_key'] \
-                in [auth.key for auth in logged_in if auth.identifier==int(nic)]:
-                return redirect("HomepageView")
+            auth_key = request.session['auth_key']
         except:
             return redirect("HomepageView")
+            
+        if not LoginKey.teacher_check(nic, auth_key):
+            return redirect("HomepageView")
+            
         log_file(f"getting deltails of {nic}")
         teacher_instance = get_object_or_404(TeacherInfo, nic=nic)
-        subjects = ""
-        for subject in teacher_instance.subjects.split(','):
-            subject = SubjectInfo.objects.get(id=int(subject))
-            subjects = f"{subjects} {subject}"
+        subjects = teacher_instance.get_subjects(SubjectInfo, ClassInfo)
+       
+        
+        print(subjects)
+        
         context = {
             "teacher_instance": teacher_instance,
-            "subjects": subjects
+            "subjects": subjects.items(),
+            "works": teacher_instance.post.split(",")
         }
         log_file(f"returning deltails of {nic}")
-        return render(request, template_name="teacher_show_info_private.html", context=context)
+        
+        if request.is_mobile:
+            return render(request, template_name="teacher_dashboard_mobile.html", context=context)
+        
+        return render(request, template_name="teacher_dashboard_pc.html", context=context)
 
 
 class TeacherListView(View):
@@ -138,3 +169,25 @@ class TeacherListView(View):
         return render(request, template_name="all_teachers_admin_pc.html", context={
             'teachers': return_data,
             })
+            
+            
+class MarksAdd(View):
+    def get(self, request, grade, subject):
+        try:
+            auth_key = request.session['auth_key']
+        except:
+            return redirect("HomepageView")
+        
+        teacher_instance = LoginKey.objects.get(key=auth_key).get_user(TeacherInfo, StudentInfo)
+        subjects = teacher_instance.get_subjects(SubjectInfo, ClassInfo)
+        
+        current_subject = SubjectInfo.objects.get(pk=subject)
+        current_class = ClassInfo.objects.get(pk=grade)
+        
+        if not current_subject in list(subjects.keys()):
+            return HttpResponse("you don't teach this subject")
+        
+        if not current_class in subjects[current_subject]:
+            return HttpResponse("you don't teach this grade")
+        
+        return HttpResponse()

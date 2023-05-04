@@ -1235,3 +1235,489 @@
 [01/05/2023 02:50:31] getting deltails of 12341234 
 [01/05/2023 02:52:46] getting deltails of 12341234 
 [01/05/2023 02:52:46] returning deltails of 12341234 
+[02/05/2023 19:26:48] Requested Student List 
+[02/05/2023 19:26:48] Returnng rendered [] 
+[02/05/2023 19:26:55] returned student registration form 
+[02/05/2023 20:22:57] returned student registration form 
+[02/05/2023 20:24:40] returned student registration form 
+[02/05/2023 20:25:35] returned student registration form 
+[02/05/2023 20:27:25] returned student registration form 
+[02/05/2023 20:29:03] returned student registration form 
+[02/05/2023 20:29:10] returned student registration form 
+[02/05/2023 20:30:10] returned student registration form 
+[02/05/2023 20:30:47] returned student registration form 
+[02/05/2023 20:31:24] returned student registration form 
+[02/05/2023 20:31:34] returned student registration form 
+[02/05/2023 20:32:35] returned student registration form 
+[02/05/2023 20:33:02] returned student registration form 
+[02/05/2023 20:33:36] returned student registration form 
+[02/05/2023 20:34:42] returned student registration form 
+[02/05/2023 20:35:14] returned student registration form 
+[02/05/2023 20:35:26] returned student registration form 
+[02/05/2023 20:36:29] Rendering current classes 
+[02/05/2023 20:36:35] Creating new class 07 
+[02/05/2023 20:36:35] Created new class 07 
+[02/05/2023 20:36:35] Rendering current classes 
+[02/05/2023 20:36:37] Creating new class 08 
+[02/05/2023 20:36:37] Created new class 08 
+[02/05/2023 20:36:37] Rendering current classes 
+[02/05/2023 20:36:39] Creating new class 09 
+[02/05/2023 20:36:40] Created new class 09 
+[02/05/2023 20:36:40] Rendering current classes 
+[02/05/2023 20:36:45] Creating new class 10 
+[02/05/2023 20:36:45] Created new class 10 
+[02/05/2023 20:36:45] Rendering current classes 
+[02/05/2023 20:36:49] Creating new class 11 
+[02/05/2023 20:36:49] Created new class 11 
+[02/05/2023 20:36:49] Rendering current classes 
+[02/05/2023 20:36:58] Creating new class 12-A 
+[02/05/2023 20:36:58] Created new class 12-A 
+[02/05/2023 20:36:58] Rendering current classes 
+[02/05/2023 20:37:04] Creating new class 12-C 
+[02/05/2023 20:37:04] Created new class 12-C 
+[02/05/2023 20:37:04] Rendering current classes 
+[02/05/2023 20:37:12] Creating new class 12-M 
+[02/05/2023 20:37:12] Created new class 12-M 
+[02/05/2023 20:37:12] Rendering current classes 
+[02/05/2023 20:37:17] Creating new class 12-T 
+[02/05/2023 20:37:17] Created new class 12-T 
+[02/05/2023 20:37:17] Rendering current classes 
+[02/05/2023 20:37:23] Creating new class 13-A 
+[02/05/2023 20:37:24] Created new class 13-A 
+[02/05/2023 20:37:24] Rendering current classes 
+[02/05/2023 20:37:29] Creating new class 13-C 
+[02/05/2023 20:37:29] Created new class 13-C 
+[02/05/2023 20:37:29] Rendering current classes 
+[02/05/2023 20:37:36] Creating new class 13-M 
+[02/05/2023 20:37:36] Created new class 13-M 
+[02/05/2023 20:37:36] Rendering current classes 
+[02/05/2023 20:37:48] Creating new class 13-T 
+[02/05/2023 20:37:48] Created new class 13-T 
+[02/05/2023 20:37:48] Rendering current classes 
+[02/05/2023 20:38:01] returned student registration form 
+[02/05/2023 20:39:41] returned student registration form 
+[02/05/2023 20:40:33] returned student registration form 
+[02/05/2023 20:40:46] returned student registration form 
+[02/05/2023 20:41:29] returned student registration form 
+[02/05/2023 20:41:35] returned student registration form 
+[02/05/2023 20:42:28] returned student registration form 
+[02/05/2023 20:44:02] returned student registration form 
+[02/05/2023 20:44:28] returned student registration form 
+[02/05/2023 20:45:35] returned student registration form 
+[02/05/2023 20:45:40] returned student registration form 
+[02/05/2023 20:46:19] returned student registration form 
+[02/05/2023 20:46:42] returned student registration form 
+[02/05/2023 20:47:25] returned student registration form 
+[02/05/2023 20:48:42] returned student registration form 
+[02/05/2023 20:48:48] returned student registration form 
+[02/05/2023 20:49:12] returned student registration form 
+[02/05/2023 20:49:20] returned student registration form 
+[02/05/2023 20:50:26] returned student registration form 
+[02/05/2023 20:50:35] returned student registration form 
+[02/05/2023 20:51:56] returned student registration form 
+[02/05/2023 20:52:08] returned student registration form 
+[02/05/2023 20:55:19] returned student registration form 
+[02/05/2023 20:55:31] returned student registration form 
+[02/05/2023 20:56:59] returned student registration form 
+[02/05/2023 20:57:04] returned student registration form 
+[02/05/2023 21:08:54] returned student registration form 
+[02/05/2023 21:29:08] returned student registration form 
+[02/05/2023 21:29:19] returned student registration form 
+[02/05/2023 21:29:35] returned student registration form 
+[02/05/2023 21:30:18] returned student registration form 
+[02/05/2023 21:31:03] returned student registration form 
+[02/05/2023 21:31:11] returned student registration form 
+[02/05/2023 21:31:22] returned student registration form 
+[02/05/2023 21:31:52] returned student registration form 
+[02/05/2023 21:32:01] returned student registration form 
+[02/05/2023 21:33:26] returned student registration form 
+[02/05/2023 21:33:30] returned student registration form 
+[02/05/2023 21:33:36] returned student registration form 
+[02/05/2023 21:33:48] returned student registration form 
+[02/05/2023 21:34:01] returned student registration form 
+[02/05/2023 21:34:26] returned student registration form 
+[02/05/2023 21:35:42] returned student registration form 
+[02/05/2023 21:36:28] returned student registration form 
+[02/05/2023 21:38:06] returned student registration form 
+[02/05/2023 21:38:30] returned student registration form 
+[02/05/2023 21:40:06] returned student registration form 
+[02/05/2023 21:43:59] returned student registration form 
+[02/05/2023 21:46:03] returned student registration form 
+[02/05/2023 21:46:49] returned student registration form 
+[02/05/2023 21:49:14] returned student registration form 
+[02/05/2023 21:49:19] returned student registration form 
+[02/05/2023 21:50:37] returned student registration form 
+[02/05/2023 21:51:53] returned student registration form 
+[02/05/2023 21:52:00] returned student registration form 
+[02/05/2023 21:52:50] returned student registration form 
+[02/05/2023 21:53:27] returned student registration form 
+[02/05/2023 21:54:23] returned student registration form 
+[02/05/2023 21:56:03] returned student registration form 
+[02/05/2023 21:57:02] returned student registration form 
+[02/05/2023 21:57:09] returned student registration form 
+[02/05/2023 21:57:37] returned student registration form 
+[02/05/2023 21:58:59] returned student registration form 
+[02/05/2023 21:59:51] returned student registration form 
+[02/05/2023 22:12:55] returned student registration form 
+[02/05/2023 22:13:36] returned student registration form 
+[02/05/2023 22:15:02] returned student registration form 
+[02/05/2023 22:16:49] returned student registration form 
+[02/05/2023 22:17:02] returned student registration form 
+[02/05/2023 22:17:59] returned student registration form 
+[02/05/2023 22:19:21] Adding Student with already registered guardian registration 
+[02/05/2023 22:19:21] Got Student data 
+[02/05/2023 22:20:33] returned student registration form 
+[02/05/2023 22:21:21] Adding Student with already registered guardian registration 
+[02/05/2023 22:21:21] Got Student data 
+[02/05/2023 22:22:28] Adding Student with already registered guardian registration 
+[02/05/2023 22:22:28] Got Student data 
+[02/05/2023 22:23:40] returned student registration form 
+[02/05/2023 22:26:40] returned student registration form 
+[02/05/2023 22:27:22] Adding Student with already registered guardian registration 
+[02/05/2023 22:27:22] Got Student data 
+[02/05/2023 22:29:12] Adding Student with already registered guardian registration 
+[02/05/2023 22:29:12] Got Student data 
+[02/05/2023 22:29:27] returned student registration form 
+[02/05/2023 22:29:44] Adding Student with already registered guardian registration 
+[02/05/2023 22:29:44] Got Student data 
+[02/05/2023 22:31:22] Adding Student with already registered guardian registration 
+[02/05/2023 22:31:22] Got Student data 
+[02/05/2023 22:31:35] returned student registration form 
+[02/05/2023 22:32:15] returned student registration form 
+[02/05/2023 22:32:43] Adding Student with already registered guardian registration 
+[02/05/2023 22:32:43] Got Student data 
+[02/05/2023 22:33:20] Adding Student with already registered guardian registration 
+[02/05/2023 22:33:20] Got Student data 
+[02/05/2023 22:33:20] Student Instance Ramona Valencia Created 
+[02/05/2023 22:33:20] Parent Instance Malcolm Perkins Gavin Valencia  Created 
+[02/05/2023 22:33:20] Student Instance Ramona Valencia Saved to database 
+[02/05/2023 22:33:20] Parent Instance Malcolm Perkins Gavin Valencia saved to database 
+[02/05/2023 22:33:20] Created student Instance 
+[02/05/2023 22:33:45] login successfull 679 
+[02/05/2023 22:37:51] not a teacher redirecting 
+[02/05/2023 22:39:49] not a teacher redirecting 
+[02/05/2023 22:39:58] login successfull 679 
+[02/05/2023 22:39:58] not a teacher redirecting 
+[02/05/2023 22:40:37] getting deltails of 679 
+[02/05/2023 22:41:44] getting deltails of 679 
+[02/05/2023 22:46:16] getting deltails of 679 
+[02/05/2023 22:49:18] getting deltails of 679 
+[02/05/2023 22:49:39] getting deltails of 679 
+[02/05/2023 22:49:39] returning deltails of 679 
+[02/05/2023 22:52:08] returned student registration form 
+[02/05/2023 22:52:39] Adding Student with already registered guardian registration 
+[02/05/2023 22:52:39] Got Student data 
+[02/05/2023 22:52:39] Student Instance Jillian Sargent Created 
+[02/05/2023 22:52:39] Parent Instance Jin Bates Shaeleigh Delgado  Created 
+[02/05/2023 22:52:39] Student Instance Jillian Sargent Saved to database 
+[02/05/2023 22:52:39] Parent Instance Jin Bates Shaeleigh Delgado saved to database 
+[02/05/2023 22:52:39] Created student Instance 
+[02/05/2023 22:52:39] getting deltails of 604 
+[02/05/2023 22:52:39] returning deltails of 604 
+[02/05/2023 22:55:54] getting deltails of 604 
+[02/05/2023 22:56:21] getting deltails of 604 
+[02/05/2023 22:56:29] getting deltails of 604 
+[02/05/2023 22:57:02] getting deltails of 604 
+[02/05/2023 22:57:52] getting deltails of 604 
+[02/05/2023 22:58:51] getting deltails of 604 
+[02/05/2023 22:59:08] getting deltails of 604 
+[02/05/2023 22:59:08] returning deltails of 604 
+[03/05/2023 16:20:26] getting deltails of 679 
+[03/05/2023 16:20:52] getting deltails of 679 
+[03/05/2023 16:21:29] getting deltails of 679 
+[03/05/2023 16:22:40] getting deltails of 679 
+[03/05/2023 16:22:40] returning deltails of 679 
+[03/05/2023 16:49:05] returned student registration form 
+[03/05/2023 16:49:36] returned student registration form 
+[03/05/2023 16:49:56] returned student registration form 
+[03/05/2023 16:53:04] getting deltails of 679 
+[03/05/2023 16:53:04] returning deltails of 679 
+[03/05/2023 16:55:16] getting deltails of 679 
+[03/05/2023 16:55:16] returning deltails of 679 
+[03/05/2023 16:55:35] getting deltails of 679 
+[03/05/2023 16:55:35] returning deltails of 679 
+[03/05/2023 16:57:48] getting deltails of 679 
+[03/05/2023 16:57:48] returning deltails of 679 
+[03/05/2023 16:58:22] getting deltails of 679 
+[03/05/2023 16:58:22] returning deltails of 679 
+[03/05/2023 17:00:10] getting deltails of 679 
+[03/05/2023 17:00:10] returning deltails of 679 
+[03/05/2023 17:00:35] getting deltails of 679 
+[03/05/2023 17:00:35] returning deltails of 679 
+[03/05/2023 17:00:46] getting deltails of 604 
+[03/05/2023 17:00:56] getting deltails of 604 
+[03/05/2023 17:02:04] getting deltails of 604 
+[03/05/2023 17:02:04] returning deltails of 604 
+[03/05/2023 17:04:03] getting deltails of 604 
+[03/05/2023 17:04:03] returning deltails of 604 
+[03/05/2023 17:05:25] getting deltails of 604 
+[03/05/2023 17:05:25] returning deltails of 604 
+[03/05/2023 17:05:43] getting deltails of 604 
+[03/05/2023 17:05:43] returning deltails of 604 
+[03/05/2023 17:06:14] getting deltails of 604 
+[03/05/2023 17:06:14] returning deltails of 604 
+[03/05/2023 17:06:46] getting deltails of 604 
+[03/05/2023 17:06:46] returning deltails of 604 
+[03/05/2023 17:07:02] getting deltails of 604 
+[03/05/2023 17:07:02] returning deltails of 604 
+[03/05/2023 17:07:14] getting deltails of 604 
+[03/05/2023 17:07:14] returning deltails of 604 
+[03/05/2023 17:07:25] getting deltails of 604 
+[03/05/2023 17:07:25] returning deltails of 604 
+[03/05/2023 17:07:42] getting deltails of 604 
+[03/05/2023 17:07:42] returning deltails of 604 
+[03/05/2023 17:11:33] getting deltails of 679 
+[03/05/2023 17:11:33] returning deltails of 679 
+[03/05/2023 17:50:14] Requested Teacher List 
+[03/05/2023 17:51:13] Requested Teacher List 
+[03/05/2023 17:51:14] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}] 
+[03/05/2023 17:52:02] teacher login successfull 12341234 
+[03/05/2023 17:52:02] getting deltails of 12341234 
+[03/05/2023 17:52:02] returning deltails of 12341234 
+[03/05/2023 17:52:41] getting deltails of 12341234 
+[03/05/2023 17:52:41] returning deltails of 12341234 
+[03/05/2023 17:53:33] getting deltails of 12341234 
+[03/05/2023 17:53:33] returning deltails of 12341234 
+[03/05/2023 17:54:52] getting deltails of 12341234 
+[03/05/2023 17:54:52] returning deltails of 12341234 
+[03/05/2023 17:56:19] getting deltails of 12341234 
+[03/05/2023 17:56:19] returning deltails of 12341234 
+[03/05/2023 17:58:14] getting deltails of 12341234 
+[03/05/2023 17:58:14] returning deltails of 12341234 
+[03/05/2023 18:02:22] getting deltails of 12341234 
+[03/05/2023 18:02:45] getting deltails of 12341234 
+[03/05/2023 18:03:06] getting deltails of 12341234 
+[03/05/2023 18:04:57] getting deltails of 12341234 
+[03/05/2023 18:04:57] returning deltails of 12341234 
+[03/05/2023 18:05:24] getting deltails of 12341234 
+[03/05/2023 18:05:24] returning deltails of 12341234 
+[03/05/2023 18:09:29] getting deltails of 12341234 
+[03/05/2023 18:09:29] returning deltails of 12341234 
+[03/05/2023 18:10:18] getting deltails of 12341234 
+[03/05/2023 18:11:05] getting deltails of 12341234 
+[03/05/2023 18:11:05] returning deltails of 12341234 
+[03/05/2023 18:11:15] getting deltails of 12341234 
+[03/05/2023 18:11:15] returning deltails of 12341234 
+[03/05/2023 18:35:23] getting deltails of 12341234 
+[03/05/2023 18:35:23] returning deltails of 12341234 
+[03/05/2023 18:35:49] Rendering current classes 
+[03/05/2023 18:36:21] getting deltails of 12341234 
+[03/05/2023 18:36:21] returning deltails of 12341234 
+[03/05/2023 18:38:55] getting deltails of 12341234 
+[03/05/2023 18:38:55] returning deltails of 12341234 
+[03/05/2023 18:39:07] getting deltails of 12341234 
+[03/05/2023 18:39:07] returning deltails of 12341234 
+[03/05/2023 18:39:11] getting deltails of 12341234 
+[03/05/2023 18:39:11] returning deltails of 12341234 
+[03/05/2023 18:39:25] getting deltails of 12341234 
+[03/05/2023 18:39:25] returning deltails of 12341234 
+[03/05/2023 20:11:43] not a teacher redirecting 
+[03/05/2023 20:16:52] getting deltails of 12341234 
+[03/05/2023 20:16:53] returning deltails of 12341234 
+[03/05/2023 20:26:39] Login Credentials Error 
+[03/05/2023 20:27:12] login successfull 679 
+[03/05/2023 20:27:12] getting deltails of 679 
+[03/05/2023 20:27:12] returning deltails of 679 
+[03/05/2023 20:28:19] teacher login successfull 12341234 
+[03/05/2023 20:28:19] getting deltails of 12341234 
+[03/05/2023 20:28:19] returning deltails of 12341234 
+[03/05/2023 20:29:02] getting deltails of 679 
+[03/05/2023 20:29:02] returning deltails of 679 
+[03/05/2023 20:29:06] getting deltails of 12341234 
+[03/05/2023 20:29:06] returning deltails of 12341234 
+[03/05/2023 20:29:12] getting deltails of 604 
+[03/05/2023 20:29:12] returning deltails of 604 
+[03/05/2023 20:32:25] getting deltails of 12341234 
+[03/05/2023 20:32:25] returning deltails of 12341234 
+[03/05/2023 21:40:25] returned Teacher registration form 
+[03/05/2023 21:53:11] returned Teacher registration form 
+[03/05/2023 21:54:17] returned Teacher registration form 
+[03/05/2023 21:54:24] returned Teacher registration form 
+[03/05/2023 21:55:07] returned Teacher registration form 
+[03/05/2023 21:56:46] returned Teacher registration form 
+[03/05/2023 22:57:18] returned Teacher registration form 
+[03/05/2023 22:57:35] returned Teacher registration form 
+[03/05/2023 22:57:39] returned Teacher registration form 
+[03/05/2023 22:58:22] returned Teacher registration form 
+[03/05/2023 22:59:17] returned Teacher registration form 
+[04/05/2023 10:09:47] returned Teacher registration form 
+[04/05/2023 10:17:24] returned Teacher registration form 
+[04/05/2023 10:18:41] returned Teacher registration form 
+[04/05/2023 10:19:08] returned Teacher registration form 
+[04/05/2023 10:20:22] returned Teacher registration form 
+[04/05/2023 10:21:10] returned Teacher registration form 
+[04/05/2023 10:21:31] returned Teacher registration form 
+[04/05/2023 10:23:52] returned Teacher registration form 
+[04/05/2023 10:24:57] returned Teacher registration form 
+[04/05/2023 10:26:12] returned Teacher registration form 
+[04/05/2023 10:28:16] returned Teacher registration form 
+[04/05/2023 10:29:12] returned Teacher registration form 
+[04/05/2023 10:29:38] returned Teacher registration form 
+[04/05/2023 10:31:11] returned Teacher registration form 
+[04/05/2023 10:31:41] returned Teacher registration form 
+[04/05/2023 10:32:31] returned Teacher registration form 
+[04/05/2023 10:32:56] returned Teacher registration form 
+[04/05/2023 10:33:11] returned Teacher registration form 
+[04/05/2023 10:33:23] returned Teacher registration form 
+[04/05/2023 10:34:03] returned Teacher registration form 
+[04/05/2023 10:40:58] returned Teacher registration form 
+[04/05/2023 10:41:38] returned Teacher registration form 
+[04/05/2023 10:42:28] returned Teacher registration form 
+[04/05/2023 10:43:08] returned Teacher registration form 
+[04/05/2023 10:43:47] returned Teacher registration form 
+[04/05/2023 10:54:14] returned Teacher registration form 
+[04/05/2023 10:54:39] returned Teacher registration form 
+[04/05/2023 10:55:30] returned Teacher registration form 
+[04/05/2023 10:56:02] returned Teacher registration form 
+[04/05/2023 10:56:25] returned Teacher registration form 
+[04/05/2023 10:56:42] returned Teacher registration form 
+[04/05/2023 13:08:15] returned Teacher registration form 
+[04/05/2023 13:09:23] returned Teacher registration form 
+[04/05/2023 13:10:09] returned Teacher registration form 
+[04/05/2023 13:11:38] returned Teacher registration form 
+[04/05/2023 13:12:23] returned Teacher registration form 
+[04/05/2023 13:12:54] returned Teacher registration form 
+[04/05/2023 13:13:30] returned Teacher registration form 
+[04/05/2023 13:14:07] returned Teacher registration form 
+[04/05/2023 13:14:52] returned Teacher registration form 
+[04/05/2023 13:15:08] returned Teacher registration form 
+[04/05/2023 13:15:25] returned Teacher registration form 
+[04/05/2023 13:16:13] returned Teacher registration form 
+[04/05/2023 13:16:32] returned Teacher registration form 
+[04/05/2023 13:16:51] returned Teacher registration form 
+[04/05/2023 13:17:03] returned Teacher registration form 
+[04/05/2023 13:17:22] returned Teacher registration form 
+[04/05/2023 13:17:37] returned Teacher registration form 
+[04/05/2023 13:18:20] returned Teacher registration form 
+[04/05/2023 13:18:49] returned Teacher registration form 
+[04/05/2023 13:19:12] returned Teacher registration form 
+[04/05/2023 13:19:26] returned Teacher registration form 
+[04/05/2023 13:19:46] returned Teacher registration form 
+[04/05/2023 13:25:30] returned Teacher registration form 
+[04/05/2023 13:30:21] returned Teacher registration form 
+[04/05/2023 13:30:51] returned Teacher registration form 
+[04/05/2023 13:31:43] returned Teacher registration form 
+[04/05/2023 13:31:54] returned Teacher registration form 
+[04/05/2023 13:33:45] returned Teacher registration form 
+[04/05/2023 13:34:46] returned Teacher registration form 
+[04/05/2023 13:34:47] returned Teacher registration form 
+[04/05/2023 13:44:14] returned Teacher registration form 
+[04/05/2023 13:44:48] returned Teacher registration form 
+[04/05/2023 13:45:38] returned Teacher registration form 
+[04/05/2023 13:46:05] returned Teacher registration form 
+[04/05/2023 13:47:38] returned Teacher registration form 
+[04/05/2023 13:48:13] returned Teacher registration form 
+[04/05/2023 13:49:29] returned Teacher registration form 
+[04/05/2023 13:51:12] returned Teacher registration form 
+[04/05/2023 13:52:44] returned Teacher registration form 
+[04/05/2023 13:56:32] returned Teacher registration form 
+[04/05/2023 13:57:28] returned Teacher registration form 
+[04/05/2023 13:58:19] returned Teacher registration form 
+[04/05/2023 14:02:40] returned Teacher registration form 
+[04/05/2023 14:04:04] returned Teacher registration form 
+[04/05/2023 14:04:48] returned Teacher registration form 
+[04/05/2023 14:05:29] returned Teacher registration form 
+[04/05/2023 14:05:53] returned Teacher registration form 
+[04/05/2023 14:06:23] returned Teacher registration form 
+[04/05/2023 14:06:43] returned Teacher registration form 
+[04/05/2023 14:07:11] returned Teacher registration form 
+[04/05/2023 14:08:27] returned Teacher registration form 
+[04/05/2023 14:08:59] returned Teacher registration form 
+[04/05/2023 14:09:12] returned Teacher registration form 
+[04/05/2023 14:09:26] returned Teacher registration form 
+[04/05/2023 14:09:41] returned Teacher registration form 
+[04/05/2023 14:09:52] returned Teacher registration form 
+[04/05/2023 14:10:34] returned Teacher registration form 
+[04/05/2023 14:11:05] returned Teacher registration form 
+[04/05/2023 14:11:34] returned Teacher registration form 
+[04/05/2023 14:11:50] returned Teacher registration form 
+[04/05/2023 14:12:40] returned Teacher registration form 
+[04/05/2023 14:16:05] returned Teacher registration form 
+[04/05/2023 14:16:54] returned Teacher registration form 
+[04/05/2023 14:19:33] returned Teacher registration form 
+[04/05/2023 14:19:48] returned Teacher registration form 
+[04/05/2023 14:26:28] returned Teacher registration form 
+[04/05/2023 14:36:23] returned Teacher registration form 
+[04/05/2023 15:53:01] Teacher registration 
+[04/05/2023 15:54:50] returned Teacher registration form 
+[04/05/2023 15:55:11] returned Teacher registration form 
+[04/05/2023 15:55:46] Teacher registration 
+[04/05/2023 15:57:08] returned Teacher registration form 
+[04/05/2023 15:57:11] returned Teacher registration form 
+[04/05/2023 15:58:15] Teacher registration 
+[04/05/2023 16:00:17] returned Teacher registration form 
+[04/05/2023 16:00:19] returned Teacher registration form 
+[04/05/2023 16:01:19] Teacher registration 
+[04/05/2023 16:02:01] Teacher registration 
+[04/05/2023 16:02:36] Teacher registration 
+[04/05/2023 16:02:37] Teacher Instance TeacherInfo object (None) Created 
+[04/05/2023 16:03:32] Teacher registration 
+[04/05/2023 16:03:32] Teacher Instance TeacherInfo object (None) Created 
+[04/05/2023 16:03:32] Teacher Instance TeacherInfo object (4) Saved to database 
+[04/05/2023 16:03:32] Created teacher Instance 
+[04/05/2023 16:03:33] returned Teacher registration form 
+[04/05/2023 16:07:00] Requested Teacher List 
+[04/05/2023 16:07:00] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[04/05/2023 16:07:13] Username/Student not found 
+[04/05/2023 16:07:21] teacher login successfull 123123 
+[04/05/2023 16:07:21] getting deltails of 123123 
+[04/05/2023 17:02:14] getting deltails of 123123 
+[04/05/2023 17:06:11] getting deltails of 123123 
+[04/05/2023 17:07:22] getting deltails of 123123 
+[04/05/2023 17:07:40] getting deltails of 123123 
+[04/05/2023 17:11:10] getting deltails of 123123 
+[04/05/2023 17:11:10] returning deltails of 123123 
+[04/05/2023 17:12:20] getting deltails of 123123 
+[04/05/2023 17:12:20] returning deltails of 123123 
+[04/05/2023 17:13:28] getting deltails of 123123 
+[04/05/2023 17:13:28] returning deltails of 123123 
+[04/05/2023 17:13:58] getting deltails of 123123 
+[04/05/2023 17:15:37] getting deltails of 123123 
+[04/05/2023 17:15:37] returning deltails of 123123 
+[04/05/2023 17:17:21] getting deltails of 123123 
+[04/05/2023 17:17:38] getting deltails of 123123 
+[04/05/2023 17:17:38] returning deltails of 123123 
+[04/05/2023 17:17:38] getting deltails of 123123 
+[04/05/2023 17:17:38] returning deltails of 123123 
+[04/05/2023 17:19:36] getting deltails of 123123 
+[04/05/2023 17:19:36] returning deltails of 123123 
+[04/05/2023 17:20:08] getting deltails of 123123 
+[04/05/2023 17:20:08] returning deltails of 123123 
+[04/05/2023 17:20:44] getting deltails of 123123 
+[04/05/2023 17:20:44] getting deltails of 123123 
+[04/05/2023 17:24:41] getting deltails of 123123 
+[04/05/2023 17:48:42] getting deltails of 123123 
+[04/05/2023 17:48:42] returning deltails of 123123 
+[04/05/2023 17:51:33] getting deltails of 123123 
+[04/05/2023 17:52:20] getting deltails of 123123 
+[04/05/2023 17:52:40] getting deltails of 123123 
+[04/05/2023 17:52:52] getting deltails of 123123 
+[04/05/2023 17:52:52] returning deltails of 123123 
+[04/05/2023 17:53:51] getting deltails of 123123 
+[04/05/2023 17:53:51] returning deltails of 123123 
+[04/05/2023 17:53:56] getting deltails of 123123 
+[04/05/2023 17:53:56] returning deltails of 123123 
+[04/05/2023 17:57:02] getting deltails of 123123 
+[04/05/2023 17:57:02] returning deltails of 123123 
+[04/05/2023 17:57:37] getting deltails of 123123 
+[04/05/2023 17:57:37] returning deltails of 123123 
+[04/05/2023 17:57:56] getting deltails of 123123 
+[04/05/2023 17:57:56] returning deltails of 123123 
+[04/05/2023 17:58:39] getting deltails of 123123 
+[04/05/2023 17:58:39] returning deltails of 123123 
+[04/05/2023 17:59:21] getting deltails of 123123 
+[04/05/2023 17:59:21] returning deltails of 123123 
+[04/05/2023 18:00:17] getting deltails of 123123 
+[04/05/2023 18:00:17] returning deltails of 123123 
+[04/05/2023 18:00:31] getting deltails of 123123 
+[04/05/2023 18:00:31] returning deltails of 123123 
+[04/05/2023 18:01:04] getting deltails of 123123 
+[04/05/2023 18:01:04] returning deltails of 123123 
+[04/05/2023 18:01:19] getting deltails of 123123 
+[04/05/2023 18:01:19] returning deltails of 123123 
+[04/05/2023 18:01:46] getting deltails of 123123 
+[04/05/2023 18:01:46] returning deltails of 123123 
+[04/05/2023 18:03:57] getting deltails of 123123 
+[04/05/2023 18:03:57] returning deltails of 123123 
+[04/05/2023 18:04:24] getting deltails of 123123 
+[04/05/2023 18:04:24] returning deltails of 123123 

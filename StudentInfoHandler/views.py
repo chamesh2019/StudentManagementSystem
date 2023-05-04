@@ -7,10 +7,11 @@ from django.utils.html import format_html
 import base64
 import io
 import qrcode
+import json
 from qrcode.image.pure import PyPNGImage
 from manage import log_file
 
-from EDUInfoHandler.models import ClassInfo, LoginKey, Attendance
+from EDUInfoHandler.models import ClassInfo, LoginKey, Attendance, SubjectInfo
 from .models import StudentInfo, ParentInfo
 
 class StudentAdd(View):
@@ -19,9 +20,50 @@ class StudentAdd(View):
     def get(self, request):
         log_file("returned student registration form")
         current_classes = ClassInfo.objects.all().order_by('class_name')
+        
+        middle_grade_buckets = []
+        o_level_buckets = []
+        a_level_subjects = []
+        
+        middle_grade_buckets_id = []
+        o_level_buckets_id = []
+        
+        for bucket in SubjectInfo.objects.filter(range="6-9", bucket=True):
+            subjects = []
+            for subject in bucket.bucket_subjects.split(","):
+                subject = SubjectInfo.objects.get(pk=int(subject))
+                subjects.append((subject.subject, subject.pk))
+            middle_grade_buckets.append((bucket.pk, subjects))
+            middle_grade_buckets_id.append(str(bucket.pk))
+        
+        for subject in SubjectInfo.objects.filter(range="10-11", bucket=True):
+            subjects = []
+            for subject in subject.bucket_subjects.split(","):
+                subject = SubjectInfo.objects.get(pk=int(subject))
+                subjects.append((subject.subject, subject.pk))
+            o_level_buckets.append((subject.pk, subjects))
+            o_level_buckets_id.append(str(subject.pk))
+        
+        for subject in SubjectInfo.objects.filter(range="12-13"):
+            a_level_subjects.append((subject.subject, subject.pk))
+        
+        middle_grade_buckets_id = ",".join(middle_grade_buckets_id)
+        o_level_buckets_id = ",".join(o_level_buckets_id)
+        
+        print(middle_grade_buckets_id)
+        
+        page_context={
+        'current_classes': current_classes,
+        "middle_grade_buckets": middle_grade_buckets,
+        "o_level_buckets": o_level_buckets,
+        "a_level_subjects": a_level_subjects,
+        "middle_grade_buckets_id": middle_grade_buckets_id,
+        "o_level_buckets_id": o_level_buckets_id
+        }
+        print(o_level_buckets)
         if request.is_mobile:
-            return render(request, template_name="student_form_mobile.html", context={'current_classes': current_classes})
-        return render(request, template_name="student_form_pc.html", context={'current_classes': current_classes})
+            return render(request, template_name="student_form_mobile.html", context=page_context)
+        return render(request, template_name="student_form_pc.html", context=page_context)
 
     def post(self, request):
         data = request.POST
@@ -47,9 +89,9 @@ class StudentAdd(View):
         father_special_notes = data['father_special_notes']
 
         log_file('Got Student data')
-        print(request.FILES)
         profile = request.FILES["profile"]
-        with open(f"StudentInfoHandler/static/{student_index_number}.jpg", "wb+") as destination:
+        
+        with open(f"StudentInfoHandler/static/profile/{student_index_number}.jpg", "wb+") as destination:
             for chunk in profile.chunks():
                 destination.write(chunk)
                 
@@ -70,6 +112,9 @@ class StudentAdd(View):
         student_class = get_object_or_404(
             ClassInfo, id=int(student_class)
             )
+            
+        bucket = StudentInfo.set_subjects(student_class, data)
+        
         student_instance = StudentInfo(
             index_number=student_index_number,
             full_name=student_full_name,
@@ -80,6 +125,7 @@ class StudentAdd(View):
             address=student_address,
             special_notes=student_special_notes,
             class_info=student_class,
+            buckets=bucket,
             RFID_key=f'data:image/png;base64, {base64.b64encode(buffer.getvalue()).decode("utf-8")}',
         )
 
@@ -114,15 +160,13 @@ class StudentView(View):
     '''Render student info on GET request'''
 
     def get(self, request, student_index_number):
-        logged_in = [auth for auth in LoginKey.objects.all()]
         try:
             auth_key = request.session['auth_key']
         except:
             return redirect("HomepageView")
-        
-        if not (auth_key in [auth.key for auth in logged_in if auth.identifier==student_index_number]):
-            if not LoginKey.objects.get(key=auth_key).acc_type=="t":
-                return redirect("HomepageView")
+            
+        if not LoginKey.student_check(student_index_number, auth_key):
+            return redirect("HomepageView")
         
         log_file(f"getting deltails of {student_index_number}")
         student_instance = get_object_or_404(
@@ -130,12 +174,17 @@ class StudentView(View):
         parent_instance = get_object_or_404(
             ParentInfo, student_index_number=student_index_number)
         attendance = Attendance.objects.filter()[:5]
-        context = {
+        
+        selected_subjects = student_instance.get_subjects(SubjectInfo)
+        selected_subjects = [subject.subject for subject in selected_subjects]
+        
+        page_context = {
             "student_instance": student_instance,
             "parent_instance": parent_instance,
-            "image": str(student_index_number) + ".jpg",
+            "image": "profile/" + str(student_index_number) + ".jpg",
             "QR": format_html(f"<img src='{student_instance.RFID_key}'></div>"),
-            "attendance": attendance
+            "attendance": attendance,
+            "selected_subjects": selected_subjects
         }
         try:
             if request.GET['added']:
@@ -143,7 +192,9 @@ class StudentView(View):
         except:
             pass
         log_file(f"returning deltails of {student_index_number}")
-        return render(request, template_name="dashboard.html", context=context)
+        if request.is_mobile:
+            return render(request, template_name="student_dashboard_mobile.html", context=page_context)
+        return render(request, template_name="student_dashboard_pc.html", context=page_context)
 
 
 class StudentListView(View):

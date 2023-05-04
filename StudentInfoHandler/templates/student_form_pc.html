@@ -4,28 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Add</title>
-    <link rel="icon" type="image/jpg" href="/static/title_img.jpg"/>
-    <link rel="stylesheet" href="/static/l_show.css">
+    <title>ST DATA ENTRY | P.M.V</title>
+    <link rel="icon" type="image/jpg" href="/static/studentadd/title_img.jpg"/>
+    <link rel="stylesheet" href="/static/studentadd/l_show.css">
 </head>
 <body>
-    <header>
-        <div class="_headertop">
-            <ul>
-                <li> <a href="https://www.facebook.com/profile.php?id=100057257059392&mibextid=ZbWKwL">
-                    <img src="/static/fbicon.png" height="25px" width="25px">
-                </a>
-                <li><b>Tel :</b> 037 54 26 587   </li>                    
-                <li><b>Email :</b>Palugahawanguwacollage@gmail.com</li> 
-                
-        </ul>
-        <ol>
-            <li><li><b>Support :</b> abc@gmail.com</li></li>
-        </ol>
-        
-    </div>
-    </header>
-
+  <div class="image-container">
+    <a href="/">
+      <img src="/static/studentadd/home (1).png" alt="Image">
+      <div class="overlay">
+        <i class="fa fa-link"></i>
+        <span>Back To Home</span>
+      </div>
+    </a>
+  </div>
     <div class="content">
 
         <h2>Student Foarm</h2>
@@ -49,11 +41,11 @@
             <div class="radio-group">
               <label for="male" class="radio-button">
                 <input type="radio" id="male" name="student_gender" value="M">
-                male
+                Male
               </label>
               <label for="female" class="radio-button">
                 <input type="radio" id="female" name="student_gender" value="F">
-                female
+                Female
               </label>
             </div>
 
@@ -72,9 +64,13 @@
             <p>Class Info:</p>
             <select id="class_info" name="class_info">
                 {% for class_info in current_classes %}
-                <option value={{class_info.id}}>Grade {{class_info.class_name}}</option>
+                <option data-stream="{{ class_info.class_type }}" value="{{class_info.id}}">Grade {{class_info.class_name}}</option>
                 {% endfor %}
             </select>
+			
+			<div id="subjects">
+			</div>
+			
             <br>
 
             <details>
@@ -116,7 +112,6 @@
                 <textarea id="father_special_notes" name="father_special_notes" rows="4"></textarea>
                 
                 
-
             </details>
           </br>
           <input type="submit"  class="submit">
@@ -129,6 +124,60 @@
         <h5>&copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b></h5>
        
     </footer> 
-    
+    <script>
+	var subjects = document.getElementById("subjects");
+	var selection = document.getElementById("class_info");
+	
+	selection.onchange = function(event){
+	  var stream = event.target.options[event.target.selectedIndex].dataset.stream;
+	  if (stream == "6-9"){
+		subjects.innerHTML = `
+			<p>Subjects:</p>
+			{% for bucket, subjects in middle_grade_buckets %}
+			<select name={{ bucket }}>
+				{% for subject, id in subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			{% endfor %}
+			<input name=bucket_id" type="hidden" value="{{ middle_grade_buckets_id }}">
+	  `
+	  }
+	  if (stream == "10-11"){
+		subjects.innerHTML = `
+			<p>Subjects:</p>
+			{% for bucket, subjects in o_level_buckets %}
+			<select name="{{ bucket }}">
+				{% for subject, id in subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			{% endfor %}
+			<input name=bucket_id" type="hidden" value="{{ o_level_buckets_id }}">
+
+	  `
+	  } 
+	  if (stream == "12-13"){
+		subjects.innerHTML = `
+			<p>Subjects:</p>
+			<select name="subject1">
+				{% for subject, id in a_level_subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			<select name="subject2">
+				{% for subject, id in a_level_subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			<select name="subject3">
+				{% for subject, id in a_level_subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+	  `
+	  } 
+	};
+	</script>
 </body>
 </html>

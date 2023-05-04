@@ -48,3 +48,27 @@ class LoginKey(models.Model):
     
     def __str__(self) -> str:
         return str(self.identifier)
+        
+    @staticmethod
+    def student_check(index_number, auth_key):
+        logged_in = [auth for auth in LoginKey.objects.filter(identifier=index_number)]
+        auth_test = auth_key in [auth.key for auth in logged_in]
+        if (auth_test or LoginKey.objects.get(key=auth_key).acc_type=="t"):
+            return True
+        else:
+            return False
+    
+    @staticmethod    
+    def teacher_check(nic, auth_key):
+        logged_in = [auth for auth in LoginKey.objects.filter(identifier=nic)]
+        auth_test = auth_key in [auth.key for auth in logged_in]
+        if (auth_test):
+            return True
+        else:
+            return False
+            
+    def get_user(self, TeacherInfo, StudentInfo):
+        if self.acc_type == "t":
+            return TeacherInfo.objects.get(nic=self.identifier)
+        elif self.acc_type == "s":
+            return StudentInfo.objects.get(index_number=self.identifier)
