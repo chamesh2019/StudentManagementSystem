@@ -1783,3 +1783,34 @@
 [11/05/2023 21:01:56] getting deltails of 370244 
 [11/05/2023 21:05:59] getting deltails of 370244 
 [11/05/2023 21:05:59] returning deltails of 370244 
+[11/05/2023 21:13:41] Rendering current classes 
+[11/05/2023 21:13:47] Creating new class ALUMNI 
+[11/05/2023 21:13:47] Created new class ALUMNI 
+[11/05/2023 21:13:47] Rendering current classes 
+[11/05/2023 21:13:51] Rendering current classes 
+[11/05/2023 21:13:52] Got class info of Grade ALUMNI 
+[11/05/2023 21:13:52] students in Grade ALUMNI found 
+[11/05/2023 21:13:53] Moved student to alumni class 
+[11/05/2023 21:13:53] Rendering current classes 
+[11/05/2023 21:14:02] Creating new class ALUMNI 
+[11/05/2023 21:14:02] Created new class ALUMNI 
+[11/05/2023 21:14:02] Rendering current classes 
+[11/05/2023 21:14:35] Rendering current classes 
+[11/05/2023 21:18:16] getting deltails of 123123 
+[11/05/2023 21:18:16] returning deltails of 123123 
+[11/05/2023 21:19:24] getting deltails of 679 
+[11/05/2023 21:19:24] returning deltails of 679 
+[11/05/2023 21:20:57] getting deltails of 123123 
+[11/05/2023 21:20:57] returning deltails of 123123 
+[11/05/2023 21:21:02] getting deltails of 679 
+[11/05/2023 21:21:02] returning deltails of 679 
+[11/05/2023 21:21:22] Requested Teacher List 
+[11/05/2023 21:21:22] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[11/05/2023 21:21:25] returned Teacher registration form 
+[11/05/2023 21:22:02] Teacher registration 
+[11/05/2023 21:22:02] Teacher Instance Keith Walters Created 
+[11/05/2023 21:22:02] Teacher Instance Keith Walters Saved to database 
+[11/05/2023 21:22:02] Created teacher Instance 
+[11/05/2023 21:22:02] returned Teacher registration form 
+[11/05/2023 21:22:08] Requested Teacher List 
+[11/05/2023 21:22:08] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}, {'nic': 'Ut iste impedit vol', 'teacher_name': 'Keith Walters'}] 
