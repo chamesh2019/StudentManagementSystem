@@ -25,7 +25,7 @@
         <form enctype="multipart/form-data" action="" method="post">
           {% csrf_token %}
             <p>Index Number:</p>
-            <input type="text" name="student_index_number" placeholder="Index Number" class="input-field" required><br>
+            <input type="text" maxlength="6" name="student_index_number" placeholder="Index Number" class="input-field" required><br>
             
             <p>Full Name</p>
             <input type="text" name="student_full_name" placeholder="Full Name" class="input-field" required><br>
@@ -81,6 +81,8 @@
                 <input type="text" name="mother_nic" placeholder="mother_nic" class="input-field" required><br>
                 <p>Mother Date Of Birth:</p>
                 <input type="date" name="mother_dob" placeholder="mother_dob" class="input-field" required><br>
+                <p>Contact Number:</p>
+                <input type="text" name="mother_contact_number" placeholder="mother_contact_number" class="input-field" required>
                 <p>Mother Job:</p>
                 <input type="text" name="mother_job" placeholder="mother_job" class="input-field" required><br>
                 <p>Mother Status:</p>
@@ -101,6 +103,8 @@
                 <input type="text" name="father_nic" placeholder="father_nic" class="input-field" required><br>
                 <p>Father Date Of Birth:</p>
                 <input type="date" name="father_dob" placeholder="father_dob" class="input-field" required><br>
+                <p>Contact Number:</p>
+                <input type="text" name="father_contact_number" placeholder="father_contact_number" class="input-field" required>
                 <p>Father Job:</p>
                 <input type="text" name="father_job" placeholder="father_job" class="input-field" required><br>
                 <p>Father Status:</p>

@@ -82,10 +82,16 @@ class StudentAdd(View):
         mother_name = data['mother_name']
         mother_status = data['mother_status']
         mother_nic = data['mother_nic']
+        mother_dob = data['mother_dob']
+        mother_contact_number = data['mother_contact_number']
+        mother_job = data['mother_job']
         mother_special_notes = data['mother_special_notes']
         father_name = data['father_name']
         father_status = data['father_status']
         father_nic = data['father_nic']
+        father_dob = data['father_dob']
+        father_contact_number = data['father_contact_number']
+        father_job = data['father_job']
         father_special_notes = data['father_special_notes']
 
         log_file('Got Student data')
@@ -136,10 +142,16 @@ class StudentAdd(View):
             student_index_number=student_instance,
             mother_name=mother_name,
             mother_nic=mother_nic,
+            mother_dob=mother_dob,
+            mother_job=mother_job,
             mother_status=mother_status,
+            mother_contact_number=mother_contact_number,
             mother_special_notes=mother_special_notes,
             father_name=father_name,
             father_nic=father_nic,
+            father_dob=father_dob,
+            father_contact_number=father_contact_number,
+            father_job=father_job,
             father_status=father_status,
             father_special_notes=father_special_notes,
         )
@@ -187,6 +199,7 @@ class StudentView(View):
             last_term_marks = ExamInfo.objects.filter(student=student_instance, term=Terms.objects.get(pk=last_term_id))
         except:
             last_term_marks = []
+            last_term = "No Exam Informations"
         
         page_context = {
             "student_instance": student_instance,

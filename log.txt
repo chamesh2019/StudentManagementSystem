@@ -1768,3 +1768,18 @@
 [07/05/2023 22:37:10] returning deltails of 604 
 [07/05/2023 22:37:27] getting deltails of 604 
 [07/05/2023 22:37:27] returning deltails of 604 
+[11/05/2023 20:57:07] Requested Teacher List 
+[11/05/2023 20:57:07] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[11/05/2023 20:57:14] getting deltails of 123123 
+[11/05/2023 20:57:14] returning deltails of 123123 
+[11/05/2023 20:59:36] returned student registration form 
+[11/05/2023 21:01:56] Adding Student with already registered guardian registration 
+[11/05/2023 21:01:56] Got Student data 
+[11/05/2023 21:01:56] Student Instance Chaim Wallace Created 
+[11/05/2023 21:01:56] Parent Instance Ethan Nichols Athena Hudson  Created 
+[11/05/2023 21:01:56] Student Instance Chaim Wallace Saved to database 
+[11/05/2023 21:01:56] Parent Instance Ethan Nichols Athena Hudson saved to database 
+[11/05/2023 21:01:56] Created student Instance 
+[11/05/2023 21:01:56] getting deltails of 370244 
+[11/05/2023 21:05:59] getting deltails of 370244 
+[11/05/2023 21:05:59] returning deltails of 370244 
