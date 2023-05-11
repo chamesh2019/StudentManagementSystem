@@ -1721,3 +1721,50 @@
 [04/05/2023 18:03:57] returning deltails of 123123 
 [04/05/2023 18:04:24] getting deltails of 123123 
 [04/05/2023 18:04:24] returning deltails of 123123 
+[07/05/2023 14:05:26] Requested Teacher List 
+[07/05/2023 14:05:26] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[07/05/2023 14:05:34] getting deltails of 123123 
+[07/05/2023 14:05:34] returning deltails of 123123 
+[07/05/2023 14:08:12] getting deltails of 123123 
+[07/05/2023 14:08:12] returning deltails of 123123 
+[07/05/2023 14:51:30] getting deltails of 123123 
+[07/05/2023 14:51:30] returning deltails of 123123 
+[07/05/2023 22:09:03] getting deltails of 123123 
+[07/05/2023 22:09:03] returning deltails of 123123 
+[07/05/2023 22:23:33] getting deltails of 679 
+[07/05/2023 22:23:55] getting deltails of 679 
+[07/05/2023 22:24:20] getting deltails of 679 
+[07/05/2023 22:25:00] getting deltails of 679 
+[07/05/2023 22:26:17] getting deltails of 679 
+[07/05/2023 22:26:17] returning deltails of 679 
+[07/05/2023 22:26:41] getting deltails of 679 
+[07/05/2023 22:26:41] returning deltails of 679 
+[07/05/2023 22:26:58] getting deltails of 679 
+[07/05/2023 22:26:58] returning deltails of 679 
+[07/05/2023 22:27:09] Requested Student List 
+[07/05/2023 22:27:09] Returnng rendered [{'index_number': '679', 'student_name': 'Ramona Valencia', 'class': 'Grade 08'}, {'index_number': '604', 'student_name': 'Jillian Sargent', 'class': 'Grade 13-T'}] 
+[07/05/2023 22:27:11] getting deltails of 604 
+[07/05/2023 22:27:11] returning deltails of 604 
+[07/05/2023 22:27:42] getting deltails of 604 
+[07/05/2023 22:27:42] returning deltails of 604 
+[07/05/2023 22:28:37] getting deltails of 604 
+[07/05/2023 22:28:37] returning deltails of 604 
+[07/05/2023 22:29:18] getting deltails of 604 
+[07/05/2023 22:29:18] returning deltails of 604 
+[07/05/2023 22:29:50] getting deltails of 604 
+[07/05/2023 22:29:50] returning deltails of 604 
+[07/05/2023 22:30:32] getting deltails of 604 
+[07/05/2023 22:31:12] getting deltails of 604 
+[07/05/2023 22:32:25] getting deltails of 604 
+[07/05/2023 22:33:10] getting deltails of 604 
+[07/05/2023 22:33:11] returning deltails of 604 
+[07/05/2023 22:34:21] getting deltails of 604 
+[07/05/2023 22:34:21] returning deltails of 604 
+[07/05/2023 22:34:37] getting deltails of 604 
+[07/05/2023 22:34:37] returning deltails of 604 
+[07/05/2023 22:36:41] getting deltails of 604 
+[07/05/2023 22:36:41] returning deltails of 604 
+[07/05/2023 22:37:10] getting deltails of 604 
+[07/05/2023 22:37:10] returning deltails of 604 
+[07/05/2023 22:37:27] getting deltails of 604 
+[07/05/2023 22:37:27] returning deltails of 604 

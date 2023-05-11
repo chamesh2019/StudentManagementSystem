@@ -18,16 +18,23 @@ class SubjectInfo(models.Model):
     def __str__(self) -> str:
         return self.subject + " " + self.range
     
+    
+class Terms(models.Model):
+    term = models.CharField(max_length=100) 
+    term_type = models.CharField(max_length=10) 
+    finished = models.BooleanField()
+    
+    def __str__(self) -> str:
+        return f'{self.term}'
+
 class ExamInfo(models.Model):
-    exam = models.CharField(max_length=100) 
     subject = models.ForeignKey(SubjectInfo, on_delete=models.CASCADE)
     student = models.ForeignKey('StudentInfoHandler.StudentInfo', on_delete=models.CASCADE)
-    month = models.CharField(max_length=20)
-    year = models.IntegerField()
+    term = models.ForeignKey(Terms, on_delete=models.CASCADE)
     marks = models.IntegerField()
     
     def __str__(self) -> str:
-        return f'{self.exam} {self.subject} {self.month} {self.year}'
+        return f'{self.subject} {self.term}'
     
 
 class Attendance(models.Model):

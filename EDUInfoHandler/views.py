@@ -6,7 +6,7 @@ from django.db.models.functions import Length
 
 from StudentInfoHandler.models import StudentInfo, ParentInfo
 from TeacherInfoHandler.models import TeacherInfo
-from .models import ClassInfo, SubjectInfo, LoginKey, Attendance
+from .models import ClassInfo, SubjectInfo, LoginKey, Attendance, Terms
 from manage import log_file
 
 from datetime import datetime
@@ -110,6 +110,7 @@ class ClassView(View):
             alumn_instance = get_object_or_404(ClassInfo, class_name="ALUMNI")
             for student_instance in student_instances:
                 student_instance.class_info = alumn_instance
+                student_instance.save()
                 
             class_instance.delete()
             log_file("Moved student to alumni class")
@@ -138,6 +139,45 @@ class SubjectsView(View):
         return render(request, template_name="subjects_view.html", context={
             'current_subjects': current_subjects
         })
+
+class TermView(View):
+    def get(self, request):
+        current_mid_terms = Terms.objects.filter(term_type="6-11")
+        current_high_terms = Terms.objects.filter(term_type="12-13")
+        page_context = {
+            "current_mid_terms": current_mid_terms,
+            "current_high_terms": current_high_terms
+        }
+        print(page_context)
+        return render(request, template_name="terms.html", context=page_context)
+    
+    def post(self, request):
+        data = request.POST
+        try:
+            term_id = data["finished"]
+            term_instance = Terms.objects.get(pk=term_id)
+            term_instance.finished = True
+            term_instance.save()
+            return redirect("TermView")
+        except:
+            pass
+        
+        try:        
+            new_term_name = data["new_term_name"]
+            term_type = data["term_type"]
+            
+            term_instance = Terms(
+                term = new_term_name,
+                term_type = term_type,
+                finished = False
+            )
+            term_instance.save()
+            return redirect("TermView")
+        except:
+            pass
+        
+        
+        return HttpResponse("Invalid Data")
 
 class HomepageView(View):
     def get(self, request):

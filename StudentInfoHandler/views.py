@@ -11,7 +11,7 @@ import json
 from qrcode.image.pure import PyPNGImage
 from manage import log_file
 
-from EDUInfoHandler.models import ClassInfo, LoginKey, Attendance, SubjectInfo
+from EDUInfoHandler.models import ClassInfo, LoginKey, Attendance, SubjectInfo, ExamInfo, Terms
 from .models import StudentInfo, ParentInfo
 
 class StudentAdd(View):
@@ -178,14 +178,28 @@ class StudentView(View):
         selected_subjects = student_instance.get_subjects(SubjectInfo)
         selected_subjects = [subject.subject for subject in selected_subjects]
         
+        try:
+            all_term_marks = ExamInfo.objects.filter(student=student_instance)
+            terms = list(set((marks.term.pk, marks.term.term) for marks in all_term_marks))
+            print(terms)
+            last_term_id, last_term = terms[0]
+            print(last_term_id, last_term)
+            last_term_marks = ExamInfo.objects.filter(student=student_instance, term=Terms.objects.get(pk=last_term_id))
+        except:
+            last_term_marks = []
+        
         page_context = {
             "student_instance": student_instance,
             "parent_instance": parent_instance,
             "image": "profile/" + str(student_index_number) + ".jpg",
             "QR": format_html(f"<img src='{student_instance.RFID_key}'></div>"),
             "attendance": attendance,
-            "selected_subjects": selected_subjects
+            "selected_subjects": selected_subjects,
+            "last_term_marks": last_term_marks,
+            "last_term" : last_term
         }
+        
+        print(page_context)
         try:
             if request.GET['added']:
                 context['extra'] = reverse("StudentAdd")

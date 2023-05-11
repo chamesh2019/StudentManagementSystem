@@ -75,7 +75,7 @@
 						<summary>{{key.subject}}</summary>
 						<br>
 							{% for class in value %}
-							<a href="subject\lap_subject.html" target="_blank"><b>-->Grade {{class.class_name}}</b></a><br>
+							<a href="/teachers/addmarks/{{class.pk}}/{{key.pk}}" target="_blank"><b>-->Grade {{class.class_name}}</b></a><br>
 							{% endfor %}
 					</details>
                 {% endfor %}

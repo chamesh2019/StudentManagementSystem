@@ -1,6 +1,7 @@
 import base64
 import io
 import qrcode
+import json
 from qrcode.image.pure import PyPNGImage
 
 from django.http import JsonResponse
@@ -8,7 +9,7 @@ from django.shortcuts import render
 from django.shortcuts import render, HttpResponse, get_object_or_404, redirect
 from django.urls import reverse
 from django.views import View
-from EDUInfoHandler.models import ClassInfo, LoginKey, SubjectInfo
+from EDUInfoHandler.models import ClassInfo, LoginKey, SubjectInfo, Terms, ExamInfo
 
 from manage import log_file
 from .models import TeacherInfo
@@ -184,10 +185,72 @@ class MarksAdd(View):
         current_subject = SubjectInfo.objects.get(pk=subject)
         current_class = ClassInfo.objects.get(pk=grade)
         
-        if not current_subject in list(subjects.keys()):
-            return HttpResponse("you don't teach this subject")
+        #if not current_subject in list(subjects.keys()):
+        #    return HttpResponse("you don't teach this subject")
         
-        if not current_class in subjects[current_subject]:
-            return HttpResponse("you don't teach this grade")
+        #if not current_class in subjects[current_subject]:
+        #    return HttpResponse("you don't teach this grade")
         
-        return HttpResponse()
+        students = StudentInfo.objects.filter(class_info=current_class)
+        if current_class.class_type == "12-13" or current_subject.bucket==True:
+            print(students[0].get_subjects(SubjectInfo))
+            students = [student for student in students if current_subject in student.get_subjects(SubjectInfo)]
+        
+        term_type = "6-11"
+        if current_class.class_type == "12-13":
+            term_type = "12-13"
+        
+        terms = Terms.objects.filter(term_type=term_type, finished=False)
+        student_list = [student.pk for student in students]
+        page_context = {
+            "students" : students,
+            "subject" : current_subject,
+            "grade" : current_class,
+            "student_list": json.dumps({"students" : student_list}),
+            "terms" : terms
+        }
+        print(page_context)
+        return render(request, template_name="addmarks_pc.html", context=page_context)
+        
+    def post(self, request,  grade, subject):
+        data = request.POST
+        try:
+            auth_key = request.session['auth_key']
+        except:
+            return redirect("HomepageView")
+        
+        teacher_instance = LoginKey.objects.get(key=auth_key).get_user(TeacherInfo, StudentInfo)
+        subjects = teacher_instance.get_subjects(SubjectInfo, ClassInfo)
+        try:
+            term = data["term"]
+            term = Terms.objects.get(pk=term)
+        except:
+            return HttpResponse("Invalid data")
+            
+        current_subject = SubjectInfo.objects.get(pk=subject)
+        current_class = ClassInfo.objects.get(pk=grade)
+        
+        #if not current_subject in list(subjects.keys()):
+        #    return HttpResponse("you don't teach this subject")
+        
+        #if not current_class in subjects[current_subject]:
+        #    return HttpResponse("you don't teach this grade")
+        
+        
+        try:
+            students = data["students"]
+        except:
+            return HttpResponse("No student list")
+ 
+        students = json.loads(students)['students']
+        for student in students:
+            student_instance = StudentInfo.objects.get(index_number=student)
+            
+            exam_instance = ExamInfo(
+                subject=current_subject,
+                term=term,
+                student=student_instance,
+                marks=data[student]
+            )
+            exam_instance.save()
+        return redirect("/teachers/"+teacher_instance.nic)

@@ -139,7 +139,7 @@
 
         <table border="2" cellpadding="10">
             <caption>
-                <h2>Last Term Marks</h2>
+                <h2>{{last_term}} Marks</h2>
             </caption>
             <thead>
                 <tr>
@@ -149,32 +149,24 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Row 1, Column 1</td>
-                    <td>Row 1, Column 2</td>
-                    <td>Row 1, Column 3</td>
-                </tr>
-                <tr>
-                    <td>Row 2, Column 1</td>
-                    <td>Row 2, Column 2</td>
-                    <td>Row 2, Column 3</td>
-                </tr>
-                <tr>
-                    <td>Row 3, Column 1</td>
-                    <td>Row 3, Column 2</td>
-                    <td>Row 3, Column 3</td>
-                </tr>
-                <tr>
-                    <td>Row 4, Column 1</td>
-                    <td>Row 4, Column 2</td>
-                    <td>Row 4, Column 3</td>
-                </tr>
-                <tr>
-                    <td>Row 5, Column 1</td>
-                    <td>Row 5, Column 2</td>
-                    <td>Row 5, Column 3</td>
-                </tr>
                 
+                {% for marks in last_term_marks %}
+                <tr>
+                    <td>{{ marks.subject.subject }}</td>
+                    <td>{{ marks.marks }}</td>
+					{% if marks.marks > 74 %}
+                    <td>A</td>
+					{% elif marks.marks > 64 %}
+                    <td>B</td>
+					{% elif marks.marks > 54 %}
+                    <td>C</td>
+					{% elif marks.marks > 34%}
+                    <td>S</td>
+					{% else %}
+                    <td>F</td>
+					{% endif %}
+                </tr>
+                {% endfor %}
                 
             </tbody>
         </table>

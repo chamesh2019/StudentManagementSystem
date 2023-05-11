@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import ClassView, SubjectsView, HomepageView, AttendanceMarkerIn, AttendanceMarkerOut
+from .views import ClassView, SubjectsView, HomepageView, AttendanceMarkerIn, AttendanceMarkerOut, TermView
 
 urlpatterns = [
     path('class/', ClassView.as_view(), name="ClassView"),
@@ -7,4 +7,5 @@ urlpatterns = [
     path('', HomepageView.as_view(), name="HomepageView"),
     path('attendance/in/<str:id>', AttendanceMarkerIn.as_view(), name="AttendanceIn"),
     path('attendance/out/<str:id>', AttendanceMarkerOut.as_view(), name="AttendanceOut"),
+    path('terms/', TermView.as_view(), name="TermView")
     ]
