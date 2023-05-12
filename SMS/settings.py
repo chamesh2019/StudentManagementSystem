@@ -127,5 +127,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://chamesh2019-psychic-space-guacamole-g45xgrx7jr3p744.github.dev']
+CSRF_TRUSTED_ORIGINS = ['https://chamesh2019-psychic-space-guacamole-g45xgrx7jr3p744-8000.preview.app.github.dev']
 

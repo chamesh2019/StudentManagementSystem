@@ -33,7 +33,7 @@ class TeacherAdd(View):
         }
         
         if request.is_mobile:
-            return HttpResponse("Please use a Computer to see this page")
+            return render(request, template_name="teacher_form_mobile.html", context=page_context)
         return render(request, template_name="teacher_form_pc.html", context=page_context)
 
     def post(self, request):

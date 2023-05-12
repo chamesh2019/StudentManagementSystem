@@ -165,7 +165,7 @@ class StudentAdd(View):
             f'Parent Instance {parent_instance} saved to database')
 
         log_file('Created student Instance')
-        return redirect(f'{reverse("StudentView", kwargs={"student_index_number":student_index_number})}?added=1')
+        return redirect("StudentAdd")
         
             
 class StudentView(View):

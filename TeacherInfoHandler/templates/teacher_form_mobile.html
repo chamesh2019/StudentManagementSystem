@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher DATA ENTRY | P.M.V</title>
+    <link rel="icon" type="image/jpg" href="/static/studentadd/title_img.jpg"/>
+    <link rel="stylesheet" href="/static/studentadd/p_show.css">
+</head>
+<body>
+  <div class="image-container">
+    <a href="/">
+      <img src="/static/studentadd/home (1).png" alt="Image">
+      <div class="overlay">
+        <i class="fa fa-link"></i>
+        <span>Back To Home</span>
+      </div>
+    </a>
+  </div>
+    <div class="content">
+
+        <h2>Teacher Form</h2>
+        <br><br><br>
+        <form enctype="multipart/form-data" action="" method="post">
+          {% csrf_token %}
+            <p>Full Name</p>
+            <input type="text" name="full_name" placeholder="Full Name" class="input-field" required><br>
+            
+            <p>Name With Initials</p>
+            <input type="text" name="name_with_initials" placeholder="name_with_initials" class="input-field" required><br>
+            
+            <p>Date Of Birth</p>
+            <input type="date" name="date_of_birth" placeholder="date_of_birth" class="input-field" required><br>
+            <br>
+
+            <p>Gender:</p>
+            <div class="radio-group">
+              <label for="male" class="radio-button">
+                <input type="radio" id="male" name="gender" value="M">
+                Male
+              </label>
+              <label for="female" class="radio-button">
+                <input type="radio" id="female" name="gender" value="F">
+                Female
+              </label>
+            </div>
+
+			<p>NIC:</p>
+            <input type="text" name="nic" placeholder="NIC" class="input-field" required><br>
+
+			<p>School Enrolled Date : </p>
+			<input type="date" class="input-field" name="enrolled_date">
+
+			<p>Teaching Started Date : </p>
+			<input type="date" class="input-field" name="started_date">
+
+            <p>Address</p>
+            <input type="address" name="address" placeholder="address" class="input-field" required><br>
+			
+			<p>Contact Number : </p>
+			<input type="text" class="input-field" name="contact_number">
+			
+            <p>Profile Image:</p>
+            <input type="file" name="profile" required>
+
+            <p>Special Notes</p>
+            <textarea id="special_notes" name="special_notes" name="message" rows="4"></textarea>
+
+            <p>Class Info:</p>
+            <select id="class_info" name="class_info">
+                {% for class_info in current_classes %}
+                <option data-stream="{{ class_info.class_type }}" value="{{class_info.id}}">Grade {{class_info.class_name}}</option>
+                {% endfor %}
+            </select>
+			
+			<p>Post : </p>
+			
+				<ul type="none" id="selected" style="font-family=Arial; color: white;">
+					
+				</ul>
+			
+			<textarea name="post" id="post" style="visibility: hidden; height:0px;"> </textarea>
+			<select id="postselection">
+				<option>Select</option>
+				<option data-post="Cadet">Cadet</option>
+				<option data-post="Scout">Scout</option>
+				<option data-post="Environmental Pioneer">Environmental Pioneer</option>
+				<option data-post="Student Parliament">Student Parliament</option>
+				<option data-post="Library">Library</option>
+				<option data-post="Term Marks Administation">Term Marks Administation</option>
+				<option data-post="Discipline Committee">Discipline Committee</option>
+				<option data-post="School Text Books">School Text Books</option>
+				<option data-post="Attendance Checker">Attendance Checker</option>
+				<option data-post="Health Promotion Committee">Health Promotion Committee</option>
+				<option data-post="Teacher Salary Administration">Teacher Salary Administration</option>
+				<option data-post="Time Table Administation">Time Table Administation</option>
+				<option data-post="NIC and National Exams">NIC and National Exams</option>
+				<option data-post="Dengue Commitee">Dengue Commitee</option>
+				<option data-post="Prefect Advisory Board">Prefect Advisory Board</option>
+				<option data-post="Sinhala Meeting">Sinhala Meeting</option>
+				<option data-post="English Meeting">English Meeting</option>
+				<option data-post="Baudha Comitee">Baudha Comitee</option>
+				<option data-post="Sports">Sports</option>
+			</select>
+
+			<p>Position : </p>
+			<select name="position">
+				<option>Select</option>
+				<option value="Principal">Principal</option>
+				<option value="Vice-Principal">Vice-Principal</option>
+				<option value="Teacher">Teacher</option>
+				<option value="Other">Other</option>
+			</select>
+			
+			<p>Teacher Class : </p>
+			<select name="teacher_grade">
+				<option value="Class A">Class A</option>
+				<option value="Class B">Class B</</option>
+				<option value="Class C">Class C</</option>
+				<option value="Class D">Class D</</option>
+			</select>
+			
+			<style>
+			.popup {
+				position: fixed;
+				z-index: 1;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+				background-color: rgba(0, 0, 0, 0.4);
+				justify-content: center;
+				display: none;
+			}
+			.popup-content {
+				position: absolute;
+				background-color: white;
+				bottom: 40px;
+				margin: 25%;
+				padding: 20px;
+				border: 1px solid #888888;
+				width: 50%;
+				font-weight: bolder;
+			}
+			.show {
+				display: block;
+			}
+			
+			li{
+			 padding : 5px;
+			 margin: 1px;
+			 font-size: 1.2em;
+			 background-color: rgba(25,200,25, 0.8);
+			}
+			
+			</style>
+			
+			<div id="myPopup" class="popup">
+				<div class="popup-content">
+					<p>Select Grade:</p>
+					<select  id="grade_selection">>
+						<option>Select Grade</option>
+						{% for class_info in current_classes %}
+							<option data-stream="{{ class_info.class_type }}" data-grade="{{class_info.id}}">Grade {{class_info.class_name}}</option>
+						{% endfor %}
+					</select>
+					<p>Select Subject:</p>
+					<select id="subject_selection">
+						
+					</select>
+					<p class="save" id="save" style="background-color: green; cursor:pointer; color: white; font-weight: 300;">Save</p>
+				</div>
+			</div>
+			<p>Subjects : </p>
+			<ul type="none" id="selected_subjects_view" style="font-family=Arial; color: white;">
+					
+			</ul>
+			<p id="subjectadd" style="background-color: red; cursor:pointer;">
+			Add Subjects
+			</p>
+			<textarea name="selected_subjects" id="selected_subjects" style="visibility: hidden; height:0px;">{}</textarea>
+            <br>
+          </br>
+          <input type="submit"  class="submit">
+          </form>
+    </div>
+
+
+    <footer>
+        <hr>
+        <h5>&copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b></h5>
+       
+    </footer> 
+    <script>
+	var select_post = document.getElementById("postselection")
+	var selected = document.getElementById("selected")
+	var post = document.getElementById("post")
+	
+	postselection.onchange = function(event){
+		var current_post = event.target.options[event.target.selectedIndex].dataset.post;
+		selected.innerHTML = selected.innerHTML + `
+		<li>${current_post}</li>
+		`
+		post.innerHTML = post.innerHTML + "," +current_post
+		postselection.selectedIndex = 0
+	}
+	
+	var myButton = document.getElementById("subjectadd")
+	
+	myButton.addEventListener("click", function () {
+		myPopup.classList.add("show");
+	});
+	window.addEventListener("click", function (event) {
+		if (event.target == myPopup) {
+			myPopup.classList.remove("show");
+		}
+	});
+	
+	var grade_selection = document.getElementById("grade_selection")
+	var subject_selection = document.getElementById("subject_selection")
+	grade_selection.onchange = function(event){
+	  var stream = event.target.options[event.target.selectedIndex].dataset.stream;
+	  if (stream == "6-9"){
+		subject_selection.innerHTML = `
+			{% for subject in middle_subjects %}
+				<option data-subject="{{ subject.pk }}">{{subject.subject}}</option>
+			{% endfor %}
+	  `
+	  }
+	  if (stream == "10-11"){
+		subject_selection.innerHTML = `
+			{% for subject in o_level_subjects %}
+				<option data-subject="{{ subject.pk }}">{{subject.subject}}</option>
+			{% endfor %}
+	  `
+	  } 
+	  if (stream == "12-13"){
+		subject_selection.innerHTML = `
+			{% for subject in a_level_subjects %}
+				<option data-subject="{{ subject.pk }}">{{subject.subject}}</option>
+			{% endfor %}
+	  `
+	  } 
+	};
+	
+	var selected_subjects_view = document.getElementById("selected_subjects_view")
+	var save = document.getElementById("save")
+	var selected_subjects = document.getElementById("selected_subjects")
+	
+	save.addEventListener("click", function () {
+		console.log(grade_selection.selectedIndex)
+		var current_grade = grade_selection.options[grade_selection.selectedIndex];
+		var current_subject = subject_selection.options[subject_selection.selectedIndex];
+		selected_subjects_view.innerHTML = selected_subjects_view.innerHTML + `
+		<li>${current_grade.innerHTML} : ${current_subject.innerHTML}</li>
+		`
+		current_json = selected_subjects.innerHTML
+		current_json = JSON.parse(current_json)
+		current_json[current_grade.dataset.grade] = current_subject.dataset.subject
+		
+		selected_subjects.innerHTML = JSON.stringify(current_json)
+		
+		grade_selection.selectedIndex = 0
+		subject_selection.innerHTML = ""
+		myPopup.classList.remove("show");
+	});
+	
+	
+	
+	</script>
+</body>
+</html>

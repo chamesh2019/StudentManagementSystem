@@ -1814,3 +1814,54 @@
 [11/05/2023 21:22:02] returned Teacher registration form 
 [11/05/2023 21:22:08] Requested Teacher List 
 [11/05/2023 21:22:08] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}, {'nic': 'Ut iste impedit vol', 'teacher_name': 'Keith Walters'}] 
+[12/05/2023 07:31:41] returned student registration form 
+[12/05/2023 07:32:11] returned student registration form 
+[12/05/2023 07:32:19] returned student registration form 
+[12/05/2023 07:32:23] returned Teacher registration form 
+[12/05/2023 07:33:08] returned student registration form 
+[12/05/2023 07:37:19] returned Teacher registration form 
+[12/05/2023 11:41:10] returned student registration form 
+[12/05/2023 11:41:15] returned Teacher registration form 
+[12/05/2023 11:42:14] returned Teacher registration form 
+[12/05/2023 11:42:14] returned Teacher registration form 
+[12/05/2023 11:42:31] returned Teacher registration form 
+[12/05/2023 11:44:18] returned Teacher registration form 
+[12/05/2023 11:45:11] returned Teacher registration form 
+[12/05/2023 11:51:42] returned student registration form 
+[12/05/2023 11:52:33] returned student registration form 
+[12/05/2023 12:03:58] returned student registration form 
+[12/05/2023 12:08:27] returned student registration form 
+[12/05/2023 12:09:29] returned student registration form 
+[12/05/2023 12:10:34] Adding Student with already registered guardian registration 
+[12/05/2023 12:10:34] Got Student data 
+[12/05/2023 12:10:34] Student Instance Thor Mcmillan Created 
+[12/05/2023 12:10:34] Parent Instance Harrison Bennett Tanisha Harrell  Created 
+[12/05/2023 12:10:34] Student Instance Thor Mcmillan Saved to database 
+[12/05/2023 12:10:34] Parent Instance Harrison Bennett Tanisha Harrell saved to database 
+[12/05/2023 12:10:34] Created student Instance 
+[12/05/2023 12:11:21] login successfull 343 
+[12/05/2023 12:11:22] getting deltails of 343 
+[12/05/2023 12:11:22] returning deltails of 343 
+[12/05/2023 12:11:49] returned Teacher registration form 
+[12/05/2023 12:13:59] Teacher registration 
+[12/05/2023 12:13:59] Teacher Instance Emerald Molina Created 
+[12/05/2023 12:13:59] Teacher Instance Emerald Molina Saved to database 
+[12/05/2023 12:13:59] Created teacher Instance 
+[12/05/2023 12:14:00] returned Teacher registration form 
+[12/05/2023 12:15:29] returned Teacher registration form 
+[12/05/2023 12:15:51] returned student registration form 
+[12/05/2023 12:16:22] Teacher registration 
+[12/05/2023 12:17:23] Requested Student List 
+[12/05/2023 12:17:23] Returnng rendered [{'index_number': '679', 'student_name': 'Ramona Valencia', 'class': 'Grade 08'}, {'index_number': '604', 'student_name': 'Jillian Sargent', 'class': 'Grade 13-T'}, {'index_number': '370244', 'student_name': 'Chaim Wallace', 'class': 'Grade 11'}, {'index_number': '343', 'student_name': 'Thor Mcmillan', 'class': 'Grade 12-M'}] 
+[12/05/2023 12:17:56] Requested Teacher List 
+[12/05/2023 12:17:56] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}, {'nic': 'Ut iste impedit vol', 'teacher_name': 'Keith Walters'}, {'nic': '1234321', 'teacher_name': 'Emerald Molina'}] 
+[12/05/2023 12:18:15] Rendering current subjects 
+[12/05/2023 12:18:43] Adding Student with already registered guardian registration 
+[12/05/2023 12:18:43] Got Student data 
+[12/05/2023 12:18:43] Student Instance Punchi hewage kaveesha dilmi Created 
+[12/05/2023 12:18:43] Parent Instance D.M indrani danapala  P.h mahinda ananda  Created 
+[12/05/2023 12:18:43] Student Instance Punchi hewage kaveesha dilmi Saved to database 
+[12/05/2023 12:18:43] Parent Instance D.M indrani danapala  P.h mahinda ananda saved to database 
+[12/05/2023 12:18:43] Created student Instance 
+[12/05/2023 12:18:43] returned student registration form 
+[12/05/2023 12:18:59] Rendering current classes 
