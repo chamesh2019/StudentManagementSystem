@@ -1865,3 +1865,422 @@
 [12/05/2023 12:18:43] Created student Instance 
 [12/05/2023 12:18:43] returned student registration form 
 [12/05/2023 12:18:59] Rendering current classes 
+[12/05/2023 12:22:18] returned student registration form 
+[12/05/2023 12:22:59] Adding Student with already registered guardian registration 
+[12/05/2023 12:22:59] Got Student data 
+[12/05/2023 12:22:59] Student Instance Hedda Talley Created 
+[12/05/2023 12:22:59] Parent Instance Suki Ellis Cassandra Benton  Created 
+[12/05/2023 12:22:59] Student Instance Hedda Talley Saved to database 
+[12/05/2023 12:22:59] Parent Instance Suki Ellis Cassandra Benton saved to database 
+[12/05/2023 12:22:59] Created student Instance 
+[12/05/2023 12:23:01] returned student registration form 
+[12/05/2023 12:25:04] returned Teacher registration form 
+[12/05/2023 12:26:11] returned Teacher registration form 
+[12/05/2023 12:26:54] Adding Student with already registered guardian registration 
+[12/05/2023 12:26:54] Got Student data 
+[12/05/2023 12:26:54] Student Instance Lalith chandra nawarathnage ridmi sathsarani nawarathna Created 
+[12/05/2023 12:26:54] Parent Instance R.A manjula awanthi nawarathna  S. Lalith chandra nawarathna   Created 
+[12/05/2023 12:26:54] Student Instance Lalith chandra nawarathnage ridmi sathsarani nawarathna Saved to database 
+[12/05/2023 12:26:54] Parent Instance R.A manjula awanthi nawarathna  S. Lalith chandra nawarathna  saved to database 
+[12/05/2023 12:26:54] Created student Instance 
+[12/05/2023 12:26:55] returned student registration form 
+[12/05/2023 12:27:06] returned Teacher registration form 
+[12/05/2023 12:29:50] login successfull 468928 
+[12/05/2023 12:29:51] getting deltails of 468928 
+[12/05/2023 12:29:51] returning deltails of 468928 
+[12/05/2023 12:30:00] Teacher registration 
+[12/05/2023 12:30:00] Teacher Instance Keshara daham  Created 
+[12/05/2023 12:30:00] Teacher Instance Keshara daham  Saved to database 
+[12/05/2023 12:30:00] Created teacher Instance 
+[12/05/2023 12:30:00] returned Teacher registration form 
+[12/05/2023 12:32:25] returned Teacher registration form 
+[12/05/2023 12:32:30] returned student registration form 
+[12/05/2023 12:33:38] returned Teacher registration form 
+[12/05/2023 12:36:40] Rendering current classes 
+[12/05/2023 12:37:09] Rendering current classes 
+[12/05/2023 12:37:14] returned student registration form 
+[12/05/2023 12:37:21] Creating new class 10-B 
+[12/05/2023 12:37:21] Created new class 10-B 
+[12/05/2023 12:37:21] Rendering current classes 
+[12/05/2023 12:40:13] Adding Student with already registered guardian registration 
+[12/05/2023 12:40:13] Got Student data 
+[12/05/2023 12:40:13] Student Instance Kamkanam arachchilage janani keshika Created 
+[12/05/2023 12:40:13] Parent Instance Konadeniye gedara mudiyanselage shalika jayarathna Kamkanam arachchilage kasun thilina   Created 
+[12/05/2023 12:40:13] Student Instance Kamkanam arachchilage janani keshika Saved to database 
+[12/05/2023 12:40:13] Parent Instance Konadeniye gedara mudiyanselage shalika jayarathna Kamkanam arachchilage kasun thilina  saved to database 
+[12/05/2023 12:40:13] Created student Instance 
+[12/05/2023 12:40:13] returned student registration form 
+[12/05/2023 12:46:59] returned Teacher registration form 
+[12/05/2023 12:47:08] returned Teacher registration form 
+[12/05/2023 12:47:35] returned student registration form 
+[12/05/2023 12:48:01] returned student registration form 
+[12/05/2023 12:49:04] returned student registration form 
+[12/05/2023 12:49:30] returned Teacher registration form 
+[12/05/2023 12:51:18] Teacher registration 
+[12/05/2023 12:51:18] Teacher Instance Hashini Sandhamali Created 
+[12/05/2023 12:51:18] Teacher Instance Hashini Sandhamali Saved to database 
+[12/05/2023 12:51:18] Created teacher Instance 
+[12/05/2023 12:51:19] returned Teacher registration form 
+[12/05/2023 12:55:59] Adding Student with already registered guardian registration 
+[12/05/2023 12:56:33] returned student registration form 
+[12/05/2023 12:57:24] Adding Student with already registered guardian registration 
+[12/05/2023 12:57:27] Teacher registration 
+[12/05/2023 12:57:27] Teacher Instance Madhara Created 
+[12/05/2023 12:57:27] Teacher Instance Madhara Saved to database 
+[12/05/2023 12:57:27] Created teacher Instance 
+[12/05/2023 12:57:27] returned Teacher registration form 
+[12/05/2023 12:57:34] Adding Student with already registered guardian registration 
+[12/05/2023 12:57:34] Got Student data 
+[12/05/2023 12:57:34] Student Instance Badde Vithanage  Nadun Shanuka Wijeekoon Created 
+[12/05/2023 12:57:34] Parent Instance Sirimal Durayalage Chandrika Malkanthi Badde Vithanage  Jayasiri Wijekoon  Created 
+[12/05/2023 12:57:34] Student Instance Badde Vithanage  Nadun Shanuka Wijeekoon Saved to database 
+[12/05/2023 12:57:34] Parent Instance Sirimal Durayalage Chandrika Malkanthi Badde Vithanage  Jayasiri Wijekoon saved to database 
+[12/05/2023 12:57:34] Created student Instance 
+[12/05/2023 12:57:34] returned student registration form 
+[12/05/2023 12:58:39] returned student registration form 
+[12/05/2023 13:03:31] Teacher registration 
+[12/05/2023 13:03:31] Teacher Instance Tharindhu Nuwan  Created 
+[12/05/2023 13:03:32] Teacher Instance Tharindhu Nuwan  Saved to database 
+[12/05/2023 13:03:32] Created teacher Instance 
+[12/05/2023 13:03:32] returned Teacher registration form 
+[12/05/2023 13:04:28] Adding Student with already registered guardian registration 
+[12/05/2023 13:04:28] Got Student data 
+[12/05/2023 13:04:28] Student Instance Hewage arachchilage dinuka ashan  Created 
+[12/05/2023 13:04:28] Parent Instance Kalyani damayanthi H.A thilak nawarathna  Created 
+[12/05/2023 13:04:28] Student Instance Hewage arachchilage dinuka ashan  Saved to database 
+[12/05/2023 13:04:28] Parent Instance Kalyani damayanthi H.A thilak nawarathna saved to database 
+[12/05/2023 13:04:28] Created student Instance 
+[12/05/2023 13:04:28] returned student registration form 
+[12/05/2023 13:04:51] Adding Student with already registered guardian registration 
+[12/05/2023 13:04:51] Got Student data 
+[12/05/2023 13:04:51] Student Instance Yasasa Ralage Deheme Senethma Created 
+[12/05/2023 13:04:51] Parent Instance R.N.Dedunu Thushari Y.R.Ajantha Kumara   Created 
+[12/05/2023 13:04:52] Student Instance Yasasa Ralage Deheme Senethma Saved to database 
+[12/05/2023 13:04:52] Parent Instance R.N.Dedunu Thushari Y.R.Ajantha Kumara  saved to database 
+[12/05/2023 13:04:52] Created student Instance 
+[12/05/2023 13:04:52] returned student registration form 
+[12/05/2023 13:05:14] returned student registration form 
+[12/05/2023 13:07:13] returned student registration form 
+[12/05/2023 13:07:42] Teacher registration 
+[12/05/2023 13:07:42] Teacher Instance Kalinga Silwa Created 
+[12/05/2023 13:07:42] Teacher Instance Kalinga Silwa Saved to database 
+[12/05/2023 13:07:42] Created teacher Instance 
+[12/05/2023 13:07:42] returned Teacher registration form 
+[12/05/2023 13:11:21] Adding Student with already registered guardian registration 
+[12/05/2023 13:11:21] Got Student data 
+[12/05/2023 13:11:21] Student Instance Gabadage dilshan achintha Created 
+[12/05/2023 13:11:21] Parent Instance Dilini malkanthi Thilak kumara  Created 
+[12/05/2023 13:11:21] Student Instance Gabadage dilshan achintha Saved to database 
+[12/05/2023 13:11:21] Parent Instance Dilini malkanthi Thilak kumara saved to database 
+[12/05/2023 13:11:21] Created student Instance 
+[12/05/2023 13:11:21] returned student registration form 
+[12/05/2023 13:11:37] Teacher registration 
+[12/05/2023 13:11:37] Teacher Instance Nilmini Bamunu Arachchi Created 
+[12/05/2023 13:11:37] Teacher Instance Nilmini Bamunu Arachchi Saved to database 
+[12/05/2023 13:11:37] Created teacher Instance 
+[12/05/2023 13:11:37] returned Teacher registration form 
+[12/05/2023 13:13:43] Adding Student with already registered guardian registration 
+[12/05/2023 13:13:43] Got Student data 
+[12/05/2023 13:13:43] Student Instance Naththranpatha  Dewalage Rashmika Umayantha Kumara  Created 
+[12/05/2023 13:13:44] Parent Instance W.A.B. Madumali Wijesekara N.D.Ajith Kumara  Created 
+[12/05/2023 13:13:44] Student Instance Naththranpatha  Dewalage Rashmika Umayantha Kumara  Saved to database 
+[12/05/2023 13:13:44] Parent Instance W.A.B. Madumali Wijesekara N.D.Ajith Kumara saved to database 
+[12/05/2023 13:13:44] Created student Instance 
+[12/05/2023 13:13:44] returned student registration form 
+[12/05/2023 13:14:14] Teacher registration 
+[12/05/2023 13:14:14] Teacher Instance Niroshani Vindya  Created 
+[12/05/2023 13:14:14] Teacher Instance Niroshani Vindya  Saved to database 
+[12/05/2023 13:14:14] Created teacher Instance 
+[12/05/2023 13:14:15] returned Teacher registration form 
+[12/05/2023 13:14:36] returned student registration form 
+[12/05/2023 13:15:49] Adding Student with already registered guardian registration 
+[12/05/2023 13:15:49] Got Student data 
+[12/05/2023 13:15:49] Student Instance Kuruvita ge hashini bagya Created 
+[12/05/2023 13:15:49] Parent Instance Malkanthi jayasuriya Jayasuriya  Created 
+[12/05/2023 13:15:49] Student Instance Kuruvita ge hashini bagya Saved to database 
+[12/05/2023 13:15:49] Parent Instance Malkanthi jayasuriya Jayasuriya saved to database 
+[12/05/2023 13:15:49] Created student Instance 
+[12/05/2023 13:15:50] returned student registration form 
+[12/05/2023 13:16:35] Teacher registration 
+[12/05/2023 13:16:35] Teacher Instance Shamila Sureshika Created 
+[12/05/2023 13:16:35] Teacher Instance Shamila Sureshika Saved to database 
+[12/05/2023 13:16:35] Created teacher Instance 
+[12/05/2023 13:16:36] returned Teacher registration form 
+[12/05/2023 13:19:55] Teacher registration 
+[12/05/2023 13:19:55] Teacher Instance Champika Sandharenu Created 
+[12/05/2023 13:19:55] Teacher Instance Champika Sandharenu Saved to database 
+[12/05/2023 13:19:55] Created teacher Instance 
+[12/05/2023 13:19:55] returned Teacher registration form 
+[12/05/2023 13:20:37] Adding Student with already registered guardian registration 
+[12/05/2023 13:20:37] Got Student data 
+[12/05/2023 13:20:37] Student Instance Muthu Bandage Punchi Nilame Created 
+[12/05/2023 13:20:37] Parent Instance H.M.Punchi Manike R.M.Silidu  Created 
+[12/05/2023 13:20:37] Student Instance Muthu Bandage Punchi Nilame Saved to database 
+[12/05/2023 13:20:37] Parent Instance H.M.Punchi Manike R.M.Silidu saved to database 
+[12/05/2023 13:20:37] Created student Instance 
+[12/05/2023 13:20:37] returned student registration form 
+[12/05/2023 13:20:46] Adding Student with already registered guardian registration 
+[12/05/2023 13:20:46] Got Student data 
+[12/05/2023 13:20:46] Student Instance Kodithuwakku lage sachintha dilshan Created 
+[12/05/2023 13:20:46] Parent Instance Damayanthi jayasuriya Janaka sanjeewa  Created 
+[12/05/2023 13:20:46] Student Instance Kodithuwakku lage sachintha dilshan Saved to database 
+[12/05/2023 13:20:46] Parent Instance Damayanthi jayasuriya Janaka sanjeewa saved to database 
+[12/05/2023 13:20:46] Created student Instance 
+[12/05/2023 13:20:46] returned student registration form 
+[12/05/2023 13:22:26] returned Teacher registration form 
+[12/05/2023 13:22:41] Teacher registration 
+[12/05/2023 13:22:41] Teacher Instance Nadheera Lakmali Created 
+[12/05/2023 13:22:41] Teacher Instance Nadheera Lakmali Saved to database 
+[12/05/2023 13:22:41] Created teacher Instance 
+[12/05/2023 13:22:41] returned Teacher registration form 
+[12/05/2023 13:24:38] Adding Student with already registered guardian registration 
+[12/05/2023 13:24:38] Got Student data 
+[12/05/2023 13:24:38] Student Instance Gabadage sachini sewwandi Created 
+[12/05/2023 13:24:38] Parent Instance Ajantha ayirangani Sudath bandara  Created 
+[12/05/2023 13:24:38] Student Instance Gabadage sachini sewwandi Saved to database 
+[12/05/2023 13:24:38] Parent Instance Ajantha ayirangani Sudath bandara saved to database 
+[12/05/2023 13:24:38] Created student Instance 
+[12/05/2023 13:24:38] returned student registration form 
+[12/05/2023 13:26:13] Teacher registration 
+[12/05/2023 13:26:13] Teacher Instance Piumi Piris Created 
+[12/05/2023 13:26:14] Teacher Instance Piumi Piris Saved to database 
+[12/05/2023 13:26:14] Created teacher Instance 
+[12/05/2023 13:26:14] returned Teacher registration form 
+[12/05/2023 13:26:35] Adding Student with already registered guardian registration 
+[12/05/2023 13:26:35] Got Student data 
+[12/05/2023 13:26:35] Student Instance Ranthu Mudalige Premathilaka Created 
+[12/05/2023 13:26:35] Parent Instance Sindarella R.M.Heen Puncha  Created 
+[12/05/2023 13:26:35] Student Instance Ranthu Mudalige Premathilaka Saved to database 
+[12/05/2023 13:26:35] Parent Instance Sindarella R.M.Heen Puncha saved to database 
+[12/05/2023 13:26:35] Created student Instance 
+[12/05/2023 13:26:35] returned student registration form 
+[12/05/2023 13:28:08] Adding Student with already registered guardian registration 
+[12/05/2023 13:28:08] Got Student data 
+[12/05/2023 13:28:08] Student Instance Kodithuwakku arachchilage nadun lakshan  Created 
+[12/05/2023 13:28:08] Parent Instance Inoka nilmini Uththara susil  Created 
+[12/05/2023 13:28:08] Student Instance Kodithuwakku arachchilage nadun lakshan  Saved to database 
+[12/05/2023 13:28:08] Parent Instance Inoka nilmini Uththara susil saved to database 
+[12/05/2023 13:28:08] Created student Instance 
+[12/05/2023 13:28:08] returned student registration form 
+[12/05/2023 13:29:06] Teacher registration 
+[12/05/2023 13:29:06] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:30:33] returned Teacher registration form 
+[12/05/2023 13:30:35] Adding Student with already registered guardian registration 
+[12/05/2023 13:30:35] Got Student data 
+[12/05/2023 13:30:35] Student Instance Hashan Nethmina Jayawardhana  Created 
+[12/05/2023 13:30:35] Parent Instance S.H.Mudalige H.D.Jayawardhana  Created 
+[12/05/2023 13:30:35] Student Instance Hashan Nethmina Jayawardhana  Saved to database 
+[12/05/2023 13:30:35] Parent Instance S.H.Mudalige H.D.Jayawardhana saved to database 
+[12/05/2023 13:30:35] Created student Instance 
+[12/05/2023 13:30:35] returned student registration form 
+[12/05/2023 13:30:51] Teacher registration 
+[12/05/2023 13:31:15] Teacher registration 
+[12/05/2023 13:31:15] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:32:32] returned Teacher registration form 
+[12/05/2023 13:33:39] Adding Student with already registered guardian registration 
+[12/05/2023 13:33:39] Got Student data 
+[12/05/2023 13:33:39] Student Instance Dasanayaka mudiyanselage anupama thilanka  Created 
+[12/05/2023 13:33:39] Parent Instance K.A neranjani gunasinha D.M nimal sisira  Created 
+[12/05/2023 13:33:39] Student Instance Dasanayaka mudiyanselage anupama thilanka  Saved to database 
+[12/05/2023 13:33:40] Parent Instance K.A neranjani gunasinha D.M nimal sisira saved to database 
+[12/05/2023 13:33:40] Created student Instance 
+[12/05/2023 13:33:40] returned student registration form 
+[12/05/2023 13:34:50] Adding Student with already registered guardian registration 
+[12/05/2023 13:34:50] Got Student data 
+[12/05/2023 13:34:59] returned student registration form 
+[12/05/2023 13:35:32] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:32] Got Student data 
+[12/05/2023 13:35:40] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:40] Got Student data 
+[12/05/2023 13:35:40] Student Instance Heshan Harshana Jayathilaka Created 
+[12/05/2023 13:35:40] Parent Instance D.H.Munasinhe S.P.D.Jayathilake  Created 
+[12/05/2023 13:35:40] Student Instance Heshan Harshana Jayathilaka Saved to database 
+[12/05/2023 13:35:40] Parent Instance D.H.Munasinhe S.P.D.Jayathilake saved to database 
+[12/05/2023 13:35:40] Created student Instance 
+[12/05/2023 13:35:41] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:41] Got Student data 
+[12/05/2023 13:35:53] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:53] Got Student data 
+[12/05/2023 13:35:53] returned student registration form 
+[12/05/2023 13:35:58] returned student registration form 
+[12/05/2023 13:36:03] Adding Student with already registered guardian registration 
+[12/05/2023 13:36:04] Got Student data 
+[12/05/2023 13:38:06] Teacher registration 
+[12/05/2023 13:38:06] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:39:24] Teacher registration 
+[12/05/2023 13:39:24] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:39:24] Teacher Instance Dulaksha Wishwajith Saved to database 
+[12/05/2023 13:39:24] Created teacher Instance 
+[12/05/2023 13:39:26] returned Teacher registration form 
+[12/05/2023 13:42:12] returned student registration form 
+[12/05/2023 13:42:18] Adding Student with already registered guardian registration 
+[12/05/2023 13:42:18] Got Student data 
+[12/05/2023 13:42:18] Student Instance Madhara nethmi  Created 
+[12/05/2023 13:42:18] Parent Instance Mallika Abesinha Prbath kumara  Created 
+[12/05/2023 13:42:18] Student Instance Madhara nethmi  Saved to database 
+[12/05/2023 13:42:18] Parent Instance Mallika Abesinha Prbath kumara saved to database 
+[12/05/2023 13:42:18] Created student Instance 
+[12/05/2023 13:42:18] returned student registration form 
+[12/05/2023 13:44:07] Teacher registration 
+[12/05/2023 13:44:20] returned Teacher registration form 
+[12/05/2023 13:46:09] Adding Student with already registered guardian registration 
+[12/05/2023 13:46:09] Got Student data 
+[12/05/2023 13:46:09] Student Instance Imashi Kawya Created 
+[12/05/2023 13:46:09] Parent Instance Kusum Ayirangani Raju  Created 
+[12/05/2023 13:46:09] Student Instance Imashi Kawya Saved to database 
+[12/05/2023 13:46:09] Parent Instance Kusum Ayirangani Raju saved to database 
+[12/05/2023 13:46:09] Created student Instance 
+[12/05/2023 13:46:10] returned student registration form 
+[12/05/2023 13:47:21] Adding Student with already registered guardian registration 
+[12/05/2023 13:47:21] Got Student data 
+[12/05/2023 13:47:35] returned student registration form 
+[12/05/2023 13:50:22] Adding Student with already registered guardian registration 
+[12/05/2023 13:50:22] Got Student data 
+[12/05/2023 13:50:22] Student Instance Pererage Randula Created 
+[12/05/2023 13:50:22] Parent Instance Punchi Manike M.Bulbi  Created 
+[12/05/2023 13:50:22] Student Instance Pererage Randula Saved to database 
+[12/05/2023 13:50:22] Parent Instance Punchi Manike M.Bulbi saved to database 
+[12/05/2023 13:50:22] Created student Instance 
+[12/05/2023 13:50:22] returned student registration form 
+[12/05/2023 13:50:38] Adding Student with already registered guardian registration 
+[12/05/2023 13:50:38] Got Student data 
+[12/05/2023 13:50:38] Student Instance Heshan Harshana Jayathilaka Created 
+[12/05/2023 13:50:38] Parent Instance S.H.Mudalige S.P.D.Jayathilake  Created 
+[12/05/2023 13:50:38] Student Instance Heshan Harshana Jayathilaka Saved to database 
+[12/05/2023 13:50:38] Parent Instance S.H.Mudalige S.P.D.Jayathilake saved to database 
+[12/05/2023 13:50:38] Created student Instance 
+[12/05/2023 13:50:38] returned student registration form 
+[12/05/2023 13:52:07] Adding Student with already registered guardian registration 
+[12/05/2023 13:52:07] Got Student data 
+[12/05/2023 13:52:07] Student Instance Subhashini Shrimali Created 
+[12/05/2023 13:52:07] Parent Instance Sepalika Anoj  Created 
+[12/05/2023 13:52:07] Student Instance Subhashini Shrimali Saved to database 
+[12/05/2023 13:52:07] Parent Instance Sepalika Anoj saved to database 
+[12/05/2023 13:52:07] Created student Instance 
+[12/05/2023 13:52:07] returned student registration form 
+[12/05/2023 13:55:05] Adding Student with already registered guardian registration 
+[12/05/2023 13:55:05] Got Student data 
+[12/05/2023 13:55:05] Student Instance Shashikala Sewmini Hettigoda  Created 
+[12/05/2023 13:55:05] Parent Instance A.S.Manike M.M.Hettigoda  Created 
+[12/05/2023 13:55:05] Student Instance Shashikala Sewmini Hettigoda  Saved to database 
+[12/05/2023 13:55:05] Parent Instance A.S.Manike M.M.Hettigoda saved to database 
+[12/05/2023 13:55:05] Created student Instance 
+[12/05/2023 13:55:05] returned student registration form 
+[12/05/2023 13:58:05] Adding Student with already registered guardian registration 
+[12/05/2023 13:58:05] Got Student data 
+[12/05/2023 13:58:05] Student Instance Heshan Harshana Jayathilaka Created 
+[12/05/2023 13:58:05] Parent Instance A.P.Gunarathne S.P.D.Jayathilake  Created 
+[12/05/2023 13:58:05] Student Instance Heshan Harshana Jayathilaka Saved to database 
+[12/05/2023 13:58:06] Parent Instance A.P.Gunarathne S.P.D.Jayathilake saved to database 
+[12/05/2023 13:58:06] Created student Instance 
+[12/05/2023 13:58:06] returned student registration form 
+[12/05/2023 14:01:37] Adding Student with already registered guardian registration 
+[12/05/2023 14:01:37] Got Student data 
+[12/05/2023 14:01:37] Student Instance Pisse kella hi hi Created 
+[12/05/2023 14:01:37] Parent Instance Sirimal akka Rambanda  Created 
+[12/05/2023 14:01:37] Student Instance Pisse kella hi hi Saved to database 
+[12/05/2023 14:01:37] Parent Instance Sirimal akka Rambanda saved to database 
+[12/05/2023 14:01:37] Created student Instance 
+[12/05/2023 14:01:37] returned student registration form 
+[12/05/2023 14:01:59] Adding Student with already registered guardian registration 
+[12/05/2023 14:01:59] Got Student data 
+[12/05/2023 14:01:59] Student Instance Sulakshani Nawodhya Created 
+[12/05/2023 14:01:59] Parent Instance Nadheeka Samantha  Created 
+[12/05/2023 14:01:59] Student Instance Sulakshani Nawodhya Saved to database 
+[12/05/2023 14:01:59] Parent Instance Nadheeka Samantha saved to database 
+[12/05/2023 14:01:59] Created student Instance 
+[12/05/2023 14:01:59] returned student registration form 
+[12/05/2023 14:02:26] Adding Student with already registered guardian registration 
+[12/05/2023 14:02:26] Got Student data 
+[12/05/2023 14:02:26] Student Instance Hansana Nethmini Perera Created 
+[12/05/2023 14:02:26] Parent Instance K.J.Manike J.L.Perera  Created 
+[12/05/2023 14:02:26] Student Instance Hansana Nethmini Perera Saved to database 
+[12/05/2023 14:02:26] Parent Instance K.J.Manike J.L.Perera saved to database 
+[12/05/2023 14:02:26] Created student Instance 
+[12/05/2023 14:02:26] returned student registration form 
+[12/05/2023 14:06:14] Adding Student with already registered guardian registration 
+[12/05/2023 14:06:14] Got Student data 
+[12/05/2023 14:06:14] Student Instance Shalika Madhuranga Jayasooriya Created 
+[12/05/2023 14:06:14] Parent Instance S.P.Ranmali H.M.Jayasooriya   Created 
+[12/05/2023 14:06:14] Student Instance Shalika Madhuranga Jayasooriya Saved to database 
+[12/05/2023 14:06:14] Parent Instance S.P.Ranmali H.M.Jayasooriya  saved to database 
+[12/05/2023 14:06:14] Created student Instance 
+[12/05/2023 14:06:14] returned student registration form 
+[12/05/2023 14:06:16] Adding Student with already registered guardian registration 
+[12/05/2023 14:06:16] Got Student data 
+[12/05/2023 14:06:16] Student Instance Sewmini Sashikala Created 
+[12/05/2023 14:06:17] Parent Instance Susanthi Kamal  Created 
+[12/05/2023 14:06:17] Student Instance Sewmini Sashikala Saved to database 
+[12/05/2023 14:06:17] Parent Instance Susanthi Kamal saved to database 
+[12/05/2023 14:06:17] Created student Instance 
+[12/05/2023 14:06:17] returned student registration form 
+[12/05/2023 14:10:40] Adding Student with already registered guardian registration 
+[12/05/2023 14:10:40] Got Student data 
+[12/05/2023 14:10:40] Student Instance Gagani Created 
+[12/05/2023 14:10:40] Parent Instance Pawani Dammika  Created 
+[12/05/2023 14:10:40] Student Instance Gagani Saved to database 
+[12/05/2023 14:10:40] Parent Instance Pawani Dammika saved to database 
+[12/05/2023 14:10:40] Created student Instance 
+[12/05/2023 14:10:40] returned student registration form 
+[12/05/2023 14:11:47] Adding Student with already registered guardian registration 
+[12/05/2023 14:11:47] Got Student data 
+[12/05/2023 14:11:47] Student Instance Kosgollage Ramesh Created 
+[12/05/2023 14:11:47] Parent Instance Manike Jayasiri   Created 
+[12/05/2023 14:11:47] Student Instance Kosgollage Ramesh Saved to database 
+[12/05/2023 14:11:47] Parent Instance Manike Jayasiri  saved to database 
+[12/05/2023 14:11:47] Created student Instance 
+[12/05/2023 14:11:47] returned student registration form 
+[12/05/2023 14:13:25] returned student registration form 
+[12/05/2023 14:14:30] Adding Student with already registered guardian registration 
+[12/05/2023 14:14:30] Got Student data 
+[12/05/2023 14:14:30] Student Instance Ishara Created 
+[12/05/2023 14:14:30] Parent Instance Amitha Lalith  Created 
+[12/05/2023 14:14:30] Student Instance Ishara Saved to database 
+[12/05/2023 14:14:30] Parent Instance Amitha Lalith saved to database 
+[12/05/2023 14:14:30] Created student Instance 
+[12/05/2023 14:14:30] returned student registration form 
+[12/05/2023 14:17:49] Adding Student with already registered guardian registration 
+[12/05/2023 14:17:49] Got Student data 
+[12/05/2023 14:17:49] Student Instance Dheneth Created 
+[12/05/2023 14:17:49] Parent Instance Malkanthi Saman  Created 
+[12/05/2023 14:17:49] Student Instance Dheneth Saved to database 
+[12/05/2023 14:17:49] Parent Instance Malkanthi Saman saved to database 
+[12/05/2023 14:17:49] Created student Instance 
+[12/05/2023 14:17:50] returned student registration form 
+[12/05/2023 14:20:26] Adding Student with already registered guardian registration 
+[12/05/2023 14:20:26] Got Student data 
+[12/05/2023 14:20:26] Student Instance Kerala Ganjalage Angammana Sumana  Created 
+[12/05/2023 14:20:26] Parent Instance Ramya Heenbnda  Created 
+[12/05/2023 14:20:26] Student Instance Kerala Ganjalage Angammana Sumana  Saved to database 
+[12/05/2023 14:20:26] Parent Instance Ramya Heenbnda saved to database 
+[12/05/2023 14:20:26] Created student Instance 
+[12/05/2023 14:20:27] returned student registration form 
+[12/05/2023 14:20:51] Adding Student with already registered guardian registration 
+[12/05/2023 14:20:51] Got Student data 
+[12/05/2023 14:20:51] Student Instance Purna  Created 
+[12/05/2023 14:20:51] Parent Instance Nimali Dhanuka  Created 
+[12/05/2023 14:20:51] Student Instance Purna  Saved to database 
+[12/05/2023 14:20:51] Parent Instance Nimali Dhanuka saved to database 
+[12/05/2023 14:20:51] Created student Instance 
+[12/05/2023 14:20:51] returned student registration form 
+[12/05/2023 14:21:55] Adding Student with already registered guardian registration 
+[12/05/2023 14:21:56] Adding Student with already registered guardian registration 
+[12/05/2023 14:21:56] Adding Student with already registered guardian registration 
+[12/05/2023 14:21:57] Adding Student with already registered guardian registration 
+[12/05/2023 14:22:00] Adding Student with already registered guardian registration 
+[12/05/2023 14:22:23] Adding Student with already registered guardian registration 
+[12/05/2023 14:22:23] Got Student data 
+[12/05/2023 14:22:23] Student Instance Malagammana gedara supun dilanga ranasingha Created 
+[12/05/2023 14:22:23] Parent Instance Jm tharanganee Mg ranasinha  Created 
+[12/05/2023 14:22:23] Student Instance Malagammana gedara supun dilanga ranasingha Saved to database 
+[12/05/2023 14:22:24] Parent Instance Jm tharanganee Mg ranasinha saved to database 
+[12/05/2023 14:22:24] Created student Instance 
+[12/05/2023 14:22:24] returned student registration form 
+[12/05/2023 14:24:37] Adding Student with already registered guardian registration 
+[12/05/2023 14:24:37] Got Student data 
+[12/05/2023 14:24:37] Student Instance Aloka Created 
+[12/05/2023 14:24:38] Parent Instance  Anuradha Susantha  Created 
+[12/05/2023 14:24:38] Student Instance Aloka Saved to database 
+[12/05/2023 14:24:38] Parent Instance  Anuradha Susantha saved to database 
+[12/05/2023 14:24:38] Created student Instance 
+[12/05/2023 14:24:38] returned student registration form 
