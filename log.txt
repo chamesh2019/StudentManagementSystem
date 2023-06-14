@@ -2284,3 +2284,28 @@
 [12/05/2023 14:24:38] Parent Instance  Anuradha Susantha saved to database 
 [12/05/2023 14:24:38] Created student Instance 
 [12/05/2023 14:24:38] returned student registration form 
+[26/05/2023 17:17:50] Requested Teacher List 
+[26/05/2023 17:17:50] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}, {'nic': 'Ut iste impedit vol', 'teacher_name': 'Keith Walters'}, {'nic': '1234321', 'teacher_name': 'Emerald Molina'}, {'nic': '200511003420', 'teacher_name': 'Keshara daham '}, {'nic': '8090', 'teacher_name': 'Hashini Sandhamali'}, {'nic': '6020', 'teacher_name': 'Madhara'}, {'nic': '3390', 'teacher_name': 'Tharindhu Nuwan '}, {'nic': '4567', 'teacher_name': 'Kalinga Silwa'}, {'nic': '3934', 'teacher_name': 'Nilmini Bamunu Arachchi'}, {'nic': '3210', 'teacher_name': 'Niroshani Vindya '}, {'nic': '2109', 'teacher_name': 'Shamila Sureshika'}, {'nic': '2091', 'teacher_name': 'Champika Sandharenu'}, {'nic': '2300', 'teacher_name': 'Nadheera Lakmali'}, {'nic': '6677', 'teacher_name': 'Piumi Piris'}, {'nic': '200535703016', 'teacher_name': 'Dulaksha Wishwajith'}] 
+[26/05/2023 17:18:09] Username/Student not found 
+[26/05/2023 17:18:16] Username/Student not found 
+[26/05/2023 17:18:36] teacher login successfull 200511003420 
+[26/05/2023 17:18:36] getting deltails of 200511003420 
+[26/05/2023 17:18:37] returning deltails of 200511003420 
+[14/06/2023 21:05:45] teacher login successfull 12341234 
+[14/06/2023 21:05:45] getting deltails of 12341234 
+[14/06/2023 21:08:09] teacher login successfull 6677 
+[14/06/2023 21:08:09] getting deltails of 6677 
+[14/06/2023 21:08:09] returning deltails of 6677 
+[14/06/2023 21:11:30] Rendering current classes 
+[14/06/2023 21:13:22] getting deltails of 6677 
+[14/06/2023 21:13:22] returning deltails of 6677 
+[14/06/2023 21:14:16] getting deltails of 6677 
+[14/06/2023 21:14:16] returning deltails of 6677 
+[14/06/2023 21:41:10] getting deltails of 6677 
+[14/06/2023 21:41:10] returning deltails of 6677 
+[14/06/2023 21:42:33] getting deltails of 6677 
+[14/06/2023 21:42:33] returning deltails of 6677 
+[14/06/2023 21:48:54] getting deltails of 6677 
+[14/06/2023 21:48:54] returning deltails of 6677 
+[14/06/2023 21:49:18] getting deltails of 6677 
+[14/06/2023 21:49:18] returning deltails of 6677 

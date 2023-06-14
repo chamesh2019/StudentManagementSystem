@@ -7,7 +7,7 @@ class StudentInfo(models.Model):
     full_name = models.CharField(max_length=255)
     name_with_initials = models.CharField(max_length=255)
     date_of_birth = models.CharField(max_length=20)
-    gender = models.CharField(max_length=1)
+    gender = models.CharField(max_length=6)
     enrolled_date = models.CharField(max_length=20)
     address = models.TextField()
     special_notes = models.TextField()

@@ -3,13 +3,14 @@ import io
 import qrcode
 import json
 from qrcode.image.pure import PyPNGImage
+import datetime
 
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.shortcuts import render, HttpResponse, get_object_or_404, redirect
 from django.urls import reverse
 from django.views import View
-from EDUInfoHandler.models import ClassInfo, LoginKey, SubjectInfo, Terms, ExamInfo
+from EDUInfoHandler.models import ClassInfo, LoginKey, SubjectInfo, Terms, ExamInfo, Attendance
 
 from manage import log_file
 from .models import TeacherInfo
@@ -246,11 +247,95 @@ class MarksAdd(View):
         for student in students:
             student_instance = StudentInfo.objects.get(index_number=student)
             
-            exam_instance = ExamInfo(
-                subject=current_subject,
-                term=term,
-                student=student_instance,
-                marks=data[student]
-            )
-            exam_instance.save()
+            try:
+                exam_instance = ExamInfo.objects.get(subject=current_subject, term=term, student=student_instance,)
+                exam_instance.marks = data[student]
+                exam_instance.save()
+            except:
+                exam_instance = ExamInfo(
+                    subject=current_subject,
+                    term=term,
+                    student=student_instance,
+                    marks=data[student]
+                )
+                exam_instance.save()
         return redirect("/teachers/"+teacher_instance.nic)
+        
+class TeacherClass(View):
+    def get(self, request, nic):
+        auth_key = request.session['auth_key']
+        if not LoginKey.teacher_check(nic, auth_key):
+            return HttpResponse("Not Authorized")
+        
+        user = TeacherInfo.objects.get(nic=nic)
+        if user.class_info == ClassInfo.objects.get(pk=18):
+            return HttpResponse("You don't have a class listed for you")
+        
+        students = StudentInfo.objects.filter(class_info=user.class_info)
+        
+        today = datetime.date.today()
+        start_delta = datetime.timedelta(days=today.weekday(), weeks=1)
+        startdate = today - start_delta
+        attendance = {}
+        
+        day_delta = datetime.timedelta(days=1, weeks=1)
+        for student in students:
+            markings = []
+            date = startdate
+            for _ in range(1, 6):
+                try:
+                    Attendace.objects.get(student=student, date=date.strftime("%Y-%m-%d"))
+                    markings.append("Present")
+                except:
+                    markings.append("Absent")
+            attendance[student] = markings
+        
+        marks_dict = {}
+        c_type = user.class_info.class_type
+        if c_type == '6-9' or c_type == '10-11':
+            c_type='6-11'
+        last_term = list(Terms.objects.filter(term_type=c_type))[-1]
+        marks_list = ExamInfo.objects.filter(term=last_term)
+        marks_list = [mark for mark in marks_list if mark.student.class_info == user.class_info]
+        
+        for mark in marks_list:
+            try:
+                marks_dict[mark.subject.subject].append((mark.marks, mark.student.name_with_initials))
+            except:
+                marks_dict[mark.subject.subject] = [(mark.marks, mark.student.name_with_initials)]
+        
+        total_dict = {}
+        for student in students:
+            S_marks = ExamInfo.objects.filter(term=last_term, student=student)
+            for mark in S_marks:
+                try:
+                    total_dict[student.name_with_initials] += mark.marks
+                except:
+                    total_dict[student.name_with_initials] = mark.marks
+        
+        total_dict = {k: v for k, v in sorted(total_dict.items(), key=lambda item: item[1])}
+        total_name_list = [key for key in total_dict.keys()]
+        total_mark_list = [value for value in total_dict.values()]
+        total_name_list.reverse()
+        total_mark_list.reverse()
+        c_type = user.class_info.class_type
+        final_total_list = []
+        if c_type == "6-9":
+            avg_base = 12
+        elif c_type == "10-11":
+            avg_base = 10
+        else:
+            avg_base = 3
+            
+        for x in range(len(total_mark_list)):
+            rank = total_mark_list.index(total_mark_list[x])
+            final_total_list.append((total_name_list[x], total_mark_list[x], rank+1, round(total_mark_list[x]/avg_base, 2)))
+            
+        page_context = {
+            "attendance": attendance.items(),
+            "marks" : json.dumps(marks_dict),
+            "ranks" : final_total_list,
+            "avg" : avg_base
+        }
+        
+        return render(request, template_name="teacher_class.html", context=page_context)

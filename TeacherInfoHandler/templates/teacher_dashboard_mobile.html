@@ -65,7 +65,7 @@
             <details>
                 <summary>Class Teacher</summary>
                 <br>
-                <a href="/class/homeroom" target="_blank"><b>--> Grade {{teacher_instance.class_info.class_name}}</b></a>
+                <a href="/teachers/{{teacher_instance.nic}}/class" target="_blank"><b>--> Grade {{teacher_instance.class_info.class_name}}</b></a>
 
             </details>
             <br>
@@ -76,7 +76,7 @@
 						<summary>{{key.subject}}</summary>
 						<br>
 							{% for class in value %}
-							<a href="subject\lap_subject.html" target="_blank"><b>-->Grade {{class.class_name}}</b></a><br>
+							<a href="/teachers/addmarks/{{class.pk}}/{{key.pk}}" target="_blank"><b>-->Grade {{class.class_name}}</b></a><br>
 							{% endfor %}
 					</details>
                 {% endfor %}

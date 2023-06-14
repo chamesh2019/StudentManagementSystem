@@ -166,6 +166,11 @@ class TermView(View):
             new_term_name = data["new_term_name"]
             term_type = data["term_type"]
             
+            terms = Terms.objects.filter(term_type = term_type)
+            for term in terms:
+                if term.finished == False:
+                    return HttpResponse("Last term not finished yet")
+                    
             term_instance = Terms(
                 term = new_term_name,
                 term_type = term_type,
@@ -198,6 +203,7 @@ class HomepageView(View):
                     })
                 try:
                     LoginKey.objects.get(identifier=username).delete()
+                    request.session['auth_key'] = ""
                 except:
                     pass
                 auth_key = LoginKey(key=str(uuid.uuid4()),
