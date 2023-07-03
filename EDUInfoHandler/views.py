@@ -186,8 +186,42 @@ class TermView(View):
 
 class HomepageView(View):
     def get(self, request):
-        return render(request, template_name="homepage.html")
+        if request.is_mobile:
+            return render(request, template_name="P_HOME.html")
+        return render(request, template_name="L_HOME.html")
 
+class GalleryView(View):
+    def get(self, request):
+        if request.is_mobile:
+            return render(request, template_name="P_Gallery.html")
+        return render(request, template_name="L_Galary.html")
+        
+class ContactView(View):
+    def get(self, request):
+        if request.is_mobile:
+            return render(request, template_name="P_Contact.html")
+        return render(request, template_name="L_Contact.html")
+
+class HistoryView(View):
+    def get(self, request):
+        return render(request, template_name="L_Histry.html")
+       
+class ResourceView(View):
+    def get(self, request):
+        if request.is_mobile:
+            return render(request, template_name="P_Resources.html")
+        return render(request, template_name="L_Resources.html")
+        
+class SchoolView(View):
+    def get(self, request):
+        return render(request, template_name="P_School.html")
+          
+        
+class LoginView(View):
+    def get(self, request):
+        if request.is_mobile:
+            return render(request, template_name="P_Log_in.html")
+        return render(request, template_name="L_Log_in.html")
     def post(self, request):
         data = request.POST
         try:
@@ -198,7 +232,7 @@ class HomepageView(View):
                 teacher_instance = TeacherInfo.objects.get(nic=username)
                 if teacher_instance.password != password:
                     log_file(f'Login Credentials Error')
-                    return render(request, template_name="homepage.html", context={
+                    return render(request, template_name="L_Log_in.html", context={
                         'text': 'Login Credentials Error'
                     })
                 try:
@@ -218,7 +252,7 @@ class HomepageView(View):
                 student_index_number=username)
             if str(parent_instance.mother_nic) != password and str(parent_instance.father_nic) != password:
                 log_file(f'Login Credentials Error')
-                return render(request, template_name="homepage.html", context={
+                return render(request, template_name="L_Log_in.html", context={
                     'text': 'Login Credentials Error'
                 })
             try:
@@ -234,6 +268,6 @@ class HomepageView(View):
 
         except:
             log_file(f'Username/Student not found')
-            return render(request, template_name="homepage.html", context={
+            return render(request, template_name="L_Log_in.html", context={
                 'text': 'Username/Student not found'
             })
