@@ -18,6 +18,6 @@ RUN pip install -r requirements.txt
 RUN chown -R www-data:www-data /opt/app
 
 # start server
-EXPOSE 8020
+EXPOSE 8000
 STOPSIGNAL SIGTERM
 CMD ["/opt/app/start-server.sh"]
