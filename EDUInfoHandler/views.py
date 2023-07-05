@@ -186,9 +186,37 @@ class TermView(View):
 
 class HomepageView(View):
     def get(self, request):
+        with open("EDUInfoHandler/static/news/news1.txt", "r") as fp:
+            news1 = fp.read()
+        with open("EDUInfoHandler/static/news/news2.txt", "r") as fp:
+            news2 = fp.read()
+        with open("EDUInfoHandler/static/news/news3.txt", "r") as fp:
+            news3 = fp.read()
+        
+        with open("EDUInfoHandler/static/news/news1t.txt", "r") as fp:
+            news1t = fp.read()
+        with open("EDUInfoHandler/static/news/news2t.txt", "r") as fp:
+            news2t = fp.read()
+        with open("EDUInfoHandler/static/news/news3t.txt", "r") as fp:
+            news3t = fp.read()
+            
         if request.is_mobile:
-            return render(request, template_name="P_HOME.html")
-        return render(request, template_name="L_HOME.html")
+            return render(request, template_name="P_HOME.html", context={
+            "news1": news1,
+            "news2": news2,
+            "news3": news3,
+            "news1t": news1t,
+            "news2t": news2t,
+            "news3t": news3t
+        })
+        return render(request, template_name="L_HOME.html", context={
+            "news1": news1,
+            "news2": news2,
+            "news3": news3,
+            "news1t": news1t,
+            "news2t": news2t,
+            "news3t": news3t
+        })
 
 class GalleryView(View):
     def get(self, request):
@@ -215,8 +243,84 @@ class ResourceView(View):
 class SchoolView(View):
     def get(self, request):
         return render(request, template_name="P_School.html")
-          
+
+class NewsView(View):
+    def get(self, request):
+        with open("EDUInfoHandler/static/news/news1.txt", "r") as fp:
+            news1 = fp.read()
+        with open("EDUInfoHandler/static/news/news2.txt", "r") as fp:
+            news2 = fp.read()
+        with open("EDUInfoHandler/static/news/news3.txt", "r") as fp:
+            news3 = fp.read()
         
+        with open("EDUInfoHandler/static/news/news1t.txt", "r") as fp:
+            news1t = fp.read()
+        with open("EDUInfoHandler/static/news/news2t.txt", "r") as fp:
+            news2t = fp.read()
+        with open("EDUInfoHandler/static/news/news3t.txt", "r") as fp:
+            news3t = fp.read()
+        return render(request, template_name="news_view.html", context={
+            "news1": news1,
+            "news2": news2,
+            "news3": news3,
+            "news1t": news1t,
+            "news2t": news2t,
+            "news3t": news3t
+        })
+    def post(self, request):
+        data = request.POST
+        print(data)
+        try:
+            news1 = data["news1description"]
+            news2 = data["news2description"]
+            news3 = data["news3description"]
+            news1t = data["news1title"]
+            news2t = data["news2title"]
+            news3t = data["news3title"]
+        except:
+            return HttpResponse("Invalid data")
+            
+        try:
+            news1i = request.FILES['news1image']
+            with open("EDUInfoHandler/static/news/news1.jpg", "wb+") as destination:
+                for chunk in news1i.chunks():
+                    destination.write(chunk)
+        except:
+            log_file("news1 image faided to update")
+            
+        try:
+            news2i = request.FILES['news1image']
+            with open("EDUInfoHandler/static/news/news1.jpg", "wb+") as destination:
+                for chunk in news2i.chunks():
+                    destination.write(chunk)
+        except:
+            log_file("news1 image faided to update")
+            
+        try:
+            news3i = request.FILES['news1image']
+            with open("EDUInfoHandler/static/news/news1.jpg", "wb+") as destination:
+                for chunk in news3i.chunks():
+                    destination.write(chunk)
+        except:
+            log_file("news1 image faided to update")
+            
+        with open("EDUInfoHandler/static/news/news1.txt", "w+") as fp:
+            fp.write(news1)
+        with open("EDUInfoHandler/static/news/news2.txt", "w+") as fp:
+            fp.write(news2)
+        with open("EDUInfoHandler/static/news/news3.txt", "w+") as fp:
+            fp.write(news3)
+            
+        with open("EDUInfoHandler/static/news/news1t.txt", "w+") as fp:
+            fp.write(news1t)
+        with open("EDUInfoHandler/static/news/news2t.txt", "w+") as fp:
+            fp.write(news2t)
+        with open("EDUInfoHandler/static/news/news3t.txt", "w+") as fp:
+            fp.write(news3t)
+            
+        log_file("news updated")
+        return redirect("HomepageView")
+            
 class LoginView(View):
     def get(self, request):
         if request.is_mobile:

@@ -1,7 +1,7 @@
 from django.urls import path
 from .views import ClassView, SubjectsView, HomepageView, AttendanceMarkerIn, \
  AttendanceMarkerOut, TermView, LoginView, GalleryView, ContactView, HistoryView, \
- ResourceView, SchoolView
+ ResourceView, SchoolView, NewsView
 
 urlpatterns = [
     path('class/', ClassView.as_view(), name="ClassView"),
@@ -16,4 +16,5 @@ urlpatterns = [
     path('history/', HistoryView.as_view(), name="HistoryView"),
     path('resources/', ResourceView.as_view(), name="ResourceView"),
     path('school/', SchoolView.as_view(), name="SchoolView"),
+    path('news/', NewsView.as_view(), name="NewsView"),
     ]

@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+
+    <style>
+        * {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<form action="" method="POST">
+{% csrf_token %}
+<h2>
+News 1
+</h2>
+News Title : <br/>
+<input type="text" name="news1title" value={{news1t}}><br/>
+News Description :<br/>
+<input type="text" name="news1description" value="{{news1}}"><br/>
+News Image : (leave blank to reuse last image)<br/>
+<input type="file" name="news1image"><br/>
+<h2>
+News 2
+</h2>
+News Title : <br/>
+<input type="text" name="news2title" value="{{news2t}}"><br/>
+News Description :<br/>
+<input type="text" name="news2description" value="{{news2}}"><br/>
+News Image : (leave blank to reuse last image)<br/>
+<input type="file" name="news2image"><br/>
+<h2>
+News 3
+</h2>
+News Title : <br/>
+<input type="text" name="news3title" value="{{news3t}}"><br/>
+News Description :<br/>
+<input type="text" name="news3description" value="{{news3}}"><br/>
+News Image : (leave blank to reuse last image)<br/>
+<input type="file" name="news3image"><br/>
+
+<br/>
+<input type="submit">
+</form>
+
+</body>
