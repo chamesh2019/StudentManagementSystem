@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classses</title>
+
+    <style>
+        * {
+            padding: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <th>Class Name</th><th>Change Class</th><th>Move to 10-11</th>
+        {% for class_info in current_low_classes %}
+        <tr>
+            <td>Grade : {{class_info.class_name}}</td>
+            <td>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="class_id" value={{class_info.id}}>
+                    <input type="text" minlength="1" name="update_class_name">
+                    <input type="submit" value="Change Class">
+                </form>
+            </td>
+            <td>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="move" value={{class_info.id}}>
+                    <input type="submit" value="Move to 10-11">
+                </form>
+            </td>
+        </tr>
+        </div>
+        {% endfor %}
+    </table>
+    <br>
+    <table border="1">
+        <th>Class Name</th><th>Change Class</th><th>Move to Alumni</th>
+        {% for class_info in current_mid_classes %}
+        <tr>
+            <td>Grade : {{class_info.class_name}}</td>
+            <td>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="class_id" value={{class_info.id}}>
+                    <input type="text" minlength="1" name="update_class_name">
+                    <input type="submit" value="Change Class">
+                </form>
+            </td>
+            <td>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="alumni" value={{class_info.id}}>
+                    <input type="submit" value="Move to Alumni">
+                </form>
+            </td>
+        </tr>
+        </div>
+        {% endfor %}
+    </table>
+    <br>
+    <table border="1">
+        <th>Class Name</th><th>Change Class</th><th>Move to Alumni</th>
+        {% for class_info in current_high_classes %}
+        <tr>
+            <td>Grade : {{class_info.class_name}}</td>
+            <td>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="class_id" value={{class_info.id}}>
+                    <input type="text" minlength="1" name="update_class_name">
+                    <input type="submit" value="Change Class">
+                </form>
+            </td>
+            <td>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="alumni" value={{class_info.id}}>
+                    <input type="submit" value="Move to Alumni">
+                </form>
+            </td>
+        </tr>
+        </div>
+        {% endfor %}
+        <br>
+    </table>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="new_class_name">
+        <select name="class_type">
+            <option value="6-9">6-9</option>
+            <option value="10-11">10-11</option>
+            <option value="12-13">12-13</option>
+        </select>
+        <input type="checkbox" name="visibility">Hidden
+        <input type="submit" value="Add Class">
+    </form>
+    </div>
+</body>
+
+</html>

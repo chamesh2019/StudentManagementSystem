@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBJECT_MARKS_ADD | P.M.V</title>
+    <link rel="icon" type="image/jpg" href="/static/addmarks/title_img.jpg"/>
+    <link rel="stylesheet" href="/static/addmarks/l_subject.css">
+</head>
+<body>
+
+    <div class="image-container">
+        <a href="/">
+          <img src="/static/addmarks/home (1).png" alt="Image">
+          <div class="overlay">
+            <i class="fa fa-link"></i>
+            <span>Back To Home</span>
+          </div>
+        </a>
+      </div>
+      <br>
+
+      <div class="content">
+        <br>
+		<form action="" method="POST">
+		{% csrf_token %}
+        <table class="my-table" border="1">
+		<caption style="color: white; font-weight:bold; font-size:1.3em;">You Are Adding Marks to {{ subject.subject }} in Grade {{ grade.class_name}}<br>
+		Select Term : 
+		<select name="term">
+		{% for term in terms %}
+			<option value="{{term.pk}}">{{term.term}}</option>
+		{% endfor %}
+		</select>
+		</caption>
+        
+			<thead>
+                <tr>
+				<th>Index Number</th>
+                <th>Name</th>
+                <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+				{% for student in students %}
+				<tr>
+					<td>{{student.index_number}}</td>
+					<td>{{student.name_with_initials}}</td>
+                    <td><input  type="number" id="input-number" placeholder="Enter Marks 0-100" name="{{student.index_number}}" min="0" max="100" required></td>
+                </tr>
+				{% endfor %}
+            </tbody>
+        </table>
+		<input type="text" name="students" value="{{ student_list }}" hidden>
+		<br>
+		<input type="submit" class="submit" value="Save">
+		</form>
+        <br>
+      </div>
+      <br>
+
+    <footer>
+        
+        
+        <div>
+          <a class="a1" href="https://www.youtube.com/"><img src="/static/addmarks/youtube.png" alt="YouTube "></a>
+          <a class="a1" href="#"><img src="/static/addmarks/facebook.png" alt="Facebook "></a>
+          <a class="a1" href="mailto:wlghost2022@gmail.com"><img src="/static/addmarks/gmail.png" alt="Gmail "></a>
+          <a class="a1" href="tel:+123456789"><img src="/static/addmarks/phone.png" alt="Telephone "></a>
+          
+    
+          
+        </div>
+        <a href="#" class="support">Support</a><br>
+        <hr>
+        
+    
+        
+        <div>
+            
+            
+            &copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b>
+        
+        </div>
+      </footer>   
+</body>
+</html>

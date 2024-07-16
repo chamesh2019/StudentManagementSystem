@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    padding-left: 30px;
+    
+  }
+  .Header{
+    padding-right: 20px;
+
+  }
+    
+
+  
+  h2{
+    font-family: cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(145, 29, 29);
+}
+
+
+.home_icon{
+    padding-top: 20px;
+    padding-right: 15px;
+    float: right;
+  }
+
+  .phara{
+    font-family: cursive;
+    font-size: 0.7em;
+    padding-right: 30px;
+  }
+
+  .HR{
+    border-top: 2px solid #580505;
+  }
+
+  .Principals_content{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ptittle{
+    font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family:chiller;
+  background-color: #410303;
+  border-radius: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 16px;
+    margin-bottom: 0px;
+  
+  }
+  
+  
+  
+  .a1 {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .a1:hover img {
+    filter: invert(30%);
+  }
+  
+  hr {
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-top: 2px solid #ccc;
+  }
+  
+  
+  
+  .support {
+    background-color: #fff;
+    color: #e60000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .namelist{
+    padding-left: 40%;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    
+  }

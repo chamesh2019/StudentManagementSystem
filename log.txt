@@ -1,0 +1,2339 @@
+[18/03/2023 15:04:15] Adding Student with new guardian registration 
+[18/03/2023 15:04:15] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:04:16] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:04:16] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:08:37] Adding Student with new guardian registration 
+[18/03/2023 15:08:37] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:08:37] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:08:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:08:37] Parent Instance mother name father name  Created 
+[18/03/2023 15:08:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:08:37] Parent Instance mother name father name saved to database 
+[18/03/2023 15:08:37] Created student Instance using new guardian registration 
+[18/03/2023 15:22:20] returned student registration form 
+[18/03/2023 15:22:24] Adding Student with new guardian registration 
+[18/03/2023 15:22:24] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:22:25] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:22:25] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:22:25] Parent Instance mother name father name  Created 
+[18/03/2023 15:22:25] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:22:25] Parent Instance mother name father name saved to database 
+[18/03/2023 15:22:25] Created student Instance using new guardian registration 
+[18/03/2023 15:24:39] Adding Student with new guardian registration 
+[18/03/2023 15:24:39] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:24:39] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:24:39] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:24:39] Parent Instance mother name father name  Created 
+[18/03/2023 15:24:40] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:24:40] Parent Instance mother name father name saved to database 
+[18/03/2023 15:24:40] Created student Instance using new guardian registration 
+[18/03/2023 15:25:17] Adding Student with new guardian registration 
+[18/03/2023 15:25:17] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:25:17] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:25:17] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:25:17] Parent Instance mother name father name  Created 
+[18/03/2023 15:25:17] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:25:17] Parent Instance mother name father name saved to database 
+[18/03/2023 15:25:17] Created student Instance using new guardian registration 
+[18/03/2023 15:25:32] Adding Student with new guardian registration 
+[18/03/2023 15:25:32] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:25:32] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:25:32] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:25:32] Parent Instance mother name father name  Created 
+[18/03/2023 15:25:32] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:25:32] Parent Instance mother name father name saved to database 
+[18/03/2023 15:25:32] Created student Instance using new guardian registration 
+[18/03/2023 15:25:48] Adding Student with new guardian registration 
+[18/03/2023 15:25:48] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:25:48] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:25:48] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:25:48] Parent Instance mother name father name  Created 
+[18/03/2023 15:25:48] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:25:48] Parent Instance mother name father name saved to database 
+[18/03/2023 15:25:48] Created student Instance using new guardian registration 
+[18/03/2023 15:30:39] returned student registration form 
+[18/03/2023 15:30:42] Adding Student with new guardian registration 
+[18/03/2023 15:30:42] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:30:42] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:30:42] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:30:42] Parent Instance mother name father name  Created 
+[18/03/2023 15:30:42] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:30:42] Parent Instance mother name father name saved to database 
+[18/03/2023 15:30:42] Created student Instance using new guardian registration 
+[18/03/2023 15:32:19] Adding Student with new guardian registration 
+[18/03/2023 15:32:19] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:32:19] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:32:19] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:32:19] Parent Instance mother name father name  Created 
+[18/03/2023 15:32:19] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:32:19] Parent Instance mother name father name saved to database 
+[18/03/2023 15:32:19] Created student Instance using new guardian registration 
+[18/03/2023 15:32:37] Adding Student with new guardian registration 
+[18/03/2023 15:32:37] Guardian Instance dddddddddddd  Created 
+[18/03/2023 15:32:37] Guardian Instance dddddddddddd Saved to database 
+[18/03/2023 15:32:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 15:32:37] Parent Instance mother name father name  Created 
+[18/03/2023 15:32:37] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 15:32:37] Parent Instance mother name father name saved to database 
+[18/03/2023 15:32:37] Created student Instance using new guardian registration 
+[18/03/2023 15:32:38] returned student registration form 
+[18/03/2023 16:43:01] getting deltails of 222222 
+[18/03/2023 16:43:01] returning deltails of 222222 
+[18/03/2023 18:00:35] Rendering current classes 
+[18/03/2023 18:05:55] Rendering current classes 
+[18/03/2023 18:06:03] Creating new class 11 
+[18/03/2023 18:06:03] Created new class 11 
+[18/03/2023 18:06:03] Rendering current classes 
+[18/03/2023 18:07:49] Rendering current classes 
+[18/03/2023 18:08:06] Rendering current classes 
+[18/03/2023 18:10:57] Rendering current classes 
+[18/03/2023 18:11:22] Rendering current classes 
+[18/03/2023 18:12:10] Rendering current classes 
+[18/03/2023 18:13:21] Rendering current classes 
+[18/03/2023 18:14:53] Rendering current classes 
+[18/03/2023 18:15:33] Got class info of Grade 6 
+[18/03/2023 18:15:33] No students in Grade 6 deleting class 
+[18/03/2023 18:15:33] Rendering current classes 
+[18/03/2023 18:15:41] Got class info of Grade 7 
+[18/03/2023 18:15:41] No students in Grade 7 deleting class 
+[18/03/2023 18:15:41] Rendering current classes 
+[18/03/2023 18:16:59] Creating new class 6 
+[18/03/2023 18:16:59] Created new class 6 
+[18/03/2023 18:16:59] Rendering current classes 
+[18/03/2023 18:17:04] Creating new class 7 
+[18/03/2023 18:17:04] Created new class 7 
+[18/03/2023 18:17:04] Rendering current classes 
+[18/03/2023 18:18:15] Rendering current classes 
+[18/03/2023 18:18:18] Rendering current classes 
+[18/03/2023 18:18:42] Got class info of Grade 9 
+[18/03/2023 18:18:42] No students in Grade 9 deleting class 
+[18/03/2023 18:18:42] Rendering current classes 
+[18/03/2023 18:18:44] Got class info of Grade 8 
+[18/03/2023 18:18:44] No students in Grade 8 deleting class 
+[18/03/2023 18:18:44] Rendering current classes 
+[18/03/2023 18:18:49] Creating new class 8 
+[18/03/2023 18:18:49] Created new class 8 
+[18/03/2023 18:18:49] Rendering current classes 
+[18/03/2023 18:18:53] Creating new class 9 
+[18/03/2023 18:18:53] Created new class 9 
+[18/03/2023 18:18:53] Rendering current classes 
+[18/03/2023 18:19:02] Got class info of Grade 11 
+[18/03/2023 18:19:02] No students in Grade 11 deleting class 
+[18/03/2023 18:19:02] Rendering current classes 
+[18/03/2023 18:19:36] Rendering current classes 
+[18/03/2023 18:19:42] Rendering current classes 
+[18/03/2023 18:19:45] Rendering current classes 
+[18/03/2023 18:19:48] Rendering current classes 
+[18/03/2023 18:19:51] Rendering current classes 
+[18/03/2023 18:19:54] Creating new class 6 
+[18/03/2023 18:19:55] Created new class 6 
+[18/03/2023 18:19:55] Rendering current classes 
+[18/03/2023 18:30:04] Rendering current classes 
+[18/03/2023 18:30:33] Rendering current classes 
+[18/03/2023 18:30:50] Rendering current classes 
+[18/03/2023 18:31:16] Rendering current classes 
+[18/03/2023 18:31:25] Rendering current classes 
+[18/03/2023 18:36:54] returned student registration form 
+[18/03/2023 18:37:49] Got class info of Grade 8 
+[18/03/2023 18:37:49] No students in Grade 8 deleting class 
+[18/03/2023 18:37:49] Rendering current classes 
+[18/03/2023 18:37:52] Creating new class 08 
+[18/03/2023 18:37:53] Created new class 08 
+[18/03/2023 18:37:53] Rendering current classes 
+[18/03/2023 18:39:42] Got class info of Grade 9 
+[18/03/2023 18:39:42] No students in Grade 9 deleting class 
+[18/03/2023 18:39:42] Rendering current classes 
+[18/03/2023 18:39:44] Got class info of Grade 10 
+[18/03/2023 18:39:44] No students in Grade 10 deleting class 
+[18/03/2023 18:39:44] Rendering current classes 
+[18/03/2023 18:39:47] Got class info of Grade 6 
+[18/03/2023 18:39:47] No students in Grade 6 deleting class 
+[18/03/2023 18:39:47] Rendering current classes 
+[18/03/2023 18:39:49] Got class info of Grade 7 
+[18/03/2023 18:39:49] No students in Grade 7 deleting class 
+[18/03/2023 18:39:49] Rendering current classes 
+[18/03/2023 18:39:53] Creating new class 07 
+[18/03/2023 18:39:53] Created new class 07 
+[18/03/2023 18:39:53] Rendering current classes 
+[18/03/2023 18:39:56] Creating new class 06 
+[18/03/2023 18:39:56] Created new class 06 
+[18/03/2023 18:39:56] Rendering current classes 
+[18/03/2023 18:40:05] Creating new class 09 
+[18/03/2023 18:40:05] Created new class 09 
+[18/03/2023 18:40:05] Rendering current classes 
+[18/03/2023 18:40:08] Creating new class 10 
+[18/03/2023 18:40:08] Created new class 10 
+[18/03/2023 18:40:09] Rendering current classes 
+[18/03/2023 18:40:25] Got class info of Grade 11 
+[18/03/2023 18:40:25] No students in Grade 11 deleting class 
+[18/03/2023 18:40:25] Rendering current classes 
+[18/03/2023 18:40:34] Creating new class 11 
+[18/03/2023 18:40:34] Created new class 11 
+[18/03/2023 18:40:34] Rendering current classes 
+[18/03/2023 18:40:48] Rendering current classes 
+[18/03/2023 18:40:50] Rendering current classes 
+[18/03/2023 18:41:17] Rendering current classes 
+[18/03/2023 18:41:23] Rendering current classes 
+[18/03/2023 18:42:12] Rendering current classes 
+[18/03/2023 18:42:23] Rendering current classes 
+[18/03/2023 18:42:25] Rendering current classes 
+[18/03/2023 19:03:50] Rendering current classes 
+[18/03/2023 19:03:54] Creating new class 06 
+[18/03/2023 19:03:54] Created new class 06 
+[18/03/2023 19:03:54] Rendering current classes 
+[18/03/2023 19:03:56] Creating new class 07 
+[18/03/2023 19:03:56] Created new class 07 
+[18/03/2023 19:03:56] Rendering current classes 
+[18/03/2023 19:03:58] Creating new class 08 
+[18/03/2023 19:03:59] Created new class 08 
+[18/03/2023 19:03:59] Rendering current classes 
+[18/03/2023 19:04:03] Creating new class 09 
+[18/03/2023 19:04:03] Created new class 09 
+[18/03/2023 19:04:03] Rendering current classes 
+[18/03/2023 19:04:06] Creating new class 10 
+[18/03/2023 19:04:06] Created new class 10 
+[18/03/2023 19:04:06] Rendering current classes 
+[18/03/2023 19:04:08] Creating new class 11 
+[18/03/2023 19:04:09] Created new class 11 
+[18/03/2023 19:04:09] Rendering current classes 
+[18/03/2023 19:04:13] Creating new class 12-A 
+[18/03/2023 19:04:13] Created new class 12-A 
+[18/03/2023 19:04:13] Rendering current classes 
+[18/03/2023 19:04:16] Creating new class 12-C 
+[18/03/2023 19:04:17] Created new class 12-C 
+[18/03/2023 19:04:17] Rendering current classes 
+[18/03/2023 19:04:21] Creating new class 12-M 
+[18/03/2023 19:04:21] Created new class 12-M 
+[18/03/2023 19:04:21] Rendering current classes 
+[18/03/2023 19:04:25] Creating new class 12-T 
+[18/03/2023 19:04:25] Created new class 12-T 
+[18/03/2023 19:04:25] Rendering current classes 
+[18/03/2023 19:04:33] Creating new class 13-A 
+[18/03/2023 19:04:33] Created new class 13-A 
+[18/03/2023 19:04:33] Rendering current classes 
+[18/03/2023 19:04:36] Creating new class 13-C 
+[18/03/2023 19:04:36] Created new class 13-C 
+[18/03/2023 19:04:36] Rendering current classes 
+[18/03/2023 19:04:39] Creating new class 13-M 
+[18/03/2023 19:04:39] Created new class 13-M 
+[18/03/2023 19:04:39] Rendering current classes 
+[18/03/2023 19:04:42] Creating new class 13-T 
+[18/03/2023 19:04:42] Created new class 13-T 
+[18/03/2023 19:04:42] Rendering current classes 
+[18/03/2023 19:04:49] returned student registration form 
+[18/03/2023 19:05:04] returned student registration form 
+[18/03/2023 19:05:17] returned student registration form 
+[18/03/2023 19:07:03] returned student registration form 
+[18/03/2023 19:08:13] returned student registration form 
+[18/03/2023 19:08:31] returned student registration form 
+[18/03/2023 19:08:47] returned student registration form 
+[18/03/2023 19:19:00] Adding Student with new guardian registration 
+[18/03/2023 19:19:00] Guardian Instance Guardian Full Name  Created 
+[18/03/2023 19:19:00] Guardian Instance Guardian Full Name Saved to database 
+[18/03/2023 19:19:00] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[18/03/2023 19:19:00] Parent Instance mother name father name  Created 
+[18/03/2023 19:19:00] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[18/03/2023 19:19:00] Parent Instance mother name father name saved to database 
+[18/03/2023 19:19:00] Created student Instance using new guardian registration 
+[18/03/2023 19:19:00] returned student registration form 
+[18/03/2023 19:20:05] getting deltails of 222222 
+[18/03/2023 19:20:05] returning deltails of 222222 
+[18/03/2023 19:23:22] getting deltails of 222222 
+[18/03/2023 19:23:22] returning deltails of 222222 
+[18/03/2023 19:25:48] getting deltails of 222222 
+[18/03/2023 19:25:48] returning deltails of 222222 
+[18/03/2023 19:26:29] getting deltails of 222222 
+[18/03/2023 19:26:29] returning deltails of 222222 
+[18/03/2023 19:27:53] getting deltails of 222222 
+[18/03/2023 19:27:53] returning deltails of 222222 
+[18/03/2023 19:28:45] getting deltails of 222222 
+[18/03/2023 19:28:45] returning deltails of 222222 
+[18/03/2023 19:35:37] getting deltails of 222222 
+[18/03/2023 19:35:37] returning deltails of 222222 
+[18/03/2023 19:37:16] getting deltails of 222222 
+[18/03/2023 19:37:16] returning deltails of 222222 
+[18/03/2023 19:37:33] getting deltails of 222222 
+[18/03/2023 19:37:33] returning deltails of 222222 
+[18/03/2023 19:38:20] getting deltails of 222222 
+[18/03/2023 19:38:20] returning deltails of 222222 
+[18/03/2023 19:45:19] getting deltails of 222222 
+[18/03/2023 19:45:39] getting deltails of 222222 
+[18/03/2023 19:45:40] returning deltails of 222222 
+[18/03/2023 19:45:40] getting deltails of 222222 
+[18/03/2023 19:45:40] returning deltails of 222222 
+[18/03/2023 19:48:46] getting deltails of 222222 
+[18/03/2023 19:48:46] returning deltails of 222222 
+[18/03/2023 19:49:15] getting deltails of 222222 
+[18/03/2023 19:49:15] returning deltails of 222222 
+[18/03/2023 19:49:29] getting deltails of 222222 
+[18/03/2023 19:49:29] returning deltails of 222222 
+[18/03/2023 20:02:15] getting deltails of 222222 
+[18/03/2023 20:02:16] returning deltails of 222222 
+[18/03/2023 22:04:05] getting deltails of 222222 
+[18/03/2023 22:04:06] returning deltails of 222222 
+[19/03/2023 23:29:58] Rendering current classes 
+[19/03/2023 23:31:48] Too many characters in new class ALUMNI 
+[19/03/2023 23:31:50] Rendering current classes 
+[19/03/2023 23:32:11] Creating new class Other 
+[19/03/2023 23:32:11] Created new class Other 
+[19/03/2023 23:32:11] Rendering current classes 
+[19/03/2023 23:34:27] Rendering current classes 
+[19/03/2023 23:34:34] Creating new class ALUMNI 
+[19/03/2023 23:34:34] Created new class ALUMNI 
+[19/03/2023 23:34:34] Rendering current classes 
+[19/03/2023 23:35:43] Rendering current classes 
+[19/03/2023 23:37:14] Rendering current classes 
+[20/03/2023 01:20:34] Requested Student List 
+[20/03/2023 01:20:34] Returnng rendered of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:20:57] Requested Student List 
+[20/03/2023 01:20:57] Returnng rendered of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:00] Requested Student List 
+[20/03/2023 01:21:00] Returnng JSON of [] 
+[20/03/2023 01:21:03] Requested Student List 
+[20/03/2023 01:21:03] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:10] Requested Student List 
+[20/03/2023 01:21:10] Returnng JSON of [] 
+[20/03/2023 01:21:11] Requested Student List 
+[20/03/2023 01:21:11] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:12] Requested Student List 
+[20/03/2023 01:21:12] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:12] Requested Student List 
+[20/03/2023 01:21:12] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:13] Requested Student List 
+[20/03/2023 01:21:13] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:13] Requested Student List 
+[20/03/2023 01:21:13] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:13] Requested Student List 
+[20/03/2023 01:21:13] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:14] Requested Student List 
+[20/03/2023 01:21:14] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:15] Requested Student List 
+[20/03/2023 01:21:15] Returnng JSON of [] 
+[20/03/2023 01:21:16] Requested Student List 
+[20/03/2023 01:21:16] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:17] Requested Student List 
+[20/03/2023 01:21:17] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:17] Requested Student List 
+[20/03/2023 01:21:17] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:17] Requested Student List 
+[20/03/2023 01:21:17] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:17] Requested Student List 
+[20/03/2023 01:21:17] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:18] Requested Student List 
+[20/03/2023 01:21:18] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:18] Requested Student List 
+[20/03/2023 01:21:18] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:18] Requested Student List 
+[20/03/2023 01:21:18] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:23] Requested Student List 
+[20/03/2023 01:21:23] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:23] Requested Student List 
+[20/03/2023 01:21:23] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:25] Requested Student List 
+[20/03/2023 01:21:25] Returnng JSON of [] 
+[20/03/2023 01:21:26] Requested Student List 
+[20/03/2023 01:21:26] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:28] Requested Student List 
+[20/03/2023 01:21:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:28] Requested Student List 
+[20/03/2023 01:21:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:28] Requested Student List 
+[20/03/2023 01:21:28] Returnng JSON of [] 
+[20/03/2023 01:21:29] Requested Student List 
+[20/03/2023 01:21:29] Returnng JSON of [] 
+[20/03/2023 01:21:30] Requested Student List 
+[20/03/2023 01:21:30] Returnng JSON of [] 
+[20/03/2023 01:21:30] Requested Student List 
+[20/03/2023 01:21:30] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:30] Requested Student List 
+[20/03/2023 01:21:30] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:31] Requested Student List 
+[20/03/2023 01:21:31] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:32] Requested Student List 
+[20/03/2023 01:21:32] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:32] Requested Student List 
+[20/03/2023 01:21:32] Requested Student List 
+[20/03/2023 01:21:32] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:32] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:33] Requested Student List 
+[20/03/2023 01:21:33] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:21:33] Requested Student List 
+[20/03/2023 01:21:33] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:14] Requested Student List 
+[20/03/2023 01:24:14] Returnng rendered of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:35] Requested Student List 
+[20/03/2023 01:24:35] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:37] Requested Student List 
+[20/03/2023 01:24:37] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:38] Requested Student List 
+[20/03/2023 01:24:38] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:38] Requested Student List 
+[20/03/2023 01:24:38] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:38] Requested Student List 
+[20/03/2023 01:24:38] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:39] Requested Student List 
+[20/03/2023 01:24:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:39] Requested Student List 
+[20/03/2023 01:24:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:40] Requested Student List 
+[20/03/2023 01:24:40] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:40] Requested Student List 
+[20/03/2023 01:24:40] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:41] Requested Student List 
+[20/03/2023 01:24:41] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:41] Requested Student List 
+[20/03/2023 01:24:41] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:41] Requested Student List 
+[20/03/2023 01:24:41] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:43] Requested Student List 
+[20/03/2023 01:24:43] Returnng JSON of [] 
+[20/03/2023 01:24:44] Requested Student List 
+[20/03/2023 01:24:44] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:45] Requested Student List 
+[20/03/2023 01:24:45] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:47] Requested Student List 
+[20/03/2023 01:24:47] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:47] Requested Student List 
+[20/03/2023 01:24:47] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:54] Requested Student List 
+[20/03/2023 01:24:54] Returnng JSON of [] 
+[20/03/2023 01:24:56] Requested Student List 
+[20/03/2023 01:24:56] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[20/03/2023 01:24:59] Requested Student List 
+[20/03/2023 01:24:59] Returnng JSON of [] 
+[20/03/2023 01:25:01] Requested Student List 
+[20/03/2023 01:25:01] Returnng JSON of [] 
+[20/03/2023 01:25:02] Requested Student List 
+[20/03/2023 01:25:02] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[24/03/2023 13:02:45] Requested Student List 
+[24/03/2023 13:02:45] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[24/03/2023 13:07:36] Requested Student List 
+[24/03/2023 13:07:36] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 13-M'}] 
+[24/03/2023 13:16:06] Rendering current classes 
+[24/03/2023 13:16:06] returned student registration form 
+[24/03/2023 13:16:20] Rendering current classes 
+[24/03/2023 13:17:28] Rendering current classes 
+[24/03/2023 13:19:16] Rendering current classes 
+[24/03/2023 13:19:34] Rendering current classes 
+[24/03/2023 13:19:47] Creating new class 06 
+[24/03/2023 13:19:47] Created new class 06 
+[24/03/2023 13:19:47] Rendering current classes 
+[24/03/2023 13:19:49] Can't Move Alumni Class 
+[24/03/2023 13:21:25] Can't Move Alumni Class 
+[24/03/2023 13:21:43] Rendering current classes 
+[24/03/2023 13:21:45] Can't Move Alumni Class 
+[24/03/2023 13:23:51] Can't Move Alumni Class 
+[24/03/2023 13:23:54] Rendering current classes 
+[24/03/2023 13:23:56] Can't Move Alumni Class 
+[24/03/2023 13:24:44] Rendering current classes 
+[24/03/2023 13:25:34] Rendering current classes 
+[24/03/2023 13:25:36] Can't Move Alumni Class 
+[24/03/2023 13:26:15] Can't Move Alumni Class 
+[24/03/2023 13:26:53] Rendering current classes 
+[24/03/2023 13:28:13] Can't Move Alumni Class 
+[24/03/2023 13:28:40] Can't Move Alumni Class 
+[24/03/2023 13:28:42] Rendering current classes 
+[24/03/2023 13:30:03] Rendering current classes 
+[24/03/2023 13:30:06] Can't Move Alumni Class 
+[24/03/2023 13:30:43] Got class info of Grade 06 
+[24/03/2023 13:30:43] No students in Grade 06 deleting class 
+[24/03/2023 13:30:43] Rendering current classes 
+[24/03/2023 13:30:53] Creating new class csd 
+[24/03/2023 13:30:53] Created new class csd 
+[24/03/2023 13:30:53] Rendering current classes 
+[24/03/2023 13:32:25] Rendering current classes 
+[24/03/2023 13:32:30] Creating new class aaa 
+[24/03/2023 13:32:30] Created new class aaa 
+[24/03/2023 13:32:30] Rendering current classes 
+[24/03/2023 13:32:34] Creating new class wdasdw 
+[24/03/2023 13:32:34] Created new class wdasdw 
+[24/03/2023 13:32:34] Rendering current classes 
+[24/03/2023 13:32:37] Got class info of Grade wdasdw 
+[24/03/2023 13:32:37] No students in Grade wdasdw deleting class 
+[24/03/2023 13:32:37] Rendering current classes 
+[24/03/2023 13:32:39] Got class info of Grade csd 
+[24/03/2023 13:32:39] No students in Grade csd deleting class 
+[24/03/2023 13:32:40] Rendering current classes 
+[24/03/2023 13:36:12] Rendering current classes 
+[24/03/2023 13:38:16] Rendering current subjects 
+[24/03/2023 13:38:33] Rendering current subjects 
+[24/03/2023 13:38:50] Rendering current subjects 
+[24/03/2023 13:39:42] Rendering current subjects 
+[24/03/2023 13:41:48] Rendering current classes 
+[24/03/2023 13:42:05] Rendering current subjects 
+[24/03/2023 13:42:36] Rendering current subjects 
+[24/03/2023 13:43:03] Rendering current subjects 
+[24/03/2023 13:43:15] Creating new class English 
+[24/03/2023 13:43:15] Created new class English 
+[24/03/2023 13:43:16] Rendering current subjects 
+[24/03/2023 13:43:45] Creating new class Sinhala 
+[24/03/2023 13:43:45] Created new class Sinhala 
+[24/03/2023 13:43:45] Rendering current subjects 
+[24/03/2023 13:43:56] Creating new class Science 
+[24/03/2023 13:43:56] Created new class Science 
+[24/03/2023 13:43:56] Rendering current subjects 
+[24/03/2023 13:44:02] Rendering current classes 
+[24/03/2023 13:44:07] Rendering current subjects 
+[24/03/2023 13:45:20] Rendering current subjects 
+[24/03/2023 13:45:36] Rendering current subjects 
+[24/03/2023 13:45:39] Rendering current classes 
+[24/03/2023 13:45:46] Rendering current subjects 
+[24/03/2023 13:46:13] Rendering current subjects 
+[24/03/2023 13:46:17] Rendering current subjects 
+[24/03/2023 13:46:22] Rendering current subjects 
+[26/03/2023 08:17:02] Rendering current classes 
+[26/03/2023 08:17:16] Rendering current subjects 
+[26/03/2023 08:17:35] Creating new Subject History 
+[26/03/2023 08:17:35] Created new Subject History 
+[26/03/2023 08:17:35] Rendering current subjects 
+[26/03/2023 08:17:52] Creating new Subject Mathematics 
+[26/03/2023 08:17:52] Created new Subject Mathematics 
+[26/03/2023 08:17:52] Rendering current subjects 
+[26/03/2023 08:19:19] Creating new Subject Buddhism 
+[26/03/2023 08:19:19] Created new Subject Buddhism 
+[26/03/2023 08:19:20] Rendering current subjects 
+[26/03/2023 08:20:52] Creating new Subject Tamil 
+[26/03/2023 08:20:52] Created new Subject Tamil 
+[26/03/2023 08:20:52] Rendering current subjects 
+[26/03/2023 08:21:18] Creating new Subject Geography 
+[26/03/2023 08:21:18] Created new Subject Geography 
+[26/03/2023 08:21:19] Rendering current subjects 
+[28/03/2023 07:47:13] returned student registration form 
+[28/03/2023 07:47:18] returned student registration form 
+[28/03/2023 07:49:27] returned student registration form 
+[28/03/2023 07:49:49] returned student registration form 
+[28/03/2023 07:53:39] Rendering current classes 
+[28/03/2023 07:53:46] Creating new class 06 
+[28/03/2023 07:53:46] Created new class 06 
+[28/03/2023 07:53:46] Rendering current classes 
+[28/03/2023 07:53:50] Creating new class 07 
+[28/03/2023 07:53:50] Created new class 07 
+[28/03/2023 07:53:51] Rendering current classes 
+[28/03/2023 07:53:58] Creating new class 08 
+[28/03/2023 07:53:58] Created new class 08 
+[28/03/2023 07:53:59] Rendering current classes 
+[28/03/2023 07:54:00] Got class info of Grade 08 
+[28/03/2023 07:54:00] No students in Grade 08 deleting class 
+[28/03/2023 07:54:03] Rendering current classes 
+[28/03/2023 07:54:08] Creating new class 08 
+[28/03/2023 07:54:08] Created new class 08 
+[28/03/2023 07:54:13] Rendering current classes 
+[28/03/2023 07:54:23] Creating new class 09 
+[28/03/2023 07:54:23] Created new class 09 
+[28/03/2023 07:54:26] Rendering current classes 
+[28/03/2023 07:54:32] Creating new class 10 
+[28/03/2023 07:54:32] Created new class 10 
+[28/03/2023 07:54:36] Rendering current classes 
+[28/03/2023 07:54:43] Creating new class 11 
+[28/03/2023 07:54:43] Created new class 11 
+[28/03/2023 07:54:49] Rendering current classes 
+[28/03/2023 07:55:00] returned student registration form 
+[28/03/2023 07:56:44] returned student registration form 
+[28/03/2023 07:58:33] Adding Student with already registered guardian registration 
+[28/03/2023 07:58:33] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[28/03/2023 07:58:33] Parent Instance mother name father name  Created 
+[28/03/2023 07:58:33] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[28/03/2023 07:58:33] Parent Instance mother name father name saved to database 
+[28/03/2023 07:58:33] Created student Instance 
+[28/03/2023 08:00:57] Adding Student with already registered guardian registration 
+[28/03/2023 08:00:57] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[28/03/2023 08:00:57] Parent Instance mother name father name  Created 
+[28/03/2023 08:00:57] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[28/03/2023 08:00:57] Parent Instance mother name father name saved to database 
+[28/03/2023 08:00:57] Created student Instance 
+[28/03/2023 08:08:23] Adding Student with already registered guardian registration 
+[28/03/2023 08:08:23] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[28/03/2023 08:08:23] Parent Instance mother name father name  Created 
+[28/03/2023 08:08:23] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[28/03/2023 08:08:23] Parent Instance mother name father name saved to database 
+[28/03/2023 08:08:23] Created student Instance 
+[28/03/2023 08:10:56] Adding Student with already registered guardian registration 
+[28/03/2023 08:11:35] Adding Student with already registered guardian registration 
+[28/03/2023 08:12:39] Adding Student with already registered guardian registration 
+[28/03/2023 08:14:35] Adding Student with already registered guardian registration 
+[28/03/2023 08:14:35] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[28/03/2023 08:14:35] Parent Instance mother name father name  Created 
+[28/03/2023 08:14:35] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[28/03/2023 08:14:35] Parent Instance mother name father name saved to database 
+[28/03/2023 08:14:35] Created student Instance 
+[28/03/2023 08:15:16] Adding Student with already registered guardian registration 
+[28/03/2023 08:15:16] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Created 
+[28/03/2023 08:15:16] Parent Instance mother name father name  Created 
+[28/03/2023 08:15:16] Student Instance Warnasooriya Mudiyanselage Chamesh Dinuka Saved to database 
+[28/03/2023 08:15:16] Parent Instance mother name father name saved to database 
+[28/03/2023 08:15:16] Created student Instance 
+[28/03/2023 08:15:20] getting deltails of 222222 
+[28/03/2023 08:15:20] returning deltails of 222222 
+[28/03/2023 08:16:11] getting deltails of 222222 
+[28/03/2023 08:16:11] returning deltails of 222222 
+[28/03/2023 08:26:17] getting deltails of 222222 
+[28/03/2023 08:26:17] returning deltails of 222222 
+[28/03/2023 08:33:30] returned student registration form 
+[28/03/2023 08:33:41] Adding Student with already registered guardian registration 
+[28/03/2023 08:33:46] returned student registration form 
+[28/03/2023 08:34:36] returned student registration form 
+[28/03/2023 08:34:45] Adding Student with already registered guardian registration 
+[28/03/2023 08:35:18] Adding Student with already registered guardian registration 
+[28/03/2023 08:35:21] returned student registration form 
+[30/03/2023 09:47:50] getting deltails of 222222 
+[30/03/2023 09:47:50] returning deltails of 222222 
+[30/03/2023 09:48:44] getting deltails of 222222 
+[30/03/2023 09:48:44] returning deltails of 222222 
+[30/03/2023 09:48:55] getting deltails of 222222 
+[30/03/2023 09:48:55] returning deltails of 222222 
+[30/03/2023 10:01:42] returned student registration form 
+[30/03/2023 10:02:15] Adding Student with already registered guardian registration 
+[30/03/2023 10:02:36] returned student registration form 
+[30/03/2023 10:02:53] Adding Student with already registered guardian registration 
+[30/03/2023 10:02:55] returned student registration form [30/03/2023 10:04:11] returned student registration form 
+[30/03/2023 10:04:26] Adding Student with already registered guardian registration 
+[30/03/2023 10:04:55] Adding Student with already registered guardian registration 
+[30/03/2023 10:06:04] Adding Student with already registered guardian registration 
+[30/03/2023 10:06:04] Student Instance adsadw Created 
+[30/03/2023 10:06:04] Parent Instance dawdasda 1231231  Created 
+[30/03/2023 10:06:04] Student Instance adsadw Saved to database 
+[30/03/2023 10:06:04] Parent Instance dawdasda 1231231 saved to database 
+[30/03/2023 10:06:04] Created student Instance 
+[30/03/2023 10:06:05] getting deltails of 222223 
+[30/03/2023 10:06:05] returning deltails of 222223 
+[30/03/2023 10:06:07] returned student registration form 
+[30/03/2023 10:06:40] Adding Student with already registered guardian registration 
+[30/03/2023 10:18:47] login successfull 222222 
+[30/03/2023 10:18:48] getting deltails of 222222 
+[30/03/2023 10:18:48] returning deltails of 222222 
+[30/03/2023 12:52:02] returned Teacher registration form 
+[30/03/2023 12:53:23] returned Teacher registration form 
+[30/03/2023 12:54:55] returned Teacher registration form 
+[30/03/2023 12:55:24] returned Teacher registration form 
+[30/03/2023 12:58:00] returned Teacher registration form 
+[30/03/2023 12:58:21] returned Teacher registration form 
+[30/03/2023 12:59:20] returned Teacher registration form 
+[30/03/2023 13:00:06] returned Teacher registration form 
+[30/03/2023 13:06:01] returned Teacher registration form 
+[30/03/2023 13:06:46] Teacher registration 
+[30/03/2023 13:06:46] Teacher Instance TeacherInfo object (None) Created 
+[30/03/2023 13:06:46] Teacher Instance TeacherInfo object (1) Saved to database 
+[30/03/2023 13:06:46] Created teacher Instance 
+[30/03/2023 13:20:24] getting deltails of 222333444 
+[30/03/2023 13:21:18] getting deltails of 222333444555 
+[30/03/2023 13:21:18] returning deltails of 222333444555 
+[30/03/2023 13:24:14] getting deltails of 222333444555 
+[30/03/2023 13:24:14] returning deltails of 222333444555 
+[30/03/2023 13:24:40] getting deltails of 222333444555 
+[30/03/2023 13:24:40] returning deltails of 222333444555 
+[30/03/2023 13:25:30] getting deltails of 222333444555 
+[30/03/2023 13:25:30] returning deltails of 222333444555 
+[30/03/2023 13:26:15] getting deltails of 222333444555 
+[30/03/2023 13:26:15] returning deltails of 222333444555 
+[09/04/2023 15:08:36] Username/Student not found 
+[09/04/2023 15:13:00] login successfull 222222 
+[09/04/2023 15:13:00] getting deltails of 222222 
+[09/04/2023 15:13:00] returning deltails of 222222 
+[09/04/2023 15:23:15] getting deltails of 222222 
+[09/04/2023 15:23:15] returning deltails of 222222 
+[09/04/2023 15:25:42] login successfull 222222 
+[09/04/2023 15:25:42] getting deltails of 222222 
+[09/04/2023 15:25:42] returning deltails of 222222 
+[09/04/2023 15:25:59] getting deltails of 222222 
+[09/04/2023 15:25:59] returning deltails of 222222 
+[09/04/2023 15:26:14] getting deltails of 222222 
+[09/04/2023 15:26:14] returning deltails of 222222 
+[09/04/2023 15:57:47] login successfull 222222 
+[09/04/2023 15:58:25] login successfull 222222 
+[09/04/2023 15:58:58] login successfull 222222 
+[09/04/2023 16:00:27] login successfull 222222 
+[09/04/2023 16:00:28] getting deltails of 222222 
+[09/04/2023 16:00:28] returning deltails of 222222 
+[09/04/2023 16:00:39] getting deltails of 222222 
+[09/04/2023 16:00:39] returning deltails of 222222 
+[10/04/2023 13:30:00] Requested Student List 
+[10/04/2023 13:30:00] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:30:52] Requested Student List 
+[10/04/2023 13:30:52] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:31:41] Requested Student List 
+[10/04/2023 13:31:41] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:08] Requested Student List 
+[10/04/2023 13:33:08] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:12] Requested Student List 
+[10/04/2023 13:33:12] Returnng JSON of [] 
+[10/04/2023 13:33:13] Requested Student List 
+[10/04/2023 13:33:13] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:33:15] Requested Student List 
+[10/04/2023 13:33:15] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:17] Requested Student List 
+[10/04/2023 13:33:17] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:17] Requested Student List 
+[10/04/2023 13:33:17] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:33:18] Requested Student List 
+[10/04/2023 13:33:18] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:33:19] Requested Student List 
+[10/04/2023 13:33:19] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:33:19] Requested Student List 
+[10/04/2023 13:33:19] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:20] Requested Student List 
+[10/04/2023 13:33:20] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:22] Requested Student List 
+[10/04/2023 13:33:22] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:22] Requested Student List 
+[10/04/2023 13:33:22] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:22] Requested Student List 
+[10/04/2023 13:33:22] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:23] Requested Student List 
+[10/04/2023 13:33:23] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:23] Requested Student List 
+[10/04/2023 13:33:23] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:24] Requested Student List 
+[10/04/2023 13:33:24] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:25] Requested Student List 
+[10/04/2023 13:33:25] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:25] Requested Student List 
+[10/04/2023 13:33:25] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:28] Requested Student List 
+[10/04/2023 13:33:28] Returnng JSON of [{'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:32] Requested Student List 
+[10/04/2023 13:33:32] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:32] Requested Student List 
+[10/04/2023 13:33:32] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:32] Requested Student List 
+[10/04/2023 13:33:32] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:33:32] Requested Student List 
+[10/04/2023 13:33:32] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:35:23] Requested Student List 
+[10/04/2023 13:35:23] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:35:44] Requested Student List 
+[10/04/2023 13:35:44] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:36:07] Requested Student List 
+[10/04/2023 13:36:07] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:36:11] getting deltails of 222222 
+[10/04/2023 13:36:11] returning deltails of 222222 
+[10/04/2023 13:36:48] Requested Student List 
+[10/04/2023 13:36:48] Returnng rendered [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:39:28] getting deltails of 222222 
+[10/04/2023 13:39:28] returning deltails of 222222 
+[10/04/2023 13:45:26] Requested Student List 
+[10/04/2023 13:45:26] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:27] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:27] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:27] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:27] Requested Student List 
+[10/04/2023 13:45:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:28] Requested Student List 
+[10/04/2023 13:45:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:28] Requested Student List 
+[10/04/2023 13:45:28] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:29] Requested Student List 
+[10/04/2023 13:45:29] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:33] Requested Student List 
+[10/04/2023 13:45:33] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}] 
+[10/04/2023 13:45:33] Requested Student List 
+[10/04/2023 13:45:33] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:34] Requested Student List 
+[10/04/2023 13:45:34] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:36] Requested Student List 
+[10/04/2023 13:45:36] Returnng JSON of [] 
+[10/04/2023 13:45:37] Requested Student List 
+[10/04/2023 13:45:37] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:39] Requested Student List 
+[10/04/2023 13:45:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[10/04/2023 13:45:39] Requested Student List 
+[10/04/2023 13:45:39] Returnng JSON of [{'index_number': 222222, 'student_name': 'Warnasooriya Mudiyanselage Chamesh Dinuka', 'class': 'Grade 06'}, {'index_number': 222223, 'student_name': 'adsadw', 'class': 'Grade 09'}] 
+[11/04/2023 11:23:03] login successfull 222222 
+[11/04/2023 11:23:04] getting deltails of 222222 
+[11/04/2023 11:23:04] returning deltails of 222222 
+[11/04/2023 11:24:50] getting deltails of 222222 
+[11/04/2023 11:24:50] returning deltails of 222222 
+[11/04/2023 11:25:44] getting deltails of 222222 
+[11/04/2023 11:25:44] returning deltails of 222222 
+[11/04/2023 11:28:59] getting deltails of 222222 
+[11/04/2023 11:28:59] returning deltails of 222222 
+[11/04/2023 11:31:33] getting deltails of 222222 
+[11/04/2023 11:31:33] returning deltails of 222222 
+[11/04/2023 11:33:07] getting deltails of 222222 
+[11/04/2023 11:33:07] returning deltails of 222222 
+[11/04/2023 11:41:07] getting deltails of 222222 
+[11/04/2023 11:41:07] returning deltails of 222222 
+[11/04/2023 11:46:43] getting deltails of 222222 
+[11/04/2023 11:46:43] returning deltails of 222222 
+[11/04/2023 11:48:18] getting deltails of 222222 
+[11/04/2023 11:48:18] returning deltails of 222222 
+[11/04/2023 11:50:24] getting deltails of 222222 
+[11/04/2023 11:50:24] returning deltails of 222222 
+[11/04/2023 11:51:40] getting deltails of 222222 
+[11/04/2023 11:51:40] returning deltails of 222222 
+[11/04/2023 11:52:06] getting deltails of 222222 
+[11/04/2023 11:52:06] returning deltails of 222222 
+[11/04/2023 11:52:51] getting deltails of 222222 
+[11/04/2023 11:52:51] returning deltails of 222222 
+[11/04/2023 11:53:04] getting deltails of 222222 
+[11/04/2023 11:53:04] returning deltails of 222222 
+[11/04/2023 11:53:23] getting deltails of 222222 
+[11/04/2023 11:53:23] returning deltails of 222222 
+[11/04/2023 11:53:36] getting deltails of 222222 
+[11/04/2023 11:53:36] returning deltails of 222222 
+[11/04/2023 11:54:59] getting deltails of 222222 
+[11/04/2023 11:54:59] returning deltails of 222222 
+[11/04/2023 11:56:47] getting deltails of 222222 
+[11/04/2023 11:56:47] returning deltails of 222222 
+[11/04/2023 16:36:40] Username/Student not found 
+[11/04/2023 16:36:56] Username/Student not found 
+[11/04/2023 16:38:36] Username/Student not found 
+[11/04/2023 16:39:22] login successfull 222222 
+[11/04/2023 16:39:22] getting deltails of 222222 
+[11/04/2023 16:39:23] returning deltails of 222222 
+[11/04/2023 16:40:32] getting deltails of 222222 
+[11/04/2023 16:40:32] returning deltails of 222222 
+[11/04/2023 16:54:38] getting deltails of 222222 
+[11/04/2023 16:54:38] returning deltails of 222222 
+[11/04/2023 17:11:49] login successfull 222222 
+[11/04/2023 17:11:51] getting deltails of 222222 
+[11/04/2023 17:11:51] returning deltails of 222222 
+[11/04/2023 17:12:57] login successfull 222222 
+[11/04/2023 17:12:57] getting deltails of 222222 
+[11/04/2023 17:12:57] returning deltails of 222222 
+[11/04/2023 17:16:37] login successfull 222222 
+[11/04/2023 17:16:37] getting deltails of 222222 
+[11/04/2023 17:16:37] returning deltails of 222222 
+[11/04/2023 17:17:12] getting deltails of 222222 
+[11/04/2023 17:17:12] returning deltails of 222222 
+[11/04/2023 17:20:02] getting deltails of 222222 
+[11/04/2023 17:20:02] returning deltails of 222222 
+[11/04/2023 17:20:07] getting deltails of 222222 
+[11/04/2023 17:20:07] returning deltails of 222222 
+[11/04/2023 17:20:19] getting deltails of 222222 
+[11/04/2023 17:20:19] returning deltails of 222222 
+[11/04/2023 17:21:46] getting deltails of 222222 
+[11/04/2023 17:21:46] returning deltails of 222222 
+[11/04/2023 17:22:23] getting deltails of 222222 
+[11/04/2023 17:22:23] returning deltails of 222222 
+[11/04/2023 17:23:25] login successfull 222222 
+[11/04/2023 17:23:25] getting deltails of 222222 
+[11/04/2023 17:23:25] returning deltails of 222222 
+[11/04/2023 17:26:19] login successfull 222222 
+[11/04/2023 17:26:19] getting deltails of 222222 
+[11/04/2023 17:26:19] returning deltails of 222222 
+[11/04/2023 17:28:07] Login Credentials Error 
+[11/04/2023 17:28:29] login successfull 222222 
+[11/04/2023 17:28:29] getting deltails of 222222 
+[11/04/2023 17:28:29] returning deltails of 222222 
+[11/04/2023 17:29:31] login successfull 222222 
+[11/04/2023 17:29:31] getting deltails of 222222 
+[11/04/2023 17:29:31] returning deltails of 222222 
+[11/04/2023 17:30:20] getting deltails of 222222 
+[11/04/2023 17:30:20] returning deltails of 222222 
+[23/04/2023 06:09:37] login successfull 222222 
+[23/04/2023 06:09:37] getting deltails of 222222 
+[23/04/2023 06:09:37] returning deltails of 222222 
+[23/04/2023 16:59:30] login successfull 222222 
+[23/04/2023 16:59:30] getting deltails of 222222 
+[23/04/2023 16:59:30] returning deltails of 222222 
+[23/04/2023 17:43:39] Rendering current subjects 
+[23/04/2023 17:44:40] Rendering current subjects 
+[23/04/2023 17:45:27] Rendering current subjects 
+[23/04/2023 17:47:42] Rendering current subjects 
+[23/04/2023 17:47:47] Rendering current subjects 
+[23/04/2023 17:48:37] Rendering current subjects 
+[23/04/2023 17:49:10] Rendering current subjects 
+[23/04/2023 17:49:47] Rendering current classes 
+[23/04/2023 17:49:51] Got class info of Grade 06 
+[23/04/2023 17:49:51] students in Grade 06 found 
+[23/04/2023 17:50:23] Got class info of Grade 11 
+[23/04/2023 17:50:23] students in Grade 11 found 
+[23/04/2023 17:56:21] Rendering current classes 
+[23/04/2023 18:00:58] Rendering current classes 
+[23/04/2023 18:01:14] Rendering current classes 
+[23/04/2023 18:02:55] Rendering current classes 
+[23/04/2023 18:03:02] Creating new class 06 
+[23/04/2023 18:03:02] Created new class 06 
+[23/04/2023 18:03:02] Rendering current classes 
+[23/04/2023 18:03:06] Rendering current classes 
+[23/04/2023 18:04:00] Rendering current classes 
+[23/04/2023 18:04:04] Creating new class 06 
+[23/04/2023 18:04:04] Created new class 06 
+[23/04/2023 18:04:04] Rendering current classes 
+[23/04/2023 18:05:02] Rendering current classes 
+[23/04/2023 18:06:17] Rendering current classes 
+[23/04/2023 18:06:33] Creating new class 07 
+[23/04/2023 18:06:33] Created new class 07 
+[23/04/2023 18:06:33] Rendering current classes 
+[23/04/2023 18:06:38] Creating new class 08 
+[23/04/2023 18:06:38] Created new class 08 
+[23/04/2023 18:06:38] Rendering current classes 
+[23/04/2023 18:06:42] Creating new class 09 
+[23/04/2023 18:06:42] Created new class 09 
+[23/04/2023 18:06:42] Rendering current classes 
+[23/04/2023 18:06:50] Creating new class 10 
+[23/04/2023 18:06:50] Created new class 10 
+[23/04/2023 18:06:50] Rendering current classes 
+[23/04/2023 18:06:56] Creating new class 11 
+[23/04/2023 18:06:56] Created new class 11 
+[23/04/2023 18:06:56] Rendering current classes 
+[23/04/2023 18:07:01] Got class info of Grade 11 
+[23/04/2023 18:07:01] students in Grade 11 found 
+[23/04/2023 18:09:09] Got class info of Grade 11 
+[23/04/2023 18:09:09] students in Grade 11 found 
+[23/04/2023 18:09:09] Moved student to alumni class 
+[23/04/2023 18:09:10] Rendering current classes 
+[23/04/2023 18:09:14] Got class info of Grade 11 
+[23/04/2023 18:09:14] students in Grade 11 found 
+[23/04/2023 18:09:14] Moved student to alumni class 
+[23/04/2023 18:09:14] Rendering current classes 
+[23/04/2023 18:10:08] Rendering current classes 
+[23/04/2023 18:10:12] Got class info of Grade 11 
+[23/04/2023 18:10:12] students in Grade 11 found 
+[23/04/2023 18:10:12] Moved student to alumni class 
+[23/04/2023 18:10:12] Rendering current classes 
+[23/04/2023 18:10:19] Creating new class 11 
+[23/04/2023 18:10:19] Created new class 11 
+[23/04/2023 18:10:19] Rendering current classes 
+[23/04/2023 18:10:47] Rendering current classes 
+[23/04/2023 18:12:35] Rendering current classes 
+[23/04/2023 18:13:02] Rendering current classes 
+[23/04/2023 18:13:16] Rendering current classes 
+[23/04/2023 18:13:43] Creating new class 12-A 
+[23/04/2023 18:13:43] Created new class 12-A 
+[23/04/2023 18:13:43] Rendering current classes 
+[23/04/2023 18:13:45] Got class info of Grade 12-A 
+[23/04/2023 18:13:45] students in Grade 12-A found 
+[23/04/2023 18:13:45] Moved student to alumni class 
+[23/04/2023 18:13:45] Rendering current classes 
+[23/04/2023 18:13:58] Creating new class 12-A 
+[23/04/2023 18:13:58] Created new class 12-A 
+[23/04/2023 18:13:58] Rendering current classes 
+[23/04/2023 18:14:06] Creating new class 12-C 
+[23/04/2023 18:14:06] Created new class 12-C 
+[23/04/2023 18:14:06] Rendering current classes 
+[23/04/2023 18:14:10] Got class info of Grade 12-C 
+[23/04/2023 18:14:10] students in Grade 12-C found 
+[23/04/2023 18:14:10] Moved student to alumni class 
+[23/04/2023 18:14:10] Rendering current classes 
+[23/04/2023 18:14:19] Creating new class 12-C 
+[23/04/2023 18:14:19] Created new class 12-C 
+[23/04/2023 18:14:19] Rendering current classes 
+[23/04/2023 18:14:32] Creating new class 12-T 
+[23/04/2023 18:14:32] Created new class 12-T 
+[23/04/2023 18:14:32] Rendering current classes 
+[23/04/2023 18:14:41] Creating new class 12-M 
+[23/04/2023 18:14:41] Created new class 12-M 
+[23/04/2023 18:14:41] Rendering current classes 
+[23/04/2023 18:14:46] Got class info of Grade 12-M 
+[23/04/2023 18:14:46] students in Grade 12-M found 
+[23/04/2023 18:14:46] Moved student to alumni class 
+[23/04/2023 18:14:46] Rendering current classes 
+[23/04/2023 18:15:00] Creating new class 12-M 
+[23/04/2023 18:15:00] Created new class 12-M 
+[23/04/2023 18:15:00] Rendering current classes 
+[23/04/2023 18:31:03] Rendering current classes 
+[23/04/2023 18:31:06] Rendering current classes 
+[23/04/2023 18:31:10] Got class info of Grade 11 
+[23/04/2023 18:31:10] students in Grade 11 found 
+[23/04/2023 18:31:10] Moved student to alumni class 
+[23/04/2023 18:31:10] Rendering current classes 
+[23/04/2023 18:31:17] Rendering current classes 
+[24/04/2023 09:33:24] returned Teacher registration form 
+[24/04/2023 09:35:02] Rendering current classes 
+[24/04/2023 09:37:16] Rendering current classes 
+[24/04/2023 09:37:31] Rendering current classes 
+[24/04/2023 09:37:40] Rendering current classes 
+[24/04/2023 09:37:41] Got class info of Grade 10 
+[24/04/2023 09:37:41] students in Grade 10 found 
+[24/04/2023 09:37:41] Moved student to alumni class 
+[24/04/2023 09:37:41] Rendering current classes 
+[24/04/2023 09:40:37] Rendering current classes 
+[24/04/2023 09:40:43] Creating new class 09 
+[24/04/2023 09:40:43] Created new class 09 
+[24/04/2023 09:40:43] Rendering current classes 
+[24/04/2023 09:40:49] Rendering current classes 
+[24/04/2023 09:41:26] Rendering current classes 
+[24/04/2023 09:41:28] Rendering current classes 
+[24/04/2023 09:41:33] Rendering current classes 
+[24/04/2023 09:43:46] Rendering current classes 
+[24/04/2023 09:43:50] Rendering current classes 
+[24/04/2023 09:43:59] Rendering current classes 
+[24/04/2023 09:44:28] Rendering current classes 
+[24/04/2023 09:44:32] Rendering current classes 
+[24/04/2023 09:45:43] Creating new class 08 
+[24/04/2023 09:45:43] Created new class 08 
+[24/04/2023 09:45:43] Rendering current classes 
+[24/04/2023 09:46:59] Rendering current classes 
+[24/04/2023 09:47:12] Rendering current classes 
+[24/04/2023 10:02:49] Requested Student List 
+[24/04/2023 10:03:07] Requested Student List 
+[24/04/2023 10:06:34] Requested Student List 
+[24/04/2023 10:06:34] Returnng rendered [] 
+[24/04/2023 10:07:54] Requested Student List 
+[24/04/2023 10:07:54] Returnng rendered [] 
+[24/04/2023 10:08:38] returned student registration form 
+[24/04/2023 10:10:08] returned student registration form 
+[24/04/2023 10:10:20] Adding Student with already registered guardian registration 
+[24/04/2023 10:10:20] Got Student data 
+[24/04/2023 10:10:20] Student Instance Dylan Fisher Created 
+[24/04/2023 10:10:20] Parent Instance Mechelle Clarke Jonah Zamora  Created 
+[24/04/2023 10:10:20] Student Instance Dylan Fisher Saved to database 
+[24/04/2023 10:10:20] Parent Instance Mechelle Clarke Jonah Zamora saved to database 
+[24/04/2023 10:10:20] Created student Instance 
+[24/04/2023 10:13:06] login successfull 491 
+[24/04/2023 10:13:07] getting deltails of 491 
+[24/04/2023 10:13:07] returning deltails of 491 
+[24/04/2023 10:17:13] returned student registration form 
+[24/04/2023 10:25:24] returned student registration form 
+[24/04/2023 10:25:47] Adding Student with already registered guardian registration 
+[24/04/2023 10:25:47] Got Student data 
+[24/04/2023 10:27:03] Adding Student with already registered guardian registration 
+[24/04/2023 10:27:03] Got Student data 
+[24/04/2023 10:27:57] Adding Student with already registered guardian registration 
+[24/04/2023 10:27:57] Got Student data 
+[24/04/2023 10:28:54] Adding Student with already registered guardian registration 
+[24/04/2023 10:28:54] Got Student data 
+[24/04/2023 10:31:39] returned student registration form 
+[24/04/2023 10:31:55] Adding Student with already registered guardian registration 
+[24/04/2023 10:31:55] Got Student data 
+[24/04/2023 10:34:17] Adding Student with already registered guardian registration 
+[24/04/2023 10:34:17] Got Student data 
+[24/04/2023 10:34:43] Adding Student with already registered guardian registration 
+[24/04/2023 10:34:43] Got Student data 
+[24/04/2023 10:35:11] Adding Student with already registered guardian registration 
+[24/04/2023 10:35:11] Got Student data 
+[24/04/2023 10:35:11] Student Instance Farrah Morin Created 
+[24/04/2023 10:35:11] Parent Instance Seth Hayden Ila Wise  Created 
+[24/04/2023 10:35:11] Student Instance Farrah Morin Saved to database 
+[24/04/2023 10:35:11] Parent Instance Seth Hayden Ila Wise saved to database 
+[24/04/2023 10:35:11] Created student Instance 
+[24/04/2023 10:36:04] returned student registration form 
+[24/04/2023 10:36:13] Adding Student with already registered guardian registration 
+[24/04/2023 10:36:13] Got Student data 
+[24/04/2023 10:36:13] Student Instance Porter Prince Created 
+[24/04/2023 10:36:13] Parent Instance Thor Hardy Minerva Goodman  Created 
+[24/04/2023 10:36:13] Student Instance Porter Prince Saved to database 
+[24/04/2023 10:36:13] Parent Instance Thor Hardy Minerva Goodman saved to database 
+[24/04/2023 10:36:13] Created student Instance 
+[24/04/2023 10:43:23] Login Credentials Error 
+[24/04/2023 10:43:47] login successfull 491 
+[24/04/2023 10:43:47] getting deltails of 491 
+[24/04/2023 10:43:47] returning deltails of 491 
+[24/04/2023 10:47:32] returned student registration form 
+[24/04/2023 10:47:52] Adding Student with already registered guardian registration 
+[24/04/2023 10:47:52] Got Student data 
+[24/04/2023 10:48:32] returned student registration form 
+[24/04/2023 10:48:45] Adding Student with already registered guardian registration 
+[24/04/2023 10:48:45] Got Student data 
+[24/04/2023 10:48:45] Student Instance Len Williamson Created 
+[24/04/2023 10:48:45] Parent Instance Noble Peters Jackson Walton  Created 
+[24/04/2023 10:48:45] Student Instance Len Williamson Saved to database 
+[24/04/2023 10:48:45] Parent Instance Noble Peters Jackson Walton saved to database 
+[24/04/2023 10:48:45] Created student Instance 
+[24/04/2023 10:49:07] login successfull 419 
+[24/04/2023 10:49:07] getting deltails of 419 
+[24/04/2023 10:49:07] returning deltails of 419 
+[24/04/2023 11:03:38] getting deltails of 419 
+[24/04/2023 11:03:38] returning deltails of 419 
+[24/04/2023 11:09:14] Requested Student List 
+[24/04/2023 11:09:14] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:25] Requested Student List 
+[24/04/2023 11:09:25] Returnng JSON of [{'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:27] Requested Student List 
+[24/04/2023 11:09:27] Returnng JSON of [] 
+[24/04/2023 11:09:29] Requested Student List 
+[24/04/2023 11:09:29] Returnng JSON of [{'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:31] Requested Student List 
+[24/04/2023 11:09:31] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}] 
+[24/04/2023 11:09:34] Requested Student List 
+[24/04/2023 11:09:34] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:36] Requested Student List 
+[24/04/2023 11:09:36] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:36] Requested Student List 
+[24/04/2023 11:09:36] Returnng JSON of [{'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:39] Requested Student List 
+[24/04/2023 11:09:39] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:39] Requested Student List 
+[24/04/2023 11:09:39] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:42] Requested Student List 
+[24/04/2023 11:09:42] Returnng JSON of [{'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:42] Requested Student List 
+[24/04/2023 11:09:42] Returnng JSON of [] 
+[24/04/2023 11:09:43] Requested Student List 
+[24/04/2023 11:09:43] Returnng JSON of [{'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}] 
+[24/04/2023 11:09:43] Requested Student List 
+[24/04/2023 11:09:43] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:09:44] Requested Student List 
+[24/04/2023 11:09:44] Returnng JSON of [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 11:15:11] Requested Teacher List 
+[24/04/2023 11:15:11] Returnng rendered [] 
+[24/04/2023 11:15:32] Requested Teacher List 
+[24/04/2023 11:15:32] Returnng rendered [] 
+[24/04/2023 11:15:46] Requested Teacher List 
+[24/04/2023 11:15:46] Returnng rendered [] 
+[24/04/2023 11:15:50] Requested Teacher List 
+[24/04/2023 11:15:50] Returnng rendered [] 
+[24/04/2023 11:16:06] Requested Teacher List 
+[24/04/2023 11:16:06] Returnng rendered [] 
+[24/04/2023 11:16:20] Requested Teacher List 
+[24/04/2023 11:16:20] Returnng rendered [] 
+[24/04/2023 11:16:35] Requested Teacher List 
+[24/04/2023 11:16:35] Returnng rendered [] 
+[24/04/2023 11:17:01] Requested Teacher List 
+[24/04/2023 11:17:01] Returnng rendered [] 
+[24/04/2023 11:17:34] returned Teacher registration form 
+[24/04/2023 11:17:57] Teacher registration 
+[24/04/2023 11:17:57] Teacher Instance TeacherInfo object (None) Created 
+[24/04/2023 11:17:57] Teacher Instance TeacherInfo object (1) Saved to database 
+[24/04/2023 11:17:57] Created teacher Instance 
+[24/04/2023 11:19:18] Teacher registration 
+[24/04/2023 11:19:37] returned Teacher registration form 
+[24/04/2023 11:19:41] Teacher registration 
+[24/04/2023 11:19:41] Teacher Instance TeacherInfo object (None) Created 
+[24/04/2023 11:19:41] Teacher Instance TeacherInfo object (2) Saved to database 
+[24/04/2023 11:19:41] Created teacher Instance 
+[24/04/2023 11:20:49] Teacher registration 
+[24/04/2023 11:20:53] returned Teacher registration form 
+[24/04/2023 11:20:58] Teacher registration 
+[24/04/2023 11:20:58] Teacher Instance TeacherInfo object (None) Created 
+[24/04/2023 11:20:58] Teacher Instance TeacherInfo object (3) Saved to database 
+[24/04/2023 11:20:58] Created teacher Instance 
+[24/04/2023 11:21:17] Requested Teacher List 
+[24/04/2023 11:21:17] Returnng rendered [{'nic': '12344323', 'teacher_name': 'Simon Avila'}, {'nic': 'Velit minima ut sed ', 'teacher_name': 'Halee Hill'}, {'nic': 'Officia aut sint qui', 'teacher_name': 'Moses Scott'}] 
+[24/04/2023 15:38:53] Requested Teacher List 
+[24/04/2023 15:38:53] Returnng rendered [{'nic': '12344323', 'teacher_name': 'Simon Avila'}, {'nic': 'Velit minima ut sed ', 'teacher_name': 'Halee Hill'}, {'nic': 'Officia aut sint qui', 'teacher_name': 'Moses Scott'}] 
+[24/04/2023 15:39:24] Username/Student not found 
+[24/04/2023 15:39:29] teacher login successfull 12344323 
+[24/04/2023 15:39:30] getting deltails of 12344323 
+[24/04/2023 15:39:30] returning deltails of 12344323 
+[24/04/2023 15:44:34] getting deltails of 12344323 
+[24/04/2023 15:44:34] returning deltails of 12344323 
+[24/04/2023 15:46:55] Login Credentials Error 
+[24/04/2023 15:47:02] teacher login successfull 12344323 
+[24/04/2023 15:47:02] getting deltails of 12344323 
+[24/04/2023 15:47:02] returning deltails of 12344323 
+[24/04/2023 15:47:12] Requested Student List 
+[24/04/2023 15:47:12] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 15:47:41] Requested Student List 
+[24/04/2023 15:47:41] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 15:50:37] teacher login successfull 12344323 
+[24/04/2023 15:50:38] getting deltails of 12344323 
+[24/04/2023 15:50:38] returning deltails of 12344323 
+[24/04/2023 15:55:20] getting deltails of 491 
+[24/04/2023 15:55:41] Requested Student List 
+[24/04/2023 15:55:41] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}] 
+[24/04/2023 15:55:44] getting deltails of 491 
+[24/04/2023 15:55:57] getting deltails of 380 
+[24/04/2023 15:57:34] getting deltails of 319 
+[24/04/2023 15:57:39] getting deltails of 419 
+[24/04/2023 15:57:39] returning deltails of 419 
+[24/04/2023 16:15:57] getting deltails of 419 
+[24/04/2023 16:15:57] returning deltails of 419 
+[24/04/2023 16:23:02] Requested Teacher List 
+[24/04/2023 16:23:02] Returnng rendered [{'nic': '12344323', 'teacher_name': 'Simon Avila'}, {'nic': 'Velit minima ut sed ', 'teacher_name': 'Halee Hill'}, {'nic': 'Officia aut sint qui', 'teacher_name': 'Moses Scott'}] 
+[24/04/2023 16:23:05] getting deltails of 12344323 
+[24/04/2023 16:23:05] returning deltails of 12344323 
+[24/04/2023 16:24:21] getting deltails of 12344323 
+[24/04/2023 16:24:21] returning deltails of 12344323 
+[25/04/2023 08:02:19] returned student registration form 
+[25/04/2023 08:02:51] returned student registration form 
+[25/04/2023 08:02:56] returned student registration form 
+[25/04/2023 08:33:46] returned student registration form 
+[25/04/2023 08:34:08] returned student registration form 
+[25/04/2023 08:36:17] returned student registration form 
+[25/04/2023 08:37:24] returned student registration form 
+[25/04/2023 08:37:40] returned student registration form 
+[25/04/2023 08:37:55] returned student registration form 
+[25/04/2023 08:38:22] returned student registration form 
+[26/04/2023 14:11:37] returned student registration form 
+[26/04/2023 14:13:25] returned student registration form 
+[26/04/2023 14:13:58] returned student registration form 
+[26/04/2023 14:14:20] returned student registration form 
+[26/04/2023 14:14:55] returned student registration form 
+[26/04/2023 14:14:59] Adding Student with already registered guardian registration 
+[26/04/2023 14:15:17] Adding Student with already registered guardian registration 
+[26/04/2023 14:15:17] Got Student data 
+[26/04/2023 14:15:47] Adding Student with already registered guardian registration 
+[26/04/2023 14:15:47] Got Student data 
+[26/04/2023 14:15:47] Student Instance Bernard White Created 
+[26/04/2023 14:15:47] Parent Instance Aurora Hammond Pamela Hanson  Created 
+[26/04/2023 14:15:47] Student Instance Bernard White Saved to database 
+[26/04/2023 14:15:47] Parent Instance Aurora Hammond Pamela Hanson saved to database 
+[26/04/2023 14:15:47] Created student Instance 
+[26/04/2023 14:15:48] getting deltails of 455 
+[26/04/2023 14:15:48] returning deltails of 455 
+[26/04/2023 14:16:24] Rendering current classes 
+[26/04/2023 14:19:32] Creating new class 13-A 
+[26/04/2023 14:19:32] Created new class 13-A 
+[26/04/2023 14:19:32] Rendering current classes 
+[26/04/2023 14:19:40] Creating new class 13-C 
+[26/04/2023 14:19:40] Created new class 13-C 
+[26/04/2023 14:19:40] Rendering current classes 
+[26/04/2023 14:19:49] Creating new class 13-M 
+[26/04/2023 14:19:49] Created new class 13-M 
+[26/04/2023 14:19:49] Rendering current classes 
+[26/04/2023 14:20:01] Creating new class 13-T 
+[26/04/2023 14:20:01] Created new class 13-T 
+[26/04/2023 14:20:01] Rendering current classes 
+[26/04/2023 14:33:00] returned student registration form 
+[26/04/2023 14:33:08] returned student registration form 
+[26/04/2023 14:34:08] Requested Student List 
+[26/04/2023 14:34:08] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}, {'index_number': '455', 'student_name': 'Bernard White', 'class': 'Grade 11'}] 
+[26/04/2023 14:34:17] getting deltails of 491 
+[26/04/2023 14:34:40] Requested Student List 
+[26/04/2023 14:34:40] Returnng rendered [{'index_number': '491', 'student_name': 'Dylan Fisher', 'class': 'Grade ALUMNI'}, {'index_number': '380', 'student_name': 'Farrah Morin', 'class': 'Grade 09'}, {'index_number': '782', 'student_name': 'Porter Prince', 'class': 'Grade 06'}, {'index_number': '419', 'student_name': 'Len Williamson', 'class': 'Grade 12-T'}, {'index_number': '455', 'student_name': 'Bernard White', 'class': 'Grade 11'}] 
+[26/04/2023 14:34:43] returned student registration form 
+[26/04/2023 14:34:56] returned student registration form 
+[26/04/2023 14:35:14] returned student registration form 
+[26/04/2023 14:37:51] returned student registration form 
+[26/04/2023 14:44:39] returned student registration form 
+[26/04/2023 14:45:23] returned student registration form 
+[26/04/2023 14:46:32] returned student registration form 
+[26/04/2023 14:46:39] returned student registration form 
+[26/04/2023 14:57:14] returned student registration form 
+[26/04/2023 14:57:43] returned student registration form 
+[26/04/2023 14:57:50] returned student registration form 
+[26/04/2023 14:59:01] returned student registration form 
+[26/04/2023 14:59:08] returned student registration form 
+[26/04/2023 14:59:19] returned student registration form 
+[26/04/2023 14:59:58] returned student registration form 
+[26/04/2023 15:01:37] Rendering current classes 
+[26/04/2023 15:04:18] returned student registration form 
+[26/04/2023 15:04:44] Adding Student with already registered guardian registration 
+[26/04/2023 15:04:44] Got Student data 
+[26/04/2023 15:04:44] Student Instance Ella Dodson Created 
+[26/04/2023 15:04:44] Parent Instance Larissa Avery Unity Delgado  Created 
+[26/04/2023 15:04:44] Student Instance Ella Dodson Saved to database 
+[26/04/2023 15:04:44] Parent Instance Larissa Avery Unity Delgado saved to database 
+[26/04/2023 15:04:44] Created student Instance 
+[26/04/2023 15:04:44] getting deltails of 199 
+[26/04/2023 15:04:44] returning deltails of 199 
+[01/05/2023 01:42:54] Rendering current subjects 
+[01/05/2023 02:35:29] Rendering current classes 
+[01/05/2023 02:35:36] Creating new class 06 
+[01/05/2023 02:35:37] Created new class 06 
+[01/05/2023 02:35:37] Rendering current classes 
+[01/05/2023 02:38:19] Username/Student not found 
+[01/05/2023 02:38:28] Username/Student not found 
+[01/05/2023 02:39:44] Username/Student not found 
+[01/05/2023 02:40:20] Username/Student not found 
+[01/05/2023 02:41:11] returned Teacher registration form 
+[01/05/2023 02:41:28] Teacher registration 
+[01/05/2023 02:42:12] returned Teacher registration form 
+[01/05/2023 02:42:39] Teacher registration 
+[01/05/2023 02:42:43] returned Teacher registration form 
+[01/05/2023 02:44:31] returned Teacher registration form 
+[01/05/2023 02:44:42] Teacher registration 
+[01/05/2023 02:44:42] Teacher Instance TeacherInfo object (None) Created 
+[01/05/2023 02:44:42] Teacher Instance TeacherInfo object (2) Saved to database 
+[01/05/2023 02:44:42] Created teacher Instance 
+[01/05/2023 02:44:57] returned Teacher registration form 
+[01/05/2023 02:45:08] Teacher registration 
+[01/05/2023 02:45:44] Teacher registration 
+[01/05/2023 02:45:44] Teacher Instance TeacherInfo object (None) Created 
+[01/05/2023 02:45:44] Teacher Instance TeacherInfo object (3) Saved to database 
+[01/05/2023 02:45:44] Created teacher Instance 
+[01/05/2023 02:48:10] Login Credentials Error 
+[01/05/2023 02:48:27] Login Credentials Error 
+[01/05/2023 02:48:49] Username/Student not found 
+[01/05/2023 02:49:00] Username/Student not found 
+[01/05/2023 02:50:30] teacher login successfull 12341234 
+[01/05/2023 02:50:31] getting deltails of 12341234 
+[01/05/2023 02:52:46] getting deltails of 12341234 
+[01/05/2023 02:52:46] returning deltails of 12341234 
+[02/05/2023 19:26:48] Requested Student List 
+[02/05/2023 19:26:48] Returnng rendered [] 
+[02/05/2023 19:26:55] returned student registration form 
+[02/05/2023 20:22:57] returned student registration form 
+[02/05/2023 20:24:40] returned student registration form 
+[02/05/2023 20:25:35] returned student registration form 
+[02/05/2023 20:27:25] returned student registration form 
+[02/05/2023 20:29:03] returned student registration form 
+[02/05/2023 20:29:10] returned student registration form 
+[02/05/2023 20:30:10] returned student registration form 
+[02/05/2023 20:30:47] returned student registration form 
+[02/05/2023 20:31:24] returned student registration form 
+[02/05/2023 20:31:34] returned student registration form 
+[02/05/2023 20:32:35] returned student registration form 
+[02/05/2023 20:33:02] returned student registration form 
+[02/05/2023 20:33:36] returned student registration form 
+[02/05/2023 20:34:42] returned student registration form 
+[02/05/2023 20:35:14] returned student registration form 
+[02/05/2023 20:35:26] returned student registration form 
+[02/05/2023 20:36:29] Rendering current classes 
+[02/05/2023 20:36:35] Creating new class 07 
+[02/05/2023 20:36:35] Created new class 07 
+[02/05/2023 20:36:35] Rendering current classes 
+[02/05/2023 20:36:37] Creating new class 08 
+[02/05/2023 20:36:37] Created new class 08 
+[02/05/2023 20:36:37] Rendering current classes 
+[02/05/2023 20:36:39] Creating new class 09 
+[02/05/2023 20:36:40] Created new class 09 
+[02/05/2023 20:36:40] Rendering current classes 
+[02/05/2023 20:36:45] Creating new class 10 
+[02/05/2023 20:36:45] Created new class 10 
+[02/05/2023 20:36:45] Rendering current classes 
+[02/05/2023 20:36:49] Creating new class 11 
+[02/05/2023 20:36:49] Created new class 11 
+[02/05/2023 20:36:49] Rendering current classes 
+[02/05/2023 20:36:58] Creating new class 12-A 
+[02/05/2023 20:36:58] Created new class 12-A 
+[02/05/2023 20:36:58] Rendering current classes 
+[02/05/2023 20:37:04] Creating new class 12-C 
+[02/05/2023 20:37:04] Created new class 12-C 
+[02/05/2023 20:37:04] Rendering current classes 
+[02/05/2023 20:37:12] Creating new class 12-M 
+[02/05/2023 20:37:12] Created new class 12-M 
+[02/05/2023 20:37:12] Rendering current classes 
+[02/05/2023 20:37:17] Creating new class 12-T 
+[02/05/2023 20:37:17] Created new class 12-T 
+[02/05/2023 20:37:17] Rendering current classes 
+[02/05/2023 20:37:23] Creating new class 13-A 
+[02/05/2023 20:37:24] Created new class 13-A 
+[02/05/2023 20:37:24] Rendering current classes 
+[02/05/2023 20:37:29] Creating new class 13-C 
+[02/05/2023 20:37:29] Created new class 13-C 
+[02/05/2023 20:37:29] Rendering current classes 
+[02/05/2023 20:37:36] Creating new class 13-M 
+[02/05/2023 20:37:36] Created new class 13-M 
+[02/05/2023 20:37:36] Rendering current classes 
+[02/05/2023 20:37:48] Creating new class 13-T 
+[02/05/2023 20:37:48] Created new class 13-T 
+[02/05/2023 20:37:48] Rendering current classes 
+[02/05/2023 20:38:01] returned student registration form 
+[02/05/2023 20:39:41] returned student registration form 
+[02/05/2023 20:40:33] returned student registration form 
+[02/05/2023 20:40:46] returned student registration form 
+[02/05/2023 20:41:29] returned student registration form 
+[02/05/2023 20:41:35] returned student registration form 
+[02/05/2023 20:42:28] returned student registration form 
+[02/05/2023 20:44:02] returned student registration form 
+[02/05/2023 20:44:28] returned student registration form 
+[02/05/2023 20:45:35] returned student registration form 
+[02/05/2023 20:45:40] returned student registration form 
+[02/05/2023 20:46:19] returned student registration form 
+[02/05/2023 20:46:42] returned student registration form 
+[02/05/2023 20:47:25] returned student registration form 
+[02/05/2023 20:48:42] returned student registration form 
+[02/05/2023 20:48:48] returned student registration form 
+[02/05/2023 20:49:12] returned student registration form 
+[02/05/2023 20:49:20] returned student registration form 
+[02/05/2023 20:50:26] returned student registration form 
+[02/05/2023 20:50:35] returned student registration form 
+[02/05/2023 20:51:56] returned student registration form 
+[02/05/2023 20:52:08] returned student registration form 
+[02/05/2023 20:55:19] returned student registration form 
+[02/05/2023 20:55:31] returned student registration form 
+[02/05/2023 20:56:59] returned student registration form 
+[02/05/2023 20:57:04] returned student registration form 
+[02/05/2023 21:08:54] returned student registration form 
+[02/05/2023 21:29:08] returned student registration form 
+[02/05/2023 21:29:19] returned student registration form 
+[02/05/2023 21:29:35] returned student registration form 
+[02/05/2023 21:30:18] returned student registration form 
+[02/05/2023 21:31:03] returned student registration form 
+[02/05/2023 21:31:11] returned student registration form 
+[02/05/2023 21:31:22] returned student registration form 
+[02/05/2023 21:31:52] returned student registration form 
+[02/05/2023 21:32:01] returned student registration form 
+[02/05/2023 21:33:26] returned student registration form 
+[02/05/2023 21:33:30] returned student registration form 
+[02/05/2023 21:33:36] returned student registration form 
+[02/05/2023 21:33:48] returned student registration form 
+[02/05/2023 21:34:01] returned student registration form 
+[02/05/2023 21:34:26] returned student registration form 
+[02/05/2023 21:35:42] returned student registration form 
+[02/05/2023 21:36:28] returned student registration form 
+[02/05/2023 21:38:06] returned student registration form 
+[02/05/2023 21:38:30] returned student registration form 
+[02/05/2023 21:40:06] returned student registration form 
+[02/05/2023 21:43:59] returned student registration form 
+[02/05/2023 21:46:03] returned student registration form 
+[02/05/2023 21:46:49] returned student registration form 
+[02/05/2023 21:49:14] returned student registration form 
+[02/05/2023 21:49:19] returned student registration form 
+[02/05/2023 21:50:37] returned student registration form 
+[02/05/2023 21:51:53] returned student registration form 
+[02/05/2023 21:52:00] returned student registration form 
+[02/05/2023 21:52:50] returned student registration form 
+[02/05/2023 21:53:27] returned student registration form 
+[02/05/2023 21:54:23] returned student registration form 
+[02/05/2023 21:56:03] returned student registration form 
+[02/05/2023 21:57:02] returned student registration form 
+[02/05/2023 21:57:09] returned student registration form 
+[02/05/2023 21:57:37] returned student registration form 
+[02/05/2023 21:58:59] returned student registration form 
+[02/05/2023 21:59:51] returned student registration form 
+[02/05/2023 22:12:55] returned student registration form 
+[02/05/2023 22:13:36] returned student registration form 
+[02/05/2023 22:15:02] returned student registration form 
+[02/05/2023 22:16:49] returned student registration form 
+[02/05/2023 22:17:02] returned student registration form 
+[02/05/2023 22:17:59] returned student registration form 
+[02/05/2023 22:19:21] Adding Student with already registered guardian registration 
+[02/05/2023 22:19:21] Got Student data 
+[02/05/2023 22:20:33] returned student registration form 
+[02/05/2023 22:21:21] Adding Student with already registered guardian registration 
+[02/05/2023 22:21:21] Got Student data 
+[02/05/2023 22:22:28] Adding Student with already registered guardian registration 
+[02/05/2023 22:22:28] Got Student data 
+[02/05/2023 22:23:40] returned student registration form 
+[02/05/2023 22:26:40] returned student registration form 
+[02/05/2023 22:27:22] Adding Student with already registered guardian registration 
+[02/05/2023 22:27:22] Got Student data 
+[02/05/2023 22:29:12] Adding Student with already registered guardian registration 
+[02/05/2023 22:29:12] Got Student data 
+[02/05/2023 22:29:27] returned student registration form 
+[02/05/2023 22:29:44] Adding Student with already registered guardian registration 
+[02/05/2023 22:29:44] Got Student data 
+[02/05/2023 22:31:22] Adding Student with already registered guardian registration 
+[02/05/2023 22:31:22] Got Student data 
+[02/05/2023 22:31:35] returned student registration form 
+[02/05/2023 22:32:15] returned student registration form 
+[02/05/2023 22:32:43] Adding Student with already registered guardian registration 
+[02/05/2023 22:32:43] Got Student data 
+[02/05/2023 22:33:20] Adding Student with already registered guardian registration 
+[02/05/2023 22:33:20] Got Student data 
+[02/05/2023 22:33:20] Student Instance Ramona Valencia Created 
+[02/05/2023 22:33:20] Parent Instance Malcolm Perkins Gavin Valencia  Created 
+[02/05/2023 22:33:20] Student Instance Ramona Valencia Saved to database 
+[02/05/2023 22:33:20] Parent Instance Malcolm Perkins Gavin Valencia saved to database 
+[02/05/2023 22:33:20] Created student Instance 
+[02/05/2023 22:33:45] login successfull 679 
+[02/05/2023 22:37:51] not a teacher redirecting 
+[02/05/2023 22:39:49] not a teacher redirecting 
+[02/05/2023 22:39:58] login successfull 679 
+[02/05/2023 22:39:58] not a teacher redirecting 
+[02/05/2023 22:40:37] getting deltails of 679 
+[02/05/2023 22:41:44] getting deltails of 679 
+[02/05/2023 22:46:16] getting deltails of 679 
+[02/05/2023 22:49:18] getting deltails of 679 
+[02/05/2023 22:49:39] getting deltails of 679 
+[02/05/2023 22:49:39] returning deltails of 679 
+[02/05/2023 22:52:08] returned student registration form 
+[02/05/2023 22:52:39] Adding Student with already registered guardian registration 
+[02/05/2023 22:52:39] Got Student data 
+[02/05/2023 22:52:39] Student Instance Jillian Sargent Created 
+[02/05/2023 22:52:39] Parent Instance Jin Bates Shaeleigh Delgado  Created 
+[02/05/2023 22:52:39] Student Instance Jillian Sargent Saved to database 
+[02/05/2023 22:52:39] Parent Instance Jin Bates Shaeleigh Delgado saved to database 
+[02/05/2023 22:52:39] Created student Instance 
+[02/05/2023 22:52:39] getting deltails of 604 
+[02/05/2023 22:52:39] returning deltails of 604 
+[02/05/2023 22:55:54] getting deltails of 604 
+[02/05/2023 22:56:21] getting deltails of 604 
+[02/05/2023 22:56:29] getting deltails of 604 
+[02/05/2023 22:57:02] getting deltails of 604 
+[02/05/2023 22:57:52] getting deltails of 604 
+[02/05/2023 22:58:51] getting deltails of 604 
+[02/05/2023 22:59:08] getting deltails of 604 
+[02/05/2023 22:59:08] returning deltails of 604 
+[03/05/2023 16:20:26] getting deltails of 679 
+[03/05/2023 16:20:52] getting deltails of 679 
+[03/05/2023 16:21:29] getting deltails of 679 
+[03/05/2023 16:22:40] getting deltails of 679 
+[03/05/2023 16:22:40] returning deltails of 679 
+[03/05/2023 16:49:05] returned student registration form 
+[03/05/2023 16:49:36] returned student registration form 
+[03/05/2023 16:49:56] returned student registration form 
+[03/05/2023 16:53:04] getting deltails of 679 
+[03/05/2023 16:53:04] returning deltails of 679 
+[03/05/2023 16:55:16] getting deltails of 679 
+[03/05/2023 16:55:16] returning deltails of 679 
+[03/05/2023 16:55:35] getting deltails of 679 
+[03/05/2023 16:55:35] returning deltails of 679 
+[03/05/2023 16:57:48] getting deltails of 679 
+[03/05/2023 16:57:48] returning deltails of 679 
+[03/05/2023 16:58:22] getting deltails of 679 
+[03/05/2023 16:58:22] returning deltails of 679 
+[03/05/2023 17:00:10] getting deltails of 679 
+[03/05/2023 17:00:10] returning deltails of 679 
+[03/05/2023 17:00:35] getting deltails of 679 
+[03/05/2023 17:00:35] returning deltails of 679 
+[03/05/2023 17:00:46] getting deltails of 604 
+[03/05/2023 17:00:56] getting deltails of 604 
+[03/05/2023 17:02:04] getting deltails of 604 
+[03/05/2023 17:02:04] returning deltails of 604 
+[03/05/2023 17:04:03] getting deltails of 604 
+[03/05/2023 17:04:03] returning deltails of 604 
+[03/05/2023 17:05:25] getting deltails of 604 
+[03/05/2023 17:05:25] returning deltails of 604 
+[03/05/2023 17:05:43] getting deltails of 604 
+[03/05/2023 17:05:43] returning deltails of 604 
+[03/05/2023 17:06:14] getting deltails of 604 
+[03/05/2023 17:06:14] returning deltails of 604 
+[03/05/2023 17:06:46] getting deltails of 604 
+[03/05/2023 17:06:46] returning deltails of 604 
+[03/05/2023 17:07:02] getting deltails of 604 
+[03/05/2023 17:07:02] returning deltails of 604 
+[03/05/2023 17:07:14] getting deltails of 604 
+[03/05/2023 17:07:14] returning deltails of 604 
+[03/05/2023 17:07:25] getting deltails of 604 
+[03/05/2023 17:07:25] returning deltails of 604 
+[03/05/2023 17:07:42] getting deltails of 604 
+[03/05/2023 17:07:42] returning deltails of 604 
+[03/05/2023 17:11:33] getting deltails of 679 
+[03/05/2023 17:11:33] returning deltails of 679 
+[03/05/2023 17:50:14] Requested Teacher List 
+[03/05/2023 17:51:13] Requested Teacher List 
+[03/05/2023 17:51:14] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}] 
+[03/05/2023 17:52:02] teacher login successfull 12341234 
+[03/05/2023 17:52:02] getting deltails of 12341234 
+[03/05/2023 17:52:02] returning deltails of 12341234 
+[03/05/2023 17:52:41] getting deltails of 12341234 
+[03/05/2023 17:52:41] returning deltails of 12341234 
+[03/05/2023 17:53:33] getting deltails of 12341234 
+[03/05/2023 17:53:33] returning deltails of 12341234 
+[03/05/2023 17:54:52] getting deltails of 12341234 
+[03/05/2023 17:54:52] returning deltails of 12341234 
+[03/05/2023 17:56:19] getting deltails of 12341234 
+[03/05/2023 17:56:19] returning deltails of 12341234 
+[03/05/2023 17:58:14] getting deltails of 12341234 
+[03/05/2023 17:58:14] returning deltails of 12341234 
+[03/05/2023 18:02:22] getting deltails of 12341234 
+[03/05/2023 18:02:45] getting deltails of 12341234 
+[03/05/2023 18:03:06] getting deltails of 12341234 
+[03/05/2023 18:04:57] getting deltails of 12341234 
+[03/05/2023 18:04:57] returning deltails of 12341234 
+[03/05/2023 18:05:24] getting deltails of 12341234 
+[03/05/2023 18:05:24] returning deltails of 12341234 
+[03/05/2023 18:09:29] getting deltails of 12341234 
+[03/05/2023 18:09:29] returning deltails of 12341234 
+[03/05/2023 18:10:18] getting deltails of 12341234 
+[03/05/2023 18:11:05] getting deltails of 12341234 
+[03/05/2023 18:11:05] returning deltails of 12341234 
+[03/05/2023 18:11:15] getting deltails of 12341234 
+[03/05/2023 18:11:15] returning deltails of 12341234 
+[03/05/2023 18:35:23] getting deltails of 12341234 
+[03/05/2023 18:35:23] returning deltails of 12341234 
+[03/05/2023 18:35:49] Rendering current classes 
+[03/05/2023 18:36:21] getting deltails of 12341234 
+[03/05/2023 18:36:21] returning deltails of 12341234 
+[03/05/2023 18:38:55] getting deltails of 12341234 
+[03/05/2023 18:38:55] returning deltails of 12341234 
+[03/05/2023 18:39:07] getting deltails of 12341234 
+[03/05/2023 18:39:07] returning deltails of 12341234 
+[03/05/2023 18:39:11] getting deltails of 12341234 
+[03/05/2023 18:39:11] returning deltails of 12341234 
+[03/05/2023 18:39:25] getting deltails of 12341234 
+[03/05/2023 18:39:25] returning deltails of 12341234 
+[03/05/2023 20:11:43] not a teacher redirecting 
+[03/05/2023 20:16:52] getting deltails of 12341234 
+[03/05/2023 20:16:53] returning deltails of 12341234 
+[03/05/2023 20:26:39] Login Credentials Error 
+[03/05/2023 20:27:12] login successfull 679 
+[03/05/2023 20:27:12] getting deltails of 679 
+[03/05/2023 20:27:12] returning deltails of 679 
+[03/05/2023 20:28:19] teacher login successfull 12341234 
+[03/05/2023 20:28:19] getting deltails of 12341234 
+[03/05/2023 20:28:19] returning deltails of 12341234 
+[03/05/2023 20:29:02] getting deltails of 679 
+[03/05/2023 20:29:02] returning deltails of 679 
+[03/05/2023 20:29:06] getting deltails of 12341234 
+[03/05/2023 20:29:06] returning deltails of 12341234 
+[03/05/2023 20:29:12] getting deltails of 604 
+[03/05/2023 20:29:12] returning deltails of 604 
+[03/05/2023 20:32:25] getting deltails of 12341234 
+[03/05/2023 20:32:25] returning deltails of 12341234 
+[03/05/2023 21:40:25] returned Teacher registration form 
+[03/05/2023 21:53:11] returned Teacher registration form 
+[03/05/2023 21:54:17] returned Teacher registration form 
+[03/05/2023 21:54:24] returned Teacher registration form 
+[03/05/2023 21:55:07] returned Teacher registration form 
+[03/05/2023 21:56:46] returned Teacher registration form 
+[03/05/2023 22:57:18] returned Teacher registration form 
+[03/05/2023 22:57:35] returned Teacher registration form 
+[03/05/2023 22:57:39] returned Teacher registration form 
+[03/05/2023 22:58:22] returned Teacher registration form 
+[03/05/2023 22:59:17] returned Teacher registration form 
+[04/05/2023 10:09:47] returned Teacher registration form 
+[04/05/2023 10:17:24] returned Teacher registration form 
+[04/05/2023 10:18:41] returned Teacher registration form 
+[04/05/2023 10:19:08] returned Teacher registration form 
+[04/05/2023 10:20:22] returned Teacher registration form 
+[04/05/2023 10:21:10] returned Teacher registration form 
+[04/05/2023 10:21:31] returned Teacher registration form 
+[04/05/2023 10:23:52] returned Teacher registration form 
+[04/05/2023 10:24:57] returned Teacher registration form 
+[04/05/2023 10:26:12] returned Teacher registration form 
+[04/05/2023 10:28:16] returned Teacher registration form 
+[04/05/2023 10:29:12] returned Teacher registration form 
+[04/05/2023 10:29:38] returned Teacher registration form 
+[04/05/2023 10:31:11] returned Teacher registration form 
+[04/05/2023 10:31:41] returned Teacher registration form 
+[04/05/2023 10:32:31] returned Teacher registration form 
+[04/05/2023 10:32:56] returned Teacher registration form 
+[04/05/2023 10:33:11] returned Teacher registration form 
+[04/05/2023 10:33:23] returned Teacher registration form 
+[04/05/2023 10:34:03] returned Teacher registration form 
+[04/05/2023 10:40:58] returned Teacher registration form 
+[04/05/2023 10:41:38] returned Teacher registration form 
+[04/05/2023 10:42:28] returned Teacher registration form 
+[04/05/2023 10:43:08] returned Teacher registration form 
+[04/05/2023 10:43:47] returned Teacher registration form 
+[04/05/2023 10:54:14] returned Teacher registration form 
+[04/05/2023 10:54:39] returned Teacher registration form 
+[04/05/2023 10:55:30] returned Teacher registration form 
+[04/05/2023 10:56:02] returned Teacher registration form 
+[04/05/2023 10:56:25] returned Teacher registration form 
+[04/05/2023 10:56:42] returned Teacher registration form 
+[04/05/2023 13:08:15] returned Teacher registration form 
+[04/05/2023 13:09:23] returned Teacher registration form 
+[04/05/2023 13:10:09] returned Teacher registration form 
+[04/05/2023 13:11:38] returned Teacher registration form 
+[04/05/2023 13:12:23] returned Teacher registration form 
+[04/05/2023 13:12:54] returned Teacher registration form 
+[04/05/2023 13:13:30] returned Teacher registration form 
+[04/05/2023 13:14:07] returned Teacher registration form 
+[04/05/2023 13:14:52] returned Teacher registration form 
+[04/05/2023 13:15:08] returned Teacher registration form 
+[04/05/2023 13:15:25] returned Teacher registration form 
+[04/05/2023 13:16:13] returned Teacher registration form 
+[04/05/2023 13:16:32] returned Teacher registration form 
+[04/05/2023 13:16:51] returned Teacher registration form 
+[04/05/2023 13:17:03] returned Teacher registration form 
+[04/05/2023 13:17:22] returned Teacher registration form 
+[04/05/2023 13:17:37] returned Teacher registration form 
+[04/05/2023 13:18:20] returned Teacher registration form 
+[04/05/2023 13:18:49] returned Teacher registration form 
+[04/05/2023 13:19:12] returned Teacher registration form 
+[04/05/2023 13:19:26] returned Teacher registration form 
+[04/05/2023 13:19:46] returned Teacher registration form 
+[04/05/2023 13:25:30] returned Teacher registration form 
+[04/05/2023 13:30:21] returned Teacher registration form 
+[04/05/2023 13:30:51] returned Teacher registration form 
+[04/05/2023 13:31:43] returned Teacher registration form 
+[04/05/2023 13:31:54] returned Teacher registration form 
+[04/05/2023 13:33:45] returned Teacher registration form 
+[04/05/2023 13:34:46] returned Teacher registration form 
+[04/05/2023 13:34:47] returned Teacher registration form 
+[04/05/2023 13:44:14] returned Teacher registration form 
+[04/05/2023 13:44:48] returned Teacher registration form 
+[04/05/2023 13:45:38] returned Teacher registration form 
+[04/05/2023 13:46:05] returned Teacher registration form 
+[04/05/2023 13:47:38] returned Teacher registration form 
+[04/05/2023 13:48:13] returned Teacher registration form 
+[04/05/2023 13:49:29] returned Teacher registration form 
+[04/05/2023 13:51:12] returned Teacher registration form 
+[04/05/2023 13:52:44] returned Teacher registration form 
+[04/05/2023 13:56:32] returned Teacher registration form 
+[04/05/2023 13:57:28] returned Teacher registration form 
+[04/05/2023 13:58:19] returned Teacher registration form 
+[04/05/2023 14:02:40] returned Teacher registration form 
+[04/05/2023 14:04:04] returned Teacher registration form 
+[04/05/2023 14:04:48] returned Teacher registration form 
+[04/05/2023 14:05:29] returned Teacher registration form 
+[04/05/2023 14:05:53] returned Teacher registration form 
+[04/05/2023 14:06:23] returned Teacher registration form 
+[04/05/2023 14:06:43] returned Teacher registration form 
+[04/05/2023 14:07:11] returned Teacher registration form 
+[04/05/2023 14:08:27] returned Teacher registration form 
+[04/05/2023 14:08:59] returned Teacher registration form 
+[04/05/2023 14:09:12] returned Teacher registration form 
+[04/05/2023 14:09:26] returned Teacher registration form 
+[04/05/2023 14:09:41] returned Teacher registration form 
+[04/05/2023 14:09:52] returned Teacher registration form 
+[04/05/2023 14:10:34] returned Teacher registration form 
+[04/05/2023 14:11:05] returned Teacher registration form 
+[04/05/2023 14:11:34] returned Teacher registration form 
+[04/05/2023 14:11:50] returned Teacher registration form 
+[04/05/2023 14:12:40] returned Teacher registration form 
+[04/05/2023 14:16:05] returned Teacher registration form 
+[04/05/2023 14:16:54] returned Teacher registration form 
+[04/05/2023 14:19:33] returned Teacher registration form 
+[04/05/2023 14:19:48] returned Teacher registration form 
+[04/05/2023 14:26:28] returned Teacher registration form 
+[04/05/2023 14:36:23] returned Teacher registration form 
+[04/05/2023 15:53:01] Teacher registration 
+[04/05/2023 15:54:50] returned Teacher registration form 
+[04/05/2023 15:55:11] returned Teacher registration form 
+[04/05/2023 15:55:46] Teacher registration 
+[04/05/2023 15:57:08] returned Teacher registration form 
+[04/05/2023 15:57:11] returned Teacher registration form 
+[04/05/2023 15:58:15] Teacher registration 
+[04/05/2023 16:00:17] returned Teacher registration form 
+[04/05/2023 16:00:19] returned Teacher registration form 
+[04/05/2023 16:01:19] Teacher registration 
+[04/05/2023 16:02:01] Teacher registration 
+[04/05/2023 16:02:36] Teacher registration 
+[04/05/2023 16:02:37] Teacher Instance TeacherInfo object (None) Created 
+[04/05/2023 16:03:32] Teacher registration 
+[04/05/2023 16:03:32] Teacher Instance TeacherInfo object (None) Created 
+[04/05/2023 16:03:32] Teacher Instance TeacherInfo object (4) Saved to database 
+[04/05/2023 16:03:32] Created teacher Instance 
+[04/05/2023 16:03:33] returned Teacher registration form 
+[04/05/2023 16:07:00] Requested Teacher List 
+[04/05/2023 16:07:00] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[04/05/2023 16:07:13] Username/Student not found 
+[04/05/2023 16:07:21] teacher login successfull 123123 
+[04/05/2023 16:07:21] getting deltails of 123123 
+[04/05/2023 17:02:14] getting deltails of 123123 
+[04/05/2023 17:06:11] getting deltails of 123123 
+[04/05/2023 17:07:22] getting deltails of 123123 
+[04/05/2023 17:07:40] getting deltails of 123123 
+[04/05/2023 17:11:10] getting deltails of 123123 
+[04/05/2023 17:11:10] returning deltails of 123123 
+[04/05/2023 17:12:20] getting deltails of 123123 
+[04/05/2023 17:12:20] returning deltails of 123123 
+[04/05/2023 17:13:28] getting deltails of 123123 
+[04/05/2023 17:13:28] returning deltails of 123123 
+[04/05/2023 17:13:58] getting deltails of 123123 
+[04/05/2023 17:15:37] getting deltails of 123123 
+[04/05/2023 17:15:37] returning deltails of 123123 
+[04/05/2023 17:17:21] getting deltails of 123123 
+[04/05/2023 17:17:38] getting deltails of 123123 
+[04/05/2023 17:17:38] returning deltails of 123123 
+[04/05/2023 17:17:38] getting deltails of 123123 
+[04/05/2023 17:17:38] returning deltails of 123123 
+[04/05/2023 17:19:36] getting deltails of 123123 
+[04/05/2023 17:19:36] returning deltails of 123123 
+[04/05/2023 17:20:08] getting deltails of 123123 
+[04/05/2023 17:20:08] returning deltails of 123123 
+[04/05/2023 17:20:44] getting deltails of 123123 
+[04/05/2023 17:20:44] getting deltails of 123123 
+[04/05/2023 17:24:41] getting deltails of 123123 
+[04/05/2023 17:48:42] getting deltails of 123123 
+[04/05/2023 17:48:42] returning deltails of 123123 
+[04/05/2023 17:51:33] getting deltails of 123123 
+[04/05/2023 17:52:20] getting deltails of 123123 
+[04/05/2023 17:52:40] getting deltails of 123123 
+[04/05/2023 17:52:52] getting deltails of 123123 
+[04/05/2023 17:52:52] returning deltails of 123123 
+[04/05/2023 17:53:51] getting deltails of 123123 
+[04/05/2023 17:53:51] returning deltails of 123123 
+[04/05/2023 17:53:56] getting deltails of 123123 
+[04/05/2023 17:53:56] returning deltails of 123123 
+[04/05/2023 17:57:02] getting deltails of 123123 
+[04/05/2023 17:57:02] returning deltails of 123123 
+[04/05/2023 17:57:37] getting deltails of 123123 
+[04/05/2023 17:57:37] returning deltails of 123123 
+[04/05/2023 17:57:56] getting deltails of 123123 
+[04/05/2023 17:57:56] returning deltails of 123123 
+[04/05/2023 17:58:39] getting deltails of 123123 
+[04/05/2023 17:58:39] returning deltails of 123123 
+[04/05/2023 17:59:21] getting deltails of 123123 
+[04/05/2023 17:59:21] returning deltails of 123123 
+[04/05/2023 18:00:17] getting deltails of 123123 
+[04/05/2023 18:00:17] returning deltails of 123123 
+[04/05/2023 18:00:31] getting deltails of 123123 
+[04/05/2023 18:00:31] returning deltails of 123123 
+[04/05/2023 18:01:04] getting deltails of 123123 
+[04/05/2023 18:01:04] returning deltails of 123123 
+[04/05/2023 18:01:19] getting deltails of 123123 
+[04/05/2023 18:01:19] returning deltails of 123123 
+[04/05/2023 18:01:46] getting deltails of 123123 
+[04/05/2023 18:01:46] returning deltails of 123123 
+[04/05/2023 18:03:57] getting deltails of 123123 
+[04/05/2023 18:03:57] returning deltails of 123123 
+[04/05/2023 18:04:24] getting deltails of 123123 
+[04/05/2023 18:04:24] returning deltails of 123123 
+[07/05/2023 14:05:26] Requested Teacher List 
+[07/05/2023 14:05:26] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[07/05/2023 14:05:34] getting deltails of 123123 
+[07/05/2023 14:05:34] returning deltails of 123123 
+[07/05/2023 14:08:12] getting deltails of 123123 
+[07/05/2023 14:08:12] returning deltails of 123123 
+[07/05/2023 14:51:30] getting deltails of 123123 
+[07/05/2023 14:51:30] returning deltails of 123123 
+[07/05/2023 22:09:03] getting deltails of 123123 
+[07/05/2023 22:09:03] returning deltails of 123123 
+[07/05/2023 22:23:33] getting deltails of 679 
+[07/05/2023 22:23:55] getting deltails of 679 
+[07/05/2023 22:24:20] getting deltails of 679 
+[07/05/2023 22:25:00] getting deltails of 679 
+[07/05/2023 22:26:17] getting deltails of 679 
+[07/05/2023 22:26:17] returning deltails of 679 
+[07/05/2023 22:26:41] getting deltails of 679 
+[07/05/2023 22:26:41] returning deltails of 679 
+[07/05/2023 22:26:58] getting deltails of 679 
+[07/05/2023 22:26:58] returning deltails of 679 
+[07/05/2023 22:27:09] Requested Student List 
+[07/05/2023 22:27:09] Returnng rendered [{'index_number': '679', 'student_name': 'Ramona Valencia', 'class': 'Grade 08'}, {'index_number': '604', 'student_name': 'Jillian Sargent', 'class': 'Grade 13-T'}] 
+[07/05/2023 22:27:11] getting deltails of 604 
+[07/05/2023 22:27:11] returning deltails of 604 
+[07/05/2023 22:27:42] getting deltails of 604 
+[07/05/2023 22:27:42] returning deltails of 604 
+[07/05/2023 22:28:37] getting deltails of 604 
+[07/05/2023 22:28:37] returning deltails of 604 
+[07/05/2023 22:29:18] getting deltails of 604 
+[07/05/2023 22:29:18] returning deltails of 604 
+[07/05/2023 22:29:50] getting deltails of 604 
+[07/05/2023 22:29:50] returning deltails of 604 
+[07/05/2023 22:30:32] getting deltails of 604 
+[07/05/2023 22:31:12] getting deltails of 604 
+[07/05/2023 22:32:25] getting deltails of 604 
+[07/05/2023 22:33:10] getting deltails of 604 
+[07/05/2023 22:33:11] returning deltails of 604 
+[07/05/2023 22:34:21] getting deltails of 604 
+[07/05/2023 22:34:21] returning deltails of 604 
+[07/05/2023 22:34:37] getting deltails of 604 
+[07/05/2023 22:34:37] returning deltails of 604 
+[07/05/2023 22:36:41] getting deltails of 604 
+[07/05/2023 22:36:41] returning deltails of 604 
+[07/05/2023 22:37:10] getting deltails of 604 
+[07/05/2023 22:37:10] returning deltails of 604 
+[07/05/2023 22:37:27] getting deltails of 604 
+[07/05/2023 22:37:27] returning deltails of 604 
+[11/05/2023 20:57:07] Requested Teacher List 
+[11/05/2023 20:57:07] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[11/05/2023 20:57:14] getting deltails of 123123 
+[11/05/2023 20:57:14] returning deltails of 123123 
+[11/05/2023 20:59:36] returned student registration form 
+[11/05/2023 21:01:56] Adding Student with already registered guardian registration 
+[11/05/2023 21:01:56] Got Student data 
+[11/05/2023 21:01:56] Student Instance Chaim Wallace Created 
+[11/05/2023 21:01:56] Parent Instance Ethan Nichols Athena Hudson  Created 
+[11/05/2023 21:01:56] Student Instance Chaim Wallace Saved to database 
+[11/05/2023 21:01:56] Parent Instance Ethan Nichols Athena Hudson saved to database 
+[11/05/2023 21:01:56] Created student Instance 
+[11/05/2023 21:01:56] getting deltails of 370244 
+[11/05/2023 21:05:59] getting deltails of 370244 
+[11/05/2023 21:05:59] returning deltails of 370244 
+[11/05/2023 21:13:41] Rendering current classes 
+[11/05/2023 21:13:47] Creating new class ALUMNI 
+[11/05/2023 21:13:47] Created new class ALUMNI 
+[11/05/2023 21:13:47] Rendering current classes 
+[11/05/2023 21:13:51] Rendering current classes 
+[11/05/2023 21:13:52] Got class info of Grade ALUMNI 
+[11/05/2023 21:13:52] students in Grade ALUMNI found 
+[11/05/2023 21:13:53] Moved student to alumni class 
+[11/05/2023 21:13:53] Rendering current classes 
+[11/05/2023 21:14:02] Creating new class ALUMNI 
+[11/05/2023 21:14:02] Created new class ALUMNI 
+[11/05/2023 21:14:02] Rendering current classes 
+[11/05/2023 21:14:35] Rendering current classes 
+[11/05/2023 21:18:16] getting deltails of 123123 
+[11/05/2023 21:18:16] returning deltails of 123123 
+[11/05/2023 21:19:24] getting deltails of 679 
+[11/05/2023 21:19:24] returning deltails of 679 
+[11/05/2023 21:20:57] getting deltails of 123123 
+[11/05/2023 21:20:57] returning deltails of 123123 
+[11/05/2023 21:21:02] getting deltails of 679 
+[11/05/2023 21:21:02] returning deltails of 679 
+[11/05/2023 21:21:22] Requested Teacher List 
+[11/05/2023 21:21:22] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}] 
+[11/05/2023 21:21:25] returned Teacher registration form 
+[11/05/2023 21:22:02] Teacher registration 
+[11/05/2023 21:22:02] Teacher Instance Keith Walters Created 
+[11/05/2023 21:22:02] Teacher Instance Keith Walters Saved to database 
+[11/05/2023 21:22:02] Created teacher Instance 
+[11/05/2023 21:22:02] returned Teacher registration form 
+[11/05/2023 21:22:08] Requested Teacher List 
+[11/05/2023 21:22:08] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}, {'nic': 'Ut iste impedit vol', 'teacher_name': 'Keith Walters'}] 
+[12/05/2023 07:31:41] returned student registration form 
+[12/05/2023 07:32:11] returned student registration form 
+[12/05/2023 07:32:19] returned student registration form 
+[12/05/2023 07:32:23] returned Teacher registration form 
+[12/05/2023 07:33:08] returned student registration form 
+[12/05/2023 07:37:19] returned Teacher registration form 
+[12/05/2023 11:41:10] returned student registration form 
+[12/05/2023 11:41:15] returned Teacher registration form 
+[12/05/2023 11:42:14] returned Teacher registration form 
+[12/05/2023 11:42:14] returned Teacher registration form 
+[12/05/2023 11:42:31] returned Teacher registration form 
+[12/05/2023 11:44:18] returned Teacher registration form 
+[12/05/2023 11:45:11] returned Teacher registration form 
+[12/05/2023 11:51:42] returned student registration form 
+[12/05/2023 11:52:33] returned student registration form 
+[12/05/2023 12:03:58] returned student registration form 
+[12/05/2023 12:08:27] returned student registration form 
+[12/05/2023 12:09:29] returned student registration form 
+[12/05/2023 12:10:34] Adding Student with already registered guardian registration 
+[12/05/2023 12:10:34] Got Student data 
+[12/05/2023 12:10:34] Student Instance Thor Mcmillan Created 
+[12/05/2023 12:10:34] Parent Instance Harrison Bennett Tanisha Harrell  Created 
+[12/05/2023 12:10:34] Student Instance Thor Mcmillan Saved to database 
+[12/05/2023 12:10:34] Parent Instance Harrison Bennett Tanisha Harrell saved to database 
+[12/05/2023 12:10:34] Created student Instance 
+[12/05/2023 12:11:21] login successfull 343 
+[12/05/2023 12:11:22] getting deltails of 343 
+[12/05/2023 12:11:22] returning deltails of 343 
+[12/05/2023 12:11:49] returned Teacher registration form 
+[12/05/2023 12:13:59] Teacher registration 
+[12/05/2023 12:13:59] Teacher Instance Emerald Molina Created 
+[12/05/2023 12:13:59] Teacher Instance Emerald Molina Saved to database 
+[12/05/2023 12:13:59] Created teacher Instance 
+[12/05/2023 12:14:00] returned Teacher registration form 
+[12/05/2023 12:15:29] returned Teacher registration form 
+[12/05/2023 12:15:51] returned student registration form 
+[12/05/2023 12:16:22] Teacher registration 
+[12/05/2023 12:17:23] Requested Student List 
+[12/05/2023 12:17:23] Returnng rendered [{'index_number': '679', 'student_name': 'Ramona Valencia', 'class': 'Grade 08'}, {'index_number': '604', 'student_name': 'Jillian Sargent', 'class': 'Grade 13-T'}, {'index_number': '370244', 'student_name': 'Chaim Wallace', 'class': 'Grade 11'}, {'index_number': '343', 'student_name': 'Thor Mcmillan', 'class': 'Grade 12-M'}] 
+[12/05/2023 12:17:56] Requested Teacher List 
+[12/05/2023 12:17:56] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}, {'nic': 'Ut iste impedit vol', 'teacher_name': 'Keith Walters'}, {'nic': '1234321', 'teacher_name': 'Emerald Molina'}] 
+[12/05/2023 12:18:15] Rendering current subjects 
+[12/05/2023 12:18:43] Adding Student with already registered guardian registration 
+[12/05/2023 12:18:43] Got Student data 
+[12/05/2023 12:18:43] Student Instance Punchi hewage kaveesha dilmi Created 
+[12/05/2023 12:18:43] Parent Instance D.M indrani danapala  P.h mahinda ananda  Created 
+[12/05/2023 12:18:43] Student Instance Punchi hewage kaveesha dilmi Saved to database 
+[12/05/2023 12:18:43] Parent Instance D.M indrani danapala  P.h mahinda ananda saved to database 
+[12/05/2023 12:18:43] Created student Instance 
+[12/05/2023 12:18:43] returned student registration form 
+[12/05/2023 12:18:59] Rendering current classes 
+[12/05/2023 12:22:18] returned student registration form 
+[12/05/2023 12:22:59] Adding Student with already registered guardian registration 
+[12/05/2023 12:22:59] Got Student data 
+[12/05/2023 12:22:59] Student Instance Hedda Talley Created 
+[12/05/2023 12:22:59] Parent Instance Suki Ellis Cassandra Benton  Created 
+[12/05/2023 12:22:59] Student Instance Hedda Talley Saved to database 
+[12/05/2023 12:22:59] Parent Instance Suki Ellis Cassandra Benton saved to database 
+[12/05/2023 12:22:59] Created student Instance 
+[12/05/2023 12:23:01] returned student registration form 
+[12/05/2023 12:25:04] returned Teacher registration form 
+[12/05/2023 12:26:11] returned Teacher registration form 
+[12/05/2023 12:26:54] Adding Student with already registered guardian registration 
+[12/05/2023 12:26:54] Got Student data 
+[12/05/2023 12:26:54] Student Instance Lalith chandra nawarathnage ridmi sathsarani nawarathna Created 
+[12/05/2023 12:26:54] Parent Instance R.A manjula awanthi nawarathna  S. Lalith chandra nawarathna   Created 
+[12/05/2023 12:26:54] Student Instance Lalith chandra nawarathnage ridmi sathsarani nawarathna Saved to database 
+[12/05/2023 12:26:54] Parent Instance R.A manjula awanthi nawarathna  S. Lalith chandra nawarathna  saved to database 
+[12/05/2023 12:26:54] Created student Instance 
+[12/05/2023 12:26:55] returned student registration form 
+[12/05/2023 12:27:06] returned Teacher registration form 
+[12/05/2023 12:29:50] login successfull 468928 
+[12/05/2023 12:29:51] getting deltails of 468928 
+[12/05/2023 12:29:51] returning deltails of 468928 
+[12/05/2023 12:30:00] Teacher registration 
+[12/05/2023 12:30:00] Teacher Instance Keshara daham  Created 
+[12/05/2023 12:30:00] Teacher Instance Keshara daham  Saved to database 
+[12/05/2023 12:30:00] Created teacher Instance 
+[12/05/2023 12:30:00] returned Teacher registration form 
+[12/05/2023 12:32:25] returned Teacher registration form 
+[12/05/2023 12:32:30] returned student registration form 
+[12/05/2023 12:33:38] returned Teacher registration form 
+[12/05/2023 12:36:40] Rendering current classes 
+[12/05/2023 12:37:09] Rendering current classes 
+[12/05/2023 12:37:14] returned student registration form 
+[12/05/2023 12:37:21] Creating new class 10-B 
+[12/05/2023 12:37:21] Created new class 10-B 
+[12/05/2023 12:37:21] Rendering current classes 
+[12/05/2023 12:40:13] Adding Student with already registered guardian registration 
+[12/05/2023 12:40:13] Got Student data 
+[12/05/2023 12:40:13] Student Instance Kamkanam arachchilage janani keshika Created 
+[12/05/2023 12:40:13] Parent Instance Konadeniye gedara mudiyanselage shalika jayarathna Kamkanam arachchilage kasun thilina   Created 
+[12/05/2023 12:40:13] Student Instance Kamkanam arachchilage janani keshika Saved to database 
+[12/05/2023 12:40:13] Parent Instance Konadeniye gedara mudiyanselage shalika jayarathna Kamkanam arachchilage kasun thilina  saved to database 
+[12/05/2023 12:40:13] Created student Instance 
+[12/05/2023 12:40:13] returned student registration form 
+[12/05/2023 12:46:59] returned Teacher registration form 
+[12/05/2023 12:47:08] returned Teacher registration form 
+[12/05/2023 12:47:35] returned student registration form 
+[12/05/2023 12:48:01] returned student registration form 
+[12/05/2023 12:49:04] returned student registration form 
+[12/05/2023 12:49:30] returned Teacher registration form 
+[12/05/2023 12:51:18] Teacher registration 
+[12/05/2023 12:51:18] Teacher Instance Hashini Sandhamali Created 
+[12/05/2023 12:51:18] Teacher Instance Hashini Sandhamali Saved to database 
+[12/05/2023 12:51:18] Created teacher Instance 
+[12/05/2023 12:51:19] returned Teacher registration form 
+[12/05/2023 12:55:59] Adding Student with already registered guardian registration 
+[12/05/2023 12:56:33] returned student registration form 
+[12/05/2023 12:57:24] Adding Student with already registered guardian registration 
+[12/05/2023 12:57:27] Teacher registration 
+[12/05/2023 12:57:27] Teacher Instance Madhara Created 
+[12/05/2023 12:57:27] Teacher Instance Madhara Saved to database 
+[12/05/2023 12:57:27] Created teacher Instance 
+[12/05/2023 12:57:27] returned Teacher registration form 
+[12/05/2023 12:57:34] Adding Student with already registered guardian registration 
+[12/05/2023 12:57:34] Got Student data 
+[12/05/2023 12:57:34] Student Instance Badde Vithanage  Nadun Shanuka Wijeekoon Created 
+[12/05/2023 12:57:34] Parent Instance Sirimal Durayalage Chandrika Malkanthi Badde Vithanage  Jayasiri Wijekoon  Created 
+[12/05/2023 12:57:34] Student Instance Badde Vithanage  Nadun Shanuka Wijeekoon Saved to database 
+[12/05/2023 12:57:34] Parent Instance Sirimal Durayalage Chandrika Malkanthi Badde Vithanage  Jayasiri Wijekoon saved to database 
+[12/05/2023 12:57:34] Created student Instance 
+[12/05/2023 12:57:34] returned student registration form 
+[12/05/2023 12:58:39] returned student registration form 
+[12/05/2023 13:03:31] Teacher registration 
+[12/05/2023 13:03:31] Teacher Instance Tharindhu Nuwan  Created 
+[12/05/2023 13:03:32] Teacher Instance Tharindhu Nuwan  Saved to database 
+[12/05/2023 13:03:32] Created teacher Instance 
+[12/05/2023 13:03:32] returned Teacher registration form 
+[12/05/2023 13:04:28] Adding Student with already registered guardian registration 
+[12/05/2023 13:04:28] Got Student data 
+[12/05/2023 13:04:28] Student Instance Hewage arachchilage dinuka ashan  Created 
+[12/05/2023 13:04:28] Parent Instance Kalyani damayanthi H.A thilak nawarathna  Created 
+[12/05/2023 13:04:28] Student Instance Hewage arachchilage dinuka ashan  Saved to database 
+[12/05/2023 13:04:28] Parent Instance Kalyani damayanthi H.A thilak nawarathna saved to database 
+[12/05/2023 13:04:28] Created student Instance 
+[12/05/2023 13:04:28] returned student registration form 
+[12/05/2023 13:04:51] Adding Student with already registered guardian registration 
+[12/05/2023 13:04:51] Got Student data 
+[12/05/2023 13:04:51] Student Instance Yasasa Ralage Deheme Senethma Created 
+[12/05/2023 13:04:51] Parent Instance R.N.Dedunu Thushari Y.R.Ajantha Kumara   Created 
+[12/05/2023 13:04:52] Student Instance Yasasa Ralage Deheme Senethma Saved to database 
+[12/05/2023 13:04:52] Parent Instance R.N.Dedunu Thushari Y.R.Ajantha Kumara  saved to database 
+[12/05/2023 13:04:52] Created student Instance 
+[12/05/2023 13:04:52] returned student registration form 
+[12/05/2023 13:05:14] returned student registration form 
+[12/05/2023 13:07:13] returned student registration form 
+[12/05/2023 13:07:42] Teacher registration 
+[12/05/2023 13:07:42] Teacher Instance Kalinga Silwa Created 
+[12/05/2023 13:07:42] Teacher Instance Kalinga Silwa Saved to database 
+[12/05/2023 13:07:42] Created teacher Instance 
+[12/05/2023 13:07:42] returned Teacher registration form 
+[12/05/2023 13:11:21] Adding Student with already registered guardian registration 
+[12/05/2023 13:11:21] Got Student data 
+[12/05/2023 13:11:21] Student Instance Gabadage dilshan achintha Created 
+[12/05/2023 13:11:21] Parent Instance Dilini malkanthi Thilak kumara  Created 
+[12/05/2023 13:11:21] Student Instance Gabadage dilshan achintha Saved to database 
+[12/05/2023 13:11:21] Parent Instance Dilini malkanthi Thilak kumara saved to database 
+[12/05/2023 13:11:21] Created student Instance 
+[12/05/2023 13:11:21] returned student registration form 
+[12/05/2023 13:11:37] Teacher registration 
+[12/05/2023 13:11:37] Teacher Instance Nilmini Bamunu Arachchi Created 
+[12/05/2023 13:11:37] Teacher Instance Nilmini Bamunu Arachchi Saved to database 
+[12/05/2023 13:11:37] Created teacher Instance 
+[12/05/2023 13:11:37] returned Teacher registration form 
+[12/05/2023 13:13:43] Adding Student with already registered guardian registration 
+[12/05/2023 13:13:43] Got Student data 
+[12/05/2023 13:13:43] Student Instance Naththranpatha  Dewalage Rashmika Umayantha Kumara  Created 
+[12/05/2023 13:13:44] Parent Instance W.A.B. Madumali Wijesekara N.D.Ajith Kumara  Created 
+[12/05/2023 13:13:44] Student Instance Naththranpatha  Dewalage Rashmika Umayantha Kumara  Saved to database 
+[12/05/2023 13:13:44] Parent Instance W.A.B. Madumali Wijesekara N.D.Ajith Kumara saved to database 
+[12/05/2023 13:13:44] Created student Instance 
+[12/05/2023 13:13:44] returned student registration form 
+[12/05/2023 13:14:14] Teacher registration 
+[12/05/2023 13:14:14] Teacher Instance Niroshani Vindya  Created 
+[12/05/2023 13:14:14] Teacher Instance Niroshani Vindya  Saved to database 
+[12/05/2023 13:14:14] Created teacher Instance 
+[12/05/2023 13:14:15] returned Teacher registration form 
+[12/05/2023 13:14:36] returned student registration form 
+[12/05/2023 13:15:49] Adding Student with already registered guardian registration 
+[12/05/2023 13:15:49] Got Student data 
+[12/05/2023 13:15:49] Student Instance Kuruvita ge hashini bagya Created 
+[12/05/2023 13:15:49] Parent Instance Malkanthi jayasuriya Jayasuriya  Created 
+[12/05/2023 13:15:49] Student Instance Kuruvita ge hashini bagya Saved to database 
+[12/05/2023 13:15:49] Parent Instance Malkanthi jayasuriya Jayasuriya saved to database 
+[12/05/2023 13:15:49] Created student Instance 
+[12/05/2023 13:15:50] returned student registration form 
+[12/05/2023 13:16:35] Teacher registration 
+[12/05/2023 13:16:35] Teacher Instance Shamila Sureshika Created 
+[12/05/2023 13:16:35] Teacher Instance Shamila Sureshika Saved to database 
+[12/05/2023 13:16:35] Created teacher Instance 
+[12/05/2023 13:16:36] returned Teacher registration form 
+[12/05/2023 13:19:55] Teacher registration 
+[12/05/2023 13:19:55] Teacher Instance Champika Sandharenu Created 
+[12/05/2023 13:19:55] Teacher Instance Champika Sandharenu Saved to database 
+[12/05/2023 13:19:55] Created teacher Instance 
+[12/05/2023 13:19:55] returned Teacher registration form 
+[12/05/2023 13:20:37] Adding Student with already registered guardian registration 
+[12/05/2023 13:20:37] Got Student data 
+[12/05/2023 13:20:37] Student Instance Muthu Bandage Punchi Nilame Created 
+[12/05/2023 13:20:37] Parent Instance H.M.Punchi Manike R.M.Silidu  Created 
+[12/05/2023 13:20:37] Student Instance Muthu Bandage Punchi Nilame Saved to database 
+[12/05/2023 13:20:37] Parent Instance H.M.Punchi Manike R.M.Silidu saved to database 
+[12/05/2023 13:20:37] Created student Instance 
+[12/05/2023 13:20:37] returned student registration form 
+[12/05/2023 13:20:46] Adding Student with already registered guardian registration 
+[12/05/2023 13:20:46] Got Student data 
+[12/05/2023 13:20:46] Student Instance Kodithuwakku lage sachintha dilshan Created 
+[12/05/2023 13:20:46] Parent Instance Damayanthi jayasuriya Janaka sanjeewa  Created 
+[12/05/2023 13:20:46] Student Instance Kodithuwakku lage sachintha dilshan Saved to database 
+[12/05/2023 13:20:46] Parent Instance Damayanthi jayasuriya Janaka sanjeewa saved to database 
+[12/05/2023 13:20:46] Created student Instance 
+[12/05/2023 13:20:46] returned student registration form 
+[12/05/2023 13:22:26] returned Teacher registration form 
+[12/05/2023 13:22:41] Teacher registration 
+[12/05/2023 13:22:41] Teacher Instance Nadheera Lakmali Created 
+[12/05/2023 13:22:41] Teacher Instance Nadheera Lakmali Saved to database 
+[12/05/2023 13:22:41] Created teacher Instance 
+[12/05/2023 13:22:41] returned Teacher registration form 
+[12/05/2023 13:24:38] Adding Student with already registered guardian registration 
+[12/05/2023 13:24:38] Got Student data 
+[12/05/2023 13:24:38] Student Instance Gabadage sachini sewwandi Created 
+[12/05/2023 13:24:38] Parent Instance Ajantha ayirangani Sudath bandara  Created 
+[12/05/2023 13:24:38] Student Instance Gabadage sachini sewwandi Saved to database 
+[12/05/2023 13:24:38] Parent Instance Ajantha ayirangani Sudath bandara saved to database 
+[12/05/2023 13:24:38] Created student Instance 
+[12/05/2023 13:24:38] returned student registration form 
+[12/05/2023 13:26:13] Teacher registration 
+[12/05/2023 13:26:13] Teacher Instance Piumi Piris Created 
+[12/05/2023 13:26:14] Teacher Instance Piumi Piris Saved to database 
+[12/05/2023 13:26:14] Created teacher Instance 
+[12/05/2023 13:26:14] returned Teacher registration form 
+[12/05/2023 13:26:35] Adding Student with already registered guardian registration 
+[12/05/2023 13:26:35] Got Student data 
+[12/05/2023 13:26:35] Student Instance Ranthu Mudalige Premathilaka Created 
+[12/05/2023 13:26:35] Parent Instance Sindarella R.M.Heen Puncha  Created 
+[12/05/2023 13:26:35] Student Instance Ranthu Mudalige Premathilaka Saved to database 
+[12/05/2023 13:26:35] Parent Instance Sindarella R.M.Heen Puncha saved to database 
+[12/05/2023 13:26:35] Created student Instance 
+[12/05/2023 13:26:35] returned student registration form 
+[12/05/2023 13:28:08] Adding Student with already registered guardian registration 
+[12/05/2023 13:28:08] Got Student data 
+[12/05/2023 13:28:08] Student Instance Kodithuwakku arachchilage nadun lakshan  Created 
+[12/05/2023 13:28:08] Parent Instance Inoka nilmini Uththara susil  Created 
+[12/05/2023 13:28:08] Student Instance Kodithuwakku arachchilage nadun lakshan  Saved to database 
+[12/05/2023 13:28:08] Parent Instance Inoka nilmini Uththara susil saved to database 
+[12/05/2023 13:28:08] Created student Instance 
+[12/05/2023 13:28:08] returned student registration form 
+[12/05/2023 13:29:06] Teacher registration 
+[12/05/2023 13:29:06] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:30:33] returned Teacher registration form 
+[12/05/2023 13:30:35] Adding Student with already registered guardian registration 
+[12/05/2023 13:30:35] Got Student data 
+[12/05/2023 13:30:35] Student Instance Hashan Nethmina Jayawardhana  Created 
+[12/05/2023 13:30:35] Parent Instance S.H.Mudalige H.D.Jayawardhana  Created 
+[12/05/2023 13:30:35] Student Instance Hashan Nethmina Jayawardhana  Saved to database 
+[12/05/2023 13:30:35] Parent Instance S.H.Mudalige H.D.Jayawardhana saved to database 
+[12/05/2023 13:30:35] Created student Instance 
+[12/05/2023 13:30:35] returned student registration form 
+[12/05/2023 13:30:51] Teacher registration 
+[12/05/2023 13:31:15] Teacher registration 
+[12/05/2023 13:31:15] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:32:32] returned Teacher registration form 
+[12/05/2023 13:33:39] Adding Student with already registered guardian registration 
+[12/05/2023 13:33:39] Got Student data 
+[12/05/2023 13:33:39] Student Instance Dasanayaka mudiyanselage anupama thilanka  Created 
+[12/05/2023 13:33:39] Parent Instance K.A neranjani gunasinha D.M nimal sisira  Created 
+[12/05/2023 13:33:39] Student Instance Dasanayaka mudiyanselage anupama thilanka  Saved to database 
+[12/05/2023 13:33:40] Parent Instance K.A neranjani gunasinha D.M nimal sisira saved to database 
+[12/05/2023 13:33:40] Created student Instance 
+[12/05/2023 13:33:40] returned student registration form 
+[12/05/2023 13:34:50] Adding Student with already registered guardian registration 
+[12/05/2023 13:34:50] Got Student data 
+[12/05/2023 13:34:59] returned student registration form 
+[12/05/2023 13:35:32] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:32] Got Student data 
+[12/05/2023 13:35:40] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:40] Got Student data 
+[12/05/2023 13:35:40] Student Instance Heshan Harshana Jayathilaka Created 
+[12/05/2023 13:35:40] Parent Instance D.H.Munasinhe S.P.D.Jayathilake  Created 
+[12/05/2023 13:35:40] Student Instance Heshan Harshana Jayathilaka Saved to database 
+[12/05/2023 13:35:40] Parent Instance D.H.Munasinhe S.P.D.Jayathilake saved to database 
+[12/05/2023 13:35:40] Created student Instance 
+[12/05/2023 13:35:41] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:41] Got Student data 
+[12/05/2023 13:35:53] Adding Student with already registered guardian registration 
+[12/05/2023 13:35:53] Got Student data 
+[12/05/2023 13:35:53] returned student registration form 
+[12/05/2023 13:35:58] returned student registration form 
+[12/05/2023 13:36:03] Adding Student with already registered guardian registration 
+[12/05/2023 13:36:04] Got Student data 
+[12/05/2023 13:38:06] Teacher registration 
+[12/05/2023 13:38:06] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:39:24] Teacher registration 
+[12/05/2023 13:39:24] Teacher Instance Dulaksha Wishwajith Created 
+[12/05/2023 13:39:24] Teacher Instance Dulaksha Wishwajith Saved to database 
+[12/05/2023 13:39:24] Created teacher Instance 
+[12/05/2023 13:39:26] returned Teacher registration form 
+[12/05/2023 13:42:12] returned student registration form 
+[12/05/2023 13:42:18] Adding Student with already registered guardian registration 
+[12/05/2023 13:42:18] Got Student data 
+[12/05/2023 13:42:18] Student Instance Madhara nethmi  Created 
+[12/05/2023 13:42:18] Parent Instance Mallika Abesinha Prbath kumara  Created 
+[12/05/2023 13:42:18] Student Instance Madhara nethmi  Saved to database 
+[12/05/2023 13:42:18] Parent Instance Mallika Abesinha Prbath kumara saved to database 
+[12/05/2023 13:42:18] Created student Instance 
+[12/05/2023 13:42:18] returned student registration form 
+[12/05/2023 13:44:07] Teacher registration 
+[12/05/2023 13:44:20] returned Teacher registration form 
+[12/05/2023 13:46:09] Adding Student with already registered guardian registration 
+[12/05/2023 13:46:09] Got Student data 
+[12/05/2023 13:46:09] Student Instance Imashi Kawya Created 
+[12/05/2023 13:46:09] Parent Instance Kusum Ayirangani Raju  Created 
+[12/05/2023 13:46:09] Student Instance Imashi Kawya Saved to database 
+[12/05/2023 13:46:09] Parent Instance Kusum Ayirangani Raju saved to database 
+[12/05/2023 13:46:09] Created student Instance 
+[12/05/2023 13:46:10] returned student registration form 
+[12/05/2023 13:47:21] Adding Student with already registered guardian registration 
+[12/05/2023 13:47:21] Got Student data 
+[12/05/2023 13:47:35] returned student registration form 
+[12/05/2023 13:50:22] Adding Student with already registered guardian registration 
+[12/05/2023 13:50:22] Got Student data 
+[12/05/2023 13:50:22] Student Instance Pererage Randula Created 
+[12/05/2023 13:50:22] Parent Instance Punchi Manike M.Bulbi  Created 
+[12/05/2023 13:50:22] Student Instance Pererage Randula Saved to database 
+[12/05/2023 13:50:22] Parent Instance Punchi Manike M.Bulbi saved to database 
+[12/05/2023 13:50:22] Created student Instance 
+[12/05/2023 13:50:22] returned student registration form 
+[12/05/2023 13:50:38] Adding Student with already registered guardian registration 
+[12/05/2023 13:50:38] Got Student data 
+[12/05/2023 13:50:38] Student Instance Heshan Harshana Jayathilaka Created 
+[12/05/2023 13:50:38] Parent Instance S.H.Mudalige S.P.D.Jayathilake  Created 
+[12/05/2023 13:50:38] Student Instance Heshan Harshana Jayathilaka Saved to database 
+[12/05/2023 13:50:38] Parent Instance S.H.Mudalige S.P.D.Jayathilake saved to database 
+[12/05/2023 13:50:38] Created student Instance 
+[12/05/2023 13:50:38] returned student registration form 
+[12/05/2023 13:52:07] Adding Student with already registered guardian registration 
+[12/05/2023 13:52:07] Got Student data 
+[12/05/2023 13:52:07] Student Instance Subhashini Shrimali Created 
+[12/05/2023 13:52:07] Parent Instance Sepalika Anoj  Created 
+[12/05/2023 13:52:07] Student Instance Subhashini Shrimali Saved to database 
+[12/05/2023 13:52:07] Parent Instance Sepalika Anoj saved to database 
+[12/05/2023 13:52:07] Created student Instance 
+[12/05/2023 13:52:07] returned student registration form 
+[12/05/2023 13:55:05] Adding Student with already registered guardian registration 
+[12/05/2023 13:55:05] Got Student data 
+[12/05/2023 13:55:05] Student Instance Shashikala Sewmini Hettigoda  Created 
+[12/05/2023 13:55:05] Parent Instance A.S.Manike M.M.Hettigoda  Created 
+[12/05/2023 13:55:05] Student Instance Shashikala Sewmini Hettigoda  Saved to database 
+[12/05/2023 13:55:05] Parent Instance A.S.Manike M.M.Hettigoda saved to database 
+[12/05/2023 13:55:05] Created student Instance 
+[12/05/2023 13:55:05] returned student registration form 
+[12/05/2023 13:58:05] Adding Student with already registered guardian registration 
+[12/05/2023 13:58:05] Got Student data 
+[12/05/2023 13:58:05] Student Instance Heshan Harshana Jayathilaka Created 
+[12/05/2023 13:58:05] Parent Instance A.P.Gunarathne S.P.D.Jayathilake  Created 
+[12/05/2023 13:58:05] Student Instance Heshan Harshana Jayathilaka Saved to database 
+[12/05/2023 13:58:06] Parent Instance A.P.Gunarathne S.P.D.Jayathilake saved to database 
+[12/05/2023 13:58:06] Created student Instance 
+[12/05/2023 13:58:06] returned student registration form 
+[12/05/2023 14:01:37] Adding Student with already registered guardian registration 
+[12/05/2023 14:01:37] Got Student data 
+[12/05/2023 14:01:37] Student Instance Pisse kella hi hi Created 
+[12/05/2023 14:01:37] Parent Instance Sirimal akka Rambanda  Created 
+[12/05/2023 14:01:37] Student Instance Pisse kella hi hi Saved to database 
+[12/05/2023 14:01:37] Parent Instance Sirimal akka Rambanda saved to database 
+[12/05/2023 14:01:37] Created student Instance 
+[12/05/2023 14:01:37] returned student registration form 
+[12/05/2023 14:01:59] Adding Student with already registered guardian registration 
+[12/05/2023 14:01:59] Got Student data 
+[12/05/2023 14:01:59] Student Instance Sulakshani Nawodhya Created 
+[12/05/2023 14:01:59] Parent Instance Nadheeka Samantha  Created 
+[12/05/2023 14:01:59] Student Instance Sulakshani Nawodhya Saved to database 
+[12/05/2023 14:01:59] Parent Instance Nadheeka Samantha saved to database 
+[12/05/2023 14:01:59] Created student Instance 
+[12/05/2023 14:01:59] returned student registration form 
+[12/05/2023 14:02:26] Adding Student with already registered guardian registration 
+[12/05/2023 14:02:26] Got Student data 
+[12/05/2023 14:02:26] Student Instance Hansana Nethmini Perera Created 
+[12/05/2023 14:02:26] Parent Instance K.J.Manike J.L.Perera  Created 
+[12/05/2023 14:02:26] Student Instance Hansana Nethmini Perera Saved to database 
+[12/05/2023 14:02:26] Parent Instance K.J.Manike J.L.Perera saved to database 
+[12/05/2023 14:02:26] Created student Instance 
+[12/05/2023 14:02:26] returned student registration form 
+[12/05/2023 14:06:14] Adding Student with already registered guardian registration 
+[12/05/2023 14:06:14] Got Student data 
+[12/05/2023 14:06:14] Student Instance Shalika Madhuranga Jayasooriya Created 
+[12/05/2023 14:06:14] Parent Instance S.P.Ranmali H.M.Jayasooriya   Created 
+[12/05/2023 14:06:14] Student Instance Shalika Madhuranga Jayasooriya Saved to database 
+[12/05/2023 14:06:14] Parent Instance S.P.Ranmali H.M.Jayasooriya  saved to database 
+[12/05/2023 14:06:14] Created student Instance 
+[12/05/2023 14:06:14] returned student registration form 
+[12/05/2023 14:06:16] Adding Student with already registered guardian registration 
+[12/05/2023 14:06:16] Got Student data 
+[12/05/2023 14:06:16] Student Instance Sewmini Sashikala Created 
+[12/05/2023 14:06:17] Parent Instance Susanthi Kamal  Created 
+[12/05/2023 14:06:17] Student Instance Sewmini Sashikala Saved to database 
+[12/05/2023 14:06:17] Parent Instance Susanthi Kamal saved to database 
+[12/05/2023 14:06:17] Created student Instance 
+[12/05/2023 14:06:17] returned student registration form 
+[12/05/2023 14:10:40] Adding Student with already registered guardian registration 
+[12/05/2023 14:10:40] Got Student data 
+[12/05/2023 14:10:40] Student Instance Gagani Created 
+[12/05/2023 14:10:40] Parent Instance Pawani Dammika  Created 
+[12/05/2023 14:10:40] Student Instance Gagani Saved to database 
+[12/05/2023 14:10:40] Parent Instance Pawani Dammika saved to database 
+[12/05/2023 14:10:40] Created student Instance 
+[12/05/2023 14:10:40] returned student registration form 
+[12/05/2023 14:11:47] Adding Student with already registered guardian registration 
+[12/05/2023 14:11:47] Got Student data 
+[12/05/2023 14:11:47] Student Instance Kosgollage Ramesh Created 
+[12/05/2023 14:11:47] Parent Instance Manike Jayasiri   Created 
+[12/05/2023 14:11:47] Student Instance Kosgollage Ramesh Saved to database 
+[12/05/2023 14:11:47] Parent Instance Manike Jayasiri  saved to database 
+[12/05/2023 14:11:47] Created student Instance 
+[12/05/2023 14:11:47] returned student registration form 
+[12/05/2023 14:13:25] returned student registration form 
+[12/05/2023 14:14:30] Adding Student with already registered guardian registration 
+[12/05/2023 14:14:30] Got Student data 
+[12/05/2023 14:14:30] Student Instance Ishara Created 
+[12/05/2023 14:14:30] Parent Instance Amitha Lalith  Created 
+[12/05/2023 14:14:30] Student Instance Ishara Saved to database 
+[12/05/2023 14:14:30] Parent Instance Amitha Lalith saved to database 
+[12/05/2023 14:14:30] Created student Instance 
+[12/05/2023 14:14:30] returned student registration form 
+[12/05/2023 14:17:49] Adding Student with already registered guardian registration 
+[12/05/2023 14:17:49] Got Student data 
+[12/05/2023 14:17:49] Student Instance Dheneth Created 
+[12/05/2023 14:17:49] Parent Instance Malkanthi Saman  Created 
+[12/05/2023 14:17:49] Student Instance Dheneth Saved to database 
+[12/05/2023 14:17:49] Parent Instance Malkanthi Saman saved to database 
+[12/05/2023 14:17:49] Created student Instance 
+[12/05/2023 14:17:50] returned student registration form 
+[12/05/2023 14:20:26] Adding Student with already registered guardian registration 
+[12/05/2023 14:20:26] Got Student data 
+[12/05/2023 14:20:26] Student Instance Kerala Ganjalage Angammana Sumana  Created 
+[12/05/2023 14:20:26] Parent Instance Ramya Heenbnda  Created 
+[12/05/2023 14:20:26] Student Instance Kerala Ganjalage Angammana Sumana  Saved to database 
+[12/05/2023 14:20:26] Parent Instance Ramya Heenbnda saved to database 
+[12/05/2023 14:20:26] Created student Instance 
+[12/05/2023 14:20:27] returned student registration form 
+[12/05/2023 14:20:51] Adding Student with already registered guardian registration 
+[12/05/2023 14:20:51] Got Student data 
+[12/05/2023 14:20:51] Student Instance Purna  Created 
+[12/05/2023 14:20:51] Parent Instance Nimali Dhanuka  Created 
+[12/05/2023 14:20:51] Student Instance Purna  Saved to database 
+[12/05/2023 14:20:51] Parent Instance Nimali Dhanuka saved to database 
+[12/05/2023 14:20:51] Created student Instance 
+[12/05/2023 14:20:51] returned student registration form 
+[12/05/2023 14:21:55] Adding Student with already registered guardian registration 
+[12/05/2023 14:21:56] Adding Student with already registered guardian registration 
+[12/05/2023 14:21:56] Adding Student with already registered guardian registration 
+[12/05/2023 14:21:57] Adding Student with already registered guardian registration 
+[12/05/2023 14:22:00] Adding Student with already registered guardian registration 
+[12/05/2023 14:22:23] Adding Student with already registered guardian registration 
+[12/05/2023 14:22:23] Got Student data 
+[12/05/2023 14:22:23] Student Instance Malagammana gedara supun dilanga ranasingha Created 
+[12/05/2023 14:22:23] Parent Instance Jm tharanganee Mg ranasinha  Created 
+[12/05/2023 14:22:23] Student Instance Malagammana gedara supun dilanga ranasingha Saved to database 
+[12/05/2023 14:22:24] Parent Instance Jm tharanganee Mg ranasinha saved to database 
+[12/05/2023 14:22:24] Created student Instance 
+[12/05/2023 14:22:24] returned student registration form 
+[12/05/2023 14:24:37] Adding Student with already registered guardian registration 
+[12/05/2023 14:24:37] Got Student data 
+[12/05/2023 14:24:37] Student Instance Aloka Created 
+[12/05/2023 14:24:38] Parent Instance  Anuradha Susantha  Created 
+[12/05/2023 14:24:38] Student Instance Aloka Saved to database 
+[12/05/2023 14:24:38] Parent Instance  Anuradha Susantha saved to database 
+[12/05/2023 14:24:38] Created student Instance 
+[12/05/2023 14:24:38] returned student registration form 
+[26/05/2023 17:17:50] Requested Teacher List 
+[26/05/2023 17:17:50] Returnng rendered [{'nic': '12341234', 'teacher_name': 'Cynthia Moss'}, {'nic': '123123', 'teacher_name': 'Quinn Miranda'}, {'nic': 'Ut iste impedit vol', 'teacher_name': 'Keith Walters'}, {'nic': '1234321', 'teacher_name': 'Emerald Molina'}, {'nic': '200511003420', 'teacher_name': 'Keshara daham '}, {'nic': '8090', 'teacher_name': 'Hashini Sandhamali'}, {'nic': '6020', 'teacher_name': 'Madhara'}, {'nic': '3390', 'teacher_name': 'Tharindhu Nuwan '}, {'nic': '4567', 'teacher_name': 'Kalinga Silwa'}, {'nic': '3934', 'teacher_name': 'Nilmini Bamunu Arachchi'}, {'nic': '3210', 'teacher_name': 'Niroshani Vindya '}, {'nic': '2109', 'teacher_name': 'Shamila Sureshika'}, {'nic': '2091', 'teacher_name': 'Champika Sandharenu'}, {'nic': '2300', 'teacher_name': 'Nadheera Lakmali'}, {'nic': '6677', 'teacher_name': 'Piumi Piris'}, {'nic': '200535703016', 'teacher_name': 'Dulaksha Wishwajith'}] 
+[26/05/2023 17:18:09] Username/Student not found 
+[26/05/2023 17:18:16] Username/Student not found 
+[26/05/2023 17:18:36] teacher login successfull 200511003420 
+[26/05/2023 17:18:36] getting deltails of 200511003420 
+[26/05/2023 17:18:37] returning deltails of 200511003420 
+[14/06/2023 21:05:45] teacher login successfull 12341234 
+[14/06/2023 21:05:45] getting deltails of 12341234 
+[14/06/2023 21:08:09] teacher login successfull 6677 
+[14/06/2023 21:08:09] getting deltails of 6677 
+[14/06/2023 21:08:09] returning deltails of 6677 
+[14/06/2023 21:11:30] Rendering current classes 
+[14/06/2023 21:13:22] getting deltails of 6677 
+[14/06/2023 21:13:22] returning deltails of 6677 
+[14/06/2023 21:14:16] getting deltails of 6677 
+[14/06/2023 21:14:16] returning deltails of 6677 
+[14/06/2023 21:41:10] getting deltails of 6677 
+[14/06/2023 21:41:10] returning deltails of 6677 
+[14/06/2023 21:42:33] getting deltails of 6677 
+[14/06/2023 21:42:33] returning deltails of 6677 
+[14/06/2023 21:48:54] getting deltails of 6677 
+[14/06/2023 21:48:54] returning deltails of 6677 
+[14/06/2023 21:49:18] getting deltails of 6677 
+[14/06/2023 21:49:18] returning deltails of 6677 
+[03/07/2023 12:20:49] Username/Student not found 
+[03/07/2023 12:21:24] Username/Student not found 
+[03/07/2023 12:21:37] Username/Student not found 
+[03/07/2023 12:21:52] Username/Student not found 
+[07/08/2023 14:45:49] login successfull 5878 
+[07/08/2023 14:45:49] getting deltails of 5878 
+[07/08/2023 14:45:49] returning deltails of 5878 
+[07/08/2023 15:13:13] getting deltails of 5878 
+[07/08/2023 15:13:13] returning deltails of 5878 
+[07/08/2023 15:13:42] getting deltails of 5878 
+[07/08/2023 15:13:42] returning deltails of 5878 
+[09/08/2023 23:50:09] news1 image faided to update 
+[09/08/2023 23:50:09] news1 image faided to update 
+[09/08/2023 23:50:09] news1 image faided to update 
+[09/08/2023 23:50:09] news updated 
+[10/08/2023 10:36:36] returned Teacher registration form 
+[10/08/2023 10:36:36] returned Teacher registration form 
+[10/08/2023 10:36:47] returned Teacher registration form 
+[10/08/2023 10:38:10] Teacher registration 
+[10/08/2023 10:38:10] Teacher Instance Base Created 
+[10/08/2023 10:38:10] Teacher Instance Base Saved to database 
+[10/08/2023 10:38:10] Created teacher Instance 
+[10/08/2023 10:38:11] returned Teacher registration form 
+[10/08/2023 10:38:29] Username/Student not found 
+[10/08/2023 10:39:21] Username/Student not found 
+[10/08/2023 10:39:27] teacher login successfull 000000000 
+[10/08/2023 10:39:27] getting deltails of 000000000 
+[10/08/2023 10:39:27] returning deltails of 000000000 

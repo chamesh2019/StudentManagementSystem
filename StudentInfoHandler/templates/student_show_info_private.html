@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    {% if extra %}
+    <div>Successfully added student <a href={{ extra }}>Go Back</a></div>
+    {% endif %}
+
+    <div>Student Index Number : {{ student_instance.index_number }}</div>
+    <div>Student Full Name : {{ student_instance.full_name }}</div>
+    <div>Student Name : {{ student_instance.name_with_initials }}</div>
+    <div>Student DOB : {{ student_instance.date_of_birth }}</div>
+    <div>Student gender :
+        {% if student_instance.gender == "M" %}
+        "Male"
+        {% else %}
+        "Female"
+        {% endif %}
+    </div>
+    <div>Student Enrolled Date : {{ student_instance.enrolled_date }}</div>
+    <div>Student Address : {{ student_instance.address }}</div>
+    <div>Student Alumni Status : {% if student_instance.alumni_status %}
+        "Yes"
+        {% else %}
+        "No"
+        {% endif %}</div>
+
+    <div>Student Special Notes : {{ student_instance.special_notes }}</div>
+    <div>Student Class : {{ student_instance.class_info.class_name }}</div>
+    <div>QR Code : {{QR}}</div>
+    <br>
+    <div>Mother Name : {{ parent_instance.mother_name }}</div>
+    <div>Mother NIC : {{ parent_instance.mother_nic }}</div>
+    <div>Mother Status : {{ parent_instance.mother_status }}</div>
+    <div>Mother Notes : {{ parent_instance.mother_special_notes }}</div>
+    <div>Father Name : {{ parent_instance.father_name }}</div>
+    <div>Father NIC : {{ parent_instance.father_nic }}</div>
+    <div>Father Status : {{ parent_instance.father_status }}</div>
+    <div>Father Notes : {{ parent_instance.father_special_notes }}</div>
+    <br>
+</body>
+
+</html>

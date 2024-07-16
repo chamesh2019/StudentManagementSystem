@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Full Name : {{ teacher_instance.full_name }}</div>
+    <div>Name : {{ teacher_instance.name_with_initials }}</div>
+    <div>DOB : {{ teacher_instance.date_of_birth }}</div>
+    <div>Gender :
+        {% if teacher_instance.gender == "M" %}
+        "Male"
+        {% else %}
+        "Female"
+        {% endif %}
+    </div>
+    <div>PMV Enrolled Date : {{ teacher_instance.enrolled_date }}</div>
+    <div>Teaching Started Date : {{ teacher_instance.started_date }}</div>
+    <div>NIC : {{ teacher_instance.nic }}</div>
+    <div>Post : {{ teacher_instance.post }}</div>
+    <div>Contact NUmber : {{ teacher_instance.contact_number }}</div>
+    <div>Address : {{ teacher_instance.address }}</div>
+    <div>Special Notes : {{ teacher_instance.special_notes }}</div>
+    <div>Class : {{ teacher_instance.class_info.class_name }}</div>
+    <div>Subjects : {{ subjects }}</div>
+    <br>
+</body>
+
+</html>

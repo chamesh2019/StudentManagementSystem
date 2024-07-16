@@ -1,0 +1,123 @@
+<html>
+<head>
+<script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+
+<style>
+.button {
+  width: 50vw;
+  justify-content: center;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid green;
+}
+
+.selected {
+    background-color: #666666;
+    color: white;
+}
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+}
+
+</style>
+
+</head>
+<body>
+
+<div style="display:flex">
+<label id="label1" onclick="clicked(1)" class="button" for="in">
+<center>Coming In</center>
+</label>
+<label id="label2" onclick="clicked(2)" class="button" for="out">
+<center>Going Out</center>
+</label>
+</div>
+<input type="radio" id="in" name="stat" value="in">
+<!--<label class="form-control" for="in">In</label>-->
+<input type="radio" id="out" name="stat" value="out">
+<!--<label class="form-control" for="out">Out</label><br>-->
+<div id="reader" width="600px">
+</div>
+<br/>
+<center><div id="info" class="selected" style="width:90%; padding:10px; background-color: #00F0F0"></div>
+</center>
+<script>
+label1 = document.getElementById('label1')
+label2 = document.getElementById('label2')
+
+const clicked = (index) =>{
+    if (index==1){
+        label1.classList.add("selected")
+        label2.classList.remove("selected")
+    }
+    else{
+        label1.classList.remove("selected")
+        label2.classList.add("selected")
+    }
+}
+</script>
+
+<script>
+var csrf_token = document.getElementsByTagName("input")[0].value
+var info = document.getElementById("info")
+
+function request_update(decodedText, decodedResult, selectedValue){
+	console.log(`Code matched = ${decodedText}`, decodedResult);
+	
+	xhr.open("GET", host+"/attendance/"+selectedValue+"/"+decodedText, true);
+	xhr.send();
+}
+	
+
+var xhr = new XMLHttpRequest();
+var host = "http://" + window.location.host 
+
+xhr.onreadystatechange = function () {
+    if (this.readyState != 4) return;
+
+    if (this.status == 200) {
+        info.innerHTML = "successful"
+    }
+	
+	else {info.innerHTML = "unsuccessful"}
+};
+function onScanSuccess(decodedText, decodedResult) {
+  constradioButtons = document.querySelectorAll('input[name="stat"]');
+	let selectedValue;
+	for (let i = 0; i < constradioButtons.length; i++) {
+	if (constradioButtons[i].checked) {
+		selectedValue = constradioButtons[i].value;
+		break;
+      }
+	}
+if(selectedValue){
+    request_update(decodedText, decodedResult, selectedValue);
+  }
+else{
+    alert("Please Select an option");
+  }
+}
+  
+
+function onScanFailure(error) {
+  // handle scan failure, usually better to ignore and keep scanning.
+  // for example:
+  console.warn(`Code scan error = ${error}`);
+}
+
+let html5QrcodeScanner = new Html5QrcodeScanner(
+  "reader",
+  { fps: 30, qrbox: {width: 250, height: 250} },
+  /* verbose= */ false);
+html5QrcodeScanner.render(onScanSuccess, onScanFailure);
+</script>
+
+</body>
+</html>

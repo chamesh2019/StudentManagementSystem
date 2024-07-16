@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEACHER | P.M.V</title>
+    <link rel="icon" type="image/jpg" href="/static/teacherdash/title_img.jpg"/>
+    <link rel="stylesheet" href="/static/teacherdash/l_dashboard.css">
+	
+	<style>
+	.left-image {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 120px;
+		height: 120px;
+		background-image: url("/static/profile/{{teacher_instance.nic}}.jpg");
+		background-size: cover;
+    }
+  </style>
+	
+</head>
+<body>
+    <div class="image-container">
+        <a href="/">
+          <img src="/static/teacherdash/home (1).png" alt="Image">
+          <div class="overlay">
+            <i class="fa fa-link"></i>
+            <span>Back To Home</span>
+          </div>
+        </a>
+      </div>
+    
+    <div class="content">
+        <section class="sec1">
+            <div class="left-image"></div>
+            <label for="name">Name:</label>
+            <p>{{ teacher_instance.name_with_initials }}</p>
+			<label for="name">Full Name:</label>
+            <p>{{ teacher_instance.full_name }}</p>
+            <label for="dob">Date Of Birth:</label>
+            <p>{{ teacher_instance.date_of_birth }}</p>
+            <label for="teacher-grade">Teacher Grade:</label>
+            <p>{{ teacher_instance.teacher_grade }}</p>
+            <label for="enrolled-date-to-job">Enrolled Date To Job:</label>
+            <p>{{ teacher_instance.started_date }}</p>
+            <label for="enrlled-date-to-P.M.V">Enrlled Date To P.M.V:</label>
+            <p>{{ teacher_instance.enrolled_date }}</p>
+            <label for="address">Address:</label>
+            <p>{{ teacher_instance.address }}</p>
+            <label for="phone-number">Phone Number:</label>
+            <p>{{ teacher_instance.contact_number }}</p>
+			<label for="phone-number">Post:</label>
+            <p>{{ teacher_instance.post }}</p>
+			<label for="phone-number">Position:</label>
+            <p>{{ teacher_instance.position }}</p>
+            
+        </section>
+        <br><br><br><br><br><br><br>
+
+        <div class="work">
+            <h2><u>WORKING DETAILS</u></h2>
+            <details>
+                <summary>Class Teacher</summary>
+                <br>
+                <a href="/teachers/{{teacher_instance.nic}}/class" target="_blank"><b>--> Grade {{teacher_instance.class_info.class_name}}</b></a>
+
+            </details>
+            <br>
+            <details>
+                <summary>Teaching Subjet</summary>
+				{% for key, value in subjects %}
+					<details>
+						<summary>{{key.subject}}</summary>
+						<br>
+							{% for class in value %}
+							<a href="/teachers/addmarks/{{class.pk}}/{{key.pk}}" target="_blank"><b>-->Grade {{class.class_name}}</b></a><br>
+							{% endfor %}
+					</details>
+                {% endfor %}
+            </details>
+            <br>
+            <details>
+                <summary>Special Work</summary>
+                <br>
+                <ul>
+                    {% for work in works %}
+						<li>{{work}}</li>
+					{% endfor %}
+                  </ul>
+                  
+            </details>
+            
+
+
+        </div>
+    </div>
+    
+
+    <footer>
+        
+        
+        <div>
+          <a class="a1" href="https://www.youtube.com/"><img src="/static/teacherdash/youtube.png" alt="YouTube "></a>
+          <a class="a1" href="#"><img src="/static/teacherdash/facebook.png" alt="Facebook "></a>
+          <a class="a1" href="mailto:wlghost2022@gmail.com"><img src="/static/teacherdash/gmail.png" alt="Gmail "></a>
+          <a class="a1" href="tel:+123456789"><img src="/static/teacherdash/phone.png" alt="Telephone "></a>
+          
+    
+          
+        </div>
+        <a href="#" class="support">Support</a><br>
+        <hr>
+        
+    
+        
+        <div>
+            
+            
+            &copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b>
+        
+        </div>
+      </footer>   
+    
+</body>
+</html>

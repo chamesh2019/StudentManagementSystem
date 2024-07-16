@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT | P.M.V</title>
+    <link rel="icon" type="image/jpg" href="/static/studentdash/title_img.jpg"/>
+    <link rel="stylesheet" href="/static/studentdash/p_dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	
+	<style>
+	.left-image {
+	 
+	  top: 0;
+	  left: 0;
+	  width: 120px;
+	  height: 120px;
+	  background-image: url("/static/{{image}}");
+	  background-size: cover;
+	  
+	}
+
+	.right-image {
+	  bottom: 0;
+	  right: 0;
+	  margin-left: 75%;
+	  width: 80px;
+	  height: 80px;
+	  background-image: url("{{ student_instance.RFID_key }}");
+	  background-size: cover;
+	}
+</style>
+        
+</head>
+<body>
+    <div class="image-container">
+        <a href="">
+          <img  src="/static/studentdash/home (1).png" alt="Image">
+          <div class="overlay">
+            <i class="fa fa-link"></i>
+            <span>Back To Home</span>
+          </div>
+        </a>
+      </div>
+      <br><br>
+ 
+    
+
+
+
+      
+
+
+
+    <div class="content">
+
+        <section class="sec1">
+            <div class="left-image"></div><br>
+            <label for="name">Name:</label>
+            <p>{{ student_instance.name_with_initials }}</p>
+			<label for="fullname">Full Name:</label>
+            <p>{{ student_instance.full_name }}</p>
+            <label for="dob">Date Of Birth:</label>
+            <p>{{ student_instance.date_of_birth }}</p>
+            <label for="grade">Grade:</label>
+            <p>{{ student_instance.class_info.class_name }}</p>
+            <label for="index-number">Index Number:</label>
+            <p>{{ student_instance.index_number }}</p>
+            <label for="address">Address:</label>
+            <p>{{ student_instance.address }}</p>
+            <div class="right-image"></div>
+            <label for="special-note">Special Note:</label>
+            <p>{{ student_instance.special_notes }}</p>
+            <label for="enrolled_date">Enrolled Date:</label>
+            <p>{{ student_instance.enrolled_date}}</p>
+			<label for="selected-subjects">Selected Subjects:</label>
+            <p>{{ selected_subjects }}</p>
+            <details>
+                    <summary>Mother Info</summary>
+                    <section class="sec2">
+                        
+                        <label for="name">Name:</label>
+                        <p>{{ parent_instance.mother_name }}</p>
+                        <label for="dob">Date Of Birth:</label>
+                        <p>{{ parent_instance.mother_dob }}</p>
+                        <label for="nic">NIC:</label>
+                        <p>{{ parent_instance.mother_nic }}</p>
+                        <label for="job">JOB:</label>
+                        <p>{{ parent_instance.mother_job }}</p>
+                        <label for="job">Contact Number:</label>
+                        <p>{{ parent_instance.mother_contact_number }}</p>
+                    </section>
+                    
+                
+            </details>
+            <details>
+                <summary>Father Info</summary>
+                    <section class="sec3">
+                        
+                        <label for="name">Name:</label>
+                        <p>{{ parent_instance.father_name }}</p>
+                        <label for="dob">Date Of Birth:</label>
+                        <p>{{ parent_instance.father_dob }}</p>
+                        <label for="nic">NIC:</label>
+                        <p>{{ parent_instance.father_nic }}</p>
+                        <label for="job">JOB:</label>
+                        <p>{{ parent_instance.father_job }}</p>
+                        <label for="job">Contact Number:</label>
+                        <p>{{ parent_instance.father_contact_number }}</p>
+                    </section>
+            </details>
+              
+            
+            
+
+            
+        </section>
+
+        
+		
+        <table border="2" cellpadding="4">
+            <caption>
+                <h2>Attendence</h2>
+            </caption>
+            <thead>
+                <tr>
+                    <th><b>Date</b></th>
+                    <th>Arrrived Time</th>
+                    <th>Left Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in attendance %}
+                <tr>
+                    <td>{{ record.date }}</td>
+                    <td>{{ record.intime }}</td>
+                    <td>{{ record.outtime }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+
+
+        <table border="2" cellpadding="4">
+            <caption>
+                <h2>{{last_term}} Marks</h2>
+            </caption>
+            <thead>
+                <tr>
+                    <th>subject</th>
+                    <th>obtained marks</th>
+                    <th>grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                {% for marks in last_term_marks %}
+                <tr>
+                    <td>{{ marks.subject.subject }}</td>
+                    <td>{{ marks.marks }}</td>
+					{% if marks.marks > 74 %}
+                    <td>A</td>
+					{% elif marks.marks > 64 %}
+                    <td>B</td>
+					{% elif marks.marks > 54 %}
+                    <td>C</td>
+					{% elif marks.marks > 34%}
+                    <td>S</td>
+					{% else %}
+                    <td>F</td>
+					{% endif %}
+                </tr>
+                {% endfor %}
+                
+            </tbody>
+        </table>
+        <br>
+    </div>
+    
+    <br>
+
+    <footer>
+        
+        
+        <div>
+          <a href="https://www.youtube.com/"><img src="/static/studentdash/youtube.png" alt="YouTube "></a>
+          <a href="#"><img src="/static/studentdash/facebook.png" alt="Facebook "></a>
+          <a href="mailto:wlghost2022@gmail.com"><img src="/static/studentdash/gmail.png" alt="Gmail "></a>
+          <a href="tel:+123456789"><img src="/static/studentdash/phone.png" alt="Telephone "></a>
+          
+
+          
+        </div>
+        <a href="#" class="support">Support</a><br>
+        <hr>
+
+        
+        <div>
+            
+            
+            &copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b>
+        
+        </div>
+      </footer>
+    
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY_CLASS | P.M.V</title>
+    <link rel="icon" type="image/jpg" href="/static/teacherdash/title_img.jpg"/>
+    <link rel="stylesheet" href="/static/teacherdash/l_classT.css">
+</head>
+<body>
+  <div class="image-container">
+    <a href="/">
+      <img src="/static/teacherdash/home (1).png" alt="Image">
+      <div class="overlay">
+        <i class="fa fa-link"></i>
+        <span>Back To Home</span>
+      </div>
+    </a>
+  </div>
+  <br>
+    
+    <div class="content">
+        <table  border="2" >
+          <caption><h2>Last Week Attendence</h2></caption>
+            <thead>
+              <tr>
+                <th rowspan="2">St Number</th>
+                <th rowspan="2">St Name</th>
+                <th rowspan="2">St Gender</th>
+                <th colspan="5">Last Week Attendence</th>
+              </tr>
+              <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+				{% for student, markings in attendance %}
+				<tr>
+					<td>{{student.index_number}}</td>
+					<td>{{student.name_with_initials}}</td>
+					<td>{{student.gender}}</td>
+					{% for mark in markings %}
+						<td>{{mark}}</td>
+					{% endfor %}
+				</tr>
+				{% endfor %}
+            </tbody>
+          </table>
+    </div>
+    <br>
+    <!--<a class="a1" href="#">More Attendence</a><br>-->
+    <br><br>
+
+    
+    <div class="content">
+		<input id="marks_dict" type="hidden" value="{{marks}}">
+      <span>
+        <table border="2"  >
+          <caption><h2><select onchange="val()" id="select_subject" style="border: 1px solid #000000;border-radius: 5px;padding: 10px;font-size: 16px; box-sizing: border-box;">
+		  <option><--- Select Subject ---></option>
+		  </select></h2></caption>
+          <thead>
+            <tr>
+              <th rowspan="2">Name</th>
+              <th colspan="2">Subject</th>
+            </tr>
+            <tr>
+              <th>Marks</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody id="marks_show">
+            
+          </tbody>
+        </table>
+      </span>
+      <span>
+        <table border="2"  >
+          <caption><h2>Student Ranks (Average calculated from {{avg}} subjects)</h2></caption>
+          <thead>
+            <tr>
+              <th >Name</th>
+              <th >Total Marks</th>
+              <th>Place</th>
+              <th>Average</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+				{% for rank in ranks %}
+				<tr>
+					<td>{{rank.0}}</td>
+					<td>{{rank.1}}</td>
+					<td>{{rank.2}}</td>
+					<td>{{rank.3}}</td>
+				</tr>
+				{% endfor %}
+			
+			
+          </tbody>
+        </table>
+
+      </span>
+    </div>
+    <br>
+    <a class="a1" href="#">Full Resultsheet(click here)</a><br>
+    <br><br>
+
+    <footer>
+        
+        
+      <div>
+        <a class="a1" href="https://www.youtube.com/"><img src="/static/teacherdash/youtube.png" alt="YouTube "></a>
+        <a class="a1" href="#"><img src="/static/teacherdash/facebook.png" alt="Facebook "></a>
+        <a class="a1" href="mailto:wlghost2022@gmail.com"><img src="/static/teacherdash/gmail.png" alt="Gmail "></a>
+        <a class="a1" href="tel:+123456789"><img src="/static/teacherdash/phone.png" alt="Telephone "></a>
+        
+  
+        
+      </div>
+      <a href="#" class="support">Support</a><br>
+      <hr>
+
+      <div>
+          
+          
+          &copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b>
+      
+      </div>
+    </footer>   
+    <script>
+	const marks_dict = document.getElementById("marks_dict").value	
+	var select = document.getElementById("select_subject")
+	const res = JSON.parse(marks_dict);
+	
+	inner = "<option><--- Select Subject ---></option>"
+	
+	Object.entries(res).forEach((entry) => {
+	  const [key, value] = entry;
+	  inner += `<option value="${key}">${key}</option>`
+	});
+	
+	select.innerHTML = inner
+	
+	marks_show = document.getElementById("marks_show")
+	
+	function val() {
+		innerT = ""
+		marks = res[select.value]
+		for (let i = 0; i < marks.length; i++) {
+			let mark = marks[i][0]
+			let name = marks[i][1]
+			let grade = "F"
+			if (mark > 75){grade = "A"}
+			else if (mark > 65){grade = "B"}
+			else if (mark > 55){grade = "C"}
+			else if (mark > 35){grade = "S"}
+			innerT += `
+			<tr>
+              <td>${name}</td>
+              <td>${mark}</td>
+              <td>${grade}</</td>
+            </tr>
+			`
+		}
+		marks_show.innerHTML = innerT
+	}
+	
+	</script>
+</body>
+</html>

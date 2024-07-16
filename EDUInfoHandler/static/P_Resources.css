@@ -1,0 +1,93 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.home_icon{
+  padding-top: 20px;
+  padding-right: 15px;
+  float: right;
+}
+.content{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h1{
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family:chiller;
+  
+ }
+ div h1{
+  background-color: #410303;
+  border-radius: 20px;
+ }
+ .photos{
+  padding-left: 19%;
+ }
+ p{
+  font-family: cursive;
+  font-size: 0.8em;
+ }
+ hr{
+  border-top: 2px solid #580505;
+}
+.bgtitle{
+  font-family: Chiller;
+  font-weight: 900;
+  font-size: 3.5em;
+  color: rgb(1, 0, 0);
+  letter-spacing: 24px;
+  text-align: center;
+ 
+}
+.bgimage{
+  background-image: url(pattern2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50%;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 16px;
+  margin-bottom: 0px;
+
+}
+
+
+
+.a1 {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.a1:hover img {
+  filter: invert(30%);
+}
+
+hr {
+  width: 100%;
+  margin: 0;
+  border: none;
+  border-top: 2px solid #ccc;
+}
+
+
+
+.support {
+  background-color: #fff;
+  color: #e60000;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}

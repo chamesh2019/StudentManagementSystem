@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST DATA ENTRY | P.M.V</title>
+    <link rel="stylesheet" href="/static/studentadd/p_show.css">
+</head>
+<body>
+<div class="image-container">
+        <a href="/">
+          <img src="/static/studentadd/home (1).png" alt="Image">
+          <div class="overlay">
+            <i class="fa fa-link"></i>
+            <span>Back To Home</span>
+          </div>
+        </a>
+      </div>
+      <br>
+
+    <div class="content">
+        <div class="content">
+
+            <h2>Student Foarm</h2>
+            <br><br><br>
+            <form enctype="multipart/form-data" action="" method="post">
+                {% csrf_token %}
+                <p>Index Number:</p>
+                <input type="text" name="student_index_number" placeholder="index_number" class="input-field" required>
+                
+                <p>Full Name</p>
+                <input type="text"  name="student_full_name" placeholder="full_name" class="input-field" required>
+                
+                <p>Name With Initials</p>
+                <input type="text" name="student_name_with_initials" placeholder="name_with_initials" class="input-field" required>
+                
+                <p>Date Of Birth</p>
+                <input type="date" name="student_date_of_birth" placeholder="date_of_birth" class="input-field" required>
+                <br>
+
+                <p>Gender:</p>
+                <div class="radio-group">
+                <label for="male" class="radio-button">
+                    <input type="radio" id="male" name="student_gender" value="Male">
+                    Male
+                </label>
+                <label for="female" class="radio-button">
+                    <input type="radio" id="female" name="student_gender" value="Female">
+                    Female
+                </label>
+                </div>
+
+                <p>Enrolled Date</p>
+                <input type="date" name="enrolled_date" placeholder="enrolled_date" class="input-field" required>
+
+                <p>Address</p>
+                <input type="address" name="student_address" placeholder="address" class="input-field" required>
+
+                <p>Profile Image:</p>
+                <input type="file" name="profile" required>
+
+                <p>Special Notes</p>
+                <textarea id="special_notes"  name="student_special_notes" rows="4"></textarea>
+
+                <p>Class Info:</p>
+                <select id="class_info" name="class_info">
+                {% for class_info in current_classes %}
+                <option data-stream="{{ class_info.class_type }}" value="{{class_info.id}}">Grade {{class_info.class_name}}</option>
+                {% endfor %}
+            </select>
+				
+				<div id="subjects">
+				</div>
+				
+                <br>
+
+                <details>
+                <summary>Mother Info</summary>
+                <p>Mother Name:</p>
+                <input type="address" name="mother_name" placeholder="mother_name" class="input-field" required><br>
+                <p>Mother NIC:</p>
+                <input type="text" name="mother_nic" placeholder="mother_nic" class="input-field" required><br>
+                <p>Mother Date Of Birth:</p>
+                <input type="date" name="mother_dob" placeholder="mother_dob" class="input-field" required><br>
+                <p>Contact Number:</p>
+                <input type="text" name="mother_contact_number" placeholder="mother_contact_number" class="input-field" required>
+                <p>Mother Job:</p>
+                <input type="text" name="mother_job" placeholder="mother_job" class="input-field" required><br>
+                <p>Mother Status:</p>
+                <select id="mother_status" name="mother_status">
+                  <option value="A">Alive</option>
+                  <option value="D">Passed Away</option>
+                </select>
+                <p>Mother Special Notes</p>
+                <textarea id="mother_special_notes" name="mother_special_notes" rows="4"></textarea>
+            </details>
+            <br>
+
+            <details>
+                <summary>Father Info</summary>
+                <p>Father Name:</p>
+                <input type="address" name="father_name" placeholder="father_name" class="input-field" required><br>
+                <p>Father NIC:</p>
+                <input type="text" name="father_nic" placeholder="father_nic" class="input-field" required><br>
+                <p>Father Date Of Birth:</p>
+                <input type="date" name="father_dob" placeholder="father_dob" class="input-field" required><br>
+                <p>Contact Number:</p>
+                <input type="text" name="father_contact_number" placeholder="father_contact_number" class="input-field" required>
+                <p>Father Job:</p>
+                <input type="text" name="father_job" placeholder="father_job" class="input-field" required><br>
+                <p>Father Status:</p>
+                <select id="father_status" name="father_status">
+                  <option value="A">Alive</option>
+                  <option value="D">Passed Away</option>
+                </select>
+                <p>Father Special Notes</p>
+                <textarea id="father_special_notes" name="father_special_notes" rows="4"></textarea>
+                
+                
+            </details>
+                <br>
+                
+
+                
+                <input type="submit" class="submit"><br>
+
+            </form>
+
+
+
+
+        </div>
+    </div>
+    <br>
+
+    <footer>
+        
+        
+        <div>
+          <a href="https://www.youtube.com/"><img src="/static/studentadd/youtube.png" alt="YouTube"></a>
+          <a href="#"><img src="/static/studentadd/facebook.png" alt="Facebook "></a>
+          <a href="mailto:wlghost2022@gmail.com"><img src="/static/studentadd/gmail.png" alt="Gmail"></a>
+          <a href="tel:+123456789"><img src="/static/studentadd/phone.png" alt="Telephone"></a>
+          
+
+          
+        </div>
+        <a href="#" class="support">Support</a>
+        <hr>
+        <div>&copy; 2023 - P.M.V. All rights reserved.<br><b>Website crafted by 2022 ICT boys</b></div>
+      </footer>
+      <script>
+	var subjects = document.getElementById("subjects");
+	var selection = document.getElementById("class_info");
+	
+	selection.onchange = function(event){
+	  var stream = event.target.options[event.target.selectedIndex].dataset.stream;
+	  if (stream == "6-9"){
+		subjects.innerHTML = `
+			<p>Subjects:</p>
+			{% for bucket, subjects in middle_grade_buckets %}
+			<select name={{ bucket }}>
+				{% for subject, id in subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			{% endfor %}
+			<input name=bucket_id" type="hidden" value="{{ middle_grade_buckets_id }}">
+	  `
+	  }
+	  if (stream == "10-11"){
+		subjects.innerHTML = `
+			<p>Subjects:</p>
+			{% for bucket, subjects in o_level_buckets %}
+			<select name="{{ bucket }}">
+				{% for subject, id in subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			{% endfor %}
+			<input name=bucket_id" type="hidden" value="{{ o_level_buckets_id }}">
+
+	  `
+	  } 
+	  if (stream == "12-13"){
+		subjects.innerHTML = `
+			<p>Subjects:</p>
+			<select name="subject1">
+				{% for subject, id in a_level_subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			<select name="subject2">
+				{% for subject, id in a_level_subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+			<select name="subject3">
+				{% for subject, id in a_level_subjects %}
+					<option value="{{ id }}">{{subject}}</option>
+				{% endfor %}
+			</select>
+	  `
+	  } 
+	};
+	</script>
+
+
+
+ 
+</body>
+</html>
